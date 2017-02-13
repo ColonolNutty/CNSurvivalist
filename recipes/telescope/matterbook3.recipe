@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 30 },
+	{ "item" : "liquidwater", "count" : 150 },
+	{ "item" : "liquidoil", "count" : 150 },
+	{ "item" : "liquidfuel", "count" : 150 },
+	{ "item" : "coralfragment", "count" : 20 },
+	{ "item" : "paperplain", "count" : 15 }
+	
+  ],
+  "output" : {
+    "item" : "matterbook3",
+    "count" : 1
+  },
+  "groups" : [ "telescope" ]
+}

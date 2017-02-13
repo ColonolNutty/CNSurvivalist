@@ -1,0 +1,29 @@
+{
+  "itemName" : "brineapple",
+  "rarity" : "Common",
+  "price" : 325,
+  "inventoryIcon" : "brineapple.png",
+  "description" : "Jellied coralcreep inside of a glazed pineapple, served warm. A fancy Hylotl treat!",
+  "shortdescription" : "Brineapple",
+  "handPosition" : [0, 2],
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

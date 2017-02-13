@@ -1,0 +1,30 @@
+{
+  "itemName" : "tomatosoup",
+  "rarity" : "Uncommon",
+  "price" : 200,
+  "inventoryIcon" : "tomatosoup.png",
+  "description" : "A rich, silky soup made of ripe tomatoes.",
+  "shortdescription" : "Tomato Soup",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal170",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

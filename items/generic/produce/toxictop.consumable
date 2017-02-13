@@ -1,0 +1,29 @@
+{
+  "itemName" : "toxictop",
+  "rarity" : "Common",
+  "price" : 200,
+  "inventoryIcon" : "toxictop.png",
+  "description" : "A toxic looking fruit. Can looks be deceiving?",
+  "shortdescription" : "Toxictop",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 15
+    },
+    {
+        "effect" : "maxenergyboost30",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

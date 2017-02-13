@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "glassmaterial", "count" : 10 },
+    { "item" : "largefire", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "alloyfurnace",
+    "count" : 1
+  },
+  "groups" : [ "ironcraftingtable", "objects", "tools", "all" ]
+}

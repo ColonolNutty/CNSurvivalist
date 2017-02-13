@@ -1,0 +1,9 @@
+{
+  "input" : [
+  	{ "item" : "sniper1", "count" : 1},
+	{ "item" : "glowingmatter", "count" : 2},
+	{ "item" : "money", "count" : 1500}
+  ],
+  "output" : { "item" : "sniper2", "count" : 1 },
+  "groups" : [ "armory", "weapons", "all" ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "banana",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "banana.png",
+  "description" : "A genetically enhanced banana.",
+  "shortdescription" : "Banana",
+  "handPosition" : [-2, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],  
+  "learnBlueprintsOnPickup" : [ "batteredbanana", "luckydip" ]
+}

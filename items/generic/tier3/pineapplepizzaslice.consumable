@@ -1,0 +1,29 @@
+{
+  "itemName" : "pineapplepizzaslice",
+  "rarity" : "Uncommon",
+  "price" : 315,
+  "inventoryIcon" : "pineapplepizzaslice.png",
+  "description" : "More toppings!!",
+  "shortdescription" : "Pineapple Pizza Slice",
+  "handPosition" : [0, 7],
+  "effects" : [ [
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

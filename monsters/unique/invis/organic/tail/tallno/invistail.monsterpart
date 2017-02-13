@@ -1,0 +1,9 @@
+{
+  "name" : "invistail",
+  "category" : "invis_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "invistail.png"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "itemName" : "cactiicecream",
+  "rarity" : "Uncommon",
+  "price" : 155,
+  "inventoryIcon" : "cactiicecream.png",
+  "description" : "A tasty, prickly treat!",
+  "shortdescription" : "Cacti Ice Cream",
+  "handPosition" : [12, -6],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "thorns",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

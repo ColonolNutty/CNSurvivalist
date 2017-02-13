@@ -1,0 +1,75 @@
+[
+  // large bipeds
+
+  {
+    "name" : "aggroLargeBipedBoss",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "targetDensity" : 0.001,
+    "monsterType" : "largebipedBoss",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  
+  // large quadrupeds
+
+  {
+    "name" : "aggroLargeQuadrupedBoss",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "targetDensity" : 0.001,
+    "monsterType" : "largequadrupedBoss",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  
+  // large bird
+
+  {
+    "name" : "aggroLargeFlyingBoss",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "targetDensity" : 0.001,
+    "monsterType" : "largeflyingBoss",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  // large fish
+
+  {
+    "name" : "aggroLargeFishBoss",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "targetDensity" : 0.001,
+    "monsterType" : "largefishBoss",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]
+
+

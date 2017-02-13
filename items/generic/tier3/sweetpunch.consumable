@@ -1,0 +1,34 @@
+{
+  "itemName" : "sweetpunch",
+  "rarity" : "Legendary",
+  "price" : 500,
+  "inventoryIcon" : "sweetpunch.png",
+  "description" : "A mixture of only the sweetest of sweet fruit.",
+  "shortdescription" : "Sweet Punch",
+  "handPosition" : [-8, -3],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "jumpboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 70
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 150
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

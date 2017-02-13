@@ -1,0 +1,33 @@
+{
+  "projectileName" : "trishot2",
+  "frames" : "trishot2.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon2.png",
+  "pointLight" : false,
+  "timeToLive" : 0.1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "shotgunbullets",
+      "inheritDamageFactor" : 0.333,
+      "angleAdjust" : 25
+    },
+    {
+      "action" : "projectile",
+      "type" : "shotgunbullets",
+      "inheritDamageFactor" : 0.333,
+      "angleAdjust" : -25
+    },
+    {
+      "action" : "projectile",
+      "type" : "shotgunbullets",
+      "inheritDamageFactor" : 0.333,
+      "angleAdjust" : 0
+    }
+  ],
+  "power" : 1.0,
+  "speed" : 75,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

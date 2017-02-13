@@ -1,0 +1,29 @@
+{
+  "itemName" : "reefjuice",
+  "rarity" : "Common",
+  "price" : 190,
+  "inventoryIcon" : "reefjuice.png",
+  "description" : "A pleasantly sweet and fruity juice. Refreshing!",
+  "shortdescription" : "Reef Juice",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthboost10",
+        "duration" : 40
+    },
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

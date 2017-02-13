@@ -1,0 +1,24 @@
+{
+  "itemName" : "soylentgreen",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "soylentgreen.png",
+  "description" : "I wonder what this is...",
+  "shortdescription" : "Soylent Green",
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

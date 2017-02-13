@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 3000 },
+    { "item" : "cobblestonematerial", "count" : 1000 },
+    { "item" : "teleportercore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "stoneteleporter",
+    "count" : 1
+  },
+  "groups" : [ "plain" ]
+}

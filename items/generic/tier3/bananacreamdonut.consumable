@@ -1,0 +1,33 @@
+{
+  "itemName" : "bananacreamdonut",
+  "rarity" : "Uncommon",
+  "price" : 355,
+  "inventoryIcon" : "bananacreamdonut.png",
+  "description" : "George's donut.",
+  "shortdescription" : "Banana Cream Donut",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal170",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

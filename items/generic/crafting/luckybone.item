@@ -1,0 +1,8 @@
+{
+  "itemName" : "luckybone",
+  "price" : 0,
+  "rarity" : "rare",
+  "inventoryIcon" : "luckybone.png",
+  "description" : "It's a lucky bone, very rare!! Keep it!",
+  "shortdescription" : "Lucky Bone"
+}

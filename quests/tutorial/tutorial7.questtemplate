@@ -1,0 +1,23 @@
+{
+  "id" : "tutorial7.gearup",
+  "title" : "^#9be3d6;THOUGHTS AND NEEDS",
+  "text" : "I want to travel and explore soon. If I gather the needed resources I could try to make a new ^orange;Fuel Panel ^white;with my anvil!",
+  "completionText" : "Phew, finally! I should place this in my ship where the old fuel panel is.  ^white;Ugh! The alien meat I ate earlier wasn't exactly... 5 star quality..",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "tutorial8.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "apexfuelhatch" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

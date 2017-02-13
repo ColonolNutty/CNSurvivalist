@@ -1,0 +1,29 @@
+{
+  "itemName" : "bananacon",
+  "rarity" : "Common",
+  "price" : 175,
+  "inventoryIcon" : "bananacon.png",
+  "description" : "With bacon, a banana and some wizardry, you get...bananacon.",
+  "shortdescription" : "Bananacon",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

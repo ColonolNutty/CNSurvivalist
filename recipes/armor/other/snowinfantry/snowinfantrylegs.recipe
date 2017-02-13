@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 80 },
+    { "item" : "leather", "count" : 50 },
+    { "item" : "scorchedcore", "count" : 10 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "snowinfantrypants", "count" : 1 },
+  "groups" : [ "tailor", "all" ]
+}

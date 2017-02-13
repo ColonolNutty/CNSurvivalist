@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 3000 },
+    { "item" : "steelbar", "count" : 100 },
+    { "item" : "titaniumbar", "count" : 20 },
+	{ "item" : "matterbook3", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "roboticcraftingtable",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation" ]
+}

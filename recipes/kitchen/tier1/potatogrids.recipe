@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "mashedpotato", "count" : 1 }
+  ],
+  "output" : { "item" : "potatogrids", "count" : 1 },
+  "groups" : [ "cooking", "consumables", "all" ]
+}

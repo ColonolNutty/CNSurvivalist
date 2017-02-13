@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+	{ "item" : "circuitboard", "count" : 10 },
+	{ "item" : "matterbook2", "count" : 1 },
+	{ "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "ftldrive", "count" : 1 },
+  "groups" : [ "ironcraftingtable", "all" ]
+}

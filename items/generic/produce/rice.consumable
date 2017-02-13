@@ -1,0 +1,24 @@
+{
+  "itemName" : "rice",
+  "rarity" : "Common",
+  "price" : 60,
+  "inventoryIcon" : "rice.png",
+  "description" : "Rice. Grains of goodness.",
+  "shortdescription" : "Rice",
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

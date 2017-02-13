@@ -1,0 +1,34 @@
+{
+  "itemName" : "beakseedjam",
+  "rarity" : "Common",
+  "price" : 225,
+  "inventoryIcon" : "beakseedjam.png",
+  "description" : "Sweet and crunchy. If only there was a seedless variety.",
+  "shortdescription" : "Beakseed Jam",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal95",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost10",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

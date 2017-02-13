@@ -1,0 +1,29 @@
+{
+  "itemName" : "applecrumble",
+  "rarity" : "Common",
+  "price" : 190,
+  "inventoryIcon" : "applecrumble.png",
+  "description" : "Sweet, stewed apple under a blanket of golden crumble.",
+  "shortdescription" : "Apple Crumble",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

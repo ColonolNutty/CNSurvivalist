@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "leather", "count" : 3 },
+	{ "item" : "money", "count" : 150 }
+  ],
+  "output" : { "item" : "leatherpants", "count" : 1 },
+  "groups" : [ "simplecraft", "armor", "all" ]
+}

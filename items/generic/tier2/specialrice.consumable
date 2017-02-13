@@ -1,0 +1,25 @@
+{
+  "itemName" : "specialrice",
+  "rarity" : "Uncommon",
+  "price" : 220,
+  "inventoryIcon" : "specialrice.png",
+  "description" : "This pleasantly filling dish leaves you with a warm feeling.",
+  "shortdescription" : "Special Fried Rice",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "foodheal265",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "bestialbread",
+  "rarity" : "Uncommon",
+  "price" : 0,
+  "inventoryIcon" : "bestialbread.png",
+  "description" : "A bread from monster parts. Not very delicate, but it definitely gives you strength.",
+  "shortdescription" : "Bestial Bread",
+  "effects" : [ [
+      {
+        "effect" : "bandage2",
+        "duration" : 2
+      },
+      {
+        "effect" : "runboost",
+        "duration" : 10
+      }
+    ] ]
+}

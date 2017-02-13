@@ -1,0 +1,25 @@
+{
+  "itemName" : "boltbulb",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "boltbulb.png",
+  "description" : "Boltbulb! Surprisingly soft.",
+  "shortdescription" : "Boltbulb",
+  "handPosition" : [-6, 0],
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

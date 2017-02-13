@@ -1,0 +1,27 @@
+{
+  "itemName" : "fishstew",
+  "rarity" : "Uncommon",
+  "price" : 200,
+  "inventoryIcon" : "fishstew.png",
+  "description" : "A light stew that goes down easy.",
+  "shortdescription" : "Fish Stew",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal240",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "mashedpotato" ]
+}

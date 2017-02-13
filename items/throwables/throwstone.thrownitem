@@ -1,0 +1,22 @@
+{
+  "itemName" : "throwstone",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "throwstoneicon.png",
+  "image" : "throwstoneicon.png",
+  "shortdescription" : "Throwable Stone",
+  "description" : "Throw stones at your enemies!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.5,
+
+  "projectileType" : "throwstone",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 10
+  }
+}
+

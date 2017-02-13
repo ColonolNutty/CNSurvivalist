@@ -1,0 +1,12 @@
+{
+  "name" : "invisarms",
+  "category" : "invis_organic",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "invisarms1b.png",
+    "backArm" : "invisarms1f.png"
+  },
+
+  "parameters" : {}
+}

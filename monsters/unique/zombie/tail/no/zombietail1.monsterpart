@@ -1,0 +1,9 @@
+{
+  "name" : "zombietail1",
+  "category" : "zombie",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "zombietail1.png"
+  }
+}

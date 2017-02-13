@@ -1,0 +1,25 @@
+{
+  "itemName" : "cookedham",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "cookedham.png",
+  "description" : "A haunch of roasted ham.",
+  "shortdescription" : "Cooked Ham",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "grapes",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "grapesicon.png",
+  "description" : "Grapes, nature's snackfood.",
+  "shortdescription" : "Grapes",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

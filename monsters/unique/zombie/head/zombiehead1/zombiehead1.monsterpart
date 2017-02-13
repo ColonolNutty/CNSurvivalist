@@ -1,0 +1,14 @@
+{
+  "name" : "zombiehead1",
+  "category" : "zombie",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "zombiehead1.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

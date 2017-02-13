@@ -1,0 +1,10 @@
+{
+  "name" : "survivalistmod",
+  "version" : "Beta v. Glad Giraffe",
+  //"dependencies" : [ ],
+  "metadata" : {
+    "author" : "Durlock",
+    "version" : 2.0,
+    "description" : "The Survivalist Mod!"
+  }
+}

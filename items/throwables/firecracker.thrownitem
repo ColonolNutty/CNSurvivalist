@@ -1,0 +1,22 @@
+{
+  "itemName" : "firecracker",
+  "price" : 50,
+  "rarity" : "Rare",
+  "inventoryIcon" : "firecrackericon.png",
+  "image" : "firecrackericon.png",
+  "shortdescription" : "Unknown Explosive",
+  "description" : "A firecracker, or is it?",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "zfirecracker",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 1000
+  }
+}
+

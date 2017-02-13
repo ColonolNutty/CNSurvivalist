@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "woodenwateringcan",
+    "count" : 1
+  },
+  "groups" : [ "simplecraft", "objects", "tools", "all" ]
+}

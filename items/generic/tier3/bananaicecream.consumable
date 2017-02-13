@@ -1,0 +1,33 @@
+{
+  "itemName" : "bananaicecream",
+  "rarity" : "Uncommon",
+  "price" : 290,
+  "inventoryIcon" : "bananaicecream.png",
+  "description" : "Creamy, icy, banana goodness.",
+  "shortdescription" : "Banana Ice Cream",
+  "handPosition" : [12, -6],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

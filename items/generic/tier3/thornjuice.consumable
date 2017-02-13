@@ -1,0 +1,26 @@
+{
+  "itemName" : "thornjuice",
+  "rarity" : "Common",
+  "price" : 40,
+  "inventoryIcon" : "thornjuice.png",
+  "description" : "More thorn than juice.",
+  "shortdescription" : "Thorn Juice",
+  "handPosition" : [0, -3],
+  "effects" : [ [
+    {
+        "effect" : "thorns",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

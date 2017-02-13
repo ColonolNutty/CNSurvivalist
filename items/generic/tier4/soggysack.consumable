@@ -1,0 +1,24 @@
+{
+  "itemName" : "soggysack",
+  "rarity" : "Common",
+  "price" : 250,
+  "inventoryIcon" : "soggysack.png",
+  "description" : "Dirturchin innards stuffed into a coralcreep to make a dish that sounds terrible and tastes alright.",
+  "shortdescription" : "Soggy Sack",
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

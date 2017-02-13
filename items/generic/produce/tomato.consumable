@@ -1,0 +1,24 @@
+{
+  "itemName" : "tomato",
+  "rarity" : "Common",
+  "price" : 60,
+  "inventoryIcon" : "tomatoicon.png",
+  "description" : "A ripe, juicy tomato!",
+  "shortdescription" : "Tomato",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

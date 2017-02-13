@@ -1,0 +1,24 @@
+{
+  "itemName" : "boneboo",
+  "rarity" : "Common",
+  "price" : 160,
+  "inventoryIcon" : "boneboo.png",
+  "description" : "Spooky.",
+  "shortdescription" : "Boneboo",
+  "effects" : [ [
+    {
+        "effect" : "rage",
+        "duration" : 15
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 30
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

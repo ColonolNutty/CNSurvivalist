@@ -1,0 +1,22 @@
+{
+  "id" : "fuel.gearup",
+  "title" : "^#9be3d6;THOUGHTS AND NEEDS",
+  "text" : "When the Fuel Panel got... eeh ... 'mysteriously' blown up, the fuel got dumped into the vaccum of space.  ^orange;(facepalm)  ^white;Now, if I'm not mistaken, fuel can be refined from ^orange;Liquid Erchius.  ^white;The problem is it's only found in ^green;underground pools ^white;on ^orange;airless planets^white;, and I kinda like to breath...",
+  "completionText" : "I got the Erchius!  I could sell this for 'millions' ^orange;(thoughtfully) ^white;You know, if Earth hadn't exploded.  Anyways, I need to refine this.",
+  "speaker" : "player",
+  "moneyRange" : [50, 50],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "gatherRequirements" : {
+      "items" : {
+        "liquidfuel" : {
+          "count" : 20,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

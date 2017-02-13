@@ -1,0 +1,34 @@
+{
+  "itemName" : "cyanider",
+  "rarity" : "Uncommon",
+  "price" : 440,
+  "inventoryIcon" : "cyanider.png",
+  "description" : "A strong mulled drink made of oculemon and pussplum. Delicious!",
+  "shortdescription" : "Cyanider",
+  "effects" : [ [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost40",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "oculemonstew" ]
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "potato",
+  "rarity" : "Common",
+  "price" : 80,
+  "inventoryIcon" : "potatoicon.png",
+  "description" : "Po-ta-to",
+  "shortdescription" : "Potato",
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost10",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "mashedpotato" ]
+}

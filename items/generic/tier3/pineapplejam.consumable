@@ -1,0 +1,30 @@
+{
+  "itemName" : "pineapplejam",
+  "rarity" : "Uncommon",
+  "price" : 315,
+  "inventoryIcon" : "pineapplejam.png",
+  "description" : "A super sweet jam made of pineapples.",
+  "shortdescription" : "Pineapple Jam",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "runboost25",
+        "duration" : 70
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 150
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,38 @@
+{
+  "id" : "survivalguide",
+  "title" : "Survivalist 2.0",
+  "contentPages" : [
+
+	"Welcome to Durlock's Survivalist Mod 2.0!                                                          WILL YOU SURVIVE? ",
+	
+	"Here are some tips to help you out there:
+
+> Monsters will see you before you see them, dig a trench asap.
+
+> Placeable objects can't be picked up; once you place something, it's ^#aee1ee;PLACED^white;. Removing it with your pickaxe will break it for half their components. (same for ^orange;torches^white;)
+
+> Water may wash over some crafting stations. Place them in a close, dry room if you don't want to lose them.",
+
+
+
+"> If you are short on 'coal', try burning some wood in the Stone Furnace.
+
+> If you need SP, try different tactics. Kill monsters, farm crops, break bonepiles, explore!
+
+> Be careful about your health. Monsters, weather, even drowning could cost you. Make some Bandages, Survive!",
+
+
+
+"> The only way to know what lies in a planet is by going down there yourself.
+
+> But if you are not well equiped, you are not gonna get too far. 
+
+> Make sure you have the right suit for the right planet.
+
+> For edible meat and usable leather, a monster has to be killed with a bow!"
+	
+  
+
+
+  ]
+}

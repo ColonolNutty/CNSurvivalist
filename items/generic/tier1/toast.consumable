@@ -1,0 +1,24 @@
+{
+  "itemName" : "toast",
+  "rarity" : "Common",
+  "price" : 50,
+  "inventoryIcon" : "toast.png",
+  "description" : "A slice of warm, toasted bread. Comforting.",
+  "shortdescription" : "Toast",
+  "effects" : [ [
+    {
+        "effect" : "foodheal35",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

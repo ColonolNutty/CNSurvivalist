@@ -1,0 +1,24 @@
+{
+  "itemName" : "pearlpearisotto",
+  "rarity" : "Common",
+  "price" : 125,
+  "inventoryIcon" : "pearlpearisotto.png",
+  "description" : "Perfectly ripe pearlpeas work best for this hearty rice dish.",
+  "shortdescription" : "Pearlpea Risotto",
+  "effects" : [ [
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

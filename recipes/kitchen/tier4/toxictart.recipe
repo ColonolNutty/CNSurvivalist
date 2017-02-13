@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "toxictopjam", "count" : 1 },
+    { "item" : "alienfruit", "count" : 1 }
+  ],
+  "output" : { "item" : "toxictart", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodenergyboost", "foodmobility", "foodother" ]
+}

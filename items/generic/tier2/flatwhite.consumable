@@ -1,0 +1,25 @@
+{
+  "itemName" : "flatwhite",
+  "rarity" : "Common",
+  "price" : 140,
+  "inventoryIcon" : "flatwhite.png",
+  "description" : "Coffee with milk.",
+  "shortdescription" : "Flat White Coffee",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost30",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

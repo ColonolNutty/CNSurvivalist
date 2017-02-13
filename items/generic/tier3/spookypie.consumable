@@ -1,0 +1,29 @@
+{
+  "itemName" : "spookypie",
+  "rarity" : "Common",
+  "price" : 250,
+  "inventoryIcon" : "spookypie.png",
+  "description" : "Just spooky enough.",
+  "shortdescription" : "Spooky Pie",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "rage",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

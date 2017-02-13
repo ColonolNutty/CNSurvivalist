@@ -1,0 +1,26 @@
+{
+  "itemName" : "2kbpotage",
+  "rarity" : "Common",
+  "price" : 200,
+  "inventoryIcon" : "2kbpotage.png",
+  "description" : "The most basic of Glitch cuisine.",
+  "shortdescription" : "2KB Potage",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "automatostew" ]
+}

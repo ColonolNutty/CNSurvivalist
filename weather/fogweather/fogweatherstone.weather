@@ -1,0 +1,87 @@
+{
+  "name" : "fogweatherstone",
+  "icon" : "/interface/cockpit/weather/fog.png",
+
+  "particles" : [
+    {
+      "density" : 0.15,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/rain/1.png",
+        "velocity" : [0, -5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/splash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.0001,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/fog/1.png",
+        "velocity" : [0, -0.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 100,
+        "timeToLive" : 100,
+        "collidesForeground" : false,
+        "collidesLiquid" : false,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.0001,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/fog/2.png",
+        "velocity" : [0, -0.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 100,
+        "timeToLive" : 100,
+        "collidesForeground" : false,
+        "collidesLiquid" : false,
+        "ignoreWind" : false
+      }
+    }
+  ],
+
+  "projectiles" : [
+    {
+      "projectile" : "throwstone",
+      "parameters" : {
+        "power" : 10
+      },
+      "velocity" : [0, -80],
+      "ratePerX" : 0.006,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 3
+    },
+    {
+      "projectile" : "water",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.1,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+  "duration" : [50, 400],  
+  "maximumWind" : 40.0,
+  "weatherNoises" : [ "/sfx/weather/fogstorm.ogg" ]
+}

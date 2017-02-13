@@ -1,0 +1,8 @@
+{
+  "itemName" : "glowingmatter",
+  "rarity" : "common",
+  "price" : 25,
+  "inventoryIcon" : "glowingmatter.png",
+  "description" : "Glowing matter, looks like magic!",
+  "shortdescription" : "Glowing Matter"
+}

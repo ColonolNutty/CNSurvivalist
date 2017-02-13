@@ -1,0 +1,9 @@
+{
+  "itemName" : "lantern",
+  "price" : 0,
+  "rarity" : "common",
+  "inventoryIcon" : "lantern.png",
+  "description" : "An empty lantern. Might be useful!",
+  "shortdescription" : "Lantern",
+  "learnBlueprintsOnPickup" : [ "lanternstickback" ]
+}

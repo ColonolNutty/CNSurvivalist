@@ -1,0 +1,33 @@
+{
+  "itemName" : "smg3",
+  "price" : 20,
+  "inventoryIcon" : "smg3.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Super SMG",
+  "shortdescription" : "Super SMG",
+  "image" : "smg3.png",
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [10, 0],
+  "recoilTime" : 0.1,
+  "level" : 20,
+  "tooltipKind" : "gun",
+  "weaponType" : "SMG",
+  "itemTags" : ["weapon","ranged","smg"],
+  "fireTime" : 0.02,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "sbullet",
+  "projectile" : {
+	"power" : 3,
+	"speed" : 130,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/paintgun1.ogg" } ]
+  }
+}

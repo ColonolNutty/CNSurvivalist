@@ -1,0 +1,30 @@
+{
+  "itemName" : "reefpod",
+  "rarity" : "Common",
+  "price" : 150,
+  "inventoryIcon" : "reefpod.png",
+  "description" : "Fruit of the ocean.",
+  "shortdescription" : "Reefpod",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost5",
+        "duration" : 40
+    },
+    {
+        "effect" : "maxhealthboost5",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "saltsalad" ]
+}

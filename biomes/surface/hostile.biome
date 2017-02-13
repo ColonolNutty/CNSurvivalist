@@ -1,0 +1,237 @@
+{
+  "name" : "hostile",
+  "friendlyName" : "Hostile",
+
+  "spawnProfile" : {
+    "groups" : [
+        {
+        "select" : 1,
+        "pool" : [ 
+          [ 0.1111, "skimbus" ],     
+          [ 0.1111, "scandroid" ],
+          [ 0.1111, "voltip" ],        
+          [ 0.1111, "oculob" ],
+          [ 0.1111, "paratail" ],     
+          [ 0.1111, "petricub" ],
+          [ 0.1111, "smoglin" ],
+          [ 0.1111, "scaveran" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "blueback" ],
+          [ 0.3, "greentip" ],
+          [ 0.3, "redwing" ]
+        ]
+      },
+      {
+        "select" : 1,
+		"pool" : [
+          [ 0.1, "aggroLargeBipedBoss" ],
+          [ 0.1, "aggroLargeQuadrupedBoss" ],
+          [ 0.1, "aggroLargeFlyingBoss" ]
+		]
+      },
+      {
+        "select" : 3,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "sackbagcritter" ],
+          [ 1, "bouncebagcritter" ],
+          [ 1, "floatbagcritter" ],
+          [ 1, "snooglecritter" ],
+          [ 1, "symbiotecritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "alien",
+      "statusSettings" : {
+        "stats" : {
+          "poisonImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
+    }
+  },
+
+  "statusEffects" : [ "biomeradiation" ],
+    
+  "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:alien"
+    ]]
+  ],
+
+  "skyOptions" : [
+   {
+      "mainColor" : [74, 35, 35],
+
+      "morningColors" : [ [74, 35, 35], [74, 35, 35] ],
+      "dayColors" : [ [74, 35, 35], [74, 35, 35] ],
+      "eveningColors" : [ [74, 35, 35], [74, 35, 35] ],
+      "nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+      "morningLightColor" : [74, 35, 35],
+      "dayLightColor" : [74, 35, 35],
+      "eveningLightColor" : [74, 35, 35],
+      "nightLightColor" : [40, 17, 17]
+    }
+  ],
+
+  "mainBlock" : "hellstone",
+  "subBlocks" : [ "fleshblock", "corruptdirt" ],
+  "ores" : "surfaceOres",
+
+  "parallax" : "/parallax/surface/alien.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/forest_day.ogg", "/sfx/environmental/forest_day2.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/forest_night.ogg", "/sfx/environmental/forest_night2.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "bone", "aridgrass" ],
+    "grassModDensity" : 0.9,
+    
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "bonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "alienbush",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "alienstriped" ],
+        "treeFoliageList" : [ "alienbigleaf", "aliencircle" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wilddirturchinseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "aliengrass" ],
+    "grassModDensity" : 0.2,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 180,
+        "treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
+        "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
+      }
+    ]
+  }
+}

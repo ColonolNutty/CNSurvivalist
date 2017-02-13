@@ -1,0 +1,25 @@
+{
+  "itemName" : "coffee",
+  "rarity" : "Common",
+  "price" : 115,
+  "inventoryIcon" : "coffee.png",
+  "description" : "Freshly brewed coffee.",
+  "shortdescription" : "Coffee",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost15",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

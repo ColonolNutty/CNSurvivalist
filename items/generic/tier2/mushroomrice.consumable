@@ -1,0 +1,29 @@
+{
+  "itemName" : "mushroomrice",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "inventoryIcon" : "mushroomrice.png",
+  "description" : "Delicious eggy fried rice with mushrooms.",
+  "shortdescription" : "Mushroom Rice",
+  "handPosition" : [0, -3],
+  "effects" : [ [
+    {
+        "effect" : "foodheal145",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

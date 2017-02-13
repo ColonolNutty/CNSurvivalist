@@ -1,0 +1,24 @@
+{
+  "itemName" : "stoneaxe",
+  "price" : 0,
+  "inventoryIcon" : "stoneaxeicon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Great for chopping down trees. For now.",
+  "shortdescription" : "Stone Axe",
+  "largeImage" : "stoneaxebig.png",
+  "image" : "stoneaxe.png",
+  "frames" : 5,
+  "animationCycle" : 0.5,
+  "tooltipKind" : "tool",
+  
+  "handPosition" : [-3, -4],
+  "fireTime" : 0.6,
+  "swingStart" : -40,
+  "swingFinish" : 60,
+  "blockRadius" : 2,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ]
+}

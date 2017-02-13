@@ -1,0 +1,37 @@
+{
+  "itemName" : "featherfood",
+  "rarity" : "Rare",
+  "price" : 425,
+  "inventoryIcon" : "featherfood.png",
+  "description" : "A traditional Avian ceremonial food eaten at celebrations.",
+  "shortdescription" : "Feather Food",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "jumpboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost30",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 135
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

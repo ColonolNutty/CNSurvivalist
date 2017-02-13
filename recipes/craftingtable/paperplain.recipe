@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "fullwood1", "count" : 10 }
+  ],
+  "output" : { "item" : "paperplain", "count" : 1 },
+  "groups" : [ "craftingtable" ]
+}

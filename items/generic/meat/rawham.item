@@ -1,0 +1,8 @@
+{
+  "itemName" : "rawham",
+  "rarity" : "Common",
+  "price" : 40,
+  "inventoryIcon" : "rawham.png",
+  "description" : "Raw ham. It's probably best if I cook it first.",
+  "shortdescription" : "Alien Ham"
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "ultimatejuice",
+  "rarity" : "Legendary",
+  "price" : 1200,
+  "inventoryIcon" : "ultimatejuice.png",
+  "description" : "All the fruit, in a juice.",
+  "shortdescription" : "Ultimate Juice",
+  "handPosition" : [-2, 4],
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "emitters" : [ "drinking" ]
+}

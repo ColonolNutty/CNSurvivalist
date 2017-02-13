@@ -1,0 +1,24 @@
+{
+  "itemName" : "fluffyruffs",
+  "rarity" : "Common",
+  "price" : 70,
+  "inventoryIcon" : "fluffyruffs.png",
+  "description" : "They're ruffy and fluffy!",
+  "shortdescription" : "Fluffy Ruffs",
+  "effects" :[  [
+    {
+        "effect" : "foodheal70",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

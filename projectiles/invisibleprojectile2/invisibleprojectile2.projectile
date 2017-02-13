@@ -1,0 +1,12 @@
+{
+  "projectileName" : "invisibleprojectile2",
+  "frames" : "invisibleprojectile2.png",
+  "frameNumber" : 1,
+  "speed" : 0,
+  "damagePoly" : [ [0.0, 0.0], [1.0, 0.0], [0.5, 1.5] ],
+  "power" : 15.0,
+  "animationLoops" : false,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}

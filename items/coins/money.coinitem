@@ -1,0 +1,14 @@
+{
+  "itemName" : "money",
+  "rarity" : "Common",
+  "inventoryIcon" : "money.png",
+  "description" : "Points earned killing monsters and exploring!",
+  "shortdescription" : "Survival Points",
+  "value" : 1,
+  "pickupSoundsSmall" : [ "/sfx/objects/survivalpoints.ogg" ],
+  "pickupSoundsMedium" : [ "/sfx/objects/survivalpoints.ogg" ],
+  "pickupSoundsLarge" : [ "/sfx/objects/survivalpoints.ogg" ],
+  "smallStackLimit" : 100,
+  "mediumStackLimit" : 10000,
+  "maxStack" : 16777216
+}

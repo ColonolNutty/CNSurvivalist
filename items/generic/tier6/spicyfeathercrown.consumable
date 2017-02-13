@@ -1,0 +1,14 @@
+{
+  "itemName" : "spicyfeathercrown",
+  "rarity" : "Uncommon",
+  "price" : 415,
+  "inventoryIcon" : "spicyfeathercrown.png",
+  "description" : "Feathercrown sauteed in spicy chili peppers. Hot hot hot!",
+  "shortdescription" : "Spicy Feathercrown",
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

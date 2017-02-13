@@ -1,0 +1,29 @@
+{
+  "itemName" : "cake",
+  "rarity" : "Common",
+  "price" : 205,
+  "inventoryIcon" : "cake.png",
+  "description" : "It's a delicious cake!",
+  "shortdescription" : "Cake",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal170",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

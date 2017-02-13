@@ -1,0 +1,24 @@
+{
+  "itemName" : "corncob",
+  "rarity" : "Common",
+  "price" : 75,
+  "inventoryIcon" : "corncob.png",
+  "description" : "A buttery ear of corn on the cob.",
+  "shortdescription" : "Corn Cob",
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

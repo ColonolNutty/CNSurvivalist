@@ -1,0 +1,33 @@
+{
+  "itemName" : "bananacreampie",
+  "rarity" : "Uncommon",
+  "price" : 340,
+  "inventoryIcon" : "bananacreampie.png",
+  "description" : "Better for eating, or for throwing in people's faces?",
+  "shortdescription" : "Banana Cream Pie",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

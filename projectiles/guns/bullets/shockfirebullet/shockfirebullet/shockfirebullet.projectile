@@ -1,0 +1,122 @@
+{
+  "projectileName" : "shockfirebullet",
+  "frames" : "shockfirebullet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+      {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmaexplosion2/plasmaexplosion2.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -20,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 20,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 40,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 60,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 80,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 100,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 120,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 140,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "teslabolt",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 180,
+      "inheritDamageFactor" : 0.03
+    },
+	{
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -20,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -40,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 60,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -140,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -180,
+      "inheritDamageFactor" : 0.03
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 180,
+      "inheritDamageFactor" : 0.03
+    }
+  ],
+  "power" : 2.0,
+  "speed" : 300,
+  "damageKind" : "default"
+}

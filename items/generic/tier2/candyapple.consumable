@@ -1,0 +1,29 @@
+{
+  "itemName" : "candyapple",
+  "rarity" : "Common",
+  "price" : 140,
+  "inventoryIcon" : "candyapple.png",
+  "description" : "All the nutritious value of an apple masked by globs of sweet, sweet sugar.",
+  "shortdescription" : "Candy Apple",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal95",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

@@ -1,0 +1,37 @@
+{
+  "itemName" : "fruitsalad",
+  "rarity" : "Legendary",
+  "price" : 650,
+  "inventoryIcon" : "fruitsalad.png",
+  "description" : "Various fruits all conveniently mixed together.",
+  "shortdescription" : "Fruit Salad",
+  "handPosition" : [0, -5],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "jumpboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 80
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 80
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 165
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

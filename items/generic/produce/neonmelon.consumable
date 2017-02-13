@@ -1,0 +1,29 @@
+{
+  "itemName" : "neonmelon",
+  "rarity" : "Common",
+  "price" : 280,
+  "inventoryIcon" : "neonmelon.png",
+  "description" : "A slice of bubblegum flavoured neonmelon",
+  "shortdescription" : "Neonmelon",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "jumpboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 30
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

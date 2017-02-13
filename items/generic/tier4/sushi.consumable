@@ -1,0 +1,24 @@
+{
+  "itemName" : "sushi",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "inventoryIcon" : "sushi.png",
+  "description" : "Because sushi.",
+  "shortdescription" : "Sushi",
+  "effects" : [ [
+    {
+        "effect" : "foodheal240",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

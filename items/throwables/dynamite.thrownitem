@@ -1,0 +1,22 @@
+{
+  "itemName" : "dynamite",
+  "price" : 50,
+  "rarity" : "Common",
+  "inventoryIcon" : "dynamiteicon.png",
+  "image" : "dynamiteicon.png",
+  "shortdescription" : "Dynamite",
+  "description" : "A dynamite made of coal and monster skin. Use with caution!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "zdynamite",
+  "projectileConfig" : {
+    "speed" : 1,
+    "power" : 1000
+  }
+}
+

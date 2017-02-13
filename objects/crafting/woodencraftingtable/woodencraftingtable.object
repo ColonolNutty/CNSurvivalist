@@ -1,0 +1,53 @@
+{
+  "objectName" : "woodencraftingtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  CRAFTING TABLE",
+        "subtitle" : "  Crafting, with a table!",
+        "icon" : {
+          "file" : "/interface/crafting/craftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "plain", "simplecraft", "craftingtable" ]
+  },
+  "printable" : false,
+  "description" : "I can use this to craft things I couldn't make with just my bare hands!",
+  "shortdescription" : "^orange;Wooden Crafting Table^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 35,
+
+  "apexDescription" : "A table with a bunch of tools for a craftsman.",
+  "avianDescription" : "A chance to display one's ability to create.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I can use materials I've found here to create new things.",
+  "hylotlDescription" : "A chance to create.",
+  "novakidDescription" : "I can use materials I've found here to create new things.",
+
+  "inventoryIcon" : "woodencraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodencraftingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  
+	"breakDropOptions" : [
+    [ [ "fullwood1", 50, { } ], [ "money", 250, { } ] ]
+  ]
+}

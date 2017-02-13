@@ -1,0 +1,10 @@
+{
+  "itemName" : "wheat",
+  "rarity" : "Common",
+  "price" : 40,
+  "inventoryIcon" : "wheat.png",
+  "description" : "Essential for making bread.",
+  "shortdescription" : "Wheat",
+  
+  "learnBlueprintsOnPickup" : [ "bestialbread" ]
+}

@@ -1,0 +1,23 @@
+{
+  "id" : "tutorial1.gearup",
+  "title" : "^#9be3d6;THOUGHTS AND NEEDS",
+  "text" : "Well that was interesting. Guess I'm stuck with a sassy AI.   ^#aee1ee;Wonderful!   ^white;Lets see what I can salvage from my locker.",
+  "completionText" : "This is it?   Crap.   There's not even a weapon.   At least I can use the locker door as a shovel..",
+  "speaker" : "player",
+  "moneyRange" : [0, 0],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "tutorial2.gearup",
+    "gatherRequirements" : {
+      "items" : {
+        "debris" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

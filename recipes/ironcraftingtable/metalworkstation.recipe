@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 2 },
+    { "item" : "money", "count" : 1000 },
+    { "item" : "steelbar", "count" : 35 },
+	{ "item" : "goldbar", "count" : 15 },
+	{ "item" : "silverbar", "count" : 20 },
+	{ "item" : "coalore", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "metalworkstation",
+    "count" : 1
+  },
+  "groups" : [ "ironcraftingtable", "objects", "tools", "all" ]
+}

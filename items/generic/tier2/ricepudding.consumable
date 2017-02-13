@@ -1,0 +1,30 @@
+{
+  "itemName" : "ricepudding",
+  "rarity" : "Uncommon",
+  "price" : 215,
+  "inventoryIcon" : "ricepudding.png",
+  "description" : "A sweet, warm bowl of rice pudding.",
+  "shortdescription" : "Rice Pudding",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal190",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

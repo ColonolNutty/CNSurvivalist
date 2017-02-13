@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 10 },
+    { "item" : "sulphur", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gunpowder",
+    "count" : 1
+  },
+  "groups" : [ "biomassgen" ]
+}

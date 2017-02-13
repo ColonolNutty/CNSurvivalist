@@ -1,0 +1,34 @@
+{
+  "itemName" : "rifle2",
+  "price" : 15,
+  "inventoryIcon" : "rifle2.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An upgraded standard rifle with better grip and extra ammo.",
+  "shortdescription" : "Upgraded Rifle",
+  "image" : "rifle2.png",
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [12, 0],
+  "recoilTime" : 0.1,
+  "level" : 8,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "fireTime" : 0.8,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "sbullet",
+  "projectile" : {
+	"speed" : 175,
+    "life" : 3,
+	"power" : 12
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/rifle1.ogg" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
+  }
+}
+

@@ -1,0 +1,33 @@
+{
+  "itemName" : "shotgun1",
+  "price" : 10,
+  "inventoryIcon" : "shotgun1.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A standard shotgun",
+  "shortdescription" : "Standard Shotgun",
+  "image" : "shotgun1.png",
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [12, 0],
+  "recoilTime" : 0.1,
+  "level" : 8,
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "fireTime" : 4,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "trishot2",
+  "projectile" : {
+	"speed" : 150,
+    "life" : 3,
+	"power" : 20
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/shotgun4.ogg" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
+  }
+}

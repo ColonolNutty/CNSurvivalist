@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "gascan", "count" : 1},
+	{ "item" : "gas", "count" : 5}
+  ],
+  "output" : { "item" : "fullgascan", "count" : 1 },
+  "groups" : [ "gastank" ]
+}

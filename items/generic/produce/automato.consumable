@@ -1,0 +1,25 @@
+{
+  "itemName" : "automato",
+  "rarity" : "Common",
+  "price" : 80,
+  "inventoryIcon" : "automato.png",
+  "description" : "Automatos! Be sure to spit out the screws.",
+  "shortdescription" : "Automato",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "2kbpotage" ]
+}

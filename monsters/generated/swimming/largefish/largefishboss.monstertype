@@ -1,0 +1,136 @@
+{
+  "type" : "largefishBoss",
+
+  "categories" : [ "largefish" ],
+  "parts" : [ "head", "tail", "fin" ],
+
+  "animation" : "largefish.animation",
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/generated/swimming/swimmingMonster.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+      "/scripts/stateMachine.lua",
+      "/monsters/generated/swimming/wanderState.lua",
+      "/monsters/generated/swimming/attackState.lua",
+      "/monsters/generated/swimming/fleeState.lua",
+      "/monsters/generated/swimming/flopState.lua"
+    ],
+
+    "metaBoundBox" : [-5, -5, 5, 5],
+    "scale" : 2.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-4.5, -2.2], [-3, -3.6], [2, -3.6], [3.5, -2.2], [3.5, -0.2], [2, 1], [-3, 1], [-4.5, -0.2] ],
+
+      "mass" : 1.5,
+      "liquidBuoyancy" : 1.0,
+      "flySpeed" : 18,
+      "liquidFriction" : 2.0,
+      "liquidForce" : 150.0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 15.0,
+        "jumpControlForce" : 900.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0,
+
+        "multiJump" : false,
+        "reJumpDelay" : 0.05,
+        "autoJump" : false,
+        "collisionCancelled" : true
+      }
+    },
+
+    "moveRatioLimit" : 0.6,
+    "directionChangeCooldown" : 1.0,
+
+    "targetSearchRadius" : 15,
+    "targetHoldRadius" : 40,
+    "targetChangeCooldown" : 5.0,
+
+    "attackStartDistance" : 12.0,
+    "attackApproachTime" : 3.0,
+    "attackWindupTime" : 1.0,
+    "attackChargeTime" : 1.2,
+    "attackChargeSpeed" : 60,
+
+    "wanderTime" : [4.0, 8.0],
+
+    "fleeTimeRange" : [2.0, 3.0],
+
+    "flopJumpInterval" : [0.3, 1.5],
+
+    "knockoutTime" : 0.5,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+
+    "blockedSensors" : [ [2.75, -1.0], [3.0, 0.0], [2.75, 1.0] ],
+    "upSensors" : [ [-1.25, -1.25], [1.0, -1.25], [2.75, -1.25] ],
+    "downSensors" : [ [-1.25, 0.75], [1.0, 0.75], [2.75, 0.75] ],
+
+    "touchDamage" : {
+      "poly" : [ [-4.0, -1.6], [-3, -3], [3, -3], [4, -1.6], [4, -0.8], [2.8, 0.4], [-2.8, 0.4], [-4, -0.8] ],
+      "damage" : 100,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "default",
+      "statusEffects" : [ ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 100
+        },
+        "protection" : {
+          "baseValue" : 1.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -4]
+  },
+  
+  "dropPools" : [
+    {
+      "default" : "minibosstreasure",
+      "bow" : "minibosstreasure"
+    }
+  ]
+}

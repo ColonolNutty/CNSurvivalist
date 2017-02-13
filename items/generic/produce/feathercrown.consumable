@@ -1,0 +1,28 @@
+{
+  "itemName" : "feathercrown",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "feathercrown.png",
+  "description" : "Feathercrown, you have to pluck it before consuming.",
+  "shortdescription" : "Feathercrown",
+  "effects" : [ [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "maxhealthboost10",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

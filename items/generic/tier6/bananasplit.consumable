@@ -1,0 +1,14 @@
+{
+  "itemName" : "bananasplit",
+  "rarity" : "Legendary",
+  "price" : 725,
+  "inventoryIcon" : "bananasplit.png",
+  "description" : "The secret ingredient in this Apex favorite is pineapple!",
+  "shortdescription" : "Banana Split",
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

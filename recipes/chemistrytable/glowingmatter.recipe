@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "organicmatter", "count" : 6 },
+	{ "item" : "livingroot", "count" : 1 },
+	{ "item" : "wheat", "count" : 3 },
+	{ "item" : "goldore", "count" : 10 },
+	{ "item" : "torch", "count" : 1 },
+	{ "item" : "slime", "count" : 15 }
+	
+  ],
+  "output" : {"item" : "glowingmatter", "count" : 1},
+  "groups" : [ "chemistrytable", "all" ]
+}

@@ -1,0 +1,76 @@
+{
+  "objectName" : "gapahuk",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A temporary stay, the Norwegian way!",
+  "shortdescription" : "Gapahuk",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 45,
+
+  "apexDescription" : "A simple place. Good enough.",
+  "avianDescription" : "A temporary house.",
+  "floranDescription" : "Little green houssse.",
+  "glitchDescription" : "Irritated. There isn't much room.",
+  "humanDescription" : "I enjoyed camping as a child.",
+  "hylotlDescription" : "I am not too proud to sleep in a gapahuk.",
+  
+  "inventoryIcon" : "gapahukicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gapahuk.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }],
+	
+	
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-2.5, 6],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/gapahuk/gapahuklit.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  
+  
+  "lightColor" : [251, 218, 141],
+  "flickerDistance" : 1,
+  "flickerStrength" : 0.1,
+  
+    "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 0.3,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [3, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [10, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+  
+	"breakDropOptions" : [
+    [ [ "fullwood1", 10, { } ], [ "money", 50, { } ] ]
+  ]
+}

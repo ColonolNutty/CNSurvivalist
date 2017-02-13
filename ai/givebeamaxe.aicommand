@@ -1,0 +1,215 @@
+{
+  "commandName" : "giveBeamaxe",
+  "onlyOnce" : true,
+  "icon" : "beamaxe.png",
+  "actions" : [
+     { 
+      "action" : "GivePlayerItems",
+      "items" : [ "beamaxe", 1],
+      "essentialItem" : "beamaxe"
+    },       
+    { 
+      "action" : "PlayCinematic",
+      "cinematicConfig" : "/cinematics/beamaxe.cinematic"
+    },
+    { 
+      "action" : "DisableCommand",
+      "command" : "giveBeamaxe"
+    }
+  ],
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "penguin" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulate is a nearly witchcrafty tool that lets you grab your remote controler without getting up from the couch. It's perfect for your lazy ass!  ^white;Too bad this only collects liquids!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Don't say I never did anything for you.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Stop wasting my time!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

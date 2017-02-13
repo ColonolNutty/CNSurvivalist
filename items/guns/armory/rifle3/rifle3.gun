@@ -1,0 +1,34 @@
+{
+  "itemName" : "rifle3",
+  "price" : 20,
+  "inventoryIcon" : "rifle3.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A piercing assault standard rifle with better grip, extra ammo and an iron scope.",
+  "shortdescription" : "Piercing Assault Rifle",
+  "image" : "rifle3.png",
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [12, 0],
+  "recoilTime" : 0.1,
+  "level" : 9,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "fireTime" : 0.4,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "sbullet",
+  "projectile" : {
+	"speed" : 175,
+    "life" : 3,
+	"power" : 15
+  },
+  
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/revolver2.ogg" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
+  }
+}
+

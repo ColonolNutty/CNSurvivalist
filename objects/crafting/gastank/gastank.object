@@ -1,0 +1,46 @@
+{
+  "objectName" : "gastank",
+  "colonyTags" : ["cooking"],
+  "rarity" : "Common",
+  "printable" : false,
+  "subtitle" : "Fill your gas cans!",
+  "description" : "A gas tank. Fill cans with biofuel!",
+  "shortdescription" : "Gas Tank",
+  "race" : "generic",
+  "category" : "crafting",
+  "objectType" : "container",
+  "price" : 50,
+
+  "apexDescription" : "A gas tank!",
+  "avianDescription" : "A gas tank!",
+  "floranDescription" : "A gas tank!",
+  "glitchDescription" : "A gas tank!",
+  "humanDescription" : "A gas tank!",
+  "hylotlDescription" : "A gas tank!",
+  "novakidDescription" : "A gas tank!",
+
+  "inventoryIcon" : "gastankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gastank.png:<color>",
+
+      "imagePosition" : [0, 1],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "recipeGroup" : "gastank",
+  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/gastank.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+	"breakDropOptions" : [ [
+      [ "ironbarore", 10, { } ]
+	] ]
+}

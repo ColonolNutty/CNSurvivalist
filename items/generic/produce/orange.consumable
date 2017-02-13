@@ -1,0 +1,22 @@
+{
+  "itemName" : "orange",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "orange.png",
+  "description" : "It's an orange.",
+  "shortdescription" : "Orange",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

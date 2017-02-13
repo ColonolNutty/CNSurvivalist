@@ -1,0 +1,11 @@
+{
+  "itemName" : "fullgascan",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "fullgascan.png",
+  "description" : "Gas can with 10 litres of biofuel. Eco-friendly travelling!",
+  "shortdescription" : "Gas Can",
+  
+  "fuelAmount" : 10
+
+}

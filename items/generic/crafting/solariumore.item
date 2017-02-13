@@ -1,0 +1,8 @@
+{
+  "itemName" : "solariumore",
+  "price" : 30,
+  "rarity" : "Rare",
+  "inventoryIcon" : "solariumore.png",
+  "description" : "It's solarium. A fantastic source of fuel.",
+  "shortdescription" : "Solarium Ore"
+}

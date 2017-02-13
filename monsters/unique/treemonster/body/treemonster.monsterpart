@@ -1,0 +1,11 @@
+{
+  "name" : "zombiechest1",
+  "category" : "treemonster",
+  "type" : "body",
+
+  "frames" : {
+    "chest" : "treemonster.png"
+  },
+
+  "parameters" : { }
+}

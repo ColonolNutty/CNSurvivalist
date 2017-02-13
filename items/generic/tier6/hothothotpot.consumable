@@ -1,0 +1,41 @@
+{
+  "itemName" : "hothothotpot",
+  "rarity" : "Rare",
+  "price" : 475,
+  "inventoryIcon" : "hothothotpot.png",
+  "description" : "So incredibly HOT!",
+  "shortdescription" : "Hot Hot Hotpot",
+  "effects" : [ [
+    {
+        "effect" : "burning",
+        "duration" : 15
+    },
+    {
+        "effect" : "runboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "jumpboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "rage",
+        "duration" : 15
+    },
+    {
+        "effect" : "nova",
+        "duration" : 15
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

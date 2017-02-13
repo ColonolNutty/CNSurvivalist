@@ -1,0 +1,29 @@
+{
+  "itemName" : "apegrapes",
+  "rarity" : "Common",
+  "price" : 300,
+  "inventoryIcon" : "apegrapes.png",
+  "description" : "A healthy mix of bananas and grapes.",
+  "shortdescription" : "Ape Grapes",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 50
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

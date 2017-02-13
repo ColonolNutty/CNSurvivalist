@@ -1,0 +1,24 @@
+{
+  "itemName" : "cookedbacon",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "cookedbacon.png",
+  "description" : "Bacon strips & bacon strips & bacon strips & bacon strips!",
+  "shortdescription" : "Cooked Bacon",
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

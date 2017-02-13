@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "aviant1.png",
+      "position" : [7, 11],
+      "fullbright" : true
+    },
+    {
+      "image" : "aviant1lit.png",
+      "position" : [7, 11]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "avianT2blocks.png"
+}

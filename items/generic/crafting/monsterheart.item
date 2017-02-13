@@ -1,0 +1,8 @@
+{
+  "itemName" : "monsterheart",
+  "price" : 0,
+  "rarity" : "common",
+  "inventoryIcon" : "monsterheart.png",
+  "description" : "The heart of a monster. So much blood...",
+  "shortdescription" : "Monster Heart"
+}

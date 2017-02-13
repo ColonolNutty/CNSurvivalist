@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "liquidfuel", "count" : 2 },
+	{ "item" : "coalore", "count" : 1 }
+  ],
+  "output" : { "item" : "gas", "count" : 1 },
+  "groups" : [ "biomass" ]
+}

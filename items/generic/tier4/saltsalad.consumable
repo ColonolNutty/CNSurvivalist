@@ -1,0 +1,33 @@
+{
+  "itemName" : "saltsalad",
+  "rarity" : "Common",
+  "price" : 365,
+  "inventoryIcon" : "saltsalad.png",
+  "description" : "Coralcreep, reefpod and pearlpea make for a salty, crunchy salad.",
+  "shortdescription" : "Salt Salad",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost10",
+        "duration" : 40
+    },
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

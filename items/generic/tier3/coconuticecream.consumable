@@ -1,0 +1,33 @@
+{
+  "itemName" : "coconuticecream",
+  "rarity" : "Uncommon",
+  "price" : 165,
+  "inventoryIcon" : "coconuticecream.png",
+  "description" : "Perfect for when you're stranded on a tropical island.",
+  "shortdescription" : "Coconut Ice Cream",
+  "handPosition" : [12, -6],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal170",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "commandName" : "enableTeleporter",
+  "onlyOnce" : true,
+  "icon" : "teleporter.png",
+  "actions" : [
+    { 
+      "action" : "DisableCommand",
+      "command" : "enableTeleporter"
+    },
+    { 
+      "action" : "upgradeShip",
+      "shipParameters" : { 
+      "capabilities" : [ "teleport" ] 
+      }
+    },
+    { 
+      "action" : "StartQuest",
+      "quest" : "tutorial1.gearup"
+    },
+    { 
+      "action" : "PlaySound",
+      "sound" : "/sfx/interface/ship_confirm1.ogg",
+      "loops" : 0
+    }
+  ],
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "penguin" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Enable Teleporter",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can turn on the ship's short range teleport, it'll take you down to the planet below. That way you won't stink the ship when you die of starvation!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Done! ^green;Now get down there ^#aee1ee;and lets see if you last more than a day ^orange;(Not)",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

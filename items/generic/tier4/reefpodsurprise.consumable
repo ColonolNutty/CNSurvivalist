@@ -1,0 +1,29 @@
+{
+  "itemName" : "reefpodsurprise",
+  "rarity" : "Uncommon",
+  "price" : 440,
+  "inventoryIcon" : "reefpodsurprise.png",
+  "description" : "A lot more sour than you might have expected. Surprise!",
+  "shortdescription" : "Reefpod Surprise",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthboost50",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

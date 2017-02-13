@@ -1,0 +1,33 @@
+{
+  "itemName" : "beakseedtart",
+  "rarity" : "Uncommon",
+  "price" : 275,
+  "inventoryIcon" : "beakseedtart.png",
+  "description" : "Created out of necessity in beakseed season to make use of all the jam.",
+  "shortdescription" : "Beakseed Tart",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost15",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

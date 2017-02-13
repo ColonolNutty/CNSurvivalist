@@ -1,0 +1,15 @@
+{
+  "itemName" : "burningeyeballs",
+  "rarity" : "Uncommon",
+  "price" : 515,
+  "inventoryIcon" : "burningeyeballs.png",
+  "description" : "Watch out, they're super spicy!",
+  "shortdescription" : "Burning Eyeballs",
+  "handPosition" : [3, -4],
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

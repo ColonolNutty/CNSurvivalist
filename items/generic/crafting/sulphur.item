@@ -1,0 +1,10 @@
+{
+  "itemName" : "sulphur",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "sulphur.png",
+  "description" : "Sulphur.",
+  "shortdescription" : "Sulphur",
+
+  "learnBlueprintsOnPickup" : [ "gunpowder" ]
+}

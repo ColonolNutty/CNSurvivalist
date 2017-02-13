@@ -1,0 +1,31 @@
+{
+  "itemName" : "sniper2",
+  "inventoryIcon" : "sniper2.png",
+  "description" : "Iron scope.",
+  "shortdescription" : "Upgraded Sniper",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],  
+  "maxStack" : 1,
+  "level" : 9,
+  "rarity" : "Common",
+  "inspectionKind" : "gun",
+  "image" : "sniper2.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [19, 2],
+  "classMultiplier" : 12,
+
+  "fireTime" : 4,
+  "twoHanded" : true,
+
+  "projectileType" : "sbullet",
+  "projectile" : {
+	"power" : 55,
+	"speed" : 200,
+    "life" : 3
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/sniper1.ogg" } ]
+  }
+}

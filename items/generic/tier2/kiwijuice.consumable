@@ -1,0 +1,26 @@
+{
+  "itemName" : "kiwijuice",
+  "rarity" : "Common",
+  "price" : 150,
+  "inventoryIcon" : "kiwijuice.png",
+  "description" : "A sweet and tropical juice made of kiwis.",
+  "shortdescription" : "Kiwi Juice",
+  "handPosition" : [-7, -4],
+  "effects" :[  [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

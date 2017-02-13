@@ -1,0 +1,25 @@
+{
+  "itemName" : "thornfruit",
+  "rarity" : "Common",
+  "price" : 30,
+  "inventoryIcon" : "thornfruit.png",
+  "description" : "So long as you watch out for the thorns, these are delicious.",
+  "shortdescription" : "Thorn Fruit",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+    {
+        "effect" : "thorns",
+        "duration" : 15
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 30
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

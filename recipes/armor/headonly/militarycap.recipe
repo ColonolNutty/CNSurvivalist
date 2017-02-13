@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 4 },
+	{ "item" : "greendye", "count" : 1 },
+	{ "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "militarycap", "count" : 1 },
+  "groups" : [ "tailor", "all" ]
+}

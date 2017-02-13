@@ -1,0 +1,25 @@
+{
+  "itemName" : "pearlpeapancakes",
+  "rarity" : "Common",
+  "price" : 145,
+  "inventoryIcon" : "pearlpeapancakes.png",
+  "description" : "They look like pancakes, but they've got an aftertaste of mushy peas.",
+  "shortdescription" : "Pearlpea Pancakes",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal145",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

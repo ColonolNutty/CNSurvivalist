@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 30 }
+  ],
+  "output" : { "item" : "apexfuelhatch", "count" : 1 },
+  "groups" : [ "anvil", "other", "all" ]
+}

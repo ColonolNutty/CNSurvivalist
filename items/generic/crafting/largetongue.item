@@ -1,0 +1,8 @@
+{
+  "itemName" : "largetongue",
+  "price" : 0,
+  "rarity" : "uncommon",
+  "inventoryIcon" : "largetongue.png",
+  "description" : "A large tongue from a big monster! (miniboss)",
+  "shortdescription" : "Large Tongue"
+}

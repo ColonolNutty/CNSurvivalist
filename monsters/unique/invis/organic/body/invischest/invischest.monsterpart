@@ -1,0 +1,11 @@
+{
+  "name" : "invischest",
+  "category" : "invis_organic",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "invischest.png"
+  },
+
+  "parameters" : { }
+}

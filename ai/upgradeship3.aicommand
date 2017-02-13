@@ -1,0 +1,217 @@
+{
+  "commandName" : "upgradeShip3",
+  "icon" : "thrusters.png",
+  "actions" : [
+    { 
+      "action" : "PlayCinematic",
+      "itemsRequired" : [ ["ftldrive", 1] ],
+      "moneyRequired" : 0,
+      "cinematicConfig" : "/cinematics/repair/apex/repair.cinematic"
+    },
+    { 
+      "action" : "UpgradeShip",
+      "shipParameters" : {
+        "shipLevel" : 3
+      }
+    },
+    { 
+      "action" : "DisableCommand",
+      "command" : "upgradeShip3"
+    }
+  ],
+  
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little monkey?",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little bird?",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little sprout?",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little toaster?",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little ape?",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little flashlight?",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "penguin" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little penguin?",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Now you want to repair the FTL?  Give me a new ^orange;FTL Drive Chip ^#aee1ee;then.", 
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! This isn't new!  Meh.  I'm sick of this solar system anyways.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "I said, give me a new ^orange;FTL Drive Chip^#aee1ee;.  Are you deaf, little fish?",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

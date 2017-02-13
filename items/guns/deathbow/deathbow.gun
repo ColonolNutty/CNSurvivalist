@@ -1,0 +1,37 @@
+{
+  "itemName" : "deathbow",
+  "price" : 0,
+  "inventoryIcon" : "deathbowicon.png",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "tooltipKind" : "bow",
+  "weaponType" : "Bow",
+  "itemTags" : ["weapon","ranged","bow"],
+  "description" : "A slow, but deadly bow! Requires real archer skills!",
+  "shortdescription" : "Death Bow",
+  "image" : "deathbowfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [-1, 0],
+  "firePosition" : [20, 0.5],
+  "level" : 3,
+  "fireTime" : 0.3,
+  "inaccuracy" : 0.01,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "killerarrow",
+  "powerProjectileType" : "killerarrow",
+  "powerProjectileTime" : [0.9, 1.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 70,
+    "power" : 30
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.ogg" } ]
+  }
+}

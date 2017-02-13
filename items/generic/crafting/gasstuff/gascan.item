@@ -1,0 +1,8 @@
+{
+  "itemName" : "gascan",
+  "price" : 0,
+  "rarity" : "common",
+  "inventoryIcon" : "gascan.png",
+  "description" : "An empty gas can to move biofuel.",
+  "shortdescription" : "Empty Gas Can"
+}

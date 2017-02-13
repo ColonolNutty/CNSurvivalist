@@ -1,0 +1,25 @@
+{
+  "itemName" : "seafoodgratin",
+  "rarity" : "Common",
+  "price" : 150,
+  "inventoryIcon" : "seafoodgratin.png",
+  "description" : "Fish baked with fish-like fruit. A fishy dish!",
+  "shortdescription" : "Seafood Gratin",
+  "effects" : [ [
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "saltsalad" ]
+}

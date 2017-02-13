@@ -1,0 +1,9 @@
+{
+  "itemName" : "rawribmeat",
+  "rarity" : "Common",
+  "price" : 30,
+  "inventoryIcon" : "rawribmeat.png",
+  "description" : "Raw meat cut from some unfortunate creature's ribs. Sounds tasty.",
+  "shortdescription" : "Raw Ribs",
+  "learnBlueprintsOnPickup" : [ "stickyribs" ]
+}

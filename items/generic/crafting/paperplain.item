@@ -1,0 +1,8 @@
+{
+  "itemName" : "paperplain",
+  "price" : 0,
+  "rarity" : "common",
+  "inventoryIcon" : "paperplain.png",
+  "description" : "Paper, plain and simple.",
+  "shortdescription" : "Paper"
+}

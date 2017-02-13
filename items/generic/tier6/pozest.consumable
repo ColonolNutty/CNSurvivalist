@@ -1,0 +1,15 @@
+{
+  "itemName" : "pozest",
+  "rarity" : "Uncommon",
+  "price" : 825,
+  "inventoryIcon" : "pozest.png",
+  "description" : "A popular Glitch energy drink. Or is it just a placebo?",
+  "shortdescription" : "Pozest",
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "emitters" : [ "drinking" ]
+}

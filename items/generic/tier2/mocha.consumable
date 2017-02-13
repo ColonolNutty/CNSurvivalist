@@ -1,0 +1,29 @@
+{
+  "itemName" : "mocha",
+  "rarity" : "Common",
+  "price" : 190,
+  "inventoryIcon" : "mocha.png",
+  "description" : "A mild blend of coffee and hot chocolate.",
+  "shortdescription" : "Mocaccino",
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "maxenergyboost30",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+  }

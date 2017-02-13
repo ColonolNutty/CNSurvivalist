@@ -1,0 +1,10 @@
+{
+  "itemName" : "coalore",
+  "price" : 2,
+  "rarity" : "Common",
+  "inventoryIcon" : "coalore.png",
+  "description" : "It's coal. A decent source of fuel.",
+  "shortdescription" : "Coal",
+  
+  "learnBlueprintsOnPickup" : [ "blackdye", "torch" ]
+}

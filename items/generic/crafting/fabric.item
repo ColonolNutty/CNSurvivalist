@@ -1,0 +1,9 @@
+{
+  "itemName" : "fabric",
+  "price" : 20,
+  "rarity" : "common",
+  "inventoryIcon" : "fabric.png",
+  "description" : "Cloth, perfect for a tailor to work with!",
+  "shortdescription" : "Cotton Cloth"
+  
+}

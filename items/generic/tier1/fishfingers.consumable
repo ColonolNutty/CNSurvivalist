@@ -1,0 +1,24 @@
+{
+  "itemName" : "fishfingers",
+  "rarity" : "Common",
+  "price" : 75,
+  "inventoryIcon" : "fishfingers.png",
+  "description" : "Tasty fried fish in stick form. Where's the custard?",
+  "shortdescription" : "Fish Fingers",
+  "effects" : [ [
+    {
+        "effect" : "foodheal120",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

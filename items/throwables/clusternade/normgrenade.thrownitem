@@ -1,0 +1,22 @@
+{
+  "itemName" : "normgrenade",
+  "price" : 50,
+  "rarity" : "Common",
+  "inventoryIcon" : "normgrenadeicon.png",
+  "image" : "normgrenadeicon.png",
+  "shortdescription" : "Grenade",
+  "description" : "A grenade!",
+  
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "normgrenade",
+  "projectileConfig" : {
+    "speed" : 60,
+    "power" : 100
+  }
+}
+

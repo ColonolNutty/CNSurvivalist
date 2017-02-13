@@ -1,0 +1,29 @@
+{
+  "itemName" : "batteredbanana",
+  "rarity" : "Common",
+  "price" : 200,
+  "inventoryIcon" : "batteredbanana.png",
+  "description" : "Your standard banana, battered and fried in a rich dough.",
+  "shortdescription" : "Battered Banana",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "type" : "orbide",
+
+  "categories" : [ "orbide" ],
+  "parts" : [ "body" ],
+
+  "animation" : "orbide.animation",
+
+  "dropPools" : [ { "default" : "orbideTreasure", "bow" : "orbideHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "orbide",
+
+    "behaviorConfig" : {
+      "wallCrashSound" : "",
+      "wallCrashEmitter" : ""
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.3075, 1.5], [0.75, 1.06], [0.75, -2.93], [0.3075, -3.375], [-0.3075, -3.375], [-0.75, -2.93], [-0.75, 1.06], [-0.3075, 1.5] ],
+      "damage" : 25,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.3075, 1.5], [0.75, 1.06], [0.75, -2.93], [0.3075, -3.375], [-0.3075, -3.375], [-0.75, -2.93], [-0.75, 1.06], [-0.3075, 1.5] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 1,
+      "runSpeed" : 3,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 100
+        },
+        "protection" : {
+          "baseValue" : 1.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8]
+  }
+}

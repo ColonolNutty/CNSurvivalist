@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "torch", "count" : 5 },
+    { "item" : "fullwood1", "count" : 10 },
+    { "item" : "plantfibre", "count" : 10 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "bushback", "count" : 1 },
+  "groups" : [ "plain", "all", "other" ]
+}

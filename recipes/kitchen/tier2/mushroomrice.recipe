@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 1 },
+    { "item" : "shroom", "count" : 1 },
+    { "item" : "egg", "count" : 1 }
+  ],
+  "output" : { "item" : "mushroomrice", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost" ]
+}

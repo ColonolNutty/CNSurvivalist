@@ -1,0 +1,10 @@
+{
+  "itemName" : "matterbook",
+  "price" : 0,
+  "rarity" : "uncommon",
+  "inventoryIcon" : "matterbook.png",
+  "description" : "The Book of Lesser Matter Knowledge",
+  "shortdescription" : "Lesser Matter Book",
+  
+  "learnBlueprintsOnPickup" : [ "ironcraftingtable" ]
+}

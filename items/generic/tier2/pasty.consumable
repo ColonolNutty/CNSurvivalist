@@ -1,0 +1,29 @@
+{
+  "itemName" : "pasty",
+  "rarity" : "Uncommon",
+  "price" : 250,
+  "inventoryIcon" : "pasty.png",
+  "description" : "A traditional Earthling pastry meant for snacking on when underground.",
+  "shortdescription" : "Pasty",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal240",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

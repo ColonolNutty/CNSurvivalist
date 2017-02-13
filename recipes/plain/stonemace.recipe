@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "fullwood1", "count" : 10 },
+	{ "item" : "cobblestonematerial", "count" : 2 },
+	{ "item" : "plantfibre", "count" : 5 },
+	{ "item" : "money", "count" : 150 }
+  ],
+  "output" : { "item" : "stonemace", "count" : 1 },
+  "groups" : [ "simplecraft", "all", "other" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "smash",
+  "rarity" : "Common",
+  "price" : 375,
+  "inventoryIcon" : "smash.png",
+  "description" : "A famous Glitch chef tried to imitate mashed potatoes. He succeeded...kinda.",
+  "shortdescription" : "Smash",
+  "effects" : [ [
+		"wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

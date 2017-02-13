@@ -1,0 +1,24 @@
+{
+  "itemName" : "eggshooticecream",
+  "rarity" : "Common",
+  "price" : 290,
+  "inventoryIcon" : "eggshooticecream.png",
+  "description" : "Ice cream with the delightful taste of custard.",
+  "shortdescription" : "Eggshoot Ice Cream",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

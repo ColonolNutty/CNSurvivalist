@@ -1,0 +1,694 @@
+{
+  "hunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "alienmeat"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+  "huntingquadruped" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.35, "item" : "alienmeat"},
+        {"weight" : 0.35, "item" : "rawribmeat"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+  "huntingflying" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "rawpoultry"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  // UNIQUE MONSTERS
+
+  "adultpoptopHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"}
+      ]
+    } ]
+  ],
+
+  "anglureHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "staticcell"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+  
+  "agrobatHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "rawpoultry"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "batongHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "rawpoultry"},
+        {"weight" : 0.15, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "bobfaeHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "bobotHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "stickofram"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "bulbopHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "livingroot"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "capricoatHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "crabcanoHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.075, "item" : "scorchedcore"},
+        {"weight" : 0.075, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "crustoiseHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "crutterHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "venomsample"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "fennixHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.075, "item" : "scorchedcore"},
+        {"weight" : 0.075, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "gleapHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "hemogoblinHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "rawribmeat"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "hypnareHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "livingroot"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "ignomeHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.499, "item" : "scorchedcore"},
+        {"weight" : 0.5, "item" : "phasematter"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "iguarmorHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "lilodonHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "lumothHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.499, "item" : "staticcell"},
+        {"weight" : 0.5, "item" : "phasematter"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "mandrafloraHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "livingroot"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "miasmopHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.499, "item" : "venomsample"},
+        {"weight" : 0.5, "item" : "livingroot"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "monopusHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "narfinHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "cryonicextract"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "nautileechHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "phasematter"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "nutmidgelingHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "livingroot"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "oculobHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "venomsample"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "ooglerHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "orbideHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+  
+  "paratailHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "peblitHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "petricubHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "pipkinHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "stickofram"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "poptopHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "pteropodHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "venomsample"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "pulpinHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "cryonicextract"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "pyromantleHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "scorchedcore"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "quagmuttHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "venomsample"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "ringramHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "leather"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "scandroidHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "stickofram"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "scaveranHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "rawpoultry"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "scorchionHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "scorchedcore"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "skimbusHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.499, "item" : "cryonicextract"},
+        {"weight" : 0.5, "item" : "phasematter"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "smoglinHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "scorchedcore"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "snagglerHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "venomsample"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "snauntHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.075, "item" : "venomsample"},
+        {"weight" : 0.075, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "spookitHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "phasematter"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "sporgusHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "venomsample"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "squeemHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "phasematter"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "taroniHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "leather"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "tinticHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "toumingoHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "rawpoultry"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "trictusHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.849, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "livingroot"},
+        {"weight" : 0.3, "item" : "leather"}
+      ]
+    } ]
+  ],
+
+  "triplodHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "stickofram"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "voltipHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "staticcell"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "wisperHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.499, "item" : "cryonicextract"},
+        {"weight" : 0.5, "item" : "phasematter"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "yokatHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.85, "item" : "alienmeat"},
+        {"weight" : 0.15, "item" : "sharpenedclaw"},
+        {"weight" : 0.3, "item" : "leather"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}
+

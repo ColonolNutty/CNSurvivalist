@@ -1,0 +1,29 @@
+{
+  "itemName" : "snowcone",
+  "rarity" : "Common",
+  "price" : 115,
+  "inventoryIcon" : "snowcone.png",
+  "description" : "A tasty snowcone, multiple flavours!",
+  "shortdescription" : "Snowcone",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal70",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

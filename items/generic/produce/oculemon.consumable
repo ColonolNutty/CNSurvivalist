@@ -1,0 +1,25 @@
+{
+  "itemName" : "oculemon",
+  "rarity" : "Common",
+  "price" : 200,
+  "inventoryIcon" : "oculemon.png",
+  "description" : "Sour but so worth it.",
+  "shortdescription" : "Oculemon",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

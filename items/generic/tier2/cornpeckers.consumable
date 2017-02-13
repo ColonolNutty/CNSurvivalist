@@ -1,0 +1,29 @@
+{
+  "itemName" : "cornpeckers",
+  "rarity" : "Common",
+  "price" : 190,
+  "inventoryIcon" : "cornpeckers.png",
+  "description" : "Beakseed and dried corn. A common Avian trail mix, or breakfast cereal.",
+  "shortdescription" : "Corn Peckers",
+  "handPosition" : [0, 12],
+  "effects" :[  [
+    {
+        "effect" : "foodheal145",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost10",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

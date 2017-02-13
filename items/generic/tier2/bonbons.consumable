@@ -1,0 +1,28 @@
+{
+  "itemName" : "bonbons",
+  "rarity" : "Common",
+  "price" : 110,
+  "inventoryIcon" : "bonbons.png",
+  "description" : "Confectionery perfection.",
+  "shortdescription" : "Bon Bons",
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

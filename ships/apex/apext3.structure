@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "apexT1.png",
+      "position" : [7, 11],
+      "fullbright" : true
+    },
+    {
+      "image" : "apexT1lit.png",
+      "position" : [7, 11]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "apexT3blocks.png"
+}

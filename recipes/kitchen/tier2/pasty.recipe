@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "potato", "count" : 1 },
+    { "item" : "cookedalienmeat", "count" : 1 },
+    { "item" : "carrot", "count" : 1 }
+  ],
+  "output" : { "item" : "pasty", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost" ]
+}

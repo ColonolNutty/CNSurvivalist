@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "reefpod", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "reefshake", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealthboost", "foodenergyboost" ]
+}

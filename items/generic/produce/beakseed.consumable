@@ -1,0 +1,30 @@
+{
+  "itemName" : "beakseed",
+  "rarity" : "Common",
+  "price" : 90,
+  "inventoryIcon" : "beakseed.png",
+  "description" : "Beakseed. Mmm crunchy.",
+  "shortdescription" : "Beakseed",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost5",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "beakseedbread" ]
+}

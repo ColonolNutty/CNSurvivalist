@@ -1,0 +1,29 @@
+{
+  "itemName" : "jelly",
+  "price" : 0,
+  "rarity" : "Common",
+
+  "inventoryIcon" : "jelly.png",
+  "description" : "A slime based dessert.",
+  "shortdescription" : "Jelly",
+  "effects" : [ [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal70",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

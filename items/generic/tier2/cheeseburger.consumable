@@ -1,0 +1,29 @@
+{
+  "itemName" : "cheeseburger",
+  "rarity" : "Rare",
+  "price" : 450,
+  "inventoryIcon" : "cheeseburger.png",
+  "description" : "A juicy hamburger, topped with cheese.",
+  "shortdescription" : "Cheeseburger",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal360",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

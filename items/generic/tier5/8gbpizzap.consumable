@@ -1,0 +1,15 @@
+{
+  "itemName" : "8gbpizzap",
+  "rarity" : "Common",
+  "price" : 340,
+  "inventoryIcon" : "8gbpizzap.png",
+  "description" : "It's good if you can get past the metallic aftertaste!",
+  "shortdescription" : " 8GB Pizzap",
+  "handPosition" : [-2, 4],
+  "effects" : [ [
+		"wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

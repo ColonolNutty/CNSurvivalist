@@ -1,0 +1,18 @@
+{
+  "itemName" : "shroomremedy",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "shroomremedy.png",
+  "description" : "A concoction that seems to provide natural glow, but I need to extend it's duration.",
+  "shortdescription" : "Shroom Remedy",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "glow",
+        "duration" : 10
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsOnPickup" : [ "fungusstim" ]
+}

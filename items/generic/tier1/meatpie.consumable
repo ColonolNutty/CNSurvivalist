@@ -1,0 +1,28 @@
+{
+  "itemName" : "meatpie",
+  "rarity" : "Uncommon",
+  "price" : 125,
+  "inventoryIcon" : "meatpie.png",
+  "description" : "Minced meat in a rich gravy, topped with creamy mash.",
+  "shortdescription" : "Sheperd's Pie",
+  "effects" : [ [
+    {
+        "effect" : "foodheal190",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

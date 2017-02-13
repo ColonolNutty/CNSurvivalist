@@ -1,0 +1,10 @@
+{
+  "itemName" : "hardenedcarapace",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "hardenedcarapace.png",
+  "description" : "A fragment of tough organic shell. Can be used for crafting.",
+  "shortdescription" : "Hardened Carapace",
+  
+  "learnBlueprintsOnPickup" : [ "turtleshellback", "rockhead", "rockchest", "rocklegs" ]
+}

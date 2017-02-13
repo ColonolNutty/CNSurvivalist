@@ -1,0 +1,13 @@
+{
+  "name" : "spawnpoop",
+  "effectConfig" : {
+    "spawnCount" : 1
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "spawnpoop.lua"
+  ],
+
+  "label" : "Spawn poop"
+}

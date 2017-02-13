@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glowingmatter", "count" : 5 },
+    { "item" : "fungusstim", "count" : 2 },
+    { "item" : "money", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "yellowstim",
+    "count" : 1
+  },
+  "groups" : [ "chemistrytable", "foodglow" ]
+}

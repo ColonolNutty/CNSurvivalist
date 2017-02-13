@@ -1,0 +1,28 @@
+{
+  "itemName" : "pussplumtart",
+  "rarity" : "Common",
+  "price" : 240,
+  "inventoryIcon" : "pussplumtart.png",
+  "description" : "Pretty much the only good use for pussplum jam.",
+  "shortdescription" : "Pussplum Tart",
+  "effects" : [ [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal70",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

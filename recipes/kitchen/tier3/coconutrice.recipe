@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 1 },
+    { "item" : "liquidmilk", "count" : 1 }
+  ],
+  "output" : { "item" : "coconutrice", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodenergyboost", "foodhealing" ]
+}

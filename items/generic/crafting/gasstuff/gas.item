@@ -1,0 +1,8 @@
+{
+  "itemName" : "gas",
+  "price" : 0,
+  "rarity" : "common",
+  "inventoryIcon" : "gas.png",
+  "description" : "Liquid gas, a result of pyrolising biomatter. Requires a gas can to use!",
+  "shortdescription" : "Liquid Gas"
+}

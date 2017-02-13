@@ -1,0 +1,29 @@
+{
+  "itemName" : "campfirebanana",
+  "rarity" : "Common",
+  "price" : 200,
+  "inventoryIcon" : "campfirebanana.png",
+  "description" : "A banana roasted over a campfire, with gratiutious amounts of chocolate.",
+  "shortdescription" : "Campfire Banana",
+  "handPosition" : [4, -6],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

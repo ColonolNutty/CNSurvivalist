@@ -1,0 +1,19 @@
+{
+  "projectileName" : "killerarrow",
+  "physics" : "arrow",
+  "frames" : "killerarrow.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 30,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/deathbowexplosion/deathbowexplosion.config"
+    }
+  ],
+  
+  "power" : 20,
+  "damageKind" : "bow"
+}

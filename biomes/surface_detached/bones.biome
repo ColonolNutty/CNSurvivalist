@@ -1,0 +1,175 @@
+{
+  "name" : "bones",
+  "friendlyName" : "Bones",
+
+  "spawnProfile" : {
+    "groups" : [
+        {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "oogler" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "blueback" ],
+          [ 0.3, "greentip" ],
+          [ 0.3, "redwing" ]
+        ]
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.14, "vulturecritter" ],
+          [ 0.14, "apexscabcritter" ],
+          [ 0.14, "avianscabcritter" ],
+          [ 0.14, "floranscabcritter" ],
+          [ 0.14, "humanscabcritter" ],
+          [ 0.14, "glitchscabcritter" ],
+          [ 0.14, "penguinscabcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "desert"
+    }
+  },
+
+   
+  "hueShiftOptions" : [-15, 0, 15],
+
+  "weather" : [
+    [0, [
+      "/weather.config:alien"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      "mainColor" : [36, 17, 3],
+
+      "morningColors" : [ [23, 18, 1], [23, 18, 1] ],
+      "dayColors" : [ [36, 17, 3], [36, 17, 3] ],
+      "eveningColors" : [ [104, 40, 40], [104, 40, 40] ],
+      "nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+      "morningLightColor" : [23, 18, 1],
+      "dayLightColor" : [36, 17, 3],
+      "eveningLightColor" : [23, 18, 1],
+      "nightLightColor" : [40, 17, 17]
+    }
+  ],
+  
+  "mainBlock" : "rock17",
+  "subBlocks" : [ "bonematerial" ],
+  "ores" : "surfaceOres",
+
+  "parallax" : "/parallax/surface/bones.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/desert_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/desert_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ ]
+    },
+    "night" : {
+      "tracks" : [ ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "bone" ],
+    "grassModDensity" : 0.8,
+    
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+              "pool" : [ [1, "bonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+
+
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "alienbush",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "alienstriped" ],
+        "treeFoliageList" : [ "alienbigleaf", "aliencircle" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wilddirturchinseed" ] ],
+            "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "aliengrass" ],
+    "grassModDensity" : 0.2,
+
+    "items" : [
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 180,
+        "treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
+        "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
+      }
+    ]
+  }
+}

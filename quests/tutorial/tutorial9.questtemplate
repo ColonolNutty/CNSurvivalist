@@ -1,0 +1,22 @@
+{
+  "id" : "tutorial9.gearup",
+  "title" : "^#9be3d6;THOUGHTS AND NEEDS",
+  "text" : "Man, this will take a lot of work. If I only had paid attention in science classes.. ^orange;(feels dumb) ^white;Well, I'll just jump right into it I guess.. and write down my discoveries, if any... ",
+  "completionText" : "This is it, eh? My own research! ^orange;(very proud) ^white; Let's see..  ^#aee1ee;'Space and It's Pretty Stars'  ^white;..yeah, I got this covered..",
+  "speaker" : "player",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "gatherRequirements" : {
+      "items" : {
+        "matterbook" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

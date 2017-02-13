@@ -1,0 +1,36 @@
+{
+  "objectName" : "unknownore",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 300,
+
+  "description" : "A big chunk of unknown ore.",
+  "shortdescription" : "Chuck of Ore",
+  "race" : "generic",
+  
+  "apexDescription" : "The hell is this?",
+  "avianDescription" : "The hell is this?",
+  "floranDescription" : "The hell is this?",
+  "glitchDescription" : "The hell is this?",
+  "humanDescription" : "The hell is this?",
+  "hylotlDescription" : "The hell is this?",
+
+  "inventoryIcon" : "unknownore.png",
+  "orientations" : [
+    {
+      "image" : "unknownore.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/melee/dagger_hit_robotic.ogg" ],
+  "smashDropPool" : "unknownore", 
+  "breakDropPool" : "unknownore"
+}

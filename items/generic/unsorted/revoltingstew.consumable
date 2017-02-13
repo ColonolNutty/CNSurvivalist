@@ -1,0 +1,12 @@
+{
+  "itemName" : "revoltingstew",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "inventoryIcon" : "revoltingstew.png",
+  "description" : "...whoever made this screwed it up. They screwed it up baaad.",
+  "shortdescription" : "Revolting Stew",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

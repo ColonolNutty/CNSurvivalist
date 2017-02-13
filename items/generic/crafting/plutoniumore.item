@@ -1,0 +1,11 @@
+{
+  "itemName" : "plutoniumore",
+  "price" : 20,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "plutoniumore.png",
+  "description" : "It's plutonium. A great source of fuel.",
+  "shortdescription" : "Plutonium Ore",
+    "learnBlueprintsOnPickup" : [
+    "plutoniumrod"
+  ]
+}

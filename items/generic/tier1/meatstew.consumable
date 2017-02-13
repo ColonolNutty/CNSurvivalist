@@ -1,0 +1,27 @@
+{
+  "itemName" : "meatstew",
+  "rarity" : "Uncommon",
+  "price" : 200,
+  "inventoryIcon" : "meatstew.png",
+  "description" : "Just like Mama used to make!",
+  "shortdescription" : "Meat Stew",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal240",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "mashedpotato" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 15 },
+	{ "item" : "plantfibre", "count" : 5 },
+	{ "item" : "torch", "count" : 2 },
+	{ "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "gapahuk",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

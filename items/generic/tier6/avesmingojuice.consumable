@@ -1,0 +1,15 @@
+{
+  "itemName" : "avesmingojuice",
+  "rarity" : "Common",
+  "price" : 190,
+  "inventoryIcon" : "avesmingojuice.png",
+  "description" : "A juice that can taste like anything!",
+  "shortdescription" : "Avesmingo Juice",
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "emitters" : [ "drinking" ]
+}

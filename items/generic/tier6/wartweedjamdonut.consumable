@@ -1,0 +1,24 @@
+{
+  "itemName" : "wartweedjamdonut",
+  "rarity" : "Uncommon",
+  "price" : 495,
+  "inventoryIcon" : "wartweedjamdonut.png",
+  "description" : "Many have been fooled by this unpleasant donut's tempting appearance.",
+  "shortdescription" : "Wartweed Jam Donut",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "crystalplant",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "crystalplant.png",
+  "description" : "A plant formed of crystal. Magical!",
+  "shortdescription" : "Crystal Plant",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+    	"wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

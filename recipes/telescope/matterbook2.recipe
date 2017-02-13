@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 30 },
+	{ "item" : "slime", "count" : 200 },
+	{ "item" : "glassmaterial", "count" : 150 },
+	{ "item" : "goldore", "count" : 150 },
+	{ "item" : "paperplain", "count" : 15 }
+	
+  ],
+  "output" : {
+    "item" : "matterbook2",
+    "count" : 1
+  },
+  "groups" : [ "telescope" ]
+}

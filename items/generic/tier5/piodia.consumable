@@ -1,0 +1,15 @@
+{
+  "itemName" : "piodia",
+  "rarity" : "Common",
+  "price" : 415,
+  "inventoryIcon" : "piodia.png",
+  "description" : "A variation on pizzap- it's got a more coppery tang.",
+  "shortdescription" : "Piodia",
+  "handPosition" : [-2, 4],
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 100 },
+    { "item" : "plastic", "count" : 20 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "hazmatdemoback", "count" : 1 },
+  "groups" : [ "chemistrytable", "all", "other" ]
+}

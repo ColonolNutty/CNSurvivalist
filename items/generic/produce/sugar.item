@@ -1,0 +1,9 @@
+{
+  "itemName" : "sugar",
+  "rarity" : "Common",
+  "price" : 90,
+  "inventoryIcon" : "sugar.png",
+  "description" : "Pure, unadulterated sugary goodness.",
+  "shortdescription" : "Sugar",
+  "learnBlueprintsOnPickup" : [ "candiedcorn" ]
+}

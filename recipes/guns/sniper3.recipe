@@ -1,0 +1,10 @@
+{
+  "input" : [
+  	{ "item" : "coalore", "count" : 50},
+	{ "item" : "steelbar", "count" : 20},
+	{ "item" : "glowingmatter", "count" : 2},
+	{ "item" : "money", "count" : 1500}
+  ],
+  "output" : { "item" : "sniper3", "count" : 1 },
+  "groups" : [ "armory", "weapons", "all" ]
+}

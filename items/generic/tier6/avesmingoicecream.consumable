@@ -1,0 +1,15 @@
+{
+  "itemName" : "avesmingoicecream",
+  "rarity" : "Uncommon",
+  "price" : 325,
+  "inventoryIcon" : "avesmingoicecream.png",
+  "description" : "Avesmingos can taste like anything! For better or worse, so can this ice cream.",
+  "shortdescription" : "Avesmingo Ice Cream",
+  "handPosition" : [2, 2],
+  "effects" : [ [
+    "wellfed",
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "gunpowder",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "gunpowder.png",
+  "description" : "This black powder is useful for crafting explosives.",
+  "shortdescription" : "Gunpowder"
+}

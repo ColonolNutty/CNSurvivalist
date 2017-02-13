@@ -1,0 +1,29 @@
+{
+  "itemName" : "candyautomato",
+  "rarity" : "Common",
+  "price" : 215,
+  "inventoryIcon" : "candyautomato.png",
+  "description" : "It's like an automato-flavored lollipop! Which is kind of weird.",
+  "shortdescription" : "Candy Automato",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 15
+    },
+    {
+        "effect" : "foodheal70",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    },
+	{
+		"effect" : "spawnpoop"
+	}
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

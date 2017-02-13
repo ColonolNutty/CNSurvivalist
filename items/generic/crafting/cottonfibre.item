@@ -1,0 +1,10 @@
+{
+  "itemName" : "cottonfibre",
+  "price" : 10,
+  "rarity" : "common",
+  "inventoryIcon" : "cottonfibre.png",
+  "description" : "Cotton fibre may be used to make cotton!",
+  "shortdescription" : "Cotton Fibre",
+  
+  "learnBlueprintsOnPickup" : [ "fabric" ]
+}

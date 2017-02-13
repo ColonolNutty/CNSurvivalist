@@ -1,0 +1,12 @@
+{
+  "name" : "encumbered",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "encumbered.lua"
+  ],
+
+  "label" : "Slow",
+  "icon" : "/interface/statuses/slow.png"
+}
