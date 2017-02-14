@@ -3,15 +3,20 @@
   "price" : 750,
   "inventoryIcon" : "bushbackicon.png",
   "rarity" : "Common",
+  "category" : "backwear",
   "description" : "A bush backpack of wood and plants. Has a simple lantern on a stick!",
   "shortdescription" : "Bush Backpack",
+  "tooltipKind" : "back",
 
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,
   
   "statusEffects" : [
-    "lanternglow"
+	{
+		"stat" : "lanternglow",
+		"amount" : 1.0
+	}
   ],
 
   "colorOptions" : [
