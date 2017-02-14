@@ -1,0 +1,32 @@
+[
+	{
+		"op": "add",
+		"path": "/level",
+		"value": 1
+	},
+	{
+		"op": "add",
+		"path": "/statusEffects",
+		"value": [
+			{
+			  "stat" : "maxHealth",
+			  "amount" : 5
+			}
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "Ripped jacket, been through hell!"
+	},
+	{
+		"op": "replace",
+		"path": "/shortdescription",
+		"value": "Ripped jacket"
+	},
+	{
+		"op": "replace",
+		"path": "/price",
+		"value": 0
+	}
+]
