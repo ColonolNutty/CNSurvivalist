@@ -1,0 +1,22 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A chest piece made with a weird cryonic substance."
+	},
+	{
+		"op": "replace",
+		"path": "/statusEffects",
+		"value": [
+			{
+				"stat" : "biomeheatImmunity",
+				"amount" : 1
+			}
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/shortdescription",
+		"value": "Ice Chest Piece"
+	}
+]
