@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsmatterbook",
+  "price" : 0,
+  "rarity" : "uncommon",
+  "inventoryIcon" : "cnsmatterbook.png",
+  "description" : "The Book of Lesser Matter Knowledge",
+  "shortdescription" : "Lesser Matter Book"
+  
+  "learnBlueprintsOnPickup" : [ "inventorstable" ]
+}

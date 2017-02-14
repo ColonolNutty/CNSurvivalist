@@ -1,8 +1,0 @@
-{
-  "itemName" : "ftldrive",
-  "price" : 10,
-  "rarity" : "Rare",
-  "inventoryIcon" : "ftldrive.png",
-  "description" : "Faster Than Light circuit drive",
-  "shortdescription" : "FTL Drive Chip"
-}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsorganicmatter",
+  "rarity" : "common",
+  "price" : 20,
+  "inventoryIcon" : "cnsorganicmatter.png",
+  "description" : "Some organic matter, is it alive?",
+  "shortdescription" : "Organic Matter",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ]
+}

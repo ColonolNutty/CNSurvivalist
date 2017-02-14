@@ -1,9 +1,0 @@
-{
-  "itemName" : "plastic",
-  "price" : 40,
-  "rarity" : "common",
-  "inventoryIcon" : "plastic.png",
-  "description" : "Plastic of oxygen, carbon and organic slime!",
-  "shortdescription" : "Plastic"
-  
-}

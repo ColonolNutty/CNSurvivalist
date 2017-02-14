@@ -1,0 +1,22 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "It's an iron bar. Useful for crafting basic weapons, armour and more!"
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"tier1bed",
+			"tier1chair",
+			"tier1door",
+			"tier1light",
+			"tier1switch",
+			"tier1table",
+			"ironbow",
+			"lantern",
+			"pickaxe"
+		]
+	}
+]

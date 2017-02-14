@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsseveredhead",
+  "price" : 40,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsseveredhead.png",
+  "description" : "The head of a dead spirit!",
+  "shortdescription" : "Severed Head",
+  "itemTags" : [ "reagent" ]
+}

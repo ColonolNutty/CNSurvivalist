@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsluckybone",
+  "price" : 0,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsluckybone.png",
+  "description" : "It's a lucky bone, very rare!! Keep it!",
+  "shortdescription" : "Lucky Bone",
+  "itemTags" : [ "reagent" ]
+}

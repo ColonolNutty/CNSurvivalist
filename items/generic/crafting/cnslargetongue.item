@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnslargetongue",
+  "price" : 0,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnslargetongue.png",
+  "description" : "A large tongue from a big monster! (miniboss)",
+  "shortdescription" : "Large Tongue",
+  "itemTags" : [ "reagent" ]
+}

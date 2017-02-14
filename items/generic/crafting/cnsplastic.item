@@ -1,0 +1,11 @@
+{
+  "itemName" : "cnsplastic",
+  "price" : 40,
+  "rarity" : "common",
+  "inventoryIcon" : "cnsplastic.png",
+  "description" : "Plastic of oxygen, carbon and organic slime!",
+  "shortdescription" : "Plastic",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ]
+  
+}

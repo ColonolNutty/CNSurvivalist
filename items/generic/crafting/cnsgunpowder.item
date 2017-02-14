@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsgunpowder",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsgunpowder.png",
+  "description" : "This black powder is useful for crafting explosives.",
+  "shortdescription" : "Gunpowder",
+  "itemTags" : [ "reagent" ]
+}

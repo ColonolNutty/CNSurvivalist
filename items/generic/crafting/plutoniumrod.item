@@ -1,8 +1,0 @@
-{
-  "itemName" : "plutoniumrod",
-  "price" : 40,
-  "rarity" : "Uncommon",
-  "inventoryIcon" : "plutoniumrod.png",
-  "description" : "It's a plutonium rod. These are an excellent source of fuel",
-  "shortdescription" : "Plutonium Rod"
-}

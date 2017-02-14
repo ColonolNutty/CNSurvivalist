@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsmonsterheart",
+  "price" : 0,
+  "rarity" : "common",
+  "inventoryIcon" : "cnsmonsterheart.png",
+  "description" : "The heart of a monster. So much blood...",
+  "shortdescription" : "Monster Heart",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ]
+}

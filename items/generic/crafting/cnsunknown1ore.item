@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsunknown1ore",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsunknown1ore.png",
+  "description" : "No clue what this is.",
+  "shortdescription" : "Unknown Ore",
+  "itemTags" : [ "reagent" ]
+}

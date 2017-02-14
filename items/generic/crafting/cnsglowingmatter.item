@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsglowingmatter",
+  "rarity" : "common",
+  "price" : 25,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsglowingmatter.png",
+  "description" : "Glowing matter, looks like magic!",
+  "shortdescription" : "Glowing Matter",
+  "itemTags" : [ "reagent" ]
+}

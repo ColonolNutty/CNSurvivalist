@@ -1,8 +1,0 @@
-{
-  "itemName" : "organicmatter",
-  "rarity" : "common",
-  "price" : 20,
-  "inventoryIcon" : "organicmatter.png",
-  "description" : "Some organic matter, is it alive?",
-  "shortdescription" : "Organic Matter"
-}

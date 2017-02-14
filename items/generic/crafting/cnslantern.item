@@ -1,0 +1,11 @@
+{
+  "itemName" : "cnslantern",
+  "price" : 0,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnslantern.png",
+  "description" : "An empty lantern. Might be useful!",
+  "shortdescription" : "Lantern",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "lanternstickback" ]
+}

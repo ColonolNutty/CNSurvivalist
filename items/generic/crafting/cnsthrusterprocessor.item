@@ -1,0 +1,11 @@
+{
+  "itemName" : "cnsthrusterprocessor",
+  "price" : 1000,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsprocessor.png",
+  "description" : "This should replace the Processor that got blown up!",
+  "shortdescription" : "Thruster's Processor",
+  "itemTags" : [ "reagent" ]
+
+}

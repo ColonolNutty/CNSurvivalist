@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsrootsmat",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsrootsmat.png",
+  "description" : "Roots. Biomatter, can be used to make biofuel! ",
+  "shortdescription" : "Roots",
+  "itemTags" : [ "reagent" ]
+}
