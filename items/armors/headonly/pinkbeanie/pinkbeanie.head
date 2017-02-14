@@ -1,9 +1,10 @@
 {
   "itemName" : "pinkbeanie",
-  "inventoryIcon" : "icons.png:head",
   "price" : 0,
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "headarmour",
   "description" : "A beanie in pink, perfect in cold environments!",
   "shortdescription" : "Pink Beanie",
   "tooltipKind" : "armor",

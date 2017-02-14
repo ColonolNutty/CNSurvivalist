@@ -1,9 +1,10 @@
 {
   "itemName" : "leatherbandana",
-  "inventoryIcon" : "icons.png:head",
   "price" : 0,
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "headarmour",
   "description" : "A bandana made out of leather.",
   "shortdescription" : "Leather Bandana",
   "tooltipKind" : "armor",

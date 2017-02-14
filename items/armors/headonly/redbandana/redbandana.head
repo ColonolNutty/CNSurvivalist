@@ -1,9 +1,10 @@
 {
   "itemName" : "redbandana",
-  "inventoryIcon" : "icons.png:head",
   "price" : 0,
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "headarmour",
   "description" : "A bandana of leather and blood.",
   "shortdescription" : "Red Bandana",
   "tooltipKind" : "armor",
