@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "Snow infantry chestpiece. For when a planet's giving you the cold shoulder!"
+	},
+	{
+		"op": "add",
+		"path": "/statusEffects",
+		"value": [
+			{
+				"stat" : "biomecoldImmunity",
+				"amount" : 1
+			}
+		]
+	}
+]

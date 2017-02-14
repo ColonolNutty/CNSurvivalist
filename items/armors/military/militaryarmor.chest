@@ -1,9 +1,10 @@
 {
   "itemName" : "militaryarmorchest",
-  "inventoryIcon" : "icons.png:chest",
   "price" : 0,
+  "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "chestarmour",
   "description" : "Camouflage T-Shirt, military style!",
   "shortdescription" : "Military T-Shirt",
   "tooltipKind" : "armor",

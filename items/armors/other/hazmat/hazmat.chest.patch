@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A hazmat shirt. Because nobady likes to have 3 nipples!"
+	},
+	{
+		"op": "add",
+		"path": "/statusEffects",
+		"value": [
+			{
+				"stat" : "biomeradiationImmunity",
+				"amount" : 1
+			}
+		]
+	}
+]

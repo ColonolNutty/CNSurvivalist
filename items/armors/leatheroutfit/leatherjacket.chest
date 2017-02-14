@@ -4,6 +4,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "chestarmour",
   "description" : "A simple leather jacket!",
   "shortdescription" : "Leather Jacket",
   "tooltipKind" : "armor",

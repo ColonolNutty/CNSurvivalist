@@ -4,6 +4,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "chestarmour",
   "description" : "Invisible? Nah! But close, because you blend in to your surroundings! ^#aee1ee;Hopefully..",
   "shortdescription" : "Bush Cover",
   "tooltipKind" : "armor",

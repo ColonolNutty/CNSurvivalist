@@ -1,9 +1,10 @@
 {
   "itemName" : "navypants",
-  "inventoryIcon" : "icons.png:pants",
   "price" : 0,
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "legarmour",
   "description" : "Camouflage pants, navy style!. ^orange;(Gives more energy)",
   "shortdescription" : "Navy Pants",
   "tooltipKind" : "armor",

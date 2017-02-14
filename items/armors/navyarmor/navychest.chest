@@ -1,9 +1,10 @@
 {
   "itemName" : "navychest",
-  "inventoryIcon" : "icons.png:chest",
   "price" : 0,
+  "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "chestarmour",
   "description" : "Camouflage T-Shirt, navy style!",
   "shortdescription" : "Navy T-Shirt",
   "tooltipKind" : "armor",

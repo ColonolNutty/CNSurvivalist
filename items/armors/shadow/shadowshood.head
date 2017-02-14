@@ -4,6 +4,7 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "headarmour",
   "description" : "Hood, worn by born killers!",
   "shortdescription" : "Shadows Hood",
   "tooltipKind" : "armor",

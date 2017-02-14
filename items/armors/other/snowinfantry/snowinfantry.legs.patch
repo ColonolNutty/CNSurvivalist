@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "Snow infantry pants. So you don't get cold feet!"
+	},
+	{
+		"op": "add",
+		"path": "/statusEffects",
+		"value": [
+			{
+				"stat" : "biomecoldImmunity",
+				"amount" : 1
+			}
+		]
+	}
+]

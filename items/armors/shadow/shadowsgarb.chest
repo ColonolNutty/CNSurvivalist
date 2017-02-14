@@ -4,6 +4,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "chestarmour",
   "description" : "Fear what you cannot see!",
   "shortdescription" : "Shadows Garb",
   "tooltipKind" : "armor",

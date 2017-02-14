@@ -1,0 +1,21 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "This Hazmat Airtank protects from harmful radiation in airless planets!"
+	},
+	{
+		"op": "add",
+		"path": "/statusEffects",
+		"value": [
+			{
+				"stat" : "biomeradiationImmunity",
+				"amount" : 1
+			},
+			{
+				"stat" : "breathProtection",
+				"amount" : 1
+			}
+		]
+	}
+]

@@ -1,10 +1,10 @@
 {
   "itemName" : "shadowspants",
   "price" : 0,
-  "type" : "Legs",
   "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "legarmour",
   "description" : "Swift, silent, invisible!",
   "shortdescription" : "Shadows Pants",
   "tooltipKind" : "armor",

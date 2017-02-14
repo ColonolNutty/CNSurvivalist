@@ -1,9 +1,10 @@
 {
   "itemName" : "militaryarmorhead",
-  "inventoryIcon" : "icons.png:head",
   "price" : 0,
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Legendary",
+  "category" : "headarmour",
   "description" : "Legendary shades, gives an energy boost!",
   "shortdescription" : "Shades",
   "tooltipKind" : "armor",
