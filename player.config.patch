@@ -1,0 +1,53 @@
+[
+	{
+		"op": "replace",
+		"path": "/statusControllerSettings/statusProperties/breathHealthPenaltyPercentageRate",
+		"value": 0.1
+	},
+	{
+		"op": "replace",
+		"path": "/statusControllerSettings/stats/maxHealth/baseValue",
+		"value": 100.0
+	},
+	{
+		"op": "replace",
+		"path": "/statusControllerSettings/stats/maxBreath/baseValue",
+		"value": 80.0
+	},
+	{
+		"op": "replace",
+		"path": "/statusControllerSettings/stats/breathDepletionRate/baseValue",
+		"value": 2.0
+	},
+	{
+		"op": "test",
+		"path": "/defaultBlueprints/tier1/0/item",
+		"value": "campfire"
+	},
+	{
+		"op": "replace",
+		"path": "/defaultBlueprints/tier1/0/item",
+		"value": ""
+	},
+	{
+		"op": "test",
+		"path": "/defaultBlueprints/tier1/1/item",
+		"value": "darkwoodmaterial"
+	},
+	{
+		"op": "replace",
+		"path": "/defaultBlueprints/tier1/1",
+		"value": ""
+	},
+	[
+		{
+			"op": "test",
+			"path": "/defaultBlueprints/tier1/1/item",
+			"value": "darkwoodmaterial"
+		},
+		{
+			"op": "remove",
+			"path": "/defaultBlueprints/tier1/1"
+		}
+	]
+]
