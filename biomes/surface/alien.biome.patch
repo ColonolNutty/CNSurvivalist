@@ -1,0 +1,81 @@
+[
+	{
+		"op": "add",
+		"path": "/spawnProfile/groups/-",
+		"value": {
+			"select": 1,
+			"pool" : [
+			  [ 0.1, "aggroLargeBipedBoss" ],
+			  [ 0.1, "aggroLargeQuadrupedBoss" ],
+			  [ 0.1, "aggroLargeFlyingBoss" ]
+			]
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/day/tracks",
+		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/night/tracks",
+		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+	},
+	{
+		"op": "replace",
+		"path": "/surfacePlaceables/items/0/distribution",
+		"value": "/biomes/distributions.config:potsRare"
+	},
+	{
+		"op": "replace",
+		"path": "/surfacePlaceables/items/0/objectSets/0/pool",
+		"value": [ [1, "bonepile" ] ]
+	},
+	{
+		"op": "replace",
+		"path": "/surfacePlaceables/items/7/objectSets/0/parameters/startingStage",
+		"value": 2
+	},
+	{
+		"op": "remove",
+		"path": "/surfacePlaceables/items/4"
+	},
+	{
+		"op": "remove",
+		"path": "/surfacePlaceables/items/3"
+	},
+	{
+		"op": "remove",
+		"path": "/surfacePlaceables/items/2"
+	},
+	{
+		"op": "remove",
+		"path": "/surfacePlaceables/items/1"
+	},
+	{
+		"op": "replace",
+		"path": "/undergroundPlaceables/items/2/distribution",
+		"value": "/biomes/distributions.config:potsRare"
+	},
+	{
+		"op": "replace",
+		"path": "/undergroundPlaceables/items/2/objectSets/0/pool",
+		"value": [ [1, "bonepile" ] ]
+	},
+	{
+		"op": "remove",
+		"path": "/undergroundPlaceables/items/4"
+	},
+	{
+		"op": "remove",
+		"path": "/undergroundPlaceables/items/3"
+	},
+	{
+		"op": "remove",
+		"path": "/undergroundPlaceables/items/1"
+	},
+	{
+		"op": "remove",
+		"path": "/undergroundPlaceables/items/0"
+	}
+]

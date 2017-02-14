@@ -1,0 +1,121 @@
+[
+	{
+		"op": "add",
+		"path": "/scatteredDangerous",
+		"value": {
+			"type" : "random",
+			"blockProbability" : 0.09
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/oceanRare/blockProbability",
+		"value": 0.09
+	},
+	{
+		"op": "replace",
+		"path": "/randomEncounterUnderground/blockProbability",
+		"value": 0.0007
+	},
+	{
+		"op": "replace",
+		"path": "/rareItems/blockProbability",
+		"value": 0.0001
+	},
+	{
+		"op": "replace",
+		"path": "/undergroundChests/blockProbability",
+		"value": 0.0001
+	},
+	{
+		"op": "replace",
+		"path": "/undergroundtechChests/blockProbability",
+		"value": 0.00001
+	},
+	{
+		"op": "replace",
+		"path": "/layer1Chests/blockProbability",
+		"value": 0.0003
+	},
+	{
+		"op": "replace",
+		"path": "/layer2Chests/blockProbability",
+		"value": 0.0004
+	},
+	{
+		"op": "replace",
+		"path": "/layer3Chests/blockProbability",
+		"value": 0.0005
+	},
+	{
+		"op": "replace",
+		"path": "/minibiomeChests/blockProbability",
+		"value": 0.0025
+	},
+	{
+		"op": "replace",
+		"path": "/undergroundChallengeDoors/blockProbability",
+		"value": 0
+	},
+	{
+		"op": "replace",
+		"path": "/hazardUndergroundTop/blockProbability",
+		"value": 0.016
+	},
+	{
+		"op": "replace",
+		"path": "/hazardUndergroundMid/blockProbability",
+		"value": 0.02
+	},
+	{
+		"op": "replace",
+		"path": "/hazardUndergroundLower/blockProbability",
+		"value": 0.024
+	},
+	{
+		"op": "replace",
+		"path": "/hazardUndergroundCore/blockProbability",
+		"value": 0.028
+	},
+	{
+		"op": "replace",
+		"path": "/veryRare/blockProbability",
+		"value": 0.000001
+	},
+	{
+		"op": "replace",
+		"path": "/rare/blockProbability",
+		"value": 0.000005
+	},
+	{
+		"op": "replace",
+		"path": "/uncommon/blockProbability",
+		"value": 0.00002
+	},
+	{
+		"op": "replace",
+		"path": "/common/blockProbability",
+		"value": 0.6
+	},
+	{
+		"op": "replace",
+		"path": "/superCommon/blockProbability",
+		"value": 1.0
+	},
+	{
+		"op": "add",
+		"path": "/noSpawn",
+		"value": {
+			"type" : "random",
+			"blockProbability" : 0.00
+		}
+	},
+	{
+		"op": "add",
+		"path": "/prettyOften",
+		"value": {
+			"type" : "random",
+			"blockProbability" : 0.03
+		}
+	}
+]

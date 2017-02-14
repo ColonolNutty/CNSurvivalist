@@ -1,0 +1,89 @@
+[
+	{
+		"op": "add",
+		"path": "/spawnProfile",
+		"value": {
+			"groups" : [
+				{
+					"select" : 2,
+					"pool" : [
+						[ 1.0, "zombie" ],
+						[ 1.0, "invismonster" ]
+					]
+				}
+			],
+			"monsterParameters" : {
+				"colors" : "snow"
+			}
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/ambientNoises/night/tracks",
+		"value": [ "/sfx/environmental/arid_night.ogg" ]
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:potsRare",
+			"type" : "object",
+			"objectSets" : [{
+					"select" : 1,
+					"pool" : [
+						[1, "bonepile" ],
+						[1, "unknownore" ],
+						[1, "organicpit" ],
+						[1, "goldchunk" ]
+					],
+					"parameters" : { }
+				}]
+			}
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/day/tracks",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/night/tracks",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/hueShiftOptions",
+		"value": [0, 0, 0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/weather",
+		"value": [
+			[0, [
+				"/weather.config:barren"
+			]]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/skyOptions",
+		"value": [
+			{
+				"mainColor" : [36, 17, 3],
+
+				"morningColors" : [ [23, 18, 1], [23, 18, 1] ],
+				"dayColors" : [ [36, 17, 3], [36, 17, 3] ],
+				"eveningColors" : [ [104, 40, 40], [104, 40, 40] ],
+				"nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+				"morningLightColor" : [40, 40, 80],
+				"dayLightColor" : [40, 40, 80],
+				"eveningLightColor" : [40, 40, 80],
+				"nightLightColor" : [40, 40, 80]
+			}
+		]
+	}
+]
