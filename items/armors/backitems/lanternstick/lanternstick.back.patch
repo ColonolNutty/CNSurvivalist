@@ -1,0 +1,27 @@
+[
+	{
+		"op": "replace",
+		"path": "/price",
+		"value": 750
+	},
+	{
+		"op": "replace",
+		"path": "/rarity",
+		"value": "Common"
+	},
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A lantern on a stick. It's bright. Wear it on your back!"
+	},
+	{
+		"op": "replace",
+		"path": "/statusEffects",
+		"value": ["halogenglow"]
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": ["camelbak"]
+	}
+]
