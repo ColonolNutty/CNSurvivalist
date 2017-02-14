@@ -3,8 +3,10 @@
   "price" : 750,
   "inventoryIcon" : "backicon.png",
   "rarity" : "Rare",
+  "category" : "backwear",
   "description" : "A very helpful camelbak! Gives much needed Energy.",
   "shortdescription" : "Camelbak",
+  "tooltipKind" : "back",
   
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
