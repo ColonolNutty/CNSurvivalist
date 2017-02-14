@@ -1,0 +1,100 @@
+{
+  "name" : "barren",
+  "friendlyName" : "Barren",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1.0, "zombie" ],
+          [ 1.0, "invismonster" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "snow"
+    }
+  },
+  
+  "hueShiftOptions" : [0, 0, 0, 0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:barren"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      "mainColor" : [36, 17, 3],
+
+      "morningColors" : [ [23, 18, 1], [23, 18, 1] ],
+      "dayColors" : [ [36, 17, 3], [36, 17, 3] ],
+      "eveningColors" : [ [104, 40, 40], [104, 40, 40] ],
+      "nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+      "morningLightColor" : [40, 40, 80],
+      "dayLightColor" : [40, 40, 80],
+      "eveningLightColor" : [40, 40, 80],
+      "nightLightColor" : [40, 40, 80]
+    }
+
+  ],
+
+  "mainBlock" : "drysand",
+  "subBlocks" : [ "drydirt", "direstone", "rock15" ],
+  "ores" : "none",
+
+  "parallax" : "/parallax/surface/barren.parallax",
+
+  "ambientNoises" : {
+      "day" : {
+        "tracks" : [ "/sfx/environmental/arid_day.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/sfx/environmental/arid_night.ogg" ]
+      }
+    },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ ]
+    },
+    "night" : {
+      "tracks" : [ ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "sand" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [ 
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+			"select" : 1,
+            "pool" : [
+			  [1, "bonepile" ],
+			  [1, "unknownore" ],
+			  [1, "organicpit" ],
+			  [1, "goldchunk" ]
+			],
+            "parameters" : { }
+          }
+        ]
+      }
+	]
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [ ]
+  }
+}
