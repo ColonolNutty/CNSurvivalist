@@ -13,10 +13,7 @@
   "maxStack" : 1,
   
   "statusEffects" : [
-	{
-		"stat" : "lanternglow",
-		"amount" : 1.0
-	}
+	"lanternglow"
   ],
 
   "colorOptions" : [
