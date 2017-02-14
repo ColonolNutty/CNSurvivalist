@@ -20,34 +20,43 @@
 		"value": 2.0
 	},
 	{
-		"op": "test",
-		"path": "/defaultBlueprints/tier1/0/item",
-		"value": "campfire"
+		"op": "add",
+		"path": "/defaultCodexes/glitch/-",
+		"value": "survivalguide"
 	},
 	{
-		"op": "replace",
-		"path": "/defaultBlueprints/tier1/0/item",
-		"value": ""
+		"op": "add",
+		"path": "/defaultCodexes/human/-",
+		"value": "survivalguide"
 	},
 	{
-		"op": "test",
-		"path": "/defaultBlueprints/tier1/1/item",
-		"value": "darkwoodmaterial"
+		"op": "add",
+		"path": "/defaultCodexes/avian/-",
+		"value": "survivalguide"
 	},
 	{
-		"op": "replace",
-		"path": "/defaultBlueprints/tier1/1",
-		"value": ""
+		"op": "add",
+		"path": "/defaultCodexes/apex/-",
+		"value": "survivalguide"
 	},
-	[
-		{
-			"op": "test",
-			"path": "/defaultBlueprints/tier1/1/item",
-			"value": "darkwoodmaterial"
-		},
-		{
-			"op": "remove",
-			"path": "/defaultBlueprints/tier1/1"
-		}
-	]
+	{
+		"op": "add",
+		"path": "/defaultCodexes/floran/-",
+		"value": "survivalguide"
+	},
+	{
+		"op": "add",
+		"path": "/defaultCodexes/hylotl/-",
+		"value": "survivalguide"
+	},
+	{
+		"op": "add",
+		"path": "/defaultCodexes/novakid/-",
+		"value": "survivalguide"
+	},
+	{
+		"op": "add",
+		"path": "/defaultCodexes/penguin/-",
+		"value": "survivalguide"
+	}
 ]
