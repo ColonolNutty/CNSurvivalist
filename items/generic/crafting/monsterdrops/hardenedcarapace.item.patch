@@ -7,12 +7,6 @@
 	{
 		"op": "add",
 		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			{
-				"stat" : "protection",
-				"amount" : 30
-			},
-			"encumbered"
-		]
+		"value": [ "turtleshellback", "rockhead", "rockchest", "rocklegs" ]
 	}
 ]
