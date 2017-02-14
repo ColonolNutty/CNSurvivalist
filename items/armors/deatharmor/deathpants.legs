@@ -1,9 +1,10 @@
 {
   "itemName" : "deathpants",
-  "inventoryIcon" : "icons.png:pants",
   "price" : 0,
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "legarmour",
   "description" : "Dangerous and deadly pants! ^orange;(Gives even more energy)",
   "shortdescription" : "Death Pants",
   "tooltipKind" : "armor",

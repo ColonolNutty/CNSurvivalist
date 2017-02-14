@@ -1,9 +1,10 @@
 {
   "itemName" : "deathchest",
-  "inventoryIcon" : "icons.png:chest",
   "price" : 0,
+  "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "chestarmour",
   "description" : "Death themed body armor!",
   "shortdescription" : "Death Sweater",
   "tooltipKind" : "armor",

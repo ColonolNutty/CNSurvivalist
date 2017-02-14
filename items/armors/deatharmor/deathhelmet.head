@@ -4,6 +4,7 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "headarmour",
   "description" : "Deadly hood. Armor that really demands attenSHUN!",
   "shortdescription" : "Death Hood",
   "tooltipKind" : "armor",
