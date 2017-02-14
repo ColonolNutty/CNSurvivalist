@@ -1,0 +1,18 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A turtle shell for extra protection! Kinda heavy though.."
+	},
+	{
+		"op": "add",
+		"path": "/statusEffects",
+		"value": [
+			{
+				"stat" : "protection",
+				"amount" : 30
+			},
+			"encumbered"
+		]
+	}
+]

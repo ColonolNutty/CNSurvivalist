@@ -2,16 +2,14 @@
 	{
 		"op": "replace",
 		"path": "/description",
-		"value": "An oxygen tank. For underwater exploration!"
+		"value": "A parachute. Take that gravity!"
 	},
 	{
 		"op": "add",
 		"path": "/statusEffects",
 		"value": [
-			{
-				"stat" : "breathProtection",
-				"amount" : 1
-			}
+			"lowgrav",
+			"encumbered2"
 		]
 	}
 ]
