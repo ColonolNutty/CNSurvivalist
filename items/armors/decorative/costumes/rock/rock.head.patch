@@ -1,0 +1,18 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "Protect your thinking noodle!"
+	},
+	{
+		"op": "add",
+		"path": "/statusEffects",
+		"value": [
+			{
+				"stat" : "protection",
+				"amount" : 30
+			},
+			"encumbered"
+		]
+	}
+]
