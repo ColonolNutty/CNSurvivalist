@@ -1,8 +1,0 @@
-{
-  "itemName" : "cacti",
-  "price" : 15,
-  "rarity" : "Common",
-  "inventoryIcon" : "cacti.png",
-  "description" : "Spiky, succulent cacti.",
-  "shortdescription" : "Cactus"
-}
