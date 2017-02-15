@@ -6,6 +6,7 @@
   "rarity" : "Common",
   "description" : "A standard rifle weapon of iron and refined wood.",
   "shortdescription" : "Standard Rifle",
+  "category" : "assaultRifle",
   "image" : "rifle1.png",
   "handPosition" : [-2.5, -1.2],
   "firePosition" : [12, 0],

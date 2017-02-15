@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "legendary",
   "tooltipKind" : "bow",
-  "weaponType" : "Bow",
+  "category" : "bow",
   "itemTags" : ["weapon","ranged","bow"],
   "description" : "A slow, but deadly bow! Requires real archer skills!",
   "shortdescription" : "Death Bow",
