@@ -1,8 +1,0 @@
-{
-  "itemName" : "rawpoultry",
-  "rarity" : "Common",
-  "price" : 20,
-  "inventoryIcon" : "rawpoultry.png",
-  "description" : "Raw poultry. Might wanna cook it first...",
-  "shortdescription" : "Raw Poultry"
-}
