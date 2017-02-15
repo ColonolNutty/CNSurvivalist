@@ -1,0 +1,24 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A stim full of tree sap, for increase agility, although I can do it better!"
+	},
+	{
+		"op": "replace",
+		"path": "/effects",
+		"value": [
+			[
+				{
+					"effect" : "runboost",
+					"duration" : 10
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [ "greenstim" ]
+	}
+]

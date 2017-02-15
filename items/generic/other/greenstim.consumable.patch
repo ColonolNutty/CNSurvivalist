@@ -1,0 +1,24 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A perfect mix for the Agility Stimpack!"
+	},
+	{
+		"op": "replace",
+		"path": "/effects",
+		"value": [
+			[
+				{
+					"effect" : "runboost",
+					"duration" : 30
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [ "macromoleculealterer" ]
+	}
+]

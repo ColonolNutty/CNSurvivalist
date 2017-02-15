@@ -1,0 +1,24 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A concoction of natural elements, but alas, far from perfect."
+	},
+	{
+		"op": "replace",
+		"path": "/effects",
+		"value": [
+			[
+				{
+					"effect" : "runboost",
+					"duration" : 5
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [ "synthesisstim" ]
+	}
+]

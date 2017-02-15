@@ -1,0 +1,23 @@
+{
+  "itemName" : "cnsrottenapple",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "category" : "food",
+  "tooltipKind" : "food",
+  "inventoryIcon" : "cnsrottenapple.png",
+  "description" : "This apple is clearly rotten. It's even got a worm writhing around in it...do I dare?",
+  "shortdescription" : "Rotten Apple",
+  "foodValue" : 2,
+  "maxStack" : 1000,
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "foodpoison"
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

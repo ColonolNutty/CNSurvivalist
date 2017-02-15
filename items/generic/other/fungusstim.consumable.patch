@@ -1,0 +1,19 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "This stim has natural glowing properties."
+	},
+	{
+		"op": "replace",
+		"path": "/effects",
+		"value": [
+			[
+				{
+				"effect" : "glow",
+				"duration" : 20
+				}
+			]
+		]
+	}
+]

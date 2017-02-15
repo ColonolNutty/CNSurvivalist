@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A perfect mix for the Glow Stimpack!"
+	},
+	{
+		"op": "replace",
+		"path": "/effects/0/0/duration",
+		"value": 90
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [ "macromoleculealterer" ]
+	}
+]

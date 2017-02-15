@@ -1,0 +1,24 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A concoction that seems to provide natural glow, but I need to extend it's duration."
+	},
+	{
+		"op": "replace",
+		"path": "/effects",
+		"value": [
+			[
+				{
+					"effect" : "glow",
+					"duration" : 10
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [ "fungusstim" ]
+	}
+]

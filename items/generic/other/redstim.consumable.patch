@@ -1,0 +1,24 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A stimpack full of red liquid"
+	},
+	{
+		"op": "replace",
+		"path": "/effects",
+		"value": [
+			[
+				{
+					"effect" : "runboost",
+					"duration" : 5
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [ "synthesisstim" ]
+	}
+]

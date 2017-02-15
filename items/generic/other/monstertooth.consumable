@@ -2,6 +2,7 @@
   "itemName" : "monstertooth",
   "rarity" : "Common",
   "price" : 10,
+  "category" : "medicine",
   "inventoryIcon" : "monstertooth.png",
   "description" : "A glowing tooth from a monster. Can be used as a temporary lantern.",
   "shortdescription" : "Glowing tooth",
@@ -11,5 +12,6 @@
         "effect" : "glow",
         "duration" : 5
       }
-    ] ]
+    ] ],
+  "emitters" : [ "stimuse" ]
 }

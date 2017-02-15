@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "A bandage of plants. Can be used to heal minor wounds."
+	},
+	{
+		"op": "replace",
+		"path": "/shortdescription",
+		"value": "Plant Bandage"
+	}
+]
