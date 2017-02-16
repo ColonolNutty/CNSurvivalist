@@ -4,5 +4,6 @@
 	"friendlyName" : "CNSurvivalist Resurrection",
 	"name" : "CNSurvivalist",
 	"version" : "1.0",
+	"priority": 0,
 	"thanks" : "A revival of antonsenlarsen's Survivalist Mod and Durlock's SM2.0"
 }
