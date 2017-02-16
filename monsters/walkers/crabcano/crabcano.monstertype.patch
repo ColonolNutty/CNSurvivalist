@@ -1,0 +1,32 @@
+[
+	{
+		"op": "replace",
+		"path": "/baseParameters/behaviorConfig/targetQueryRange",
+		"value": 20
+	},
+	{
+		"op": "replace",
+		"path": "/baseParameters/behaviorConfig/keepTargetInRange",
+		"value": 50
+	},
+	{
+		"op": "replace",
+		"path": "/baseParameters/behaviorConfig/targetOutOfSightTime",
+		"value": 5
+	},
+	{
+		"op": "replace",
+		"path": "/baseParameters/touchDamage/damage",
+		"value": 10
+	},
+	{
+		"op": "replace",
+		"path": "/baseParameters/statusSettings/stats/maxHealth/baseValue",
+		"value": 60
+	},
+	{
+		"op": "replace",
+		"path": "/baseParameters/statusSettings/stats/protection/baseValue",
+		"value": 0.0
+	}
+]

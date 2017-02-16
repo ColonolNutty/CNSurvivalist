@@ -22,13 +22,13 @@
     ],
 
     "behavior" : "monster",
-
+	
+	"seeThroughLiquid" : false,
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
       "targetQueryRange" : 400,
       "targetOnDamage" : true,
-      "targetEntityTypes" : [ "player", "npc", "monster" ],
       "keepTargetInSight" : true,
       "keepTargetInRange" : 60,
       "targetOutOfSightTime" : 5.0,
@@ -63,6 +63,21 @@
             "minRange" : 4
           }
         }
+      ],
+	  
+	  "followActions" : [		
+        {		
+          "name" : "approach-teleport",		
+          "parameters" : {		
+          }		
+        },		
+        {		
+          "name" : "approach-fly",		
+          "parameters" : {		
+            "targetOffset" : [0,4],		
+            "minRange" : 4		
+          }		
+        }		
       ],
 
       "wanderActions" : [
@@ -121,13 +136,15 @@
       "damage" : "stunned"
     },
     "deathParticles" : "deathPoof",
-
+	
+	"colors" : "generated",
     "touchDamage" : {
       "poly" : [ [0.0, 3], [2.0, 1], [3, -1], [2.0, -3], [0.0, -5], [-2.0, -3], [-3, -1], [-2.0, 1] ],
       "damage" : 30,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "default",
+      "damageSourceKind" : "slash",
+	  "knockback" : 20,
       "statusEffects" : [ ]
     },
 
@@ -135,7 +152,8 @@
       "statusProperties" : {
         "targetMaterialKind" : "organic"
       },
-
+	  
+      "appliesWeatherStatusEffects" : true,
       "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
@@ -159,6 +177,9 @@
         },
         "healthRegen" : {
           "baseValue" : 0.0
+        },
+		"powerMultiplier" : {		
+          "baseValue" : 1.0		
         }
       },
 
@@ -176,6 +197,7 @@
     },
 
     "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8]
+    "feetOffset" : [0, -8],
+	"capturable" : false
   }
 }

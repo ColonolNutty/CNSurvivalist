@@ -65,6 +65,7 @@
     "knockoutTime" : 0.5,
     "knockoutEffect" : "blink",
     "deathParticles" : "deathPoof",
+	"colors" : "generated",
 
     "blockedSensors" : [ [2.75, -1.0], [3.0, 0.0], [2.75, 1.0] ],
     "upSensors" : [ [-1.25, -1.25], [1.0, -1.25], [2.75, -1.25] ],
@@ -73,7 +74,7 @@
     "touchDamage" : {
       "poly" : [ [-4.0, -1.6], [-3, -3], [3, -3], [4, -1.6], [4, -0.8], [2.8, 0.4], [-2.8, 0.4], [-4, -0.8] ],
       "damage" : 100,
-
+	  "knockback" : 20,
       "teamType" : "enemy",
       "damageSourceKind" : "default",
       "statusEffects" : [ ]
@@ -84,7 +85,8 @@
         "targetMaterialKind" : "organic"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+ 	  "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
       "primaryScriptSources" : [
@@ -107,6 +109,9 @@
         },
         "healthRegen" : {
           "baseValue" : 0.0
+        },		
+        "powerMultiplier" : {		
+          "baseValue" : 1.0		
         }
       },
 
@@ -124,7 +129,8 @@
     },
 
     "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -4]
+    "feetOffset" : [0, -4],
+	"capturable" : false
   },
   
   "dropPools" : [

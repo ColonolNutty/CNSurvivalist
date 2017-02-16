@@ -28,7 +28,6 @@
 
       "targetQueryRange" : 400,
       "targetOnDamage" : true,
-      "targetEntityTypes" : [ "player", "npc", "monster" ],
       "keepTargetInSight" : true,
       "keepTargetInRange" : 60,
       "targetOutOfSightTime" : 5,
@@ -37,22 +36,42 @@
 
       "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
 
-      "approachActions" : [
-        {
-          "name" : "approach-walk",
-          "parameters" : {
-            "canJump" : true,
-            "maxJumps" : 6,
-            "jumpXVelocity" : 12,
-            "jumpYVelocity" : 30,
-            "jumpXControlForce" : 50,
-            "fallState" : "jump",
-            "moveState" : "run",
-            "run" : true
-          }
-        }
+	  "approachActions" : [
+		{
+		  "name" : "approach-walk",
+		  "parameters" : {
+			"canJump" : true,
+			"maxJumps" : 6,
+			"jumpXVelocity" : 12,
+			"jumpYVelocity" : 30,
+			"jumpXControlForce" : 50,
+			"fallState" : "jump",
+			"moveState" : "run",
+			"run" : true
+		  }
+		}
+	  ],
+	  
+		"followActions" : [		
+        {		
+          "name" : "approach-teleport",		
+          "parameters" : {		
+          }		
+        },		
+        {		
+          "name" : "approach-walk",		
+          "parameters" : {		
+            "canJump" : true,		
+            "maxJumps" : 6,		
+            "jumpXVelocity" : 12,		
+            "jumpYVelocity" : 30,		
+            "jumpXControlForce" : 50,		
+            "fallState" : "jump",		
+            "moveState" : "run",		
+            "run" : true		
+          }		
+        }		
       ],
-
       "wanderActions" : [
         {
           "name" : "wander-walk",
@@ -73,7 +92,8 @@
       "damage" : "stunned"
     },
     "deathParticles" : "deathPoof",
-
+	
+    "colors" : "generated",
     "metaBoundBox" : [-5, -5, 5, 5],
     "scale" : 2.0,
 
@@ -88,7 +108,8 @@
       "poly" : [ [-4.0, -1.6], [-3, -3], [3, -3], [4, -1.6], [4, -0.8], [2.8, 0.4], [-2.8, 0.4], [-4, -0.8] ],
       "damage" : 30,
       "teamType" : "enemy",
-      "damageSourceKind" : "default",
+      "damageSourceKind" : "slash",
+	  "knockback" : 20,
       "statusEffects" : [ ]
     },
 
@@ -97,7 +118,8 @@
         "targetMaterialKind" : "organic"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+	  "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
       "primaryScriptSources" : [
@@ -126,6 +148,9 @@
         },
         "shieldRegen" : {
           "baseValue" : 0.0
+        },		
+        "powerMultiplier" : {		
+          "baseValue" : 1.0		
         }
       },
 
@@ -148,6 +173,7 @@
     },
 
     "mouthOffset" : [1.5, 0],
-    "feetOffset" : [0, -14]
+    "feetOffset" : [0, -14],
+	"capturable" : false
   }
 }

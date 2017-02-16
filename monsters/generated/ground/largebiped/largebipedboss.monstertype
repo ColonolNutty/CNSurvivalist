@@ -28,7 +28,6 @@
 
       "targetQueryRange" : 400,
       "targetOnDamage" : true,
-      "targetEntityTypes" : [ "player", "npc", "monster" ],
       "keepTargetInSight" : true,
       "keepTargetInRange" : 60,
       "targetOutOfSightTime" : 5,
@@ -49,6 +48,27 @@
             "run" : true
           }
         }
+      ],
+	  
+	  "followActions" : [		
+        {		
+          "name" : "approach-teleport",		
+          "parameters" : {		
+          }		
+        },		
+        {		
+          "name" : "approach-walk",		
+          "parameters" : {		
+            "canJump" : true,		
+            "maxJumps" : 6,		
+            "jumpXVelocity" : 12,		
+            "jumpYVelocity" : 30,		
+            "jumpXControlForce" : 50,		
+            "fallState" : "jump",		
+            "moveState" : "run",		
+            "run" : true		
+          }		
+        }		
       ],
 
       "wanderActions" : [
@@ -72,7 +92,8 @@
       "damage" : "stunned"
     },
     "deathParticles" : "deathPoof",
-
+	
+	"colors" : "generated",
     "scale" : 2.0,
 
     "movementSettings" : {
@@ -98,7 +119,8 @@
         "targetMaterialKind" : "organic"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+	  "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
       "primaryScriptSources" : [
@@ -127,6 +149,9 @@
         },
         "shieldRegen" : {
           "baseValue" : 0.0
+        },		
+        "powerMultiplier" : {		
+          "baseValue" : 1.0		
         }
       },
 
@@ -149,6 +174,7 @@
     },
 
     "mouthOffset" : [0.5, 0.5],
-    "feetOffset" : [0, -21]
+    "feetOffset" : [0, -21],
+	"capturable" : false
   }
 }

@@ -1,0 +1,10 @@
+[
+	{
+		"op": "add",
+		"path": "/breakDropOptions",
+		"value": [[
+			[ "ironbar", 10, { } ], 
+			[ "money", 375, { } ] 
+		]]
+	}
+]

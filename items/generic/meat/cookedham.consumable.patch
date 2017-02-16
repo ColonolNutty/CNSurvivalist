@@ -1,10 +1,14 @@
 [
 	{
 		"op": "add",
-		"path": "/effects/0/-",
-		"value": {
-			"effect" : "spawnpoop"
-		}
+		"path": "/effects",
+		"value": [
+			[
+				{
+					"effect" : "spawnpoop"
+				}
+			]
+		]
 	},
 	{
 		"op": "replace",

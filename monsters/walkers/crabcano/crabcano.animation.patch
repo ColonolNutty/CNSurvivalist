@@ -1,0 +1,27 @@
+[
+	{
+		"op": "replace",
+		"path": "/animatedParts/stateTypes/damage/priority",
+		"value": 0
+	},
+	{
+		"op": "test",
+		"path": "/particleEmitters/deathPoof/particles/0/particle",
+		"value": "monstersplosion"
+	},
+	{
+		"op": "replace",
+		"path": "/particleEmitters/deathPoof/particles/0/particle",
+		"value": "puff2c"
+	},
+	{
+		"op": "replace",
+		"path": "/sounds/aggroHop",
+		"value": [ "/sfx/npc/quadruped/teethyhead_idle2.ogg" ]
+	},
+	{
+		"op": "replace",
+		"path": "/sounds/deathPuff",
+		"value": []
+	}
+]

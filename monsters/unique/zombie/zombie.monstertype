@@ -44,6 +44,26 @@
           }
         }
       ],
+	  "followActions" : [		
+        {		
+          "name" : "approach-teleport",		
+          "parameters" : {		
+          }		
+        },		
+        {		
+          "name" : "approach-walk",		
+          "parameters" : {		
+            "canJump" : true,		
+            "maxJumps" : 6,		
+            "jumpXVelocity" : 12,		
+            "jumpYVelocity" : 30,		
+            "jumpXControlForce" : 50,		
+            "fallState" : "jump",		
+            "moveState" : "run",		
+            "run" : true		
+          }		
+        }		
+      ],
 
       "wanderActions" : [
         {
@@ -85,12 +105,13 @@
       "damageSourceKind" : "slash",
       "statusEffects" : [ ]
     },
+	"colors" : "generated",
 
     "statusSettings" : {
       "statusProperties" : {
         "targetMaterialKind" : "organic"
       },
-
+	  "appliesWeatherStatusEffects" : false,
       "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
@@ -100,12 +121,6 @@
       "primaryScriptDelta" : 5,
 
       "stats" : {
-        "knockbackStunTime" : {
-          "baseValue" : 0.1
-        },
-        "knockbackThreshold" : {
-          "baseValue" : 5
-        },
         "maxHealth" : {
           "baseValue" : 100
         },
@@ -115,11 +130,20 @@
         "protection" : {
           "baseValue" : 1.0
         },
+        "knockbackStunTime" : {
+          "baseValue" : 0.1
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 5
+        },
         "healthRegen" : {
           "baseValue" : 0.0
         },
         "shieldRegen" : {
           "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
         }
       },
 
@@ -142,6 +166,7 @@
     },
 
     "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -21]
+    "feetOffset" : [0, -21],
+	"capturable" : false
   }
 }
