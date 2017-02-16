@@ -1,0 +1,262 @@
+[
+	{
+		"op": "add",
+		"path": "/huntingflying/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/anglureHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/bobfaeHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/bobotHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/crabcanoHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/crustoiseHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/crutterHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/fennixHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "replace",
+		"path": "/fennixHunting/0/1/pool/0/weight",
+		"value": 0.3
+	},
+	{
+		"op": "replace",
+		"path": "/fennixHunting/0/1/pool/0/item",
+		"value": "leather"
+	},
+	{
+		"op": "add",
+		"path": "/hemogoblinHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/hypnareHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/ignomeHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/iguarmorHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/lilodonHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/lumothHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/mandrafloraHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/miasmopHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/monopusHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/narfinHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/nutmidgelingHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/oculobHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/ooglerHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/orbideHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/paratailHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/peblitHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/petricubHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/pipkinHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/poptopHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/pteropodHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/pulpinHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/pyromantleHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/quagmuttHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/ringramHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/scandroidHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/scaveranHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/scorchionHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/skimbusHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/smoglinHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/snagglerHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/snauntHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/spookitHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/sporgusHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/squeemHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/taroniHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/tinticHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/toumingoHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/trictusHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/triplodHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/voltipHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/wisperHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	},
+	{
+		"op": "add",
+		"path": "/yokatHunting/0/1/pool/-",
+		"value": {"weight" : 0.3, "item" : "leather"}
+	}
+]
