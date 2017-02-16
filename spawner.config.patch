@@ -1,0 +1,12 @@
+[
+	{
+		"op": "add",
+		"path": "/spawnGroups/miniBoss-",
+		"value": [
+			[1.0, "aggroSmallBipedBoss"],
+			[1.0, "aggroLargeBipedBoss"],
+			[1.0, "aggroSmallQuadrupedBoss"],
+			[1.0, "aggroLargeQuadrupedBoss"]
+		]
+	}
+]
