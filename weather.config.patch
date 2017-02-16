@@ -1,0 +1,230 @@
+[
+	{
+		"op": "add",
+		"path": "/barren",
+		"value": [
+			[1.0, "groundmist"],
+			[0.05, "meteorshower"],
+			[0.05, "largemeteor"]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/slime",
+		"value": [
+			[0.5, "fog"],
+			[0.05, "acidrain"],
+			[0.07, "groundmist"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/moon",
+		"value": [
+			[0.5, "meteorshower"],
+			[0.3, "largemeteor"],
+			[0.5, "junkstorm"],
+			[0.4, "spacejunk"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/garden",
+		"value": [
+			[0.05, "fogweatherstone"],
+			[0.11, "storm"],
+			[0.15, "fogweather"],
+			[0.27, "drizzle"],
+			[0.25, "clear"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/desert",
+		"value": [
+			[0.98, "clear"],
+			[0.6, "sandstorm"],
+			[0.5, "windstorm"],
+			[0.5, "duststorm"],
+			[0.5, "junkstorm"],
+			[0.01, "largemeteor"],
+			[0.01, "spacejunk"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/forest",
+		"value": [
+			[0.25, "clear"],
+			[0.25, "fogweather"],
+			[0.29, "duststorm"],
+			[0.27, "drizzle"],
+			[0.05, "storm"],
+			[0.29, "windstorm" ],
+			[0.05, "groundmist" ]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/savannah",
+		"value": [
+			[0.25, "clear"],
+			[0.10, "rain"],
+			[0.25, "storm"],
+			[0.3, "windstorm"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/snow",
+		"value": [
+			[0.2, "clear"],
+			[0.4, "snow"],
+			[0.15, "snowstorm"],
+			[0.15, "icestorm"],
+			[0.2, "hailstones"],
+			[0.01, "meteorshower"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/ocean",
+		"value": [
+			[0.8, "clear"],
+			[0.5, "rain"],
+			[0.6, "storm"],
+			[0.5, "drizzle"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/jungle",
+		"value": [
+			[0.2, "clear"],
+			[0.3, "rain"],
+			[0.34, "storm"],
+			[0.3, "fog"],
+			[0.25, "groundmist"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/toxic",
+		"value": [
+			[0.2, "clear"],
+			[0.6, "acidrain"],
+			[0.1, "crystalrain"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/alien",
+		"value": [
+			[0.2, "clear"],
+			[0.35, "acidrain"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/tundra",
+		"value": [
+			[0.2, "clear"],
+			[0.5, "snow"],
+			[0.4, "snowstorm"],
+			[0.4, "icestorm"],
+			[0.4, "hailstones"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/midnight",
+		"value": [
+			[0.8, "duststorm"],
+			[1.0, "fog"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/asteroids",
+		"value": [
+			[0.2, "clear"],
+			[0.5, "junkstorm"],
+			[0.2, "spacedust"],
+			[0.22, "spacejunk"],
+			[0.4, "meteorshower"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/asteroidsMeteor",
+		"value": [
+			[0.5, "junkstorm"],
+			[0.2, "clear"],
+			[0.2, "spacedust"],
+			[0.24, "spacejunk"],
+			[0.1, "meteorshower"],
+			[0.09, "largemeteor"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/magma",
+		"value": [
+			[0.2, "clear"],
+			[0.8, "ash"],
+			[0.5, "ember"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/magmaMeteor",
+		"value": [
+			[0.2, "clear"],
+			[0.05, "meteorshower"],
+			[0.05, "largemeteor"],
+			[0.8, "ash"],
+			[0.5, "ember"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/volcanic",
+		"value": [
+			[0.2, "clear"],
+			[0.8, "ash"],
+			[0.5, "ember"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/volcanicMeteor",
+		"value": [
+			[0.2, "clear"],
+			[0.05, "meteorshower"],
+			[0.05, "largemeteor"],
+			[0.8, "ash"],
+			[0.5, "ember"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/scorched",
+		"value": [
+			[0.2, "clear"],
+			[0.5, "sandstorm"],
+			[0.5, "duststorm"],
+			[0.4, "ash"]
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/scorchedMeteor",
+		"value": [
+			[0.2, "clear"],
+			[0.4, "sandstorm"],
+			[0.15, "meteorshower"],
+			[0.05, "largemeteor"],
+			[0.4, "ash"]
+		]
+	}
+]
