@@ -1,0 +1,76 @@
+[
+	{
+		"op": "add",
+		"path": "/frozendia",
+		"value": [
+			[0, 
+				{
+					"pool" : [
+						{"weight" : 0.5, "item" : ["diamondore", 4]},
+						{"weight" : 0.3, "item" : ["money", 100]}
+					]
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/unknownore",
+		"value": [
+			[0, 
+				{
+					"pool" : [
+						{"weight" : 0.5, "item" : ["unknown1ore", 9]},
+						{"weight" : 0.3, "item" : ["money", 50]}
+					]
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/goldchunk",
+		"value": [
+			[0, 
+				{
+					"pool" : [
+						{"weight" : 0.5, "item" : ["goldore", 9]},
+						{"weight" : 0.3, "item" : ["money", 50]}
+					]
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/organicpit",
+		"value": [
+			[0, 
+				{
+					"pool" : [
+						{"weight" : 0.5, "item" : ["organicmatter", 2]},
+						{"weight" : 0.4, "item" : ["cellmateria", 5]},
+						{"weight" : 0.2, "item" : ["sulphur", 5]},
+						{"weight" : 0.3, "item" : ["money", 30]}
+					]
+				}
+			]
+		]
+	},
+	{
+		"op": "add",
+		"path": "/bonepile",
+		"value": [
+			[0,
+				{
+					"pool" : [
+						{"weight" : 0.5, "item" : ["money", 5]},
+						{"weight" : 0.1, "item" : "cryonicextract"},
+						{"weight" : 0.4, "item" : ["cellmateria", 5]},
+						{"weight" : 0.3, "item" : ["money", 30]}
+					]
+				}
+			]
+		]
+	}
+]
