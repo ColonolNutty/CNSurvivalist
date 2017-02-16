@@ -1,0 +1,151 @@
+[
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/bones",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/bones_<selector>.png",
+      "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/slime",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/slime_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [2, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/bones",
+    "value": {
+    "baseImages" : "/celestial/system/terrestrial/horizon/textures/bones_<selector>.png",
+    "maskPerPlanetRange" : [0, 0]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/slime",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/slime_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [2, 3]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/terrestrialGraphics/barren",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/biomes/barren/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/terrestrialGraphics/snow/dynamicsRange",
+    "value": [1, 30]
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/slime",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/biomes/slime/maskie<num>.png",
+      "baseCount" : 2
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/slime",
+    "value": {
+      "baseImages" : "/celestial/system/terrestrial/biomes/bones/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier1/baseParameters/terrestrialType/-",
+    "value": "forest"
+  },
+  {
+    "op": "replace",
+    "path": "/planetaryTypes/Tier1/variationParameters/0/imageScale",
+    "value": 0.125
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier1/variationParameters/-",
+    "value": {
+		"imageScale" : 0.15,
+		"smallImageScale" : 0.6,
+		"worldSize" : "large"
+	}
+  },
+  
+  {
+    "op": "replace",
+    "path": "/planetaryTypes/Tier2/baseParameters/terrestrialType",
+    "value": ["desert" , "slime"]
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier2/variationParameters/-",
+    "value": {
+		"imageScale" : 0.1,
+		"smallImageScale" : 0.5,
+		"worldSize" : "small"
+	}
+  },
+  
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType",
+    "value": "bones"
+  },
+  
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "bones"
+  },
+  
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier1/baseParameters/terrestrialType/-",
+    "value": "slime"
+  },
+  
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier1/variationParameters/-",
+    "value": {
+		"imageScale" : 0.035,
+		"worldSize" : "tiny"
+	}
+  },
+  
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier2/variationParameters/-",
+    "value": {
+		"imageScale" : 0.035,
+		"worldSize" : "tiny"
+	}
+  },
+  
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "bones"
+  },
+  
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "bones"
+  }
+]
