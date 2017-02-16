@@ -1,19 +1,19 @@
 {
-  "projectileName" : "normgrenade",
+  "projectileName" : "cnszfirecracker",
   "physics" : "grenadezbomb",
-  "bounces" : 0,
+  "bounces" : -1,
   "timeToLive" : 5,
-  "image" : "normgrenade.png",
+  "image" : "cnszfirecracker.png",
   "animationCycle" : 5,
   "lightColor" : [253, 160, 57],
   "frameNumber" : 7,
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+      "file" : "/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.config"
     }
   ],
-  "power" : 60,
+  "power" : 180,
   "damageType" : "NoDamage",
   "damageKind" : "default",
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],

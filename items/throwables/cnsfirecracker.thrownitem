@@ -1,9 +1,9 @@
 {
-  "itemName" : "firecracker",
+  "itemName" : "cnsfirecracker",
   "price" : 50,
   "rarity" : "Rare",
-  "inventoryIcon" : "firecrackericon.png",
-  "image" : "firecrackericon.png",
+  "inventoryIcon" : "cnsfirecrackericon.png",
+  "image" : "cnsfirecrackericon.png",
   "shortdescription" : "Unknown Explosive",
   "description" : "A firecracker, or is it?",
 
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "zfirecracker",
+  "projectileType" : "cnszfirecracker",
   "projectileConfig" : {
     "speed" : 40,
     "power" : 1000

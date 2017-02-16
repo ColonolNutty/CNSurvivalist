@@ -1,19 +1,19 @@
 {
-  "projectileName" : "zdynamite",
+  "projectileName" : "cnsznormgrenade",
   "physics" : "grenadezbomb",
-  "bounces" : -1,
+  "bounces" : 0,
   "timeToLive" : 5,
-  "image" : "zdynamite.png",
+  "image" : "cnsznormgrenade.png",
   "animationCycle" : 5,
   "lightColor" : [253, 160, 57],
   "frameNumber" : 7,
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bombblockexplosion/dynamiteexplosion.config"
+      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
     }
   ],
-  "power" : 120,
+  "power" : 60,
   "damageType" : "NoDamage",
   "damageKind" : "default",
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],

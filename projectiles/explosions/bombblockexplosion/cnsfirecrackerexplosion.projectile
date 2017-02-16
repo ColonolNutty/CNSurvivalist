@@ -1,6 +1,6 @@
 {
-  "projectileName" : "firecrackerexplosion",
-  "image" : "firecrackerexplosion.png",
+  "projectileName" : "cnsfirecrackerexplosion",
+  "image" : "cnsfirecrackerexplosion.png",
   "animationCycle" : 0.2,
   "frameNumber" : 6,
   "speed" : 0,

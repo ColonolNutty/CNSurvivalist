@@ -1,9 +1,9 @@
 {
-  "itemName" : "normgrenade",
+  "itemName" : "cnsnormgrenade",
   "price" : 50,
   "rarity" : "Common",
-  "inventoryIcon" : "normgrenadeicon.png",
-  "image" : "normgrenadeicon.png",
+  "inventoryIcon" : "cnsnormgrenadeicon.png",
+  "image" : "cnsnormgrenadeicon.png",
   "shortdescription" : "Grenade",
   "description" : "A grenade!",
   
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "normgrenade",
+  "projectileType" : "cnsznormgrenade",
   "projectileConfig" : {
     "speed" : 60,
     "power" : 100

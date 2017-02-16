@@ -1,16 +1,16 @@
 {
-  "projectileName" : "throwfirewood",
+  "projectileName" : "cnszthrowfirewood",
   "physics" : "grenade",
   "bounces" : 0,
   "timeToLive" : 5,
-  "image" : "throwfirewood.png",
+  "image" : "cnszthrowfirewood.png",
   "animationCycle" : 0.25,
   "frameNumber" : 4,
   "lightColor" : [253, 160, 57],
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/woodexplosion/woodexplosion.config"
+      "file" : "/projectiles/explosions/woodexplosion/cnswoodexplosion.config"
     },
     {
       "action" : "projectile",

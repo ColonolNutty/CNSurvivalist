@@ -1,9 +1,9 @@
 {
-  "itemName" : "throwfirewood",
+  "itemName" : "cnsthrowfirewood",
   "price" : 50,
   "rarity" : "Common",
-  "inventoryIcon" : "throwfirewoodicon.png",
-  "image" : "throwfirewood2.png",
+  "inventoryIcon" : "cnsthrowfirewoodicon.png",
+  "image" : "cnsthrowfirewood2.png",
   "shortdescription" : "Burning wood",
   "description" : "Throw burning wood at your enemies!!",
 
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "throwfirewood",
+  "projectileType" : "cnszthrowfirewood",
   "projectileConfig" : {
     "speed" : 70,
     "power" : 7

@@ -1,9 +1,9 @@
 {
-  "itemName" : "dynamite",
+  "itemName" : "cnsdynamite",
   "price" : 50,
   "rarity" : "Common",
-  "inventoryIcon" : "dynamiteicon.png",
-  "image" : "dynamiteicon.png",
+  "inventoryIcon" : "cnsdynamiteicon.png",
+  "image" : "cnsdynamiteicon.png",
   "shortdescription" : "Dynamite",
   "description" : "A dynamite made of coal and monster skin. Use with caution!",
 
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "zdynamite",
+  "projectileType" : "cnszdynamite",
   "projectileConfig" : {
     "speed" : 1,
     "power" : 1000

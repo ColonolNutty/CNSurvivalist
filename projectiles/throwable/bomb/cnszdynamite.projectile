@@ -1,19 +1,19 @@
 {
-  "projectileName" : "zfirecracker",
+  "projectileName" : "cnszdynamite",
   "physics" : "grenadezbomb",
   "bounces" : -1,
   "timeToLive" : 5,
-  "image" : "zfirecracker.png",
+  "image" : "cnszdynamite.png",
   "animationCycle" : 5,
   "lightColor" : [253, 160, 57],
   "frameNumber" : 7,
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bombblockexplosion/firecrackerexplosion.config"
+      "file" : "/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.config"
     }
   ],
-  "power" : 180,
+  "power" : 120,
   "damageType" : "NoDamage",
   "damageKind" : "default",
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],

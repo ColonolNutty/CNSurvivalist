@@ -1,9 +1,9 @@
 {
-  "projectileName" : "lightningnade",
+  "projectileName" : "cnszlightningnade",
   "physics" : "grenadezbomb",
   "bounces" : 0,
   "timeToLive" : 3,
-  "image" : "lightningnade.png",
+  "image" : "cnszlightningnade.png",
   "animationCycle" : 0.4,
   "lightColor" : [165, 235, 238],
   "frameNumber" : 8,

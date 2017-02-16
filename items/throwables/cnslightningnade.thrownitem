@@ -1,9 +1,9 @@
 {
-  "itemName" : "lightningnade",
+  "itemName" : "cnslightningnade",
   "price" : 50,
   "rarity" : "Common",
-  "inventoryIcon" : "lightningnadeicon.png",
-  "image" : "lightningnadeicon.png",
+  "inventoryIcon" : "cnslightningnadeicon.png",
+  "image" : "cnslightningnadeicon.png",
   "shortdescription" : "Shockfire Grenade",
   "description" : "A shock grenade with additional fire!",
   "ammoUsage" : 1,
@@ -12,7 +12,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "lightningnade",
+  "projectileType" : "cnszlightningnade",
   "projectileConfig" : {
     "speed" : 70,
     "power" : 8
