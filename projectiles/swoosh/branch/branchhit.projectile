@@ -1,6 +1,6 @@
 {
   "projectileName" : "branchhit",
-  "frames" : "branchhit.png",
+  "image" : "branchhit.png",
   "animationCycle" : 0.075,
   "frameNumber" : 3,
   "speed" : 0,

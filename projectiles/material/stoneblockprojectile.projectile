@@ -4,7 +4,7 @@
   "physics" : "grenade",
 
   // uses alternate animation path
-  "frames" : "",
+  "image" : "",
   "animationCycle" : 0,
   "frameNumber" : 0,
   "power" : 20,

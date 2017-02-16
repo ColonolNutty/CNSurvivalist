@@ -1,6 +1,6 @@
 {
   "projectileName" : "shotgunbullets",
-  "frames" : "shotgunbullets.png",
+  "image" : "shotgunbullets.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

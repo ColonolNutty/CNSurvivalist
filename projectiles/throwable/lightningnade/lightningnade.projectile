@@ -3,7 +3,7 @@
   "physics" : "grenadezbomb",
   "bounces" : 0,
   "timeToLive" : 3,
-  "frames" : "lightningnade.png",
+  "image" : "lightningnade.png",
   "animationCycle" : 0.4,
   "lightColor" : [165, 235, 238],
   "frameNumber" : 8,

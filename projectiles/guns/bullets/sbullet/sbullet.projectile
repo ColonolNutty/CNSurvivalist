@@ -1,6 +1,6 @@
 {
   "projectileName" : "sbullet",
-  "frames" : "sbullet.png",
+  "image" : "sbullet.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

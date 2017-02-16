@@ -1,6 +1,6 @@
 {
   "projectileName" : "stoneshower",
-  "frames" : "stoneshower.png",
+  "image" : "stoneshower.png",
   "animationCycle" : 0.2,
   "frameNumber" : 6,
   "speed" : 60,

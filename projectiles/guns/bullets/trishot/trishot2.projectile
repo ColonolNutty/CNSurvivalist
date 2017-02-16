@@ -1,6 +1,6 @@
 {
   "projectileName" : "trishot2",
-  "frames" : "trishot2.png",
+  "image" : "trishot2.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon2.png",

@@ -1,6 +1,6 @@
 {
   "projectileName" : "dynamiteexplosion",
-  "frames" : "dynamiteexplosion.png",
+  "image" : "dynamiteexplosion.png",
   "animationCycle" : 0.2,
   "frameNumber" : 6,
   "speed" : 0,

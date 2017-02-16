@@ -3,7 +3,7 @@
   "physics" : "grenade",
   "bounces" : 0,
   "timeToLive" : 5,
-  "frames" : "throwfirewood.png",
+  "image" : "throwfirewood.png",
   "animationCycle" : 0.25,
   "frameNumber" : 4,
   "lightColor" : [253, 160, 57],

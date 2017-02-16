@@ -1,7 +1,7 @@
 {
   "projectileName" : "invasionmeteor",
   "physics" : "grenadezbomb",
-  "frames" : "smallmeteor.png",
+  "image" : "smallmeteor.png",
   "animationCycle" : 1,
   "frameNumber" : 1,
   "actionOnReap" : [

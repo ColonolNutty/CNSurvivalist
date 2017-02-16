@@ -3,7 +3,7 @@
   "physics" : "grenadezbomb",
   "bounces" : -1,
   "timeToLive" : 5,
-  "frames" : "zfirecracker.png",
+  "image" : "zfirecracker.png",
   "animationCycle" : 5,
   "lightColor" : [253, 160, 57],
   "frameNumber" : 7,

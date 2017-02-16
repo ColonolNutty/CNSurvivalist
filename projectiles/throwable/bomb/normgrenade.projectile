@@ -3,7 +3,7 @@
   "physics" : "grenadezbomb",
   "bounces" : 0,
   "timeToLive" : 5,
-  "frames" : "normgrenade.png",
+  "image" : "normgrenade.png",
   "animationCycle" : 5,
   "lightColor" : [253, 160, 57],
   "frameNumber" : 7,
