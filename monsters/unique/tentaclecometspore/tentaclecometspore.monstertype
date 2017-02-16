@@ -136,7 +136,7 @@
         },
         "protection" : {
           "baseValue" : 1.0
-        }.
+        },
         "knockbackStunTime" : {
           "baseValue" : 0.1
         },
