@@ -1,0 +1,22 @@
+[
+	{
+		"op": "replace",
+		"path": "/description",
+		"value": "This is much better than a stone pick, but still temporary."
+	},
+	{
+		"op": "replace",
+		"path": "/shortdescription",
+		"value": "Iron Pickaxe"
+	},
+	{
+		"op": "replace",
+		"path": "/blockRadius",
+		"value": 2
+	},
+	{
+		"op": "replace",
+		"path": "/tileDamageBlunted",
+		"value": 0.5
+	}
+]
