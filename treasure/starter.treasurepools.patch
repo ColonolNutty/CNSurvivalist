@@ -1,0 +1,66 @@
+[
+	{
+		"op": "replace",
+		"path": "/starterTreasure/0/1/fill",
+		"value": [
+			{"item" : "debris"},
+			{"item" : "scienceteleporter"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/avianStarterTreasure/0/1/fill",
+		"value": [
+			{"pool" : "starterTreasure"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/apexStarterTreasure/0/1/fill",
+		"value": [
+			{"pool" : "starterTreasure"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/humanStarterTreasure/0/1/fill",
+		"value": [
+			{"pool" : "starterTreasure"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/glitchStarterTreasure/0/1/fill",
+		"value": [
+			{"pool" : "starterTreasure"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/hylotlStarterTreasure/0/1/fill",
+		"value": [
+			{"pool" : "starterTreasure"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/floranStarterTreasure/0/1/fill",
+		"value": [
+			{"pool" : "starterTreasure"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/novakidStarterTreasure/0/1/fill",
+		"value": [
+			{"pool" : "starterTreasure"}
+		]
+	}
+]
