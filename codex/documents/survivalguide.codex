@@ -1,6 +1,8 @@
 {
   "id" : "survivalguide",
   "title" : "Survivalist 2.0",
+  "description" : "A guide to surviving Starbound",
+  "icon" : "protectoratecover1.png",
   "contentPages" : [
 
 	"Welcome to Durlock's Survivalist Mod 2.0!                                                          WILL YOU SURVIVE? ",
@@ -34,5 +36,9 @@
   
 
 
-  ]
+  ],
+  "itemConfig" : {
+    "rarity" : "common",
+    "price" : 0
+  }
 }
