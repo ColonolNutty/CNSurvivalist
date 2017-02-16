@@ -1,303 +1,280 @@
+[
+	{
+		"op": "add",
+		"path": "/minibosstreasure",
+		"value": [
+			[1, {
+				"pool" : [
+					{"weight" : 1.0, "item" : ["money", 80]},
+					{"weight" : 0.7, "item" : ["money", 150]},
+					{"weight" : 0.5, "item" : ["money", 250]},
+					{"weight" : 0.5, "pool" : "uniqueWeapon"},        
+					{"weight" : 0.2, "item" : ["money", 350]}
+				],
+				"poolRounds" : [
+				  [0.80, 1]
+				],
+				"allowDuplication" : false
+			  }
+			]
+		]
+	},	
+	{
+		"op": "add",
+		"path": "/sporemonstertreasure",
+		"value": [
+			[1, {
+				"pool" : [
+					{"weight" : 0.36, "item" : ["money", 5]},
+					{"weight" : 0.36, "item" : ["money", 2]},
+					{"weight" : 0.18, "item" : ["money", 10]},
+					{"weight" : 0.10, "item" : ["monsterskin", 1]}
+				],
+				"poolRounds" : [
+				  [0.20, 0],
+				  [0.80, 1]
+				],
+				"allowDuplication" : false
+			  }
+		  ]
+		]
+	},	
+	{
+		"op": "add",
+		"path": "/invisTreasure",
+		"value": [
+			[1, 
+				{
+					"pool" : [
+						{"weight" : 1.0, "item" : ["unknown1ore", 1]},
+						{"weight" : 0.15, "item" : ["severedhead", 1]},
+						{"weight" : 0.2, "item" : ["goldore", 3]}
+					],
+					"poolRounds" : [
+						[0.20, 0],
+						[0.80, 1]
+					],
+					"allowDuplication" : false
+				}
+			]
+		]
+	},	
+	{
+		"op": "add",
+		"path": "/zombieTreasure",
+		"value": [
+			[1, 
+				{
+					"pool" : [
+						{"weight" : 0.5, "item" : ["goldore", 5]},
+						{"weight" : 0.8, "item" : ["money", 100]},
+						{"weight" : 0.2, "item" : ["diamond", 2]},
+						{"weight" : 1.0, "item" : ["organicmatter", 2]}
+					],
+					"poolRounds" : [
+						[0.20, 0],
+						[0.80, 1]
+					],
+					"allowDuplication" : false
+				}
+			]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/basicMonsterTreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.10, "item" : "alienmeat"},
+			{"weight" : 0.50, "item" : [ "monsterheart", 1 ]},
+			{"weight" : 0.02, "item" : [ "cnsluckybone", 1 ]},
+			{"weight" : 0.10, "item" : [ "monstertooth", 1 ]},
+			{"weight" : 0.10, "item" : "cryonicextract"},
+			{"weight" : 0.01, "item" : [ "cnsfirecracker", 1 ]},
+			{"weight" : 0.06, "item" : [ "monsterskin", 1 ]}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/basicMonsterTreasure/0/1/poolRounds",
+		"value": [
+			[0.80, 1]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/noMeatMonsterTreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.10, "item" : [ "monstertooth", 1 ]},
+			{"weight" : 0.06, "item" : [ "monsterskin", 1 ]}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/noMeatMonsterTreasure/0/1/poolRounds",
+		"value": [
+			[0.80, 1]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/weaklingMonsterTreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : "alienmeat"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/weaklingMonsterTreasure/0/1/poolRounds",
+		"value": [
+			[0.25, 1]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/flyingMonsterTreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.10, "item" : "rawpoultry"},
+			{"weight" : 0.02, "item" : [ "luckybone", 1 ]}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/flyingMonsterTreasure/0/1/poolRounds",
+		"value": [
+			[0.80, 1]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/robotTreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.10, "item" : "wire"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/robotTreasure/0/1/poolRounds",
+		"value": [
+			[0.5, 1],
+			[0.1, 2]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/robotTreasure/1/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.10, "item" : "laserdiode"},
+			{"weight" : 0.10, "item" : "wire"},
+			{"weight" : 0.10, "item" : "circuitboard"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/robotTreasure/1/1/poolRounds",
+		"value": [
+			[0.6, 1],
+			[0.2, 2]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/robotTreasure/2/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.15, "item" : "laserdiode"},
+			{"weight" : 0.15, "item" : "wire"},
+			{"weight" : 0.15, "item" : "circuitboard"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/robotTreasure/2/1/poolRounds",
+		"value": [
+			[0.6, 1],
+			[0.3, 2]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/smallfishtreasure/0/1/poolRounds",
+		"value": [
+			[0.3, 1]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/largefishtreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.10, "item" : [ "rawfish", 1]}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/largefishtreasure/0/1/poolRounds",
+		"value": [
+			[0.80, 1]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/bonebirdTreasure/0/1/poolRounds",
+		"value": [
+			[0.6, 1],
+			[0.2, 2]
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/potreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]},
+			{"weight" : 0.5, "item" : "poop"}
+		]
+	},
+	
+	{
+		"op": "replace",
+		"path": "/moontantTreasure/0/1/pool",
+		"value": [
+			{"weight" : 0.10, "item" : ["money", 50]},
+			{"weight" : 0.20, "item" : ["money", 30]}
+		]
+	}
+]
 {
-
-  "minibosstreasure" : [
-    [1, {
-        "pool" : [
-        {"weight" : 1.0, "item" : ["money", 80]},
-        {"weight" : 0.7, "item" : ["money", 150]},
-        {"weight" : 0.5, "item" : ["money", 250]},
-        {"weight" : 0.5, "pool" : "uniqueWeapon"},        
-        {"weight" : 0.2, "item" : ["money", 350]}
-        ],
-        "poolRounds" : [
-          [0.80, 1]
-        ],
-        "allowDuplication" : false
-      } ]
-  ],
-  
-  "sporemonstertreasure" : [
-    [1, {
-        "pool" : [
-        {"weight" : 0.36, "item" : ["money", 5]},
-        {"weight" : 0.36, "item" : ["money", 2]},
-        {"weight" : 0.18, "item" : ["money", 10]},
-        {"weight" : 0.10, "item" : ["monsterskin", 1]}
-        ],
-        "poolRounds" : [
-          [0.20, 0],
-          [0.80, 1]
-        ],
-        "allowDuplication" : false
-      } ]
-  ],
-
-  "invisTreasure" : [
-    [1, {
-	  "pool" : [
-        {"weight" : 1.0, "item" : ["unknown1ore", 1]},
-        {"weight" : 0.15, "item" : ["severedhead", 1]},
-        {"weight" : 0.2, "item" : ["goldore", 3]}
-        ],
-        "poolRounds" : [
-          [0.20, 0],
-          [0.80, 1]
-        ],
-      "allowDuplication" : false
-	  }]
-  ],
-
-  "zombieTreasure" : [
-    [1, {
-	  "pool" : [
-        {"weight" : 0.5, "item" : ["goldore", 5]},
-        {"weight" : 0.8, "item" : ["money", 100]},
-        {"weight" : 0.2, "item" : ["diamond", 2]},
-        {"weight" : 1.0, "item" : ["organicmatter", 2]}
-        ],
-        "poolRounds" : [
-          [0.20, 0],
-          [0.80, 1]
-        ],
-      "allowDuplication" : false
-	  }]
-  ],
-
-  "basicMonsterTreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.10, "item" : "alienmeat"},
-        {"weight" : 0.50, "item" : [ "monsterheart", 1 ]},
-        {"weight" : 0.02, "item" : [ "luckybone", 1 ]},
-        {"weight" : 0.10, "item" : [ "monstertooth", 1 ]},
-        {"weight" : 0.1, "item" : "cryonicextract"},
-        {"weight" : 0.01, "item" : [ "firecracker", 1 ]},
-        {"weight" : 0.06, "item" : [ "monsterskin", 1 ]}
-      ],
-      "poolRounds" : [
-        [0.80, 1]
-      ],
-      "allowDuplication" : false
-    }]
-  ],
-
-  "noMeatMonsterTreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.10, "item" : [ "monstertooth", 1 ]},
-        {"weight" : 0.06, "item" : [ "monsterskin", 1 ]}
-      ],
-      "poolRounds" : [
-        [0.80, 1]
-      ],
-      "allowDuplication" : false
-    }]
-  ],
-
-  "weaklingMonsterTreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 0.10, "item" : "alienmeat"}
-      ],
-      "poolRounds" : [
-        [0.25, 1]
-      ],
-      "allowDuplication" : false
-    }]
-  ],
-
-  "flyingMonsterTreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.10, "item" : "rawpoultry"},
-        {"weight" : 0.02, "item" : [ "luckybone", 1 ]}
-      ],
-      "poolRounds" : [
-        [0.80, 1]
-      ],
-      "allowDuplication" : false
-    }]
-  ],
-
-  "robotTreasure" : [
-    [0, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.10, "item" : "wire"}
-      ],
-      "poolRounds" : [
-        [0.5, 1],
-        [0.1, 2]
-      ]
-    }],
-    [1.9, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.10, "item" : "laserdiode"},
-        {"weight" : 0.10, "item" : "wire"},
-        {"weight" : 0.10, "item" : "circuitboard"}
-      ],
-      "poolRounds" : [
-        [0.6, 1],
-        [0.2, 2]
-      ]
-    }],
-    [3.9, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.15, "item" : "laserdiode"},
-        {"weight" : 0.15, "item" : "wire"},
-        {"weight" : 0.15, "item" : "circuitboard"}
-      ],
-      "poolRounds" : [
-        [0.6, 1],
-        [0.3, 2]
-      ]
-    }]
-  ],
-  
-  "smallfishtreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 1.0, "item" : [ "rawfish", 1]}
-      ],
-      "poolRounds" : [
-        [0.3, 1]
-      ],
-      "allowDuplication" : true
-    }]
-  ],
-  "largefishtreasure" : [
-    [1, {
-      "pool" : [
-        
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.10, "item" : [ "rawfish", 1]}
-      ],
-      "poolRounds" : [
-        [0.80, 1]
-      ],
-      "allowDuplication" : true
-    }]
-  ],
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  "bonebirdTreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 1.0, "item" : "bone"}
-      ],
-      "poolRounds" : [
-        [0.6, 1],
-        [0.2, 2]
-      ]
-    }]
-  ],
-
-  "potreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]},
-        {"weight" : 0.5, "item" : "poop"}
-      ],
-      "poolRounds" : [
-        [0.35, 0],
-        [0.65, 1]
-      ],
-      "allowDuplication" : false
-    }]
-  ],
-
-  "chickentreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 1.0, "item" : [ "rawpoultry", 2]}
-      ],
-      "poolRounds" : [
-        [0.5, 0],
-        [0.5, 1]
-      ],
-      "allowDuplication" : true
-    }]
-  ],
-
-  "moontantTreasure" : [
-    [1, {
-      "pool" : [
-        {"weight" : 0.10, "item" : ["money", 50]},
-        {"weight" : 0.20, "item" : ["money", 30]}
-      ],
-      "poolRounds" : [
-        [0.20, 0],
-        [0.80, 1]
-      ],
-      "allowDuplication" : false
-    }]
-  ],
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  "dreadWreckage" : [
-    [0, {
-      "pool" : [
-        {"weight" : 1, "item" : [ "bossdreadwingCodex", 1]}
-      ]
-    }]
-  ],
-
-  "bosscrystalCodex" : [
-    [0, {
-      "pool" : [
-        {"weight" : 1, "item" : [ "bosscrystalCodex", 1]}
-      ]
-    }]
-  ],
-
-  "boss2Treasure" : [
-    [1, {
-      "fill" : [ {"item" : "bossshockhopperCodex"}]
-    }]
-  ],
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
   "adultpoptopTreasure" : [
     [1, {
       "pool" : [
