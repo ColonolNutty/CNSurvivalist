@@ -1,0 +1,22 @@
+[
+	{
+		"op": "replace",
+		"path": "/genders/0/shirt",
+		"value": [ "apexnavyjacket" ]
+	},
+	{
+		"op": "replace",
+		"path": "/genders/0/pants",
+		"value": [ "apexnavypants" ]
+	},
+	{
+		"op": "replace",
+		"path": "/genders/1/shirt",
+		"value": [ "apexnavyjacket" ]
+	},
+	{
+		"op": "replace",
+		"path": "/genders/1/pants",
+		"value": [ "apexnavypants" ]
+	}
+]

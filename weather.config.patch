@@ -208,7 +208,7 @@
 	},
 	{
 		"op": "replace",
-		"path": "/scorched",
+		"path": "/scorchedcity",
 		"value": [
 			[0.2, "clear"],
 			[0.5, "sandstorm"],
@@ -218,7 +218,7 @@
 	},
 	{
 		"op": "replace",
-		"path": "/scorchedMeteor",
+		"path": "/scorchedcityMeteor",
 		"value": [
 			[0.2, "clear"],
 			[0.4, "sandstorm"],

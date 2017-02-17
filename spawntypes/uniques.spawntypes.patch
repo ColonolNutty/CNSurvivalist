@@ -1,0 +1,85 @@
+[
+	{
+		"op": "add",
+		"path": "/-",
+		"value": {
+			"name" : "invismonster",
+
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+			},
+
+			"groupSize" : [1, 1],
+			"spawnChance" : 0.04,
+			"monsterType" : "invismonster",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/-",
+		"value": {
+			"name" : "treemonster",
+
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+			},
+
+			"groupSize" : [1, 1],
+			"spawnChance" : 0.04,
+			"monsterType" : "treemonster",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/-",
+		"value": {
+			"name" : "zombie",
+
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+			},
+
+			"groupSize" : [1, 3],
+			"spawnChance" : 0.04,
+			"monsterType" : "zombie",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/-",
+		"value": {
+			"name" : "apexmutant",
+
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+			},
+
+			"groupSize" : [1, 3],
+			"spawnChance" : 0.04,
+			"monsterType" : "apexmutant",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+		}
+	}
+]

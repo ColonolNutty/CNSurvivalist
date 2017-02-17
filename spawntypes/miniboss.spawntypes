@@ -10,7 +10,7 @@
       "time" : "all"
     },
 
-    "targetDensity" : 0.001,
+    "spawnChance" : 0.001,
     "monsterType" : "largebipedBoss",
     "monsterParameters" : {
       "aggressive" : true
@@ -28,7 +28,7 @@
       "time" : "all"
     },
 
-    "targetDensity" : 0.001,
+    "spawnChance" : 0.001,
     "monsterType" : "largequadrupedBoss",
     "monsterParameters" : {
       "aggressive" : true
@@ -46,7 +46,7 @@
       "time" : "all"
     },
 
-    "targetDensity" : 0.001,
+    "spawnChance" : 0.001,
     "monsterType" : "largeflyingBoss",
     "monsterParameters" : {
       "aggressive" : true
@@ -64,7 +64,7 @@
       "time" : "all"
     },
 
-    "targetDensity" : 0.001,
+    "spawnChance" : 0.001,
     "monsterType" : "largefishBoss",
     "monsterParameters" : {
       "aggressive" : true

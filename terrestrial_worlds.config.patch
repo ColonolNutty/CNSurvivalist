@@ -8,7 +8,7 @@
 		"op": "replace",
 		"path": "/planetDefaults/gravityRange",
 		"value": [100, 100]
-	}.
+	},
 	{
 		"op": "add",
 		"path": "/planetSizes/huge",
@@ -289,22 +289,6 @@
 	},
 	{
 		"op": "replace",
-		"path": "/planetSizes/large/layers/underground4",
-		"value": {
-          "baseHeight" : 1875,
-          "layerLevel" : 1000
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/underground5",
-		"value": {
-          "baseHeight" : 825,
-          "layerLevel" : 650
-        }
-	},
-	{
-		"op": "replace",
 		"path": "/planetTypes/garden/layers/surface/dungeons",
 		"value": [ ]
 	},
@@ -315,68 +299,8 @@
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypes/forest/layers/underground1/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/forest/layers/underground2/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/forest/layers/underground3/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/forest/layers/underground4/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/forest/layers/underground5/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/forest/layers/underground6/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
 		"path": "/planetTypes/desert/layers/surface/dungeons",
 		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/desert/layers/underground1/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/desert/layers/underground2/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/desert/layers/underground3/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/desert/layers/underground4/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/desert/layers/underground5/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/desert/layers/underground6/secondaryRegion",
-		"value": [ "tarunderground", "mushroomunderground", "wildernessunderground" ]
 	},
 	{
 		"op": "replace",
@@ -415,7 +339,7 @@
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypes/scorched/layers/surface/dungeons",
+		"path": "/planetTypes/scorchedcity/layers/surface/dungeons",
 		"value": [ ]
 	},
 	{
