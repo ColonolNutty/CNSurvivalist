@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 20 },
+    { "item" : "cnscoralfragment", "count" : 10 },
+    { "item" : "cnsglowingmatter", "count" : 10 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "cnscamelbak", "count" : 1 },
+  "groups" : [ "craftinganvil", "armors", "all", "clothes" ]
+}

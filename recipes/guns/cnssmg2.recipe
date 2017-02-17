@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "cnssmg1", "count" : 1},
+	{ "item" : "cnsglowingmatter", "count" : 2},
+	{ "item" : "money", "count" : 1500}
+  ],
+  "output" : { "item" : "cnssmg2", "count" : 1 },
+  "groups" : [ "armory", "weapons", "all" ]
+}

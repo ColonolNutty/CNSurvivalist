@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+	{ "item" : "siliconboard", "count" : 10 },
+	{ "item" : "cnsmatterbook2", "count" : 1 },
+	{ "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "cnsftldrive", "count" : 1 },
+  "groups" : [ "inventorstable", "all" ]
+}

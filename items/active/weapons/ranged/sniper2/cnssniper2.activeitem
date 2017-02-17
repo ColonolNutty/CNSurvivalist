@@ -1,6 +1,6 @@
 {
-  "itemName" : "sniper2",
-  "inventoryIcon" : "sniper2.png",
+  "itemName" : "cnssniper2",
+  "inventoryIcon" : "cnssniper2.png",
   "description" : "Iron scope.",
   "shortdescription" : "Upgraded Sniper",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],  
@@ -8,7 +8,7 @@
   "level" : 9,
   "rarity" : "Common",
   "inspectionKind" : "gun",
-  "image" : "sniper2.png",
+  "image" : "cnssniper2.png",
   "recoilTime" : 0.1,
   "handPosition" : [-2.5, -1.2],
   "firePosition" : [19, 2],

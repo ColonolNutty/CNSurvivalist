@@ -1,20 +1,20 @@
 {
-  "itemName" : "rifle3",
-  "price" : 20,
-  "inventoryIcon" : "rifle3.png",
+  "itemName" : "cnsrifle2",
+  "price" : 15,
+  "inventoryIcon" : "cnsrifle2.png",
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A piercing assault standard rifle with better grip, extra ammo and an iron scope.",
-  "shortdescription" : "Piercing Assault Rifle",
-  "image" : "rifle3.png",
+  "description" : "An upgraded standard rifle with better grip and extra ammo.",
+  "shortdescription" : "Upgraded Rifle",
+  "image" : "cnsrifle2.png",
   "handPosition" : [-2.5, -1.2],
   "firePosition" : [12, 0],
   "recoilTime" : 0.1,
-  "level" : 9,
+  "level" : 8,
   "tooltipKind" : "gun",
   "weaponType" : "Assault Rifle",
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "fireTime" : 0.4,
+  "fireTime" : 0.8,
   "inaccuracy" : 0.02,
   "twoHanded" : true,
   "walkWhileFiring" : false,
@@ -23,11 +23,11 @@
   "projectile" : {
 	"speed" : 175,
     "life" : 3,
-	"power" : 15
+	"power" : 12
   },
-  
+
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/revolver2.ogg" } ],
+    "fireSound" : [ { "file" : "/sfx/gun/rifle1.ogg" } ],
     "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
   }
 }

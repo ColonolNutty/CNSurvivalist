@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 20 },
-    { "item" : "money", "count" : 500 }
-  ],
-  "output" : { "item" : "oxygentank", "count" : 1 },
-  "groups" : [ "ironcraftingtable", "armors", "all" ]
-}

@@ -2,11 +2,11 @@
   "input" : [
     { "item" : "ironbar", "count" : 10 },
     { "item" : "glassmaterial", "count" : 10 },
-    { "item" : "largefire", "count" : 1 }
+    { "item" : "cnslargefire", "count" : 1 }
   ],
   "output" : {
-    "item" : "alloyfurnace",
+    "item" : "cnsalloyfurnace",
     "count" : 1
   },
-  "groups" : [ "ironcraftingtable", "objects", "tools", "all" ]
+  "groups" : [ "inventorsTable", "objects", "tools", "all" ]
 }

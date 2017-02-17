@@ -1,33 +1,33 @@
 {
-  "itemName" : "sniper1",
+  "itemName" : "cnssmg2",
   "price" : 20,
-  "inventoryIcon" : "sniper1.png",
+  "inventoryIcon" : "cnssmg2.png",
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Iron scope",
-  "shortdescription" : "Standard Sniper",
-  "image" : "sniper1.png",
+  "description" : "Upgraded SMG",
+  "shortdescription" : "Upgraded SMG",
+  "image" : "cnssmg2.png",
   "handPosition" : [-2.5, -1.2],
-  "firePosition" : [17, 2],
+  "firePosition" : [10, 0],
   "recoilTime" : 0.1,
-  "level" : 8,
+  "level" : 9,
   "tooltipKind" : "gun",
-  "weaponType" : "Sniper",
-  "itemTags" : ["weapon","ranged","sniper"],
-  "fireTime" : 5,
+  "weaponType" : "SMG",
+  "itemTags" : ["weapon","ranged","smg"],
+  "fireTime" : 0.07,
   "inaccuracy" : 0.02,
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
   "projectileType" : "sbullet",
   "projectile" : {
-	"power" : 31,
-	"speed" : 200,
+	"power" : 2,
+	"speed" : 130,
     "life" : 3
   },
 
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/sniper1.ogg" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/mp3.ogg" } ]
   }
 }

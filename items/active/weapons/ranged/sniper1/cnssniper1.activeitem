@@ -1,16 +1,16 @@
 {
-  "itemName" : "sniper3",
+  "itemName" : "cnssniper1",
   "price" : 20,
-  "inventoryIcon" : "sniper3.png",
+  "inventoryIcon" : "cnssniper1.png",
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Iron scope.",
-  "shortdescription" : "Shockfire Sniper",
-  "image" : "sniper3.png",
+  "description" : "Iron scope",
+  "shortdescription" : "Standard Sniper",
+  "image" : "cnssniper1.png",
   "handPosition" : [-2.5, -1.2],
-  "firePosition" : [20, 1],
+  "firePosition" : [17, 2],
   "recoilTime" : 0.1,
-  "level" : 9,
+  "level" : 8,
   "tooltipKind" : "gun",
   "weaponType" : "Sniper",
   "itemTags" : ["weapon","ranged","sniper"],
@@ -19,15 +19,15 @@
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
-  "projectileType" : "shockfirebullet",
+  "projectileType" : "sbullet",
   "projectile" : {
-	"power" : 50,
+	"power" : 31,
 	"speed" : 200,
     "life" : 3
   },
 
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper4.ogg" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/sniper1.ogg" } ]
   }
 }

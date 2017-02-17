@@ -1,20 +1,21 @@
 {
-  "itemName" : "rifle2",
-  "price" : 15,
-  "inventoryIcon" : "rifle2.png",
+  "itemName" : "cnsrifle1",
+  "price" : 10,
+  "inventoryIcon" : "cnsrifle1.png",
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "An upgraded standard rifle with better grip and extra ammo.",
-  "shortdescription" : "Upgraded Rifle",
-  "image" : "rifle2.png",
+  "description" : "A standard rifle weapon of iron and refined wood.",
+  "shortdescription" : "Standard Rifle",
+  "category" : "assaultRifle",
+  "image" : "cnsrifle1.png",
   "handPosition" : [-2.5, -1.2],
   "firePosition" : [12, 0],
   "recoilTime" : 0.1,
-  "level" : 8,
+  "level" : 6,
   "tooltipKind" : "gun",
   "weaponType" : "Assault Rifle",
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "fireTime" : 0.8,
+  "fireTime" : 3,
   "inaccuracy" : 0.02,
   "twoHanded" : true,
   "walkWhileFiring" : false,
@@ -23,7 +24,7 @@
   "projectile" : {
 	"speed" : 175,
     "life" : 3,
-	"power" : 12
+	"power" : 9
   },
 
   "muzzleEffect" : {
@@ -31,4 +32,3 @@
     "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
   }
 }
-

@@ -1,33 +1,33 @@
 {
-  "itemName" : "smg2",
+  "itemName" : "cnssmg3",
   "price" : 20,
-  "inventoryIcon" : "smg2.png",
+  "inventoryIcon" : "cnssmg3.png",
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Upgraded SMG",
-  "shortdescription" : "Upgraded SMG",
-  "image" : "smg2.png",
+  "description" : "Super SMG",
+  "shortdescription" : "Super SMG",
+  "image" : "cnssmg3.png",
   "handPosition" : [-2.5, -1.2],
   "firePosition" : [10, 0],
   "recoilTime" : 0.1,
-  "level" : 9,
+  "level" : 20,
   "tooltipKind" : "gun",
   "weaponType" : "SMG",
   "itemTags" : ["weapon","ranged","smg"],
-  "fireTime" : 0.07,
+  "fireTime" : 0.02,
   "inaccuracy" : 0.02,
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
   "projectileType" : "sbullet",
   "projectile" : {
-	"power" : 2,
+	"power" : 3,
 	"speed" : 130,
-    "life" : 3
+    "color" : [10, 255, 10]
   },
 
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/mp3.ogg" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/paintgun1.ogg" } ]
   }
 }

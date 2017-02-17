@@ -7,9 +7,9 @@
 	"description": "A lethal mace of stone and wood.",
 	"shortdescription": "Mace",
 	"tooltipKind": "sword",
-	"weaponType": "Axe",
+	"category" : "axe",
 	"itemTags": ["weapon", "melee", "axe"],
-
+	
 	"image": "stonemace.png",
 	"firePosition": [12.5, -3.5],
 	"fireTime": 0.7,
