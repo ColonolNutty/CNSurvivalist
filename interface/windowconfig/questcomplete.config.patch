@@ -1,0 +1,104 @@
+[
+	{
+		"op": "add",
+		"path": "/paneLayout/panefeature/anchor",
+		"value": "bottomRight"
+	},
+	{
+		"op": "replace",
+		"path": "/onShowSound",
+		"value": [
+			"/sfx/interface/newquest.ogg"
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/bgOverlay/position",
+		"value": [3, 37]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/portraitImage/offset",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/portraitImage/position",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/portraitImage/scale",
+		"value": 0
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/portraitTitle/position",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/portraitTitle/fontSize",
+		"value": 0
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/btnAccept/base",
+		"value": "/interface/quests/questcomplete2/okayUp.png"
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/btnAccept/hover",
+		"value": "/interface/quests/questcomplete2/okayOver.png"
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/btnAccept/position",
+		"value": [10, 12]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/rewardItems/position",
+		"value": [55, 47]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/rewardItems/dimensions",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/lblMoney/value",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/imgMoney/position",
+		"value": [60, 700]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/lblMoneyAmount/position",
+		"value": [75, 680]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/lblQuestTitle/position",
+		"value": [80, 118]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/lblQuestTitle/wrapWidth",
+		"value": 120
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/lblQuestBody/position",
+		"value": [15, 110]
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/lblQuestBody/wrapWidth",
+		"value": 130
+	}
+]

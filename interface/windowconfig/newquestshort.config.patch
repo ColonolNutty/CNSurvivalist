@@ -1,0 +1,94 @@
+[
+	{
+		"op": "add",
+		"path": "/paneLayout/panefeature/anchor",
+		"value": "bottomRight"
+	},
+	{
+		"op": "replace",
+		"path": "/onShowSound",
+		"value": [
+			"/sfx/interface/newquest.ogg"
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/portraitImage/offset",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/portraitImage/position",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/portraitImage/scale",
+		"value": 0
+	},
+	{
+		"op": "replace",
+		"path": "/portraitTitle/position",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/portraitTitle/fontSize",
+		"value": 0
+	},
+	{
+		"op": "replace",
+		"path": "/btnAccept/position",
+		"value": [10, 12]
+	},
+	{
+		"op": "replace",
+		"path": "/btnAccept/caption",
+		"value": "CONTINUE"
+	},
+	{
+		"op": "replace",
+		"path": "/btnDecline/base",
+		"value": "/interface/quests/newquest/declineUp.png"
+	},
+	{
+		"op": "replace",
+		"path": "/btnDecline/hover",
+		"value": "/interface/quests/newquest/declineOver.png"
+	},
+	{
+		"op": "replace",
+		"path": "/rewardItems/dimensions",
+		"value": [0, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/rewardItems/backingImage",
+		"value": "/interface/inventory/shine.png"
+	},
+	{
+		"op": "replace",
+		"path": "/lblRewards/value",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/lblQuestTitle/position",
+		"value": [80, 118]
+	},
+	{
+		"op": "replace",
+		"path": "/lblQuestTitle/wrapWidth",
+		"value": 120
+	},
+	{
+		"op": "replace",
+		"path": "/lblQuestBody/position",
+		"value": [15, 110]
+	},
+	{
+		"op": "replace",
+		"path": "/lblQuestBody/wrapWidth",
+		"value": 130
+	}
+]

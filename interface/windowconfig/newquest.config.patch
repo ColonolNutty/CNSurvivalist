@@ -1,0 +1,14 @@
+[
+	{
+		"op": "add",
+		"path": "/paneLayout/panefeature/anchor",
+		"value": "bottomLeft"
+	},
+	{
+		"op": "replace",
+		"path": "/onShowSound",
+		"value": [
+			"/sfx/interface/newquest.ogg"
+		]
+	}
+]
