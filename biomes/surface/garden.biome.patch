@@ -1,0 +1,293 @@
+[
+	{
+		"op": "replace",
+		"path": "/friendlyName",
+		"value": "Forest"
+	},
+	{
+		"op": "replace",
+		"path": "/spawnProfile/monsterParameters/colors",
+		"value": "forest"
+	},
+	{
+		"op": "replace",
+		"path": "/hueShiftOptions",
+		"value": [-180, -135, -90, -66, -45, 0, 45, 90, 135, 180]
+	},
+	{
+		"op": "replace",
+		"path": "/parallax",
+		"value": "/parallax/surface/forest.parallax"
+	},
+	{
+		"op": "replace",
+		"path": "/surfacePlaceables/grassModDensity",
+		"value": 0.9
+	},
+	{
+		"op": "replace",
+		"path": "/surfacePlaceables/ceilingGrassModDensity",
+		"value": 0.5
+	},
+	{
+		"op": "replace",
+		"path": "/skyOptions",
+		"value": [
+			{
+				"mainColor" : [126, 56, 21],
+
+				"morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+				"dayColors" : [ [126, 56, 21], [126, 56, 21] ],
+				"eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+				"nightColors" : [ [60, 0, 0], [20, 0, 0] ],
+
+				"morningLightColor" : [202, 177, 100],
+				"dayLightColor" : [158, 153, 112],
+				"eveningLightColor" : [202, 100, 100],
+				"nightLightColor" : [40, 17, 17]
+			}
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/spawnProfile/groups",
+		"value": [
+			{
+				"select" : 1,
+				"pool" : [ 
+					[ 0.5, "crustoise" ],
+					[ 0.5, "bobfae" ],
+					[ 0.5, "batong" ],
+					[ 0.5, "scaveran" ]
+				]
+			},
+			{
+				"select" : 1,
+				"pool" : [
+					[ 0.4, "blueback" ],
+					[ 0.3, "greentip" ],
+					[ 0.3, "redwing" ]
+				]
+			},
+			{
+				"select" : 3,
+				"pool" : "generatedGround"
+			},
+			{
+				"select" : 1,
+				"pool" : [
+					[ 0.1, "aggroLargeBipedBoss" ],
+					[ 0.1, "aggroLargeQuadrupedBoss" ],
+					[ 0.1, "aggroLargeFlyingBoss" ]
+				]
+			},
+			{
+				"select" : 4,
+				"pool" : [
+					[ 1, "birdcritter" ],
+					[ 1, "squirrelcritter" ],
+					[ 1, "snailcritter" ],
+					[ 1, "sporelingcritter" ],
+					[ 1, "owlcritter" ],
+					[ 1, "blipcritter" ],
+					[ 1, "mousecritter" ],
+					[ 1, "fireflyspawner" ]         
+				]
+			}
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/day/tracks",
+		"value": [
+			"/music/survivaltrack01.ogg",
+			"/music/survivaltrack02.ogg",
+			"/music/survivaltrack03.ogg"
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/night/tracks",
+		"value": [
+			"/music/survivaltrack01.ogg",
+			"/music/survivaltrack02.ogg",
+			"/music/survivaltrack03.ogg"
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/ambientNoises/day/tracks",
+		"value": [
+			"/sfx/environmental/forest_day.ogg",
+			"/sfx/environmental/forest_day2.ogg"
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/ambientNoises/night/tracks",
+		"value": [
+			"/sfx/environmental/forest_night.ogg",
+			"/sfx/environmental/forest_night2.ogg"
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/surfacePlaceables/items",
+		"value": [
+			{
+				"mode" : "floor",
+				"priority" : 1.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:potsRare",
+
+				"type" : "object",
+				"objectSets" : [
+					{
+						"pool" : [ [1, "bonepile" ] ],
+						"parameters" : { }
+					}
+				]
+			},
+			{
+				"mode" : "floor",
+				"priority" : 1.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:potsRare",
+
+				"type" : "object",
+				"objectSets" : [
+					{
+						"pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ] ],
+						"parameters" : { }
+					}
+				]
+			},
+
+			{
+				"mode" : "floor",
+				"priority" : 3.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:tiyDist",
+
+				"type" : "microdungeon",
+				"microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+			},
+
+			// MICRO DUNGEONS
+
+			{
+				"mode" : "floor",
+				"priority" : 3.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:denseSmall",
+
+				"type" : "grass",
+				"grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+			},
+			{
+				"mode" : "floor",
+				"priority" : 2.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:denseMedium",
+
+				"type" : "bush",
+				"bushes" : [
+					{
+						"name" : "testbush",
+						"baseHueShiftMax" : 180,
+						"modHueShiftMax" : 180
+					}
+				]
+			},
+			{
+				"mode" : "floor",
+				"priority" : 2.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:denseLarge",
+
+				"type" : "tree",
+				"treeFoliageHueShiftMax" : 180,
+				"treeStemHueShiftMax" : 15,
+				"treeStemList" : [ "birch", "cocoa", "fleshy", "grumpy", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
+				"treeFoliageList" : [ "rose", "bubbles", "cloudy", "frumpy", "greenleaves", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "pinefoliage", "redleaves", "scraggy", "spikeyfoliage" ]
+			},
+
+			// CROPS
+
+			{
+				"mode" : "floor",
+				"priority" : 0.9,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:surfaceCrops",
+
+				"type" : "object",
+				"objectSets" : [
+					{
+						"pool" : [ [1, "wildwheatseed" ] ],
+						"parameters" : {
+							"startingStage" : 3
+						}
+					}
+				]
+			},
+			{
+				"mode" : "floor",
+				"priority" : 0.95,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:surfaceCrops",
+
+				"type" : "object",
+				"objectSets" : [
+					{
+						"pool" : [ [1, "wildcottonseed" ] ],
+						"parameters" : {
+							"startingStage" : 3
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/undergroundPlaceables/items",
+		"value": [
+			{
+				"mode" : "floor",
+				"priority" : 1.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+				"type" : "object",
+				"objectSets" : [
+					{
+						"pool" : [ [1, "bonepile" ] ],
+						"parameters" : { }
+					}
+				]
+			},
+			{
+				"mode" : "ceiling",
+				"priority" : 2.0,
+				"variants" : 1,
+				"distribution" : "/biomes/distributions.config:denseMedium",
+
+				"type" : "tree",
+				"treeFoliageHueShiftMax" : 180,
+				"treeStemHueShiftMax" : 10,
+				"treeStemList" : [ "rootvine", "rootvine2", "rootvine3" ],
+				"treeFoliageList" : [ "" ]
+			},
+			{
+				"mode" : "floor",
+				"priority" : 3.0,
+				"variants" : 1,
+				"period" : 5,
+				"distribution" : "/biomes/distributions.config:scatteredSmall",
+
+				"type" : "grass",
+				"grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+			}
+		]
+	}
+]

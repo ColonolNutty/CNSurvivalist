@@ -1,0 +1,82 @@
+[
+	{
+		"op": "add",
+		"path": "/spawnProfile",
+		"value": {
+			"groups" : [
+				{
+					"select" : 3,
+					"pool" : [ 
+						[ 1.0, "zombie" ]
+					]
+				}
+			],
+			"monsterParameters" : {
+				"colors" : "volcanic",
+				"statusSettings" : {
+					"stats" : {
+						"poisonImmunity" : {
+							"baseValue" : 1.0
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/spawnProfile/groups/-",
+		"value": {
+			"select" : 1,
+			"pool" : [
+				[ 1, "treemonster" ]
+			]
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/day/tracks",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/night/tracks",
+		"value": []
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:potsRare",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [1, "bonepile" ] ],
+					"parameters" : { }
+				}
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/undergroundPlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:potsRare",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [1, "bonepile" ] ],
+					"parameters" : { }
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/musicTrack/day/tracks",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/night/tracks",
+		"value": []
+	}
+]

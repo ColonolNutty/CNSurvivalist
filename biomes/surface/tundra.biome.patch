@@ -1,0 +1,70 @@
+[
+	{
+		"op": "replace",
+		"path": "/spawnProfile/groups/0/select",
+		"value": 2
+	},
+	{
+		"op": "replace",
+		"path": "/spawnProfile/groups/2/select",
+		"value": 3
+	},
+	{
+		"op": "add",
+		"path": "/spawnProfile/groups/-",
+		"value": {
+			"select" : 1,
+			"pool" : [
+				[ 0.1, "aggroLargeBipedBoss" ],
+				[ 0.1, "aggroLargeQuadrupedBoss" ],
+				[ 0.1, "aggroLargeFlyingBoss" ]
+			]
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/day/tracks",
+		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/night/tracks",
+		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:potsRare",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [1, "frozendia" ] ],
+					"parameters" : { }
+				}
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/undergroundPlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:potsRare",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [1, "bonepile" ] ],
+					"parameters" : { }
+				}
+			]
+		}
+	}
+]

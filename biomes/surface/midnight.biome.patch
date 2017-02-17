@@ -1,0 +1,67 @@
+[
+	{
+		"op": "replace",
+		"path": "/spawnProfile/groups",
+		"value": [
+			{
+				"select" : 2,
+				"pool" : [
+					[ 1.0, "zombie" ],
+					[ 1.0, "invismonster" ]
+				]
+			}
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/day/tracks",
+		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+	},
+	{
+		"op": "replace",
+		"path": "/musicTrack/night/tracks",
+		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:potsRare",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"select" : 1,
+					"pool" : [
+						[1, "bonepile" ],
+						[1, "unknownore" ],
+						[1, "organicpit" ],
+						[1, "goldchunk" ]
+					],
+					"parameters" : { }
+				}
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/undergroundPlaceables/items/-",
+		"value": {
+			"mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [1, "bonepile" ] ],
+					"parameters" : { }
+				}
+			]
+		}
+	}
+]
