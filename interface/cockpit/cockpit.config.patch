@@ -1,0 +1,185 @@
+[
+	{
+		"op": "replace",
+		"path": "/threatLevelToText/default",
+		"value": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/threatLevelToText/moon",
+		"value": [
+			""
+		]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeLabel/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/garden",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/forest",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/desert",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/snow",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/savannah",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/ocean",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/toxic",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/jungle",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/alien",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/arctic",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/tundra",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/volcanic",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/midnight",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/scorchedcity",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/magma",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/moon",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/asteroids",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/barren",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/planetTypeToDescription/ancientgateway",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "add",
+		"path": "/planetTypeToDescription/slime",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "add",
+		"path": "/planetTypeToDescription/bones",
+		"value": ["", "", ""]
+	},
+	{
+		"op": "replace",
+		"path": "/dayLengthText/label/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/dayLengthText/value/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/sizeText/label/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/sizeText/value/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/gravityText/label/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/gravityText/value/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/hazardText/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/weatherText/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/oreText/text",
+		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/guiConfig/planetTypeDescription/value",
+		"value": ""
+	}
+]
