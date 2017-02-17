@@ -428,7 +428,8 @@
 			"bgCaveSelector" : [ "empty" ],
 			"biome" : [
 				[0, [ "slime" ]]
-			]
+			],
+			"subRegion" : [ ]
 		}
 	}
 ]

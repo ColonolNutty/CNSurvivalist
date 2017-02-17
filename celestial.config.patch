@@ -103,7 +103,7 @@
   
   {
     "op": "add",
-    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
     "value": "bones"
   },
   

@@ -15,7 +15,7 @@
       "colors" : "alien",
       "statusSettings" : {
         "stats" : {
-          "poisonImmunity" : {
+          "poisonStatusImmunity" : {
             "baseValue" : 1.0
           }
         }
@@ -52,7 +52,7 @@
 
   "mainBlock" : "slime",
   "subBlocks" : [ "sewage", "rock02" ],
-  "ores" : "surfaceOres",
+  "ores" : "surface",
 
   "parallax" : "/parallax/surface/slime.parallax",
 
