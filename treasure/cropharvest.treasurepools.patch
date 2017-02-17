@@ -694,7 +694,7 @@
 	
 	{
 		"op": "replace",
-		"path": "/thornplantHarvest/0/1/poolRounds/0/2/0",
+		"path": "/thornplantHarvest/0/1/poolRounds/2/0",
 		"value": 0.4
 	}
 ]
