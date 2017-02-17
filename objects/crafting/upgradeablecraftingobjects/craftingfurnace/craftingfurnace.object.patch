@@ -1,0 +1,30 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"smallbattery",
+			"battery",
+			"siliconboard",
+			"solariumstar",
+			"refinedviolium",
+			"refinedferozium",
+			"refinedaegisalt",
+			"molotov",
+			"durasteelbar",
+			"titaniumbar",
+			"ironbar",
+			"copperbar",
+			"silverbar",
+			"goldbar",
+			"tungstenbar",
+			"glass",
+			"bottle",
+			"firedclay",
+			"syringe",
+			"volatilepowder",
+			"paper",
+			"bomb"
+		]
+	}
+]

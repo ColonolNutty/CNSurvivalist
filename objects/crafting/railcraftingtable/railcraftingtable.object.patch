@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": ["rustyrail", "compositerail", "railbumper", "railsensor", "railswitch", "railstop", "rustyrailplatform", "compositerailplatform", "railhook"]
+	}
+]

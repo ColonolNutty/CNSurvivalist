@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": ["bulb", "standingturret", "secretdoor", "secrettrapdoor", "bigredbutton", "persistentswitch", "countdowntimer", "delay"]
+	}
+]

@@ -1,0 +1,13 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"heatprotectionback",
+			"coldprotectionback",
+			"radiationprotectionback",
+			"breathprotectionback",
+			"startershield",
+		]
+	}
+]

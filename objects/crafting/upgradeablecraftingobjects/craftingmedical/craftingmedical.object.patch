@@ -1,0 +1,18 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"greenstim",
+			"bluestim",
+			"medkit",
+			"nanowrap",
+			"burnspray",
+			"salve",
+			"redstim",
+			"yellowstim",
+			"bandage",
+			"antidote"
+		]
+	}
+]

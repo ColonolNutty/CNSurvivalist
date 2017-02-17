@@ -1,0 +1,22 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"capturestation",
+			"railcraftingtable",
+			"wiringstation",
+			"3dprinter",
+			"capturestation",
+			"refinery",
+			"fossilstation",
+			"woodencookingtable",
+			"craftingmedical",
+			"craftinganvil",
+			"craftingfarm",
+			"craftingfurnace",
+			"craftingfurniture",
+			"craftingwheel"
+		]
+	}
+]

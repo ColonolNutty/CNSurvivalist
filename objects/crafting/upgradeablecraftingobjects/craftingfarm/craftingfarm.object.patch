@@ -1,0 +1,29 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"relocator",
+			"durablefishingrod",
+			"oredetector",
+			"cavedetector",
+			"sprinkler",
+			"halogenpack",
+			"grapplinghook",
+			"compoundbow",
+			"bow",
+			"tungstenbow",
+			"mothtrap",
+			"scarecrow",
+			"woodenwateringcan",
+			"wateringcan",
+			"bugnet",
+			"flashlight",
+			"flare",
+			"huntingspear",
+			"lanternstickback",
+			"mininghathead",
+			"fishingrod"
+		]
+	}
+]

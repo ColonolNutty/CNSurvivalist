@@ -1,0 +1,26 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"bottledwater",
+			"sweetpopcorn",
+			"cake",
+			"bonbons",
+			"mashedpotato",
+			"corncob",
+			"meatdumplings",
+			"roastedcarrot",
+			"popcorn",
+			"bakedpotato",
+			"boiledpearlpeas",
+			"boiledrice",
+			"cookedalienmeat",
+			"cookedbacon",
+			"cookedfish",
+			"cookedpoultry",
+			"cookedribmeat",
+			"cookedtomato"
+		]
+	}
+]

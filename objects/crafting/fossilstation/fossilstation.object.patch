@@ -1,0 +1,14 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"fossildisplay5",
+			"fossildisplay3",
+			"fossildisplay1",
+			"fossilbrushmaster",
+			"fossilbrushstudent",
+			"fossilbrushbeginner"
+		]
+	}
+]

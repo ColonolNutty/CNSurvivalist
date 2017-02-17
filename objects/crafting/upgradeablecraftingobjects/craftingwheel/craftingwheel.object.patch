@@ -1,0 +1,29 @@
+[
+	{
+		"op": "replace",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [
+			"browndye",
+			"greendye",
+			"purpledye",
+			"pinkdye",
+			"orangedye",
+			"greydye",
+			"mannequin",
+			"syntheticmaterial",
+			"canvas",
+			"silk",
+			"dyeremover",
+			"reddye".
+			"blackdye",
+			"whitedye",
+			"tshirtchest",
+			"simplecapeback",
+			"shortcapeback",
+			"boxingglove",
+			"string",
+			"cottonwool",
+			"teddybearplush"
+		]
+	}
+]
