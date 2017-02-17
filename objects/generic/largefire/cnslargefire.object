@@ -1,0 +1,84 @@
+{
+  "objectName" : "cnslargefire",
+  "colonyTags" : ["cooking","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Vital for survival, this large campfire! ^orange;Artwork by Dielji",
+  "shortdescription" : "Large Campfire",
+  "subtitle" : "Cooking and warmth!",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+  "objectType" : "container",
+  
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "A roaring fire.",
+  "avianDescription" : "A beacon of light and heat.",
+  "floranDescription" : "Warm and toassssssty.",
+  "glitchDescription" : "Idea. I want to roast giant marshmallows.",
+  "humanDescription" : "Warm your weary bones.",
+  "hylotlDescription" : "A large fire to warm a home.",
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [0.5, 0.3],
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+      "position" : [0.4, 0]
+    }
+  },
+
+  "inventoryIcon" : "cnslargefireicon.png",
+  "orientations" : [
+    {
+      "image" : "cnslargefire.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "cooking",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/campfire.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  
+  "breakDropOptions" : [
+    [ [ "coalore", 2, {} ], [ "money", 25, {} ] ]
+  ]
+}

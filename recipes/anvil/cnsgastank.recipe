@@ -2,6 +2,6 @@
   "input" : [
 	{ "item" : "ironbar", "count" : 20}
   ],
-  "output" : { "item" : "gastank", "count" : 1 },
-  "groups" : [ "anvil", "objects", "crafting", "all" ]
+  "output" : { "item" : "cnsgastank", "count" : 1 },
+  "groups" : [ "craftinganvil", "objects", "crafting", "all" ]
 }

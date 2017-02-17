@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "slime", "count" : 25 },
-	{ "item" : "coalore", "count" : 10 },
-	{ "item" : "money", "count" : 20 }
-  ],
-  "output" : { "item" : "plastic", "count" : 1 },
-  "groups" : [ "chemistrytable", "all" ]
-}

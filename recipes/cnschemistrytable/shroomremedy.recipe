@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "shroom", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "shroomremedy",
+    "count" : 1
+  },
+  "groups" : [ "cnschemistrytable", "buffs", "foodglow" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "ironbar", "count" : 50},
+	{ "item" : "money", "count" : 500}
+  ],
+  "output" : { "item" : "cnsarmory", "count" : 1 },
+  "groups" : [ "inventorstable", "all", "craftingstations" ]
+}

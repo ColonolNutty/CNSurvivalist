@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 30 },
+	{ "item" : "wheat", "count" : 150 },
+	{ "item" : "coalore", "count" : 150 },
+	{ "item" : "copperore", "count" : 150 },
+	{ "item" : "paper", "count" : 15 }
+	
+  ],
+  "output" : {
+    "item" : "cnsmatterbook",
+    "count" : 1
+  },
+  "groups" : [ "telescope" ]
+}

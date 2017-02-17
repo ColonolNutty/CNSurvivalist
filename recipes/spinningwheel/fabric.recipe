@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "cottonfibre", "count" : 6 }
-  ],
-  "output" : { "item" : "fabric", "count" : 1 },
-  "groups" : [ "spin", "material" ]
-}

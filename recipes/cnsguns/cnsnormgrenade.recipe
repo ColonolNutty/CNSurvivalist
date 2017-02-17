@@ -1,0 +1,8 @@
+{
+  "input" : [
+  	{ "item" : "coalore", "count" : 3},
+	{ "item" : "ironbar", "count" : 2}
+  ],
+  "output" : { "item" : "cnsnormgrenade", "count" : 1 },
+  "groups" : [ "armory", "weapons", "all" ]
+}

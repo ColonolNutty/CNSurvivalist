@@ -1,0 +1,36 @@
+{
+  "objectName" : "cnsorganicpit",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 30,
+
+  "description" : "A pit of organic matter.",
+  "shortdescription" : "Pit of matter",
+  "race" : "generic",
+
+  "apexDescription" : "It's already decomposing",
+  "avianDescription" : "Maybe I'll find worms!",
+  "floranDescription" : "Food?",
+  "glitchDescription" : "Grossed! Organic beings after dying",
+  "humanDescription" : "Yuck. Dissgusting!",
+  "hylotlDescription" : "Death is just another face of life.",
+  
+  "inventoryIcon" : "cnsorganicpit.png",
+  "orientations" : [
+    {
+      "image" : "cnsorganicpit.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropPool" : "cnsorganicpit", 
+  "breakDropPool" : "cnsorganicpit"
+}

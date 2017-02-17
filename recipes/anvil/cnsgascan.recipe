@@ -2,6 +2,6 @@
   "input" : [
 	{ "item" : "ironbar", "count" : 2}
   ],
-  "output" : { "item" : "gascan", "count" : 1 },
-  "groups" : [ "anvil", "other", "all" ]
+  "output" : { "item" : "cnsgascan", "count" : 1 },
+  "groups" : [ "craftinganvil", "other", "all" ]
 }

@@ -2,8 +2,8 @@
   "input" : [
 	{ "item" : "leather", "count" : 5 },
 	{ "item" : "money", "count" : 100 },
-    { "item" : "monsterheart", "count" : 2 }
+    { "item" : "cnsmonsterheart", "count" : 2 }
   ],
-  "output" : { "item" : "redbandana", "count" : 1 },
+  "output" : { "item" : "cnsredbandana", "count" : 1 },
   "groups" : [ "simplecraft", "armor", "all" ]
 }

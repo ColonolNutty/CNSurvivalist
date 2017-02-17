@@ -3,12 +3,12 @@
     { "item" : "wheat", "count" : 5 },
 	{ "item" : "monstertooth", "count" : 1 },
 	{ "item" : "monsterskin", "count" : 1 },
-	{ "item" : "monsterheart", "count" : 1 }
+	{ "item" : "cnsmonsterheart", "count" : 1 }
   ],
   "output" : { 
-	"item" : "bestialbread", 
+	"item" : "cnsbestialbread", 
 	"count" : 1 
   },
   
-  "groups" : [ "kitchen", "plain", "consumables", "foodhealing", "foodmobility" ]
+  "groups" : [ "craftingkitchen", "plain", "consumables", "foodhealing", "foodmobility" ]
 }

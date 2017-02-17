@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "fabric", "count" : 6 },
+    { "item" : "cnscottonfabric", "count" : 6 },
 	{ "item" : "bluedye", "count" : 1 },
 	{ "item" : "money", "count" : 500 }
   ],
-  "output" : { "item" : "navycap", "count" : 1 },
+  "output" : { "item" : "cnsnavycap", "count" : 1 },
   "groups" : [ "tailor", "all" ]
 }

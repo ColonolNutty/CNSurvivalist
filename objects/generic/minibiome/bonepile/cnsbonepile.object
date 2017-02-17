@@ -1,0 +1,36 @@
+{
+  "objectName" : "cnsbonepile",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 30,
+
+  "description" : "A pile of bones.",
+  "shortdescription" : "Pile of bones",
+  "race" : "generic",
+
+  "apexDescription" : "A pile of bones. Left overs?",
+  "avianDescription" : "A pile of bones. Something inside?",
+  "floranDescription" : "Sssmash!",
+  "glitchDescription" : "Contemplative. This could be me.",
+  "humanDescription" : "Hey, at least it's not me!",
+  "hylotlDescription" : "What's left of a poor physical being.",
+  
+  "inventoryIcon" : "cnsbonepile.png",
+  "orientations" : [
+    {
+      "image" : "cnsbonepile.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropPool" : "cnsbonepile", 
+  "breakDropPool" : "cnsbonepile"
+}

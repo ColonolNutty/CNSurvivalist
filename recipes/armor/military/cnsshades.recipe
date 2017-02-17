@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "plastic", "count" : 10 },
+    { "item" : "cnsplastic", "count" : 10 },
 	{ "item" : "money", "count" : 1000 }
   ],
-  "output" : { "item" : "militaryarmorhead", "count" : 1 },
+  "output" : { "item" : "cnsmilitaryarmorhead", "count" : 1 },
   "groups" : [ "tailor", "all" ]
 }

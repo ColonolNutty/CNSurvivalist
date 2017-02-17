@@ -1,0 +1,55 @@
+{
+  "objectName" : "cnschemistrytable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/cnschemistrytable.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  CHEMISTRYTABLE",
+        "subtitle" : "  Mix all sort of concussions",
+        "icon" : {
+          "file" : "/interface/crafting/cnschemistrytable.png"
+        }
+      }
+    },
+    "filter" : [ "cnschemistrytable" ]
+  },
+  "printable" : false,
+  "description" : "Scientists believe in things, not in people - Marie Curie",
+  "shortdescription" : "Chemistry Bench",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 500,
+
+  "apexDescription" : "A table where magic happens?",
+  "avianDescription" : "A chance to display one's ability to create.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspirrreeed!!",
+  "humanDescription" : "I can use materials I've found here to create new things.",
+  "hylotlDescription" : "A chance to create.",
+  "novakidDescription" : "I can use materials I've found here to create new things.",
+
+  "inventoryIcon" : "cnschemistrytableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cnschemistrytable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  
+	"breakDropOptions" : [ [
+      [ "ironbar", 20, { } ], 
+	  [ "money", 250, { } ],
+	  [ "glassmaterial", 30, { } ]
+	] ]
+}

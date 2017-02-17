@@ -5,5 +5,5 @@
     { "item" : "money", "count" : 3000 }
   ],
   "output" : { "item" : "cnshazmatdemochest", "count" : 1 },
-  "groups" : [ "craftingmedical", "all", "hazardgear" ]
+  "groups" : [ "chemistrytable", "all", "hazardgear" ]
 }

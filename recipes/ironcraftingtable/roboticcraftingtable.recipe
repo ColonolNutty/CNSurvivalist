@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "money", "count" : 3000 },
-    { "item" : "steelbar", "count" : 100 },
+    { "item" : "ironbar", "count" : 100 },
     { "item" : "titaniumbar", "count" : 20 },
-	{ "item" : "matterbook3", "count" : 1 }
+	{ "item" : "cnsmatterbook3", "count" : 1 }
   ],
   "output" : {
     "item" : "roboticcraftingtable",

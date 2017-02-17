@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "lantern", "count" : 1 },
+    { "item" : "cnslantern", "count" : 1 },
     { "item" : "fullwood1", "count" : 10 },
     { "item" : "torch", "count" : 5 },
     { "item" : "money", "count" : 200 }

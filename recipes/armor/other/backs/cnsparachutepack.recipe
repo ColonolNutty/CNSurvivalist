@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "cnsfabric", "count" : 20 },
+    { "item" : "cnscottonfabric", "count" : 20 },
     { "item" : "plantfibre", "count" : 20 },
     { "item" : "climbingrope", "count" : 5 },
     { "item" : "cnsplastic", "count" : 10 },

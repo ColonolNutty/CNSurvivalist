@@ -4,5 +4,5 @@
     { "item" : "torch", "count" : 1 }
   ],
   "output" : { "item" : "mininglantern", "count" : 1 },
-  "groups" : [ "anvil", "tools", "all" ]
+  "groups" : [ "craftinganvil", "tools", "all" ]
 }

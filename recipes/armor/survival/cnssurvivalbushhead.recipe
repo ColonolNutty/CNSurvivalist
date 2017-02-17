@@ -4,6 +4,6 @@
 	{ "item" : "fullwood1", "count" : 2 },
 	{ "item" : "money", "count" : 100 }
   ],
-  "output" : { "item" : "survivalbushhead", "count" : 1 },
+  "output" : { "item" : "cnssurvivalbushhead", "count" : 1 },
   "groups" : [ "plain", "armors" ]
 }
