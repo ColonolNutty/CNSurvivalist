@@ -1,12 +1,12 @@
 [
-	{ "op": "add", "path": "/defaultCodexes/glitch/-", "value": "survivalguide"},
-	{ "op": "add", "path": "/defaultCodexes/human/-", "value": "survivalguide"},
-	{ "op": "add", "path": "/defaultCodexes/avian/-", "value": "survivalguide" },
-	{ "op": "add", "path": "/defaultCodexes/apex/-", "value": "survivalguide" },
-	{ "op": "add", "path": "/defaultCodexes/floran/-", "value": "survivalguide" },
-	{ "op": "add", "path": "/defaultCodexes/hylotl/-", "value": "survivalguide" },
-	{ "op": "add", "path": "/defaultCodexes/novakid/-", "value": "survivalguide" },
-	{ "op": "add", "path": "/defaultCodexes/penguin/-", "value": "survivalguide" },
+	{ "op": "add", "path": "/defaultCodexes/glitch/-", "value": "cnssurvivalguide"},
+	{ "op": "add", "path": "/defaultCodexes/human/-", "value": "cnssurvivalguide"},
+	{ "op": "add", "path": "/defaultCodexes/avian/-", "value": "cnssurvivalguide" },
+	{ "op": "add", "path": "/defaultCodexes/apex/-", "value": "cnssurvivalguide" },
+	{ "op": "add", "path": "/defaultCodexes/floran/-", "value": "cnssurvivalguide" },
+	{ "op": "add", "path": "/defaultCodexes/hylotl/-", "value": "cnssurvivalguide" },
+	{ "op": "add", "path": "/defaultCodexes/novakid/-", "value": "cnssurvivalguide" },
+	{ "op": "add", "path": "/defaultCodexes/penguin/-", "value": "cnssurvivalguide" },
 	{ "op": "replace", "path": "/statusControllerSettings/stats/maxHealth/baseValue", "value": 75.0 },
 	{ "op": "replace", "path": "/statusControllerSettings/stats/maxEnergy/baseValue", "value": 100.0 },
 	{ "op": "replace", "path": "/statusControllerSettings/stats/maxBreath/baseValue", "value": 80.0 },
@@ -62,6 +62,7 @@
 			{ "item" : "tier3switch" },
 			{ "item" : "tier4switch" },
 
+			
 			{ "item" : "cnsmatterbook" },
 			{ "item" : "cnsmatterbook2" },
 			{ "item" : "cnsmatterbook3" },
