@@ -4,7 +4,8 @@
 		"path": "/starterTreasure/0/1/fill",
 		"value": [
 			{"item" : "debris"},
-			{"item" : "scienceteleporter"}
+			{"item" : "scienceteleporter"},
+			{"item" : "wheatseed"}
 		]
 	},
 	
