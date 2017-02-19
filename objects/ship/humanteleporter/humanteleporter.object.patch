@@ -7,6 +7,6 @@
 	{
 		"op": "replace",
 		"path": "/orientations/0/collisionSpaces",
-		"value": [[-2,0],[-1,0],[0,0],[1,0],[2,0]]
+		"value": [[-2,0],[-1,0],[0,0],[1,0]]
 	}
 ]
