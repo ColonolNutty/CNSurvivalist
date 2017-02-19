@@ -1,5 +1,5 @@
 {
-  "objectName" : "gapahuk",
+  "objectName" : "cnsgapahuk",
   "colonyTags" : ["misc"],
   "printable" : false,
   "rarity" : "Common",
@@ -16,10 +16,10 @@
   "humanDescription" : "I enjoyed camping as a child.",
   "hylotlDescription" : "I am not too proud to sleep in a gapahuk.",
   
-  "inventoryIcon" : "gapahukicon.png",
+  "inventoryIcon" : "cnsgapahukicon.png",
   "orientations" : [
     {
-      "dualImage" : "gapahuk.png:<color>",
+      "dualImage" : "cnsgapahuk.png:<color>",
 
       "imagePosition" : [-24, 0],
       "frames" : 1,
@@ -36,12 +36,13 @@
   "sitPosition" : [-2.5, 6],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
-  "sitCoverImage" : "/objects/generic/gapahuk/gapahuklit.png",
+  "sitCoverImage" : "/objects/generic/gapahuk/cnsgapahuklit.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     "regeneration1",
     "nude"
   ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
   
   
   "lightColor" : [251, 218, 141],

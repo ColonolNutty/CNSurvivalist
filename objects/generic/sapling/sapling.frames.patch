@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/frameGrid/size",
+		"value": [16, 32]
+	},
+	{
+		"op": "replace",
+		"path": "/frameGrid/dimensions",
+		"value": [16, 2]
+	}
+]

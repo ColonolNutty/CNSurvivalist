@@ -1,0 +1,14 @@
+[
+	{
+		"op": "add",
+		"path": "/learnBlueprintsOnPickup",
+		"value": [ "bushback", "largefire", "gapahuk" ]
+	},
+	{
+		"op": "add",
+		"path": "/breakDropOptions",
+		"value": [
+			[ [ "coalore", 1, { } ] ]
+		]
+	}
+]

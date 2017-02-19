@@ -55,7 +55,9 @@
   "inventoryIcon" : "cnslargefireicon.png",
   "orientations" : [
     {
-      "image" : "cnslargefire.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "cnslargefire.png:<color>.<frame>", "fullbright" : true }, { "image" : "cnslargefirelit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
 
       "imagePosition" : [0, 0],
       "frames" : 4,
@@ -63,7 +65,17 @@
 
       "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
       "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "cnslargefire.png:<color>.<frame>", "fullbright" : true }, { "image" : "cnslargefirelit.png:<color>.<frame>" } ],
+      "direction" : "right",
 
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
     }
   ],
 
