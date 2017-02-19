@@ -6,5 +6,5 @@
     "item" : "wire",
     "count" : 10
   },
-  "groups" : [ "ironcraftingtable", "all" ]
+  "groups" : [ "craftingfurnace3", "ingredients", "all" ]
 }

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 30 },
+    { "item" : "cnsmatterbook", "count" : 1 },
+	{ "item" : "money", "count" : 750 }
+  ],
+  "output" : {
+    "item" : "inventorstable",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}

@@ -8,5 +8,5 @@
     "item" : "ironcraftingtable",
     "count" : 1
   },
-  "groups" : [ "craftingtable", "objects", "tools", "crafting", "all" ]
+  "groups" : [ "inventorstable", "objects", "tools", "crafting", "all" ]
 }

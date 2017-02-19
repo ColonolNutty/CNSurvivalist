@@ -16,6 +16,9 @@
 		"op": "replace",
 		"path": "/defaultBlueprints/tier1",
 		"value": [
+			//EMPTY HANDS
+			{ "item" : "craftingfurnace" },
+			
 			//LOGS
 			{ "item" : "darkwoodmaterial" },
 			
@@ -146,6 +149,7 @@
 			{ "item" : "cnsnewyarnspinner" },
 			{ "item" : "woodencraftingtable" },
 			{ "item" : "cnschemistrytable" },
+			{ "item" : "craftingfurnace" },
 			{ "item" : "ironanvil" },
 			{ "item" : "cnsftldrive" },
 			{ "item" : "woodencookingtable" },
@@ -198,6 +202,9 @@
 			{ "item" : "cnsshadowsgarb" },
 			{ "item" : "cnsshadowshood" },
 			{ "item" : "cnsshadowspants" },
+			{ "item" : "snowinfantryhead" },
+			{ "item" : "snowinfantrychest" },
+			{ "item" : "snowinfantrypants" },
 			
 			//CHEMISTRY TABLE
 			{ "item" : "cnsglowingmatter" },
@@ -226,19 +233,21 @@
 			{ "item" : "cnsmatterbook" },
 			{ "item" : "cnsmatterbook2" },
 			{ "item" : "cnsmatterbook3" },
+			
 			{ "item" : "quiverback" },
+			
 			{ "item" : "cnsstonemace" },
+			
 			{ "item" : "oxygentank" },
 			{ "item" : "parachutepack" },
+			
 			{ "item" : "copperpickaxe" },
 			{ "item" : "silverpickaxe" },
 			{ "item" : "goldpickaxe" },
 			{ "item" : "platinumpickaxe" },
 			{ "item" : "diamondpickaxe" },
+			
 			{ "item" : "huntingknife" },
-			{ "item" : "snowinfantryhead" },
-			{ "item" : "snowinfantrychest" },
-			{ "item" : "snowinfantrypants" },
 			
 			{ "item" : "aegisaltbow" },
 			

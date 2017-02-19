@@ -5,5 +5,5 @@
 	{ "item" : "money", "count" : 2000 }
   ],
   "output" : { "item" : "cnstelescope", "count" : 1 },
-  "groups" : [ "inventorstable", "craftingstations", "tools", "all" ]
+  "groups" : [ "simplecraft", "objects", "tools", "all" ]
 }

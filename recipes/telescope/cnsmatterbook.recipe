@@ -5,7 +5,6 @@
 	{ "item" : "coalore", "count" : 150 },
 	{ "item" : "copperore", "count" : 150 },
 	{ "item" : "paper", "count" : 15 }
-	
   ],
   "output" : {
     "item" : "cnsmatterbook",

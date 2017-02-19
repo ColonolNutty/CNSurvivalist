@@ -2,7 +2,7 @@
 	{
 		"op": "add",
 		"path": "/learnBlueprintsOnPickup",
-		"value": [ "campfire", "cnsbushback", "cnslargefire", "cnsgapahuk" ]
+		"value": [ "cnsbushback", "cnslargefire", "cnsgapahuk" ]
 	},
 	{
 		"op": "add",
