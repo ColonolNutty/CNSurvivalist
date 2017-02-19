@@ -154,21 +154,6 @@
 	},
 	{
 		"op": "replace",
-		"path": "/gravityText/label/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/gravityText/value/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/hazardText/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
 		"path": "/weatherText/text",
 		"value": ""
 	},

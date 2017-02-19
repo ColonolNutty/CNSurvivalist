@@ -1,0 +1,22 @@
+[
+	{
+		"op": "replace",
+		"path": "/title",
+		"value": "^#9be3d6;THOUGHTS AND NEEDS"
+	},
+	{
+		"op": "replace",
+		"path": "/text",
+		"value": "With the Panel in place, the only thing left is the ^orange;FTL Drive^white;.  Let's see what sassy-pants has to say..."
+	},
+	{
+		"op": "replace",
+		"path": "/completionText",
+		"value": "Fuel Panel, ^orange;check^white;. FTL Drive, ^orange;check^white;. Fuel, ^orange;che..^white; crap"
+	},
+	{
+		"op": "replace",
+		"path": "/moneyRange",
+		"value": [50, 50]
+	}
+]

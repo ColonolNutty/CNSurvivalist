@@ -1,5 +1,5 @@
 {
-  "objectName" : "cnsbonepile",
+  "objectName" : "bonepile",
   "printable" : false,
   "rarity" : "Common",
   "category" : "pot",
@@ -16,10 +16,10 @@
   "humanDescription" : "Hey, at least it's not me!",
   "hylotlDescription" : "What's left of a poor physical being.",
   
-  "inventoryIcon" : "cnsbonepile.png",
+  "inventoryIcon" : "bonepile.png",
   "orientations" : [
     {
-      "image" : "cnsbonepile.png:<color>",
+      "image" : "bonepile.png:<color>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
