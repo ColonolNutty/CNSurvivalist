@@ -1,0 +1,55 @@
+{
+  "objectName" : "cnssimplecraft",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  SIMPLE CRAFTING TABLE",
+        "subtitle" : "  Something to help me get started!",
+        "icon" : {
+          "file" : "/interface/crafting/craftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "simplecraft" ]
+  },
+  "printable" : false,
+  "description" : "A crafting table of wood and stone. Simple, but handy!",
+  "shortdescription" : "Simple Crafting Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 850,
+
+  "apexDescription" : "A very simple table.",
+  "avianDescription" : "A very simple table.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspirrreeed!!",
+  "humanDescription" : "A very simple table.",
+  "hylotlDescription" : "A chance to create.",
+  "novakidDescription" : "A very simple table.",
+
+  "inventoryIcon" : "cnssimplecrafticon.png",
+    "orientations" : [
+    {
+      "dualImage" : "cnssimplecraft.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+	"breakDropOptions" : [ [
+      [ "fullwood1", 20, { } ], 
+	  [ "money", 125, { } ] 
+	] ]
+ 
+}

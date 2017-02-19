@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "shroomremedy", "count" : 2 },
-    { "item" : "monstertooth", "count" : 2 }
+    { "item" : "cnsmonstertooth", "count" : 2 }
   ],
   "output" : {
     "item" : "fungusstim",

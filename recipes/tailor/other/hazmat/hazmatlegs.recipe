@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cnsplastic", "count" : 100 },
+    { "item" : "staticcell", "count" : 10 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "hazmatlegs", "count" : 1 },
+  "groups" : [ "chemistrytable", "all", "hazardgear" ]
+}

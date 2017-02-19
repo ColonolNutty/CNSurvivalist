@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 1 },
+    { "item" : "cobblestonematerial", "count" : 10 }
+	],
+  "output" : {
+    "item" : "cnsstoneaxe",
+    "count" : 1
+  },
+  "groups" : [ "simplecraft", "objects", "all" ]
+}

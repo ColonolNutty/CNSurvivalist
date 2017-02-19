@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cnscottonfabric", "count" : 15 },
+	{ "item" : "reddye", "count" : 2 },
+	{ "item" : "cnsmonsterheart", "count" : 10 },
+	{ "item" : "money", "count" : 2500 }
+  ],
+  "output" : { "item" : "cnsdeathchest", "count" : 1 },
+  "groups" : [ "tailor", "all" ]
+}

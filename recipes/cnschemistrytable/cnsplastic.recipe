@@ -4,6 +4,6 @@
 	{ "item" : "coalore", "count" : 10 },
 	{ "item" : "money", "count" : 20 }
   ],
-  "output" : { "item" : "plastic", "count" : 1 },
+  "output" : { "item" : "cnsplastic", "count" : 1 },
   "groups" : [ "cnschemistrytable", "all" ]
 }

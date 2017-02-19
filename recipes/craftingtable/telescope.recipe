@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 50 },
-	{ "item" : "glassmaterial", "count" : 30 },
-	{ "item" : "money", "count" : 2000 }
-  ],
-  "output" : { "item" : "telescope", "count" : 1 },
-  "groups" : [ "craftingtable", "objects", "tools", "all" ]
-}

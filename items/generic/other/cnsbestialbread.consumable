@@ -1,0 +1,18 @@
+{
+  "itemName" : "cnsbestialbread",
+  "rarity" : "Uncommon",
+  "price" : 0,
+  "category" : "medicine",
+  "inventoryIcon" : "cnsbestialbread.png",
+  "description" : "A bread from monster parts. Not very delicate, but it definitely gives you strength.",
+  "shortdescription" : "Bestial Bread",
+  "effects" : [ [
+      {
+        "effect" : "salveheal"
+      },
+      {
+        "effect" : "runboost",
+        "duration" : 10
+      }
+    ] ]
+}

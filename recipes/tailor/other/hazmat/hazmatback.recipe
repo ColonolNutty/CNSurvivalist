@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 100 },
+    { "item" : "cnsplastic", "count" : 20 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "hazmatback", "count" : 1 },
+  "groups" : [ "chemistrytable", "all", "hazardgear", "buffs" ]
+}

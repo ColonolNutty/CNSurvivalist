@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "cnscottonfabric", "count" : 20 },
+    { "item" : "plantfibre", "count" : 20 },
+    { "item" : "climbingrope", "count" : 5 },
+    { "item" : "cnsplastic", "count" : 10 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "parachutepackback", "count" : 1 },
+  "groups" : [ "craftingwheel", "ingredients", "all" ]
+}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "darkwoodmaterial", "count" : 50},
-	{ "item" : "money", "count" : 200}
-  ],
-  "output" : { "item" : "tailorstable", "count" : 1 },
-  "groups" : [ "craftingtable", "objects", "tools", "crafting", "all" ]
-}

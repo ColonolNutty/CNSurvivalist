@@ -6,7 +6,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
+		"path": "/statusEffects",
 		"value": [
 			{
 				"stat" : "protection",

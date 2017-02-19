@@ -4,5 +4,5 @@
 	{ "item" : "money", "count" : 500}
   ],
   "output" : { "item" : "cnsarmory", "count" : 1 },
-  "groups" : [ "inventorsTable", "objects", "tools", "crafting", "all" ]
+  "groups" : [ "inventorstable", "all", "craftingstations" ]
 }
