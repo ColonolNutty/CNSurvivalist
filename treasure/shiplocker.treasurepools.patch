@@ -3,8 +3,7 @@
 		"op": "replace",
 		"path": "/starterTreasure/0/1/fill",
 		"value": [
-			{"item" : "debris"},
-			{"item" : "scienceteleporter"},
+			{"item" : "cnsdebris"},
 			{"item" : "wheatseed"}
 		]
 	},
