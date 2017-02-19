@@ -1,26 +1,34 @@
-{
-  "kind" : "default",
-  "effects" : {
-    "organic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/gun/impact_flesh.wav" ],
-        "particles" : [
-          [
-            {
+[
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/sounds",
+		"value": [ "/sfx/melee/bite.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/sounds",
+		"value": [ "/sfx/melee/bite_kill.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/particles",
+		"value": [
+		[
+             {
               "type" : "animated",
-              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
-              "size" : 1,
+              "animation" : "/animations/2hswordhitspark/2hswordhitsparkBlood.animation",
+              "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
-              "position" : [0, 0],
+              "position" : [0, 1],
               "initialVelocity" : [0, 0],
               "finalVelocity" : [0, 0],
               "approach" : [1, 0],
-              "timeToLive" : 0.3,
+              "timeToLive" : 0.01,
               "layer" : "middle"
             },
-		  
+
             {
               "type" : "animated",
               "animation" : "/animations/2hswordhitspark/2hswordhitsparkBlood.animation",
@@ -38,49 +46,32 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtCenter/BloodSpurtCenter.animation",
-              "size" : 1.15,
-              "angularVelocity" : 0,
-              "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [0, 0],
-              "initialVelocity" : [0, 0],
-              "finalVelocity" : [0, 0],
-              "approach" : [1, 0],
-              "timeToLive" : 0.3,
-              "layer" : "middle"
-            },
-
-            {
-              "type" : "animated",
               "animation" : "/animations/BloodSpurtSplashRanged/BloodSpurtSplashRanged.animation",
-              "size" : 0.8,
+              "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
-              "position" : [0, 0],
-              "initialVelocity" : [0, -1],
-              "finalVelocity" : [0, -10],
+              "position" : [-0.5, 0],
+              "initialVelocity" : [-2, 0],
+              "finalVelocity" : [-0.5, 0],
               "approach" : [1, 0],
-              "timeToLive" : 0.01,
-              "layer" : "middle"
+              "timeToLive" : 0.4,
+              "layer" : "back"
             },
-			
             {
               "type" : "animated",
               "animation" : "/animations/BloodSpurtSplashRangedRight/BloodSpurtSplashRangedRight.animation",
-              "size" : 0.8,
+              "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
-              "position" : [0, 0],
-              "initialVelocity" : [0, -1],
-              "finalVelocity" : [0, -3],
+              "position" : [0.5, 0],
+              "initialVelocity" : [2, 0],
+              "finalVelocity" : [0.5, 0],
               "approach" : [1, 0],
-              "timeToLive" : 0.05,
+              "timeToLive" : 0.4,
               "layer" : "back"
             },
-			
             {
               "type" : "animated",
               "animation" : "/animations/BloodExtraSprayUP/BloodExtraSprayUP.animation",
@@ -340,28 +331,14 @@
                 "timeToLive" : 1
               }
             }
-          ]
+		  ]
         ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/gun/impact_flesh.wav" ],
-        "particles" : [
-          [
-            {
-              "type" : "animated",
-              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
-              "size" : 1,
-              "angularVelocity" : 0,
-              "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [0, 0],
-              "initialVelocity" : [0, 0],
-              "finalVelocity" : [0, 0],
-              "approach" : [1, 0],
-              "timeToLive" : 0.3,
-              "layer" : "middle"
-            },
-
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/particles",
+		"value": [
+		[
             {
               "type" : "animated",
               "animation" : "/animations/1hswordhitspark/1hswordhitsparkBlood.animation",
@@ -960,55 +937,27 @@
                 "timeToLive" : 1
               }
             }
-          ]
+		  ]
         ]
-      }
-    },
-	"robotic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/gun/impact_robotic1.wav", "/sfx/gun/impact_robotic2.wav", "/sfx/gun/impact_robotic3.wav", "/sfx/gun/impact_robotic4.wav", "/sfx/gun/impact_robotic5.wav" ],
-        "particles" : [
-          [
-
-            {
-              "type" : "animated",
-              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
-              "size" : 1,
-              "angularVelocity" : 0,
-              "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [0, 0],
-              "initialVelocity" : [0, 0],
-              "finalVelocity" : [0, 0],
-              "approach" : [1, 0],
-              "timeToLive" : 0.3,
-              "layer" : "middle"
-            }
-          ]
-        ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ],
-        "particles" : [
-          [
-
-            {
-              "type" : "animated",
-              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
-              "size" : 1,
-              "angularVelocity" : 0,
-              "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [0, 0],
-              "initialVelocity" : [0, 0],
-              "finalVelocity" : [0, 0],
-              "approach" : [1, 0],
-              "timeToLive" : 0.3,
-              "layer" : "middle"
-            }
-          ]
-        ]
-      }
-    }
-  }
-}
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/sounds",
+		"value": [ "/sfx/melee/bite_robotic1.wav", "/sfx/melee/bite_robotic2.wav", "/sfx/melee/bite_robotic3.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/sounds",
+		"value": [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/particles",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/particles",
+		"value": []
+	}
+]

@@ -1,10 +1,30 @@
-{
-  "kind" : "steelchair",
-  "effects" : {
-    "organic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/melee/steelchair_hit.wav" ],
-        "particles" : [
+[
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/sounds",
+		"value": [ "/sfx/melee/pan_hit.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/sounds",
+		"value": [ "/sfx/melee/pan_kill.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/sounds",
+		"value": [ "/sfx/melee/pan_hit.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/sounds",
+		"value": [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ]
+	},
+	
+	
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/particles",
+		"value": [
           [
 
             {
@@ -119,10 +139,11 @@
             }
           ]
         ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/melee/steelchair_kill.wav" ],
-        "particles" : [
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/particles",
+		"value": [
           [
 
             {
@@ -723,12 +744,11 @@
             }
           ]
         ]
-      }
-    },
-    "robotic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/melee/steelchair_hit.wav" ],
-        "particles" : [
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/particles",
+		"value": [
           [
 
             {
@@ -843,10 +863,11 @@
             }
           ]
         ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ],
-        "particles" : [
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/particles",
+		"value": [
           [
 
             {
@@ -1246,7 +1267,5 @@
             }
           ]
         ]
-      }
-    }
-  }
-}
+	}
+]

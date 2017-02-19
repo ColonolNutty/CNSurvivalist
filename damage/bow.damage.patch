@@ -1,10 +1,28 @@
-{
-  "kind" : "2hsword",
-  "effects" : {
-    "organic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.wav" ],
-        "particles" : [
+[
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/sounds",
+		"value": [ "/sfx/melee/sharp_hit_organic.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/sounds",
+		"value": [ "/sfx/melee/1h_sword_kill_organic1.wav", "/sfx/melee/1h_sword_kill_organic2.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/sounds",
+		"value": [ "/sfx/gun/impact_robotic1.wav", "/sfx/gun/impact_robotic2.wav", "/sfx/gun/impact_robotic3.wav", "/sfx/gun/impact_robotic4.wav", "/sfx/gun/impact_robotic5.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/sounds",
+		"value": [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/particles",
+		"value": [
           [
 
             {
@@ -24,65 +42,23 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplash/BloodSpurtSplash.animation",
-              "size" : 1.1,
+              "animation" : "/animations/BloodSpurtCenter/BloodSpurtCenter.animation",
+              "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [-1, 0],
-              "initialVelocity" : [-4, 0],
-              "finalVelocity" : [-0.5, 0],
-              "approach" : [1, 0],
-              "timeToLive" : 0.4,
-              "layer" : "back"
-            },
-            {
-              "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashRight/BloodSpurtSplashRight.animation",
-              "size" : 1.1,
-              "angularVelocity" : 0,
-              "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [1, 0],
-              "initialVelocity" : [4, 0],
-              "finalVelocity" : [0.5, 0],
-              "approach" : [1, 0],
-              "timeToLive" : 0.4,
-              "layer" : "back"
-            },
-            {
-              "type" : "animated",
-              "animation" : "/animations/BloodExtraSprayUP/BloodExtraSprayUP.animation",
-              "size" : 1.1,
-              "angularVelocity" : 0,
-              "fade" : 0.5,
               "destructionTime" : 7,
               "position" : [0, 0],
-              "initialVelocity" : [0, 2],
-              "finalVelocity" : [0, -2],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
               "approach" : [1, 0],
-              "timeToLive" : 0.5,
-              "layer" : "back"
+              "timeToLive" : 0.3,
+              "layer" : "middle"
             },
+		
             {
               "type" : "animated",
-              "animation" : "/animations/BloodExtraSprayDOWN/BloodExtraSprayDOWN.animation",
-              "size" : 1.15,
-              "angularVelocity" : 0,
-              "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [0, -0.5],
-              "initialVelocity" : [0, -2],
-              "finalVelocity" : [0, -5],
-              "approach" : [1, 0],
-              "timeToLive" : 0.5,
-              "layer" : "back"
-            },
-				
-            {
-              "type" : "animated",
-              "animation" : "/animations/BloodSpurtBlades/BloodSpurtBlades.animation",
-              "size" : 1.8,
+              "animation" : "/animations/BloodSpurtSplashRanged/BloodSpurtSplashRanged.animation",
+              "size" : 0.8,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -96,8 +72,8 @@
 			
             {
               "type" : "animated",
-              "animation" : "/animations/BloodMistStatic/BloodMistStatic.animation",
-              "size" : 2,
+              "animation" : "/animations/BloodSpurtSplashRangedRight/BloodSpurtSplashRangedRight.animation",
+              "size" : 0.8,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -109,6 +85,35 @@
               "layer" : "back"
             },
 			
+            {
+              "type" : "animated",
+              "animation" : "/animations/BloodExtraSprayUP/BloodExtraSprayUP.animation",
+              "size" : 0.8,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 7,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 1],
+              "finalVelocity" : [0, -2],
+              "approach" : [1, 0],
+              "timeToLive" : 0.5,
+              "layer" : "back"
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/BloodExtraSprayDOWN/BloodExtraSprayDOWN.animation",
+              "size" : 0.9,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 7,
+              "position" : [0, -0.5],
+              "initialVelocity" : [0, -2],
+              "finalVelocity" : [0, -5],
+              "approach" : [1, 0],
+              "timeToLive" : 0.5,
+              "layer" : "back"
+            },
+
             {
               "type" : "animated",
               "animation" : "/animations/OtherBitsShort/OtherBitsShort.animation",
@@ -174,7 +179,7 @@
               "initialVelocity" : [7, 6.0],
               "finalVelocity" : [7, -9.0],
               "approach" : [1, 14],
-              "timeToLive" : 1.45,
+              "timeToLive" : 5.45,
               "layer" : "front",
               "variance" : {
                 "initialVelocity" : [3, 3],
@@ -187,7 +192,7 @@
               "size" : 1.5,
               "color" : [255, 0, 0, 255],
               "fade" : 0.9,
-              "initialVelocity" : [7, 10.0],
+              "initialVelocity" : [7, 6.0],
               "finalVelocity" : [7, -9.0],
               "approach" : [1, 14],
               "timeToLive" : 1.45,
@@ -206,7 +211,7 @@
               "initialVelocity" : [6, 8.0],
               "finalVelocity" : [6, -9.0],
               "approach" : [1, 14],
-              "timeToLive" : 1.65,
+              "timeToLive" : 3.65,
               "layer" : "front",
               "variance" : {
                 "initialVelocity" : [3, 3],
@@ -219,26 +224,10 @@
               "size" : 1.2,
               "color" : [255, 0, 0, 255],
               "fade" : 0.9,
-              "initialVelocity" : [3, 12.0],
+              "initialVelocity" : [3, 7.0],
               "finalVelocity" : [3, -9.0],
               "approach" : [1, 14],
-              "timeToLive" : 1.65,
-              "layer" : "front",
-              "variance" : {
-                "initialVelocity" : [3, 3],
-                "timeToLive" : 1
-              }
-            },
-
-            {
-              "type" : "ember",
-              "size" : 1.2,
-              "color" : [255, 0, 0, 255],
-              "fade" : 0.9,
-              "initialVelocity" : [3, 18.0],
-              "finalVelocity" : [3, -9.0],
-              "approach" : [1, 14],
-              "timeToLive" : 1.65,
+              "timeToLive" : 5.65,
               "layer" : "front",
               "variance" : {
                 "initialVelocity" : [3, 3],
@@ -254,23 +243,7 @@
               "initialVelocity" : [-7, 6.0],
               "finalVelocity" : [-7, -9.0],
               "approach" : [1, 14],
-              "timeToLive" : 1.45,
-              "layer" : "front",
-              "variance" : {
-                "initialVelocity" : [3, 3],
-                "timeToLive" : 1
-              }
-            },
-			
-            {
-              "type" : "ember",
-              "size" : 1.6,
-              "color" : [255, 0, 0, 255],
-              "fade" : 0.9,
-              "initialVelocity" : [-7, 15.0],
-              "finalVelocity" : [-7, -9.0],
-              "approach" : [1, 14],
-              "timeToLive" : 1.45,
+              "timeToLive" : 2.45,
               "layer" : "front",
               "variance" : {
                 "initialVelocity" : [3, 3],
@@ -286,7 +259,7 @@
               "initialVelocity" : [-6, 8.0],
               "finalVelocity" : [-6, -9.0],
               "approach" : [1, 14],
-              "timeToLive" : 1.65,
+              "timeToLive" : 2.65,
               "layer" : "front",
               "variance" : {
                 "initialVelocity" : [3, 3],
@@ -299,10 +272,10 @@
               "size" : 1.7,
               "color" : [255, 0, 0, 255],
               "fade" : 0.9,
-              "initialVelocity" : [-3, 12.0],
+              "initialVelocity" : [-3, 7.0],
               "finalVelocity" : [-3, -9.0],
               "approach" : [1, 14],
-              "timeToLive" : 1.25,
+              "timeToLive" : 2,
               "layer" : "front",
               "variance" : {
                 "initialVelocity" : [3, 3],
@@ -311,16 +284,17 @@
             }
           ]
         ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/melee/2h_sword_kill_organic1.wav", "/sfx/melee/2h_sword_kill_organic2.wav" ],
-        "particles" : [
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/particles",
+		"value": [
           [
 
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitsparkBlood.animation",
-              "size" : 1.2,
+              "animation" : "/animations/1hswordhitspark/1hswordhitsparkBlood.animation",
+              "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -349,13 +323,13 @@
 			
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplash/BloodSpurtSplash.animation",
-              "size" : 1.1,
+              "animation" : "/animations/BloodSpurtSplashRanged/BloodSpurtSplashRanged.animation",
+              "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
               "position" : [-1, 0],
-              "initialVelocity" : [-4, 0],
+              "initialVelocity" : [-2, 0],
               "finalVelocity" : [-0.5, 0],
               "approach" : [1, 0],
               "timeToLive" : 0.4,
@@ -363,51 +337,23 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashRight/BloodSpurtSplashRight.animation",
-              "size" : 1.1,
+              "animation" : "/animations/BloodSpurtSplashRangedRight/BloodSpurtSplashRangedRight.animation",
+              "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
-              "position" : [1, 0],
-              "initialVelocity" : [4, 0],
+              "position" : [0.5, 0],
+              "initialVelocity" : [2, 0],
               "finalVelocity" : [0.5, 0],
               "approach" : [1, 0],
               "timeToLive" : 0.4,
-              "layer" : "back"
-            },
-            {
-              "type" : "animated",
-              "animation" : "/animations/BloodExtraSprayUP/BloodExtraSprayUP.animation",
-              "size" : 1.3,
-              "angularVelocity" : 0,
-              "fade" : 0.5,
-              "destructionTime" : 7,
-              "position" : [0, 0],
-              "initialVelocity" : [0, 2],
-              "finalVelocity" : [0, -2],
-              "approach" : [1, 0],
-              "timeToLive" : 0.5,
-              "layer" : "back"
-            },
-            {
-              "type" : "animated",
-              "animation" : "/animations/BloodExtraSprayDOWN/BloodExtraSprayDOWN.animation",
-              "size" : 1.5,
-              "angularVelocity" : 0,
-              "fade" : 1,
-              "destructionTime" : 7,
-              "position" : [0, -0.5],
-              "initialVelocity" : [0, -2],
-              "finalVelocity" : [0, -5],
-              "approach" : [1, 0],
-              "timeToLive" : 0.5,
               "layer" : "back"
             },
 			
             {
               "type" : "animated",
               "animation" : "/animations/BloodSpurtDeath/BloodSpurtDeath.animation",
-              "size" : 1.4,
+              "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -433,11 +379,41 @@
               "timeToLive" : 0.05,
               "layer" : "back"
             },
-				
+			
+            {
+              "type" : "animated",
+              "animation" : "/animations/BloodExtraSprayUP/BloodExtraSprayUP.animation",
+              "size" : 0.8,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 7,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 1],
+              "finalVelocity" : [0, -2],
+              "approach" : [1, 0],
+              "timeToLive" : 0.2,
+              "layer" : "back"
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/BloodExtraSprayDOWN/BloodExtraSprayDOWN.animation",
+              "size" : 0.9,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 7,
+              "position" : [0, -0.5],
+              "initialVelocity" : [0, -2],
+              "finalVelocity" : [0, -5],
+              "approach" : [1, 0],
+              "timeToLive" : 0.5,
+              "layer" : "back"
+            },
+			
             {
               "type" : "animated",
               "animation" : "/animations/OtherBits/OtherBits.animation",
-              "size" : 1.0,
+              "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -451,7 +427,7 @@
             {
               "type" : "animated",
               "animation" : "/animations/OtherBits/OtherBits.animation",
-              "size" : 1.0,
+              "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -465,7 +441,7 @@
             {
               "type" : "animated",
               "animation" : "/animations/OtherBits/OtherBits.animation",
-              "size" : 1.0,
+              "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -479,7 +455,7 @@
             {
               "type" : "animated",
               "animation" : "/animations/OtherBits/OtherBits.animation",
-              "size" : 1.0,
+              "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -493,7 +469,7 @@
             {
               "type" : "animated",
               "animation" : "/animations/OtherBits/OtherBits.animation",
-              "size" : 1.0,
+              "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -507,7 +483,7 @@
             {
               "type" : "animated",
               "animation" : "/animations/OtherBits/OtherBits.animation",
-              "size" : 0.3,
+              "size" : 0.2,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -521,7 +497,7 @@
             {
               "type" : "animated",
               "animation" : "/animations/OtherBits/OtherBits.animation",
-              "size" : 0.3,
+              "size" : 0.2,
               "angularVelocity" : 0,
               "fade" : 1,
               "destructionTime" : 7,
@@ -532,8 +508,7 @@
               "timeToLive" : 2.5,
               "layer" : "back"
             },
-				
-				
+			
             {
               "type" : "ember",
               "size" : 1.5,
@@ -916,17 +891,16 @@
             }
           ]
         ]
-      }
-    },
-	"robotic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/melee/sword_hit_robotic.wav" ],
-        "particles" : [
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/particles",
+		"value": [
           [
 
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/1hswordhitspark/1hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -1036,15 +1010,16 @@
             }
           ]
         ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ],
-        "particles" : [
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/particles",
+		"value": [
           [
 
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/1hswordhitspark/1hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -1439,7 +1414,5 @@
             }
           ]
         ]
-      }
-    }
-  }
-}
+	}
+]

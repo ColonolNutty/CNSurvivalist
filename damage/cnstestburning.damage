@@ -1,5 +1,5 @@
 {
-  "kind" : "testburning",
+  "kind" : "cnstestburning",
   "damageCooldownGroup" : "burning",
   "damageCooldownDuration" : 1.0,
   "damageCooldownPreGrace" : 0.0,

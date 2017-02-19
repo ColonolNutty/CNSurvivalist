@@ -1,15 +1,35 @@
-{
-  "kind" : "electroshock",
-  "effects" : {
-    "organic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/objects/tesla_shock1.wav", "/sfx/objects/tesla_shock2.wav" ],
-        "particles" : [
-        ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/objects/tesla_shock_kill.wav" ],
-        "particles" : [
+[
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/sounds",
+		"value": [ "/sfx/projectiles/flame_burn.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/sounds",
+		"value": [ "/sfx/projectiles/fireball_spit.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/sounds",
+		"value": [ "/sfx/projectiles/flame_burn.wav" ]
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/sounds",
+		"value": [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ]
+	},
+	
+	
+	{
+		"op": "replace",
+		"path": "/effects/organic/hit/particles",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/effects/organic/kill/particles",
+		"value": [
             {
               "type" : "animated",
               "animation" : "/animations/1hswordhitspark/1hswordhitsparkBlood.animation",
@@ -607,22 +627,15 @@
               }
             }
         ]
-      }
-    },
-    "robotic" : {
-      "hit" : {
-        "sounds" : [ "/sfx/objects/tesla_shock1.wav", "/sfx/objects/tesla_shock2.wav" ],
-        "particles" : [
-        ]
-      },
-      "kill" : {
-        "sounds" : [ "/sfx/objects/tesla_shock_kill.wav" ],
-        "particles" : [
-        ]
-      }
-    }
-  }
-}
-
-
-
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/hit/particles",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/effects/robotic/kill/particles",
+		"value": []
+	}
+]
