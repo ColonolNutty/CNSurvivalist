@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/orientations/0/imagePosition",
+		"value": [-16, 0]
+	},
+	{
+		"op": "replace",
+		"path": "/orientations/0/collisionSpaces",
+		"value": [[-2,0],[-1,0],[0,0],[1,0],[2,0]]
+	}
+]
