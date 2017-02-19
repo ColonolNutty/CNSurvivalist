@@ -1,0 +1,12 @@
+[
+	{
+		"op": "remove",
+		"path": "/itemTags"
+	},
+	
+	{
+		"op": "add",
+		"path": "/unbreakable",
+		"value": true
+	}
+]
