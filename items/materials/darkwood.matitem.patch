@@ -2,6 +2,9 @@
 	{
 		"op": "add",
 		"path": "/learnBlueprintsOnPickup",
-		"value": [ "platform" ]
+		"value": [
+			"inventorstable",
+			"platform"
+		]
 	}
 ]

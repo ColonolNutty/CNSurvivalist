@@ -1,4 +1,4 @@
-SURVIVALTRACK01
+CNSSURVIVALTRACK01
 
 horsehead-nebula       (chill)
 casiopeia              (chill)
@@ -9,7 +9,7 @@ gravitational-collapse   N
 vastimmortalsuns       (chill)
  
 
-SURVIVALTRACK02
+CNSSURVIVALTRACK02
 atlas
 the-deep
 desert-exploration2
@@ -18,7 +18,7 @@ i-was-the-sun
 europa
 
 
-SURVIVALTRACK03
+CNSSURVIVALTRACK03
 haiku
 jupiter
 arctic-battle3
