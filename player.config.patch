@@ -11,6 +11,7 @@
 	{ "op": "replace", "path": "/statusControllerSettings/stats/maxEnergy/baseValue", "value": 100.0 },
 	{ "op": "replace", "path": "/statusControllerSettings/stats/maxBreath/baseValue", "value": 80.0 },
 	{ "op": "replace", "path": "/statusControllerSettings/stats/breathDepletionRate/baseValue", "value": 2.0 },
+	{ "op": "replace", "path": "/inventoryFilters/autoAddToCustomBar/typeWhitelist", "value": ["flashlight", "consumable", "activeitem"] },
 	{
 		"op": "replace",
 		"path": "/defaultBlueprints/tier1",
