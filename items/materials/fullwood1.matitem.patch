@@ -2,6 +2,12 @@
 	{
 		"op": "add",
 		"path": "/learnBlueprintsOnPickup",
-		"value": [ "bow", "cnsdeathbow", "darkwoodmaterial", "cnsthrowfirewood", "cnssimplecraft" ]
+		"value": [
+			"bow",
+			"cnsdeathbow",
+			"darkwoodmaterial",
+			"cnsthrowfirewood",
+			"cnssimplecraft"
+		]
 	}
 ]

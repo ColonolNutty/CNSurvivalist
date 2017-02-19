@@ -13,82 +13,82 @@
 	},
 	{
 		"op": "replace",
-		"path": "/portraitImage/offset",
+		"path": "/paneLayout/portraitImage/offset",
 		"value": [0, 0]
 	},
 	{
 		"op": "replace",
-		"path": "/portraitImage/position",
+		"path": "/paneLayout/portraitImage/position",
 		"value": [0, 0]
 	},
 	{
 		"op": "replace",
-		"path": "/portraitImage/scale",
+		"path": "/paneLayout/portraitImage/scale",
 		"value": 0
 	},
 	{
 		"op": "replace",
-		"path": "/portraitTitle/position",
+		"path": "/paneLayout/portraitTitle/position",
 		"value": [0, 0]
 	},
 	{
 		"op": "replace",
-		"path": "/portraitTitle/fontSize",
+		"path": "/paneLayout/portraitTitle/fontSize",
 		"value": 0
 	},
 	{
 		"op": "replace",
-		"path": "/btnAccept/position",
+		"path": "/paneLayout/btnAccept/position",
 		"value": [10, 12]
 	},
 	{
 		"op": "replace",
-		"path": "/btnAccept/caption",
+		"path": "/paneLayout/btnAccept/caption",
 		"value": "CONTINUE"
 	},
 	{
 		"op": "replace",
-		"path": "/btnDecline/base",
+		"path": "/paneLayout/btnDecline/base",
 		"value": "/interface/quests/newquest/declineUp.png"
 	},
 	{
 		"op": "replace",
-		"path": "/btnDecline/hover",
+		"path": "/paneLayout/btnDecline/hover",
 		"value": "/interface/quests/newquest/declineOver.png"
 	},
 	{
 		"op": "replace",
-		"path": "/rewardItems/dimensions",
+		"path": "/paneLayout/rewardItems/dimensions",
 		"value": [0, 0]
 	},
 	{
 		"op": "replace",
-		"path": "/rewardItems/backingImage",
+		"path": "/paneLayout/rewardItems/backingImage",
 		"value": "/interface/inventory/shine.png"
 	},
 	{
 		"op": "replace",
-		"path": "/lblRewards/value",
+		"path": "/paneLayout/lblRewards/value",
 		"value": ""
 	},
 	{
 		"op": "replace",
-		"path": "/lblQuestTitle/position",
+		"path": "/paneLayout/lblQuestTitle/position",
 		"value": [80, 118]
 	},
 	{
 		"op": "replace",
-		"path": "/lblQuestTitle/wrapWidth",
+		"path": "/paneLayout/lblQuestTitle/wrapWidth",
 		"value": 120
 	},
 	{
 		"op": "replace",
-		"path": "/lblQuestBody/position",
+		"path": "/paneLayout/lblQuestBody/position",
 		"value": [15, 110]
 	},
 	{
 		"op": "replace",
-		"path": "/lblQuestBody/wrapWidth",
+		"path": "/paneLayout/lblQuestBody/wrapWidth",
 		"value": 130
 	}
 ]

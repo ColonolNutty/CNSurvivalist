@@ -24,7 +24,13 @@
 			"syringe",
 			"volatilepowder",
 			"paper",
-			"bomb"
+			"bomb",
+			"paper",
+			"glassmaterial",
+			"ironbar",
+			"copperbar",
+			"steelbar",
+			"durasteelbar"
 		]
 	}
 ]

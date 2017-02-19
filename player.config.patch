@@ -16,17 +16,11 @@
 		"op": "replace",
 		"path": "/defaultBlueprints/tier1",
 		"value": [
-			//EMPTY HANDS
-			{ "item" : "craftingfurnace" },
-			
 			//LOGS
 			{ "item" : "darkwoodmaterial" },
 			
 			//IRON BAR
 			{ "item" : "mininglantern" },
-			
-			//DARK WOOD MATS
-			{ "item" : "hoe" },
 			
 			//PLANT FIBRE
 			{ "item" : "fabric" },
@@ -42,108 +36,14 @@
 			//KITCHEN
 			{ "item" : "bread"},
 			{ "item" : "coffee"},
-			
-			//WIRING TABLE
-			{ "item" : "wire" },
-			{ "item" : "alarm" },
-			{ "item" : "drain" },
-			{ "item" : "lightsensor" },
-			{ "item" : "liquidsensor" },
-			{ "item" : "proximitysensor" },
-			{ "item" : "scanner" },
-			{ "item" : "smallfloorbutton" },
-			{ "item" : "smallwallbutton" },
-			{ "item" : "smallwallswitch" },
-			{ "item" : "tinywallbutton" },
-			{ "item" : "tinywallswitch" },
-			{ "item" : "and" },
-			{ "item" : "dlatch" },
-			{ "item" : "not" },
-			{ "item" : "or" },
-			{ "item" : "timer" },
-			{ "item" : "xor" },
-			{ "item" : "tier1switch" },
-			{ "item" : "tier2switch" },
-			{ "item" : "tier3switch" },
-			{ "item" : "tier4switch" },
-			{ "item" : "tier5switch" },
-			{ "item" : "tier6switch" },
-			{ "item" : "tier7switch" },
-			{ "item" : "tier8switch" },
-			{ "item" : "tier9switch" },
-			{ "item" : "tier10switch" },
-			{ "item" : "laserdiode" },
-			{ "item" : "bigredbutton" },
-			{ "item" : "bulb" },
-			{ "item" : "countdowntimer" },
-			{ "item" : "delay" },
-			{ "item" : "standingturret" },
-			{ "item" : "persistentswitch" },
 
 			//FURNITURE
-			{ "item" : "fence" },
-			{ "item" : "woodencrate1" },
-			{ "item" : "woodencrate2" },
-			{ "item" : "woodendoor" },
-			{ "item" : "woodengate" },
-			{ "item" : "woodenwindow1" },
-			{ "item" : "woodenwindow2" },
-			{ "item" : "packeddirt" },
-			{ "item" : "cobblestonebrick" },
-			{ "item" : "steelplatform" },
-			{ "item" : "tier1table" },
-			{ "item" : "tier2chair" },
-			{ "item" : "tier2door" },
-			{ "item" : "tier2light" },
-			{ "item" : "tier2bed" },
-			{ "item" : "tier2table" },
-			{ "item" : "tier3chair" },
-			{ "item" : "tier3door" },
-			{ "item" : "tier3light" },
-			{ "item" : "tier3bed" },
-			{ "item" : "tier3table" },
-			{ "item" : "tier4chair" },
-			{ "item" : "tier4door" },
-			{ "item" : "tier4light" },
-			{ "item" : "tier4bed" },
-			{ "item" : "tier4table" },
-			{ "item" : "tier5chair" },
-			{ "item" : "tier5door" },
-			{ "item" : "tier5light" },
-			{ "item" : "tier5bed" },
-			{ "item" : "tier5table" },
-			{ "item" : "tier6chair" },
-			{ "item" : "tier6door" },
-			{ "item" : "tier6light" },
-			{ "item" : "tier6bed" },
-			{ "item" : "tier6table" },
-			{ "item" : "tier7chair" },
-			{ "item" : "tier7door" },
-			{ "item" : "tier7light" },
-			{ "item" : "tier7bed" },
-			{ "item" : "tier7table" },
-			{ "item" : "tier8chair" },
-			{ "item" : "tier8door" },
-			{ "item" : "tier8light" },
-			{ "item" : "tier8bed" },
-			{ "item" : "tier8table" },
-			{ "item" : "tier9chair" },
-			{ "item" : "tier9door" },
-			{ "item" : "tier9light" },
-			{ "item" : "tier9bed" },
-			{ "item" : "tier9table" },
-			{ "item" : "tier10chair" },
-			{ "item" : "tier10door" },
-			{ "item" : "tier10light" },
-			{ "item" : "tier10bed" },
-			{ "item" : "tier10table" },
-			{ "item" : "composite01material" },
+			{ "item" : "fullwood1" },
 			
 			//INVENTORSTABLE
 			{ "item" : "pixelcompressor" },
 			{ "item" : "cnsbiomassgen" },
 			{ "item" : "cnsgastank" },
-			{ "item" : "cnstelescope" },
 			{ "item" : "cnsarmory" },
 			{ "item" : "cnstailorstable" },
 			{ "item" : "cnsnewyarnspinner" },
@@ -154,18 +54,11 @@
 			{ "item" : "cnsftldrive" },
 			{ "item" : "woodencookingtable" },
 			{ "item" : "refinery" },
-			
-			//FURNACE
-			{ "item" : "paper" },
-			{ "item" : "glassmaterial" },
-			{ "item" : "ironbar" },
-			{ "item" : "copperbar" },
-			{ "item" : "steelbar" },
-			{ "item" : "durasteelbar" },
+			//BIOMASS GEN
+			{ "item" : "cnsgas" },
 			
 			//GAS TANK
 			{ "item" : "cnsfullgascan" },
-			{ "item" : "cnsgas" },
 			{ "item" : "cnsgascan" },
 			
 			//ARMORY
@@ -230,13 +123,13 @@
 			{ "item" : "voxel5k" },
 			{ "item" : "voxel10k" },
 			
+			//TELESCOPE
 			{ "item" : "cnsmatterbook" },
-			{ "item" : "cnsmatterbook2" },
-			{ "item" : "cnsmatterbook3" },
 			
 			{ "item" : "quiverback" },
 			
 			{ "item" : "cnsstonemace" },
+			{ "item" : "huntingknife" },
 			
 			{ "item" : "oxygentank" },
 			{ "item" : "parachutepack" },
@@ -246,8 +139,6 @@
 			{ "item" : "goldpickaxe" },
 			{ "item" : "platinumpickaxe" },
 			{ "item" : "diamondpickaxe" },
-			
-			{ "item" : "huntingknife" },
 			
 			{ "item" : "aegisaltbow" },
 			

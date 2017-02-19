@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "cobblestonematerial", "count" : 20 },
     { "item" : "mud", "count" : 4 },
-    { "item" : "cnslargefire", "count" : 1 }
+    { "item" : "cnslargefire", "count" : 1 },
+    { "item" : "money", "count" : 100 }
   ],
   "output" : {
     "item" : "craftingfurnace",

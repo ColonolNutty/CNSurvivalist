@@ -52,4 +52,7 @@
 	  [ "money", 125, { } ] 
 	] ]
  
+	"learnBlueprintsOnPickup" : [
+		"cnstelescope"
+	]
 }

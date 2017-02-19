@@ -2,6 +2,12 @@
 	{
 		"op": "add",
 		"path": "/learnBlueprintsOnPickup",
-		"value": [ "cnsstonepickaxe", "cnsstoneaxe", "cnssimplecraft" ]
+		"value": [
+			"cnsstonepickaxe",
+			"cnsstoneaxe",
+			"cnssimplecraft",
+			"craftingfurnace",
+			"cnssimplecraft"
+		]
 	}
 ]

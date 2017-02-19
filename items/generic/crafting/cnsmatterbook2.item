@@ -4,5 +4,7 @@
   "rarity" : "uncommon",
   "inventoryIcon" : "cnsmatterbook2.png",
   "description" : "The Book of Average Matter Knowledge",
-  "shortdescription" : "Average Matter Book"
+  "shortdescription" : "Average Matter Book",
+  
+  "learnBlueprintsOnPickup" : [ "cnsmatterbook3" ]
 }

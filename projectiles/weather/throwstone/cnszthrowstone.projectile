@@ -1,8 +1,8 @@
 {
-  "projectileName" : "cnsthrowstone",
+  "projectileName" : "cnszthrowstone",
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "image" : "cnsthrowstone.png",
+  "image" : "cnszthrowstone.png",
   "animationCycle" : 1,
   "frameNumber" : 1,
   "actionOnReap" : [
