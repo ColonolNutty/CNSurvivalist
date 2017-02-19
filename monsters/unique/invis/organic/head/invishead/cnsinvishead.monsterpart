@@ -1,10 +1,10 @@
 {
-  "name" : "invishead",
+  "name" : "cnsinvishead",
   "category" : "invis_organic",
   "type" : "head",
 
   "frames" : {
-    "head" : "invishead.png"
+    "head" : "cnsinvishead.png"
   },
 
   "parameters" : { }

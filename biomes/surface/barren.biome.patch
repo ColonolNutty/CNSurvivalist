@@ -7,8 +7,8 @@
 			{
 				"select" : 2,
 				"pool" : [
-					[ 1.0, "zombie" ],
-					[ 1.0, "invismonster" ]
+					[ 1.0, "cnszombie" ],
+					[ 1.0, "cnsinvismonster" ]
 				]
 			}
 			],
@@ -74,7 +74,7 @@
 				{
 					"select" : 1,
 					"pool" : [
-						[1, "bonepile" ],
+						[1, "cnsbonepile" ],
 						[1, "unknownore" ],
 						[1, "organicpit" ],
 						[1, "goldchunk" ]

@@ -1,9 +1,9 @@
 {
-  "name" : "tentaclechest",
+  "name" : "cnstentaclechest",
   "category" : "tentaclecometspore",
   "type" : "chest",
 
   "frames" : {
-    "chest" : "tentaclechest.png"
+    "chest" : "cnstentaclechest.png"
   }
 }

@@ -23,9 +23,9 @@
       {
         "select" : 1,
 		"pool" : [
-          [ 0.1, "aggroLargeBipedBoss" ],
-          [ 0.1, "aggroLargeQuadrupedBoss" ],
-          [ 0.1, "aggroLargeFlyingBoss" ]
+          [ 0.1, "cnsaggroLargeBipedBoss" ],
+          [ 0.1, "cnsaggroLargeQuadrupedBoss" ],
+          [ 0.1, "cnsaggroLargeFlyingBoss" ]
 		]
       },
       {
@@ -155,10 +155,10 @@
 
   "musicTrack" : {
     "day" : {
-      "tracks" : [ "/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg" ]
+      "tracks" : [ "/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg" ]
+      "tracks" : [ "/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg" ]
     }
   },
 
@@ -176,7 +176,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "bonepile" ] ],
+            "pool" : [ [1, "cnsbonepile" ] ],
             "parameters" : { }
           }
         ]
@@ -273,7 +273,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "bonepile" ] ],
+            "pool" : [ [1, "cnsbonepile" ] ],
             "parameters" : { }
           }
         ]

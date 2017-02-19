@@ -27,7 +27,7 @@
             "cycle" : 0.5,
             "mode" : "loop",
             "properties" : {
-              "persistentSound" : "/sfx/npc/treemonster/treemonster.ogg"
+              "persistentSound" : "/sfx/npc/cnstreemonster/treemonster.ogg"
             }
           },
           "chargewindup" : {
@@ -160,7 +160,7 @@
   },
 
   "sounds" : {
-    "aggroHop" : [ "/sfx/npc/treemonster/treemonster.ogg" ],
+    "aggroHop" : [ "/sfx/npc/cnstreemonster/treemonster.ogg" ],
     "deathPuff" : [ ]
   },
   "effects" : {

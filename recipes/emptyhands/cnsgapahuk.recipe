@@ -6,7 +6,7 @@
 	{ "item" : "money", "count" : 100 }
   ],
   "output" : {
-    "item" : "gapahuk",
+    "item" : "cnsgapahuk",
     "count" : 1
   },
   "groups" : [ "plain", "all", "other" ]

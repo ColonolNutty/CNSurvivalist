@@ -5,7 +5,7 @@
 		"value": {
 			"select" : 1,
 			"pool" : [
-				[ 0.1, "aggroLargeFishBoss" ]
+				[ 0.1, "cnsaggroLargeFishBoss" ]
 			]
 		}
 	},
@@ -13,18 +13,18 @@
 		"op": "replace",
 		"path": "/musicTrack/day/tracks",
 		"value": [
-			"/music/survivaltrack01.ogg",
-			"/music/survivaltrack02.ogg",
-			"/music/survivaltrack03.ogg"
+			"/music/cnssurvivaltrack01.ogg",
+			"/music/cnssurvivaltrack02.ogg",
+			"/music/cnssurvivaltrack03.ogg"
 		]
 	},
 	{
 		"op": "replace",
 		"path": "/musicTrack/night/tracks",
 		"value": [
-			"/music/survivaltrack01.ogg",
-			"/music/survivaltrack02.ogg",
-			"/music/survivaltrack03.ogg"
+			"/music/cnssurvivaltrack01.ogg",
+			"/music/cnssurvivaltrack02.ogg",
+			"/music/cnssurvivaltrack03.ogg"
 		]
 	},
 	{
@@ -39,7 +39,7 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "bonepile" ] ],
+					"pool" : [ [1, "cnsbonepile" ] ],
 					"parameters" : { }
 				}
 			]

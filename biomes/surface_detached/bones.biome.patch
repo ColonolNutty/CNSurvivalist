@@ -91,7 +91,7 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "bonepile" ] ],
+					"pool" : [ [1, "cnsbonepile" ] ],
 					"parameters" : { }
 				}
 			]

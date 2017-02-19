@@ -1,10 +1,10 @@
 {
-  "name" : "zombiechest2",
+  "name" : "cnszombiechest1",
   "category" : "zombie",
   "type" : "chest",
 
   "frames" : {
-    "chest" : "zombiechest2.png"
+    "chest" : "cnszombiechest1.png"
   },
 
   "parameters" : {

@@ -1,14 +1,20 @@
 {
-  "type" : "zombie",
+  "type" : "cnsinvismonster",
 
-  "categories" : [ "zombie" ],
+  "categories" : [ "invis_organic" ],
   "parts" : [ "arms", "chest", "tail", "head" ],
-  "partParameters" : "zombie.partparams",
+  "partParameters" : "cnsinvis.partparams",
 
-  "animation" : "zombie.animation",
+  "animation" : "cnsinvis.animation",
   "reversed" : true,
 
-  "dropPools" : [ "zombieTreasure" ],
+  "dropPools" : [
+    {
+      "default" : "invisTreasure",
+      "bow" : "hunting",
+      "brain" : "brain"
+    }
+  ],
 
   "baseParameters" : {
     "scripts" : [
@@ -64,7 +70,6 @@
           }		
         }		
       ],
-
       "wanderActions" : [
         {
           "name" : "wander-walk",
@@ -89,17 +94,18 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-0.8, -2.2], [-0.4, -2.6], [0.4, -2.6], [0.8, -2.2], [0.8, 0.1], [0.4, 0.5], [-0.4, 0.5], [-0.8, 0.1] ],
+      "collisionPoly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
       "mass" : 0.6,
       "walkSpeed" : 2,
-      "runSpeed" : 2.0
+      "runSpeed" : 16.0,
+      "jumpSpeed" : 10
     },
 
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
 
     "touchDamage" : {
       "poly" : [ [-1.5, -3.9], [1.5, -3.9], [1.5, 0.85], [-1.5, 0.85] ],
-      "damage" : 40,
+      "damage" : 20,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
@@ -111,9 +117,10 @@
       "statusProperties" : {
         "targetMaterialKind" : "organic"
       },
+	  
 	  "appliesWeatherStatusEffects" : false,
       "appliesEnvironmentStatusEffects" : false,
-      "minimumLiquidStatusEffectPercentage" : 0.1,
+      "minimumLiquidStatusEffectPercentage" : 0,
 
       "primaryScriptSources" : [
         "/stats/monster_primary.lua"
@@ -122,7 +129,7 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 100
+          "baseValue" : 120
         },
         "maxShield" : {
           "baseValue" : 0.0
@@ -134,7 +141,7 @@
           "baseValue" : 0.1
         },
         "knockbackThreshold" : {
-          "baseValue" : 5
+          "baseValue" : 2
         },
         "healthRegen" : {
           "baseValue" : 0.0

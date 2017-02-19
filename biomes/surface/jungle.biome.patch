@@ -5,9 +5,9 @@
 		"value": {
 			"select" : 1,
 			"pool" : [
-				[ 0.1, "aggroLargeBipedBoss" ],
-				[ 0.1, "aggroLargeQuadrupedBoss" ],
-				[ 0.1, "aggroLargeFlyingBoss" ]
+				[ 0.1, "cnsaggroLargeBipedBoss" ],
+				[ 0.1, "cnsaggroLargeQuadrupedBoss" ],
+				[ 0.1, "cnsaggroLargeFlyingBoss" ]
 			]
 		}
 	},
@@ -17,7 +17,7 @@
 		"value": {
 			"select" : 1,
 			"pool" : [
-				[ 1, "treemonster" ]
+				[ 1, "cnstreemonster" ]
 			]
 		}
 	},
@@ -25,18 +25,18 @@
 		"op": "replace",
 		"path": "/musicTrack/day/tracks",
 		"value": [
-			"/music/survivaltrack01.ogg",
-			"/music/survivaltrack02.ogg",
-			"/music/survivaltrack03.ogg"
+			"/music/cnssurvivaltrack01.ogg",
+			"/music/cnssurvivaltrack02.ogg",
+			"/music/cnssurvivaltrack03.ogg"
 		]
 	},
 	{
 		"op": "replace",
 		"path": "/musicTrack/night/tracks",
 		"value": [
-			"/music/survivaltrack01.ogg",
-			"/music/survivaltrack02.ogg",
-			"/music/survivaltrack03.ogg"
+			"/music/cnssurvivaltrack01.ogg",
+			"/music/cnssurvivaltrack02.ogg",
+			"/music/cnssurvivaltrack03.ogg"
 		]
 	},
 	{
@@ -51,7 +51,7 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "bonepile" ] ],
+					"pool" : [ [1, "cnsbonepile" ] ],
 					"parameters" : { }
 				}
 			]

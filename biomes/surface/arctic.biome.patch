@@ -5,8 +5,8 @@
 		"value": {
 			"select" : 1,
 			"pool" : [
-				[ 0.1, "aggroLargeBipedBoss" ],
-				[ 0.1, "aggroLargeQuadrupedBoss" ]
+				[ 0.1, "cnsaggroLargeBipedBoss" ],
+				[ 0.1, "cnsaggroLargeQuadrupedBoss" ]
 			]
 		}
 	},
@@ -22,7 +22,7 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "frozendia" ] ],
+					"pool" : [ [1, "cnsfrozendia" ] ],
 					"parameters" : { }
 				}
 			]

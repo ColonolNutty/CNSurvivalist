@@ -2,6 +2,6 @@
 	{
 		"op": "add",
 		"path": "/learnBlueprintsOnPickup",
-		"value": [ "bandage", "climbingrope", "survivalbushhead", "survivalbushjacket" ]
+		"value": [ "bandage", "climbingrope", "cnssurvivalbushhead", "cnssurvivalbushjacket" ]
 	}
 ]

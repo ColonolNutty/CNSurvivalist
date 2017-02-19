@@ -1,10 +1,10 @@
 {
-  "name" : "invischest",
+  "name" : "cnsinvischest",
   "category" : "invis_organic",
   "type" : "chest",
 
   "frames" : {
-    "chest" : "invischest.png"
+    "chest" : "cnsinvischest.png"
   },
 
   "parameters" : { }

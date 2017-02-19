@@ -3,7 +3,7 @@
 		"op": "add",
 		"path": "/-",
 		"value": {
-			"name" : "invismonster",
+			"name" : "cnsinvismonster",
 
 			"spawnParameters" : {
 				"area" : "surface",
@@ -13,7 +13,7 @@
 
 			"groupSize" : [1, 1],
 			"spawnChance" : 0.04,
-			"monsterType" : "invismonster",
+			"monsterType" : "cnsinvismonster",
 			"monsterParameters" : {
 				"aggressive" : true
 			}
@@ -24,7 +24,7 @@
 		"op": "add",
 		"path": "/-",
 		"value": {
-			"name" : "treemonster",
+			"name" : "cnstreemonster",
 
 			"spawnParameters" : {
 				"area" : "surface",
@@ -34,7 +34,7 @@
 
 			"groupSize" : [1, 1],
 			"spawnChance" : 0.04,
-			"monsterType" : "treemonster",
+			"monsterType" : "cnstreemonster",
 			"monsterParameters" : {
 				"aggressive" : true
 			}
@@ -45,7 +45,7 @@
 		"op": "add",
 		"path": "/-",
 		"value": {
-			"name" : "zombie",
+			"name" : "cnszombie",
 
 			"spawnParameters" : {
 				"area" : "surface",
@@ -55,7 +55,7 @@
 
 			"groupSize" : [1, 3],
 			"spawnChance" : 0.04,
-			"monsterType" : "zombie",
+			"monsterType" : "cnszombie",
 			"monsterParameters" : {
 				"aggressive" : true
 			}

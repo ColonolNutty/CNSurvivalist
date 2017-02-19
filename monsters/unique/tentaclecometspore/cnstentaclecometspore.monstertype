@@ -1,23 +1,24 @@
 {
-  "type" : "treemonster",
+  "type" : "cnstentaclecometspore",
 
-  "categories" : [ "treemonster" ],
-  "parts" : [ "body" ],
-  "partParameters" : "treemonster.partparams",
+  "categories" : [ "tentaclecometspore" ],
+  "parts" : [ "chest" ],
+  "partParameters" : "cnstentaclecometspore.partparams",
 
-  "animation" : "treemonster.animation",
+  "animation" : "cnstentaclecometspore.animation",
   "reversed" : true,
 
   "dropPools" : [
     {
-      "default" : "minibosstreasure",
-      "bow" : "minibosstreasure",
+      "default" : "sporemonstertreasure",
+      "bow" : "hunting",
       "brain" : "brain"
     }
   ],
 
   "baseParameters" : {
     "scripts" : [
+      "/monsters/unique/tentaclecometspore/behavior.lua",
       "/monsters/monster.lua"
     ],
 
@@ -26,23 +27,23 @@
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
-      "targetQueryRange" : 10,
+      "targetQueryRange" : 1000,
       "targetOnDamage" : true,
       "targetEntityTypes" : [ "player", "npc", "monster" ],
-      "keepTargetInSight" : true,
-      "keepTargetInRange" : 20,
-      "targetOutOfSightTime" : 5,
+      "keepTargetInSight" : false,
+      "keepTargetInRange" : 60,
+      "targetOutOfSightTime" : 999,
 
-      "foundTargetActions" : [ ],
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
 
       "approachActions" : [
         {
           "name" : "approach-walk",
           "parameters" : {
             "canJump" : true,
-            "maxJumps" : 0,
-            "jumpXVelocity" : 0,
-            "jumpYVelocity" : 0,
+            "maxJumps" : 6,
+            "jumpXVelocity" : 5,
+            "jumpYVelocity" : 5,
             "jumpXControlForce" : 50,
             "fallState" : "jump",
             "moveState" : "run",
@@ -61,8 +62,8 @@
           "parameters" : {		
             "canJump" : true,		
             "maxJumps" : 6,		
-            "jumpXVelocity" : 0,		
-            "jumpYVelocity" : 0,		
+            "jumpXVelocity" : 5,		
+            "jumpYVelocity" : 5,		
             "jumpXControlForce" : 50,		
             "fallState" : "jump",		
             "moveState" : "run",		
@@ -76,7 +77,7 @@
           "name" : "wander-walk",
           "cooldown" : 6.0,
           "parameters" : {
-            "wanderTime" : [4, 6]
+            "wanderTime" : [5, 15]
           }
         }
       ]
@@ -85,7 +86,7 @@
     "skillCount" : 0,
     "baseSkills" : [ ],
 
-    "knockoutTime" : 0.5,
+    "knockoutTime" : 1,
     "knockoutEffect" : "blink",
     "knockoutAnimationStates" : {
       "damage" : "stunned"
@@ -95,20 +96,20 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
+      "collisionPoly" : [ [-2.25, -1.75], [1.875, -1.75], [1.875, 1.0], [-2.25, 1.0] ],
       "mass" : 1.0,
-      "walkSpeed" : 0,
-      "runSpeed" : 3.0
+      "walkSpeed" : 6,
+      "runSpeed" : 6
     },
 
-    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+    "metaBoundBox" : [-2.25, -1.75, 1.875, 1.0],
 
     "touchDamage" : {
-      "poly" : [ [-1.5, -3.9], [1.5, -3.9], [1.5, 0.85], [-1.5, 0.85] ],
-      "damage" : 20,
+      "poly" : [ [-2.25, -1.75], [1.875, -1.75], [1.875, 1.0], [-2.25, 1.0] ],
+      "damage" : 15,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "slash",
+      "damageSourceKind" : "bite",
       "statusEffects" : [ ]
     },
 	"colors" : "generated",
@@ -128,7 +129,7 @@
 
       "stats" : {
         "maxHealth" : {
-          "baseValue" : 250
+          "baseValue" : 14
         },
         "maxShield" : {
           "baseValue" : 0.0
@@ -172,7 +173,7 @@
     },
 
     "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -21],
+    "feetOffset" : [0, -8],
 	"capturable" : false
   }
 }

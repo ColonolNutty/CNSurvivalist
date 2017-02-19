@@ -37,7 +37,7 @@
         }
       },
       "damage" : {
-        "priority" : 0,
+        "priority" : 1,
         "default" : "none",
         "states" : {
           "none" : {
@@ -353,8 +353,8 @@
   },
 
   "sounds" : {
-    "aggroHop" : [ "/sfx/npc/invis/scream1.ogg", "/sfx/npc/invis/scream2.ogg", "/sfx/npc/invis/scream3.ogg" ],
-    "deathPuff" : [ "/sfx/npc/invis/pengu2.ogg" ]
+    "aggroHop" : [ "/sfx/npc/cnszombie/zombie5.ogg" ],
+    "deathPuff" : [ "/sfx/npc/cnszombie/zombie1.ogg", "/sfx/npc/cnszombie/zombie2.ogg", "/sfx/npc/cnszombie/zombie3.ogg", "/sfx/npc/cnszombie/zombie4.ogg", "/sfx/npc/cnszombie/zombie5.ogg" ]
   },
   "effects" : {
     "blink" : {

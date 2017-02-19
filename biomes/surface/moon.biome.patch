@@ -2,12 +2,12 @@
 	{
 		"op": "replace",
 		"path": "/musicTrack/day/tracks",
-		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
 	},
 	{
 		"op": "replace",
 		"path": "/musicTrack/night/tracks",
-		"value": ["/music/survivaltrack01.ogg", "/music/survivaltrack02.ogg", "/music/survivaltrack03.ogg"]
+		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
 	},
 	{
 		"op": "add",
@@ -21,7 +21,7 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "bonepile" ] ],
+					"pool" : [ [1, "cnsbonepile" ] ],
 					"parameters" : { }
 				}
 			]
@@ -39,7 +39,7 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "bonepile" ] ],
+					"pool" : [ [1, "cnsbonepile" ] ],
 					"parameters" : { }
 				}
 			]

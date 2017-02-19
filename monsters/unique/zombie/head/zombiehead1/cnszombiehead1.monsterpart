@@ -1,10 +1,10 @@
 {
-  "name" : "zombiehead1",
+  "name" : "cnszombiehead1",
   "category" : "zombie",
   "type" : "head",
 
   "frames" : {
-    "head" : "zombiehead1.png"
+    "head" : "cnszombiehead1.png"
   },
 
   "parameters" :

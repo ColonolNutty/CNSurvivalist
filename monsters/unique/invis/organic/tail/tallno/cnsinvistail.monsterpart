@@ -1,9 +1,9 @@
 {
-  "name" : "invistail",
+  "name" : "cnsinvistail",
   "category" : "invis_organic",
   "type" : "tail",
 
   "frames" : {
-    "tail" : "invistail.png"
+    "tail" : "cnsinvistail.png"
   }
 }
