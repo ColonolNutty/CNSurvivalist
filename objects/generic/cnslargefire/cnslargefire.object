@@ -63,7 +63,7 @@
       "frames" : 4,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [2, 0], [1, 0], [1, 1] ],
       "anchors" : [ "bottom" ]
     },
     {
@@ -74,7 +74,7 @@
       "frames" : 4,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [2, 0] , [1, 0], [1, 1] ],
       "anchors" : [ "bottom" ]
     }
   ],
@@ -83,7 +83,7 @@
 
   "statusEffects" : [ ],
 
-  "recipeGroup" : "cooking",
+  "recipeGroup" : "campfire",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/campfire.config",
