@@ -3,7 +3,7 @@
     { "item" : "fullwood1", "count" : 35 },
     { "item" : "cobblestonematerial", "count" : 30 },
     { "item" : "poop", "count" : 10 },
-	{ "item" : "money", "count" : 250 }
+	{ "item" : "money", "count" : 50 }
   ],
   "output" : {
     "item" : "cnssimplecraft",
