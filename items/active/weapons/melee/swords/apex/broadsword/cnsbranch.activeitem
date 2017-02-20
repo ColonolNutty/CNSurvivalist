@@ -32,60 +32,87 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
-    "fireTime" : 0.8,
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+    "fireTime" : 0.5,
     "baseDps" : 5,
     "damageConfig" : {
       "damageSourceKind" : "cnsbranchhit",
       "knockback" : 15
     },
 	"stances": {
-		"idle": {
-			"twoHanded": false,
-			"armRotation" : -90,
-			"weaponRotation" : 0,
-			"weaponOffset" : [0.5, 1.75],
-			"duration": 0.1
-		},
-		"windup": {
-			"twoHanded": true,
-			"duration" : 0.408,
-			"armRotation" : -90,
-			"weaponRotation" : -90,
-			"weaponOffset" : [0.75, 1.75],
+      "idle" : {
+		 "armRotation" : -90,
+		 "weaponRotation" : 0,
+		 "weaponOffset" : [0.5, 1.75],
 
-			// Windup animation
-			"idleHammerAngle" : -10,
-			"windupHammerAngle" : 0,
-			"dropHammerAngle" : 60,
-			"bounceHammerAngle" : 55,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "windup" : {
+	    "twoHanded": true,
+        "duration" : 0.408,
+        "armRotation" : 145,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.75, 1.75],
 
-			"minWindup" : 0.7,
-			"windupBaseAngle" : -10,
-			"windupAngleRange" : 70
-		},
-		"preslash" : {
-			"duration" : 0.025,
-			"armRotation" : 55,
-			"weaponRotation" : -45
-		},
-		"fire" : {
-			"duration" : 0.4,
-			"smashTimer" : 1.5,
-			"weaponOffset" : [0.5, 1.75]
-		},
-		"cooldown": {
-			"twoHanded": true,
-			"weaponOffset" : [0.0, 1.75],
-			"duration": 0.3
-		}
+		 "windupBaseAngle" : -10,
+		 "windupAngleRange" : 70,
+		 
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+	    "twoHanded": true,
+		"duration" : 0.4,
+        "weaponOffset" : [0.5, 1.75],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+	 // "idle": {
+		 // "twoHanded": false,
+		 // "armRotation" : -90,
+		 // "weaponRotation" : 0,
+		 // "weaponOffset" : [0.5, 1.75],
+		 // "duration": 0.1
+	 // },
+	 // "windup": {
+		 // "twoHanded": true,
+		 // "duration" : 0.408,
+		 // "armRotation" : -90,
+		 // "weaponRotation" : -90,
+		 // "weaponOffset" : [0.75, 1.75],
+
+		  // Windup animation
+		 // "idleHammerAngle" : -10,
+		 // "windupHammerAngle" : 0,
+		 // "dropHammerAngle" : 60,
+		 // "bounceHammerAngle" : 55,
+
+		 // "minWindup" : 0.7,
+		 // "windupBaseAngle" : -10,
+		 // "windupAngleRange" : 70
+	 // },
+	 // "preslash" : {
+		 // "duration" : 0.025,
+		 // "armRotation" : 55,
+		 // "weaponRotation" : -45
+	 // },
+	 // "fire" : {
+		 // "duration" : 0.4,
+		 // "smashTimer" : 1.5,
+		 // "weaponOffset" : [0.5, 1.75]
+	 // },
+	 // "cooldown": {
+		 // "twoHanded": true,
+		 // "weaponOffset" : [0.0, 1.75],
+		 // "duration": 0.3
+	 // }
 	}
   },
-
-  "altAbilityType" : "uppercut",
-  "altAbility" : { },
-
+  
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   
   //These may be obsolete
