@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+		"path": "/cnsdeathbowshot",
+		"value": "/items/active/weapons/bow/abilities/cnsdeathbowshot.weaponability"
+	}
+]

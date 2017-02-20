@@ -1,0 +1,21 @@
+{
+  "projectileName" : "cnskillerarrow",
+  "physics" : "arrow",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/deathbowexplosion/deathbowexplosion.config"
+    }
+  ],
+  "image" : "cnskillerarrow.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "cnskillerarrowicon.png",
+  "power" : 20,
+  "knockback" : 10,
+  "knockbackDirectional" : true,
+  "damageKind" : "bow",
+  "timeToLive" : 30,
+  "pointLight" : false,
+  "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ]
+}
