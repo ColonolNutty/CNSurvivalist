@@ -2,12 +2,12 @@
 	{
 		"op": "replace",
 		"path": "/effects/organic/hit/sounds",
-		"value": [ "/sfx/gun/impact_flesh.wav" ]
+		"value": [ "/sfx/gun/impact_flesh.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/organic/kill/sounds",
-		"value": [ "/sfx/gun/impact_flesh.wav" ]
+		"value": [ "/sfx/gun/impact_flesh.ogg" ]
 	},
 	{
 		"op": "replace",

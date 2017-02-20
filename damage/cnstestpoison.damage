@@ -7,7 +7,7 @@
   "effects" : {
     "organic" : {
       "hit" : {
-        "sounds" : [ "/sfx/gun/impact_flesh.wav" ],
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
         "particles" : [
           [
 
@@ -29,7 +29,7 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/gun/impact_flesh.wav" ],
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
         "particles" : [
           [
             {

@@ -28,7 +28,7 @@
 					{"weight" : 0.36, "item" : ["money", 5]},
 					{"weight" : 0.36, "item" : ["money", 2]},
 					{"weight" : 0.18, "item" : ["money", 10]},
-					{"weight" : 0.10, "item" : ["monsterskin", 1]}
+					{"weight" : 0.10, "item" : ["cnsmonsterskin", 1]}
 				],
 				"poolRounds" : [
 				  [0.20, 0],
@@ -46,8 +46,8 @@
 			[1, 
 				{
 					"pool" : [
-						{"weight" : 1.0, "item" : ["unknown1ore", 1]},
-						{"weight" : 0.15, "item" : ["severedhead", 1]},
+						{"weight" : 1.0, "item" : ["cnsunknown1ore", 1]},
+						{"weight" : 0.15, "item" : ["cnsseveredhead", 1]},
 						{"weight" : 0.2, "item" : ["goldore", 3]}
 					],
 					"poolRounds" : [
@@ -69,7 +69,7 @@
 						{"weight" : 0.5, "item" : ["goldore", 5]},
 						{"weight" : 0.8, "item" : ["money", 100]},
 						{"weight" : 0.2, "item" : ["diamond", 2]},
-						{"weight" : 1.0, "item" : ["organicmatter", 2]}
+						{"weight" : 1.0, "item" : ["cnsorganicmatter", 2]}
 					],
 					"poolRounds" : [
 						[0.20, 0],
@@ -88,12 +88,12 @@
 			{"weight" : 0.10, "item" : ["money", 50]},
 			{"weight" : 0.20, "item" : ["money", 30]},
 			{"weight" : 0.10, "item" : "alienmeat"},
-			{"weight" : 0.50, "item" : [ "monsterheart", 1 ]},
+			{"weight" : 0.50, "item" : [ "cnsmonsterheart", 1 ]},
 			{"weight" : 0.02, "item" : [ "cnsluckybone", 1 ]},
-			{"weight" : 0.10, "item" : [ "monstertooth", 1 ]},
+			{"weight" : 0.10, "item" : [ "cnsmonstertooth", 1 ]},
 			{"weight" : 0.10, "item" : "cryonicextract"},
 			{"weight" : 0.01, "item" : [ "cnsfirecracker", 1 ]},
-			{"weight" : 0.06, "item" : [ "monsterskin", 1 ]}
+			{"weight" : 0.06, "item" : [ "cnsmonsterskin", 1 ]}
 		]
 	},
 	
@@ -111,8 +111,8 @@
 		"value": [
 			{"weight" : 0.10, "item" : ["money", 50]},
 			{"weight" : 0.20, "item" : ["money", 30]},
-			{"weight" : 0.10, "item" : [ "monstertooth", 1 ]},
-			{"weight" : 0.06, "item" : [ "monsterskin", 1 ]}
+			{"weight" : 0.10, "item" : [ "cnsmonstertooth", 1 ]},
+			{"weight" : 0.06, "item" : [ "cnsmonsterskin", 1 ]}
 		]
 	},
 	
@@ -147,7 +147,7 @@
 			{"weight" : 0.10, "item" : ["money", 50]},
 			{"weight" : 0.20, "item" : ["money", 30]},
 			{"weight" : 0.10, "item" : "rawpoultry"},
-			{"weight" : 0.02, "item" : [ "luckybone", 1 ]}
+			{"weight" : 0.02, "item" : [ "cnsluckybone", 1 ]}
 		]
 	},
 	

@@ -1,114 +1,95 @@
 {
-	"itemName": "cnsbranch",
-	"price": 0,
-	"level": 1,
-	"maxStack": 1,
-	"rarity": "uncommon",
-	"description": "A large branch to temporary fend off hostile attacks!",
-	"shortdescription": "Branch",
-	"tooltipKind": "sword",
-	"weaponType": "Branch",
-	"itemTags": ["weapon", "melee", "sword"],
+  "itemName": "cnsbranch",
+  "price": 0,
+  "level": 1,
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "description": "A large branch to temporary fend off hostile attacks!",
+  "shortdescription": "Branch",
+  "tooltipKind": "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags": ["weapon", "melee", "broadsword"],
 
-	"image": "cnsbranch.png",
-	"firePosition": [15.5, 4.5],
-	"fireTime": 0.8,
-	"fireAfterWindup": true,
-	"soundEffect": {
-		"fireSound": [{
-			"file": "/sfx/melee/branchswoosh.ogg"
-		}]
-	},
+  "inventoryIcon": "cnsbranch.png",
+  //"image": "cnsbranch.png",
+  "palette": "cnsbranch.weaponcolors",
+  
+  "animation" : "cnsbranch.animation",
+  "animationParts" : {
+    "blade" : "cnsbranch.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
+      "offset" : [-3.0, 1.5]
+    }}}},
+    "sounds" : {
+      "fire" : [ "/sfx/melee/branchswoosh.ogg" ]
+    }
+  },
 
-	"colorOptions": [{
-		"ffca8a": "b5b5b5",
-		"e0975c": "808080",
-		"a85636": "555555",
-		"6f2919": "303030"
-	}, {
-		"ffca8a": "838383",
-		"e0975c": "555555",
-		"a85636": "383838",
-		"6f2919": "151515"
-	}, {
-		"ffca8a": "b5b5b5",
-		"e0975c": "808080",
-		"a85636": "555555",
-		"6f2919": "303030"
-	}, {
-		"ffca8a": "e6e6e6",
-		"e0975c": "b6b6b6",
-		"a85636": "7b7b7b",
-		"6f2919": "373737"
-	}, {
-		"ffca8a": "f4988c",
-		"e0975c": "d93a3a",
-		"a85636": "932625",
-		"6f2919": "601119"
-	}, {
-		"ffca8a": "ffd495",
-		"e0975c": "ea9931",
-		"a85636": "af4e00",
-		"6f2919": "6e2900"
-	}, {
-		"ffca8a": "ffffa7",
-		"e0975c": "e2c344",
-		"a85636": "a46e06",
-		"6f2919": "642f00"
-	}, {
-		"ffca8a": "b2e89d",
-		"e0975c": "51bd3b",
-		"a85636": "247824",
-		"6f2919": "144216"
-	}, {
-		"ffca8a": "96cbe7",
-		"e0975c": "5588d4",
-		"a85636": "344495",
-		"6f2919": "1a1c51"
-	}, {
-		"ffca8a": "d29ce7",
-		"e0975c": "a451c4",
-		"a85636": "6a2284",
-		"6f2919": "320c40"
-	}, {
-		"ffca8a": "eab3db",
-		"e0975c": "d35eae",
-		"a85636": "97276d",
-		"6f2919": "59163f"
-	}, {
-		"ffca8a": "ccae7c",
-		"e0975c": "a47844",
-		"a85636": "754c23",
-		"6f2919": "472b13"
-	}],
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-	"primaryStances": {
-		"directional": true,
-		"projectileType": "branchhit",
-		"projectile": {
-			"speed": 0.05,
-			"power": 5
-		},
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 5,
+    "damageConfig" : {
+      "damageSourceKind" : "cnsbranchhit",
+      "knockback" : 15
+    },
+	"stances": {
 		"idle": {
 			"twoHanded": false,
-			"armAngle": -90,
-			"swordAngle": -90,
-			"handPosition": [-6.0, -17.0],
+			"armRotation" : -90,
+			"weaponRotation" : 0,
+			"weaponOffset" : [0.5, 1.75],
 			"duration": 0.1
 		},
 		"windup": {
 			"twoHanded": true,
-			"armAngle": 90,
-			"swordAngle": 90,
-			"handPosition": [-6.0, -17.0],
-			"duration": 0.408
+			"duration" : 0.408,
+			"armRotation" : -90,
+			"weaponRotation" : -90,
+			"weaponOffset" : [0.75, 1.75],
+
+			// Windup animation
+			"idleHammerAngle" : -10,
+			"windupHammerAngle" : 0,
+			"dropHammerAngle" : 60,
+			"bounceHammerAngle" : 55,
+
+			"minWindup" : 0.7,
+			"windupBaseAngle" : -10,
+			"windupAngleRange" : 70
+		},
+		"preslash" : {
+			"duration" : 0.025,
+			"armRotation" : 55,
+			"weaponRotation" : -45
+		},
+		"fire" : {
+			"duration" : 0.4,
+			"smashTimer" : 1.5,
+			"weaponOffset" : [0.5, 1.75]
 		},
 		"cooldown": {
 			"twoHanded": true,
-			"armAngle": -45,
-			"swordAngle": -90,
-			"handPosition": [-6.0, -27.5],
+			"weaponOffset" : [0.0, 1.75],
 			"duration": 0.3
 		}
 	}
+  },
+
+  "altAbilityType" : "uppercut",
+  "altAbility" : { },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  //These may be obsolete
+  "firePosition": [15.5, 4.5],
+  "fireTime": 0.8,
+  "fireAfterWindup": true
 }
