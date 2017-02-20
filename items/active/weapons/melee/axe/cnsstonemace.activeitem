@@ -7,14 +7,14 @@
 	"description": "A lethal mace of stone and wood.",
 	"shortdescription": "Stone Mace",
 	"tooltipKind": "sword",
-	"category" : "hammer",
-	"itemTags": ["weapon", "melee", "hammer"],
+	"category" : "axe",
+	"itemTags": ["weapon", "melee", "axe"],
 	
 	"palette": "cnsstonemace.weaponcolors",
 	"inventoryIcon" : "cnsstonemace.png",
 	"image": "cnsstonemace.png",
 	
-	"animation" : "hammer.animation",
+	"animation" : "axe.animation",
 	"animationParts" : {
 		"handle" : "",
 		"blade" : "cnsstonemace.png"
@@ -32,47 +32,37 @@
 	
 	"elementalType" : "physical",
 	
-	"primaryAbilityType" : "hammersmash",
+	"primaryAbilityType" : "axecleave",
 	"primaryAbility" : {
-		"fireTime" : 1.3,
-		"baseDps" : 11,
+		"fireTime" : 0.9,
+		"baseDps" : 6,
 		"damageConfig" : {
-			"damageSourceKind" : "axeswoosh1"
+			"damageSourceKind" : "hammer",
+			"knockback" : 15
 		},
 		"stances" : {
 			"idle" : {
-				"armRotation" : -10,
-				"weaponRotation" : -10,
-				"weaponOffset" : [0.0, 1.75]
+				"weaponOffset" : [0.25, 1.0]
 			},
 			"windup" : {
-				"duration" : 0.8,
-				"armRotation" : 90,
-				"weaponRotation" : -10,
-				"weaponOffset" : [0.0, 1.75],
+				"duration" : 0.7,
+				"weaponOffset" : [0.25, 1.0],
 
-				// Windup animation
-				"idleHammerAngle" : -10,
-				"windupHammerAngle" : 0,
-				"dropHammerAngle" : 60,
-				"bounceHammerAngle" : 55,
+				"minWindup" : 0.6,
 
-				"minWindup" : 0.7,
-				"windupBaseAngle" : -10,
-				"windupAngleRange" : 70
-			},
-			"preslash" : {
-				"duration" : 0.025,
-				"armRotation" : 55,
-				"weaponRotation" : -45,
-				"weaponOffset" : [0.0, 2.0]
+				"weaponAngle" : [
+					[0.7, "linear", -20, 0],
+					[0.85, "linear", 0, 50],
+					[0.925, "sin", 50, 45],
+					[1.0, "cos", 50, 45]
+				],
+
+				"armAngle" : [
+					[1.0, "sin", -90, 50]
+				]
 			},
 			"fire" : {
-				"duration" : 0.4,
-				"armRotation" : -35,
-				"weaponRotation" : -55,
-				"smashTimer" : 1.5,
-				"weaponOffset" : [0.0, 2.0]
+				"weaponOffset" : [0.25, 1.0]
 			}
 		}
 	},

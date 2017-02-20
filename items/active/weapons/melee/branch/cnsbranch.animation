@@ -11,7 +11,7 @@
           "idle" : {
           },
           "fire" : {
-            "frames" : 3,
+            "frames" : 2,
             "cycle" : 0.08,
             "mode" : "transition",
             "transition" : "idle"
@@ -26,7 +26,7 @@
           "centered" : true,
           "image" : "<partImage><paletteSwaps>",
           "transformationGroups" : ["weapon"],
-          "rotationCenter" : [0, 0]
+          "rotationCenter" : [0.75, 1.75]
         }
       },
       "handle" : {
@@ -56,7 +56,7 @@
             },
             "fire" : {
               "properties" : {
-                "image" : "/items/active/weapons/melee/hammer/swoosh/<elementalType>swoosh.png:<frame>",
+                "image" : "/items/active/weapons/melee/branch/swoosh/cnsbranchswoosh.png:<frame>",
                 "damageArea" : [ [-3.5, 0.875], [0.25, 0.875], [1.625, 0.5], [2.5, 0], [2.5, -0.5], [2.125, -0.875], [1, -1.375], [-3.5, -1.375] ]
               }
             }

@@ -53,7 +53,7 @@
       "windup" : {
 	    "twoHanded": true,
         "duration" : 0.408,
-        "armRotation" : 145,
+        "armRotation" : 90,
         "weaponRotation" : -90,
         "weaponOffset" : [0.75, 1.75],
 
@@ -66,50 +66,13 @@
       "fire" : {
 	    "twoHanded": true,
 		"duration" : 0.4,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
         "weaponOffset" : [0.5, 1.75],
 
         "allowFlip" : true,
         "allowRotate" : false
       }
-	 // "idle": {
-		 // "twoHanded": false,
-		 // "armRotation" : -90,
-		 // "weaponRotation" : 0,
-		 // "weaponOffset" : [0.5, 1.75],
-		 // "duration": 0.1
-	 // },
-	 // "windup": {
-		 // "twoHanded": true,
-		 // "duration" : 0.408,
-		 // "armRotation" : -90,
-		 // "weaponRotation" : -90,
-		 // "weaponOffset" : [0.75, 1.75],
-
-		  // Windup animation
-		 // "idleHammerAngle" : -10,
-		 // "windupHammerAngle" : 0,
-		 // "dropHammerAngle" : 60,
-		 // "bounceHammerAngle" : 55,
-
-		 // "minWindup" : 0.7,
-		 // "windupBaseAngle" : -10,
-		 // "windupAngleRange" : 70
-	 // },
-	 // "preslash" : {
-		 // "duration" : 0.025,
-		 // "armRotation" : 55,
-		 // "weaponRotation" : -45
-	 // },
-	 // "fire" : {
-		 // "duration" : 0.4,
-		 // "smashTimer" : 1.5,
-		 // "weaponOffset" : [0.5, 1.75]
-	 // },
-	 // "cooldown": {
-		 // "twoHanded": true,
-		 // "weaponOffset" : [0.0, 1.75],
-		 // "duration": 0.3
-	 // }
 	}
   },
   
