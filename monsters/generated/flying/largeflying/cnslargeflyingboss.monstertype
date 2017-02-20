@@ -1,5 +1,5 @@
 {
-  "type" : "largeflyingBoss",
+  "type" : "cnslargeflyingBoss",
 
   "categories" : [ "largeflying" ],
   "parts" : [ "body", "head", "wings" ],

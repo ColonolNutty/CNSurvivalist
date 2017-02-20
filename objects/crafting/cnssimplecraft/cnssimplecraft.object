@@ -50,7 +50,7 @@
 	"breakDropOptions" : [ [
       [ "fullwood1", 20, { } ], 
 	  [ "money", 125, { } ] 
-	] ]
+	] ],
  
 	"learnBlueprintsOnPickup" : [
 		"cnstelescope"

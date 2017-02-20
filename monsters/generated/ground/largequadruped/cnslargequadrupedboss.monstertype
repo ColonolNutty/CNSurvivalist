@@ -1,5 +1,5 @@
 {
-  "type" : "largequadrupedBoss",
+  "type" : "cnslargequadrupedBoss",
 
   "categories" : [ "largequadruped" ],
   "parts" : [ "legs", "chest", "tail", "head" ],

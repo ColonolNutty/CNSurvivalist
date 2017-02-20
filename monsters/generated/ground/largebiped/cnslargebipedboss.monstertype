@@ -1,5 +1,5 @@
 {
-  "type" : "largebipedBoss",
+  "type" : "cnslargebipedBoss",
 
   "categories" : [ "largebiped" ],
   "parts" : [ "arms", "chest", "tail", "head" ],
