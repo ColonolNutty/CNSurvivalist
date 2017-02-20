@@ -3,5 +3,5 @@
     { "item" : "wheat", "count" : 1 }
   ],
   "output" : { "item" : "bread", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing" ]
+  "groups" : [ "kitchen", "campfire", "consumables", "foodhealing" ]
 }

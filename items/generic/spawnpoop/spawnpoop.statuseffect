@@ -1,8 +1,6 @@
 {
   "name" : "spawnpoop",
-  "effectConfig" : {
-    "spawnCount" : 1
-  },
+  "spawnCount" : 1,
   "defaultDuration" : 1,
 
   "scripts" : [
