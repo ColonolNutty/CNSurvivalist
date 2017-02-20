@@ -21,7 +21,7 @@
 	},
 	"animationCustom" : {
 			"animatedParts" : { "parts" : { "swoosh" : { "properties" : {
-			"offset" : [-3.0, 1.5]
+			"offset" : [-1.0, 1.75]
 		}}}},
 		"sounds" : {
 			"fire" : [ "/sfx/melee/swing_hammer.ogg" ]
@@ -42,11 +42,11 @@
 		},
 		"stances" : {
 			"idle" : {
-				"weaponOffset" : [0.25, 1.0]
+				"weaponOffset" : [0.5, 1.75]
 			},
 			"windup" : {
 				"duration" : 0.7,
-				"weaponOffset" : [0.25, 1.0],
+				"weaponOffset" : [0.75, 1.75],
 
 				"minWindup" : 0.6,
 
@@ -62,7 +62,7 @@
 				]
 			},
 			"fire" : {
-				"weaponOffset" : [0.25, 1.0]
+				"weaponOffset" : [0.5, 1.75]
 			}
 		}
 	},
