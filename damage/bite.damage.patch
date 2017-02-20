@@ -2,12 +2,12 @@
 	{
 		"op": "replace",
 		"path": "/effects/organic/hit/sounds",
-		"value": [ "/sfx/melee/bite.wav" ]
+		"value": [ "/sfx/melee/bite.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/organic/kill/sounds",
-		"value": [ "/sfx/melee/bite_kill.wav" ]
+		"value": [ "/sfx/melee/bite_kill.ogg" ]
 	},
 	{
 		"op": "replace",
@@ -943,12 +943,12 @@
 	{
 		"op": "replace",
 		"path": "/effects/robotic/hit/sounds",
-		"value": [ "/sfx/melee/bite_robotic1.wav", "/sfx/melee/bite_robotic2.wav", "/sfx/melee/bite_robotic3.wav" ]
+		"value": [ "/sfx/melee/bite_robotic1.ogg", "/sfx/melee/bite_robotic2.ogg", "/sfx/melee/bite_robotic3.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/robotic/kill/sounds",
-		"value": [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ]
+		"value": [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ]
 	},
 	{
 		"op": "replace",

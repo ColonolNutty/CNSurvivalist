@@ -2,22 +2,22 @@
 	{
 		"op": "replace",
 		"path": "/effects/organic/hit/sounds",
-		"value": [ "/sfx/melee/slavesword_hit.wav" ]
+		"value": [ "/sfx/melee/slavesword_hit.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/organic/kill/sounds",
-		"value": [ "/sfx/melee/slavesword_kill_organic.wav" ]
+		"value": [ "/sfx/melee/slavesword_kill_organic.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/robotic/hit/sounds",
-		"value": [ "/sfx/melee/slavesword_hit.wav" ]
+		"value": [ "/sfx/melee/slavesword_hit.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/robotic/kill/sounds",
-		"value": [ "/sfx/melee/slavesword_kill_robotic.wav" ]
+		"value": [ "/sfx/melee/slavesword_kill_robotic.ogg" ]
 	},
 	
 	{

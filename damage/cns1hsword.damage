@@ -3,7 +3,7 @@
   "effects" : {
     "organic" : {
       "hit" : {
-        "sounds" : [ "/sfx/melee/sharp_hit_organic.wav" ],
+        "sounds" : [ "/sfx/melee/sharp_hit_organic.ogg" ],
         "particles" : [
           [
 
@@ -313,7 +313,7 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/melee/1h_sword_kill_organic1.wav", "/sfx/melee/1h_sword_kill_organic2.wav" ],
+        "sounds" : [ "/sfx/melee/1h_sword_kill_organic1.ogg", "/sfx/melee/1h_sword_kill_organic2.ogg" ],
         "particles" : [
           [
 
@@ -920,7 +920,7 @@
 	
 	"robotic" : {
       "hit" : {
-        "sounds" : [ "/sfx/melee/sword_hit_robotic.wav" ],
+        "sounds" : [ "/sfx/melee/sword_hit_robotic.ogg" ],
         "particles" : [
           [
 
@@ -1038,7 +1038,7 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ],
+        "sounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
         "particles" : [
           [
 

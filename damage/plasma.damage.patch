@@ -2,22 +2,22 @@
 	{
 		"op": "replace",
 		"path": "/effects/organic/hit/sounds",
-		"value": [ "/sfx/gun/impact_plasma.wav" ]
+		"value": [ "/sfx/gun/impact_plasma.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/organic/kill/sounds",
-		"value": [ "/sfx/gun/impact_plasma.wav" ]
+		"value": [ "/sfx/gun/impact_plasma.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/robotic/hit/sounds",
-		"value": [ "/sfx/gun/impact_plasma.wav" ]
+		"value": [ "/sfx/gun/impact_plasma.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/robotic/kill/sounds",
-		"value": [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ]
+		"value": [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ]
 	},
 	
 	

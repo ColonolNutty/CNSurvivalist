@@ -12,12 +12,12 @@
 	{
 		"op": "replace",
 		"path": "/effects/robotic/hit/sounds",
-		"value": [ "/sfx/gun/impact_robotic1.wav", "/sfx/gun/impact_robotic2.wav", "/sfx/gun/impact_robotic3.wav", "/sfx/gun/impact_robotic4.wav", "/sfx/gun/impact_robotic5.wav" ]
+		"value": [ "/sfx/gun/impact_robotic1.ogg", "/sfx/gun/impact_robotic2.ogg", "/sfx/gun/impact_robotic3.ogg", "/sfx/gun/impact_robotic4.ogg", "/sfx/gun/impact_robotic5.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/robotic/kill/sounds",
-		"value": [ "/sfx/melee/kill_robotic1.wav", "/sfx/melee/kill_robotic2.wav" ]
+		"value": [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ]
 	},
 	
 	

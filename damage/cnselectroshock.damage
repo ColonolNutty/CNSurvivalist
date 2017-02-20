@@ -3,12 +3,12 @@
   "effects" : {
     "organic" : {
       "hit" : {
-        "sounds" : [ "/sfx/objects/tesla_shock1.wav", "/sfx/objects/tesla_shock2.wav" ],
+        "sounds" : [ "/sfx/objects/tesla_shock1.ogg", "/sfx/objects/tesla_shock2.ogg" ],
         "particles" : [
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/objects/tesla_shock_kill.wav" ],
+        "sounds" : [ "/sfx/objects/tesla_shock_kill.ogg" ],
         "particles" : [
             {
               "type" : "animated",
@@ -611,12 +611,12 @@
     },
     "robotic" : {
       "hit" : {
-        "sounds" : [ "/sfx/objects/tesla_shock1.wav", "/sfx/objects/tesla_shock2.wav" ],
+        "sounds" : [ "/sfx/objects/tesla_shock1.ogg", "/sfx/objects/tesla_shock2.ogg" ],
         "particles" : [
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/objects/tesla_shock_kill.wav" ],
+        "sounds" : [ "/sfx/objects/tesla_shock_kill.ogg" ],
         "particles" : [
         ]
       }

@@ -2,12 +2,12 @@
 	{
 		"op": "replace",
 		"path": "/effects/organic/hit/sounds",
-		"value": ["/sfx/projectiles/acid_hit.wav"]
+		"value": ["/sfx/projectiles/acid_hit.ogg"]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/organic/kill/sounds",
-		"value": ["/sfx/projectiles/acid_hit.wav"]
+		"value": ["/sfx/projectiles/acid_hit.ogg"]
 	},
 	{
 		"op": "add",
@@ -966,11 +966,11 @@
 	{
 		"op": "replace",
 		"path": "/effects/robotic/hit/sounds",
-		"value": [ "/sfx/projectiles/acid_hit.wav" ]
+		"value": [ "/sfx/projectiles/acid_hit.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/effects/robotic/kill/sounds",
-		"value": [ "/sfx/projectiles/acid_hit.wav" ]
+		"value": [ "/sfx/projectiles/acid_hit.ogg" ]
 	}
 ]

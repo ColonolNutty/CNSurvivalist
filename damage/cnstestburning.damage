@@ -7,7 +7,7 @@
   "effects" : {
     "organic" : {
       "hit" : {
-        "sounds" : [ "/sfx/projectiles/flame_burning.wav" ],
+        "sounds" : [ "/sfx/projectiles/flame_burning.ogg" ],
         "particles" : [
           [
 
@@ -29,7 +29,7 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/projectiles/fireball_spit.wav" ],
+        "sounds" : [ "/sfx/projectiles/fireball_spit.ogg" ],
         "particles" : [
           [
             {
@@ -649,7 +649,7 @@
     },
     "robotic" : {
       "hit" : {
-        "sounds" : [ "/sfx/projectiles/flame_burning.wav" ],
+        "sounds" : [ "/sfx/projectiles/flame_burning.ogg" ],
         "particles" : [
           [
 
@@ -671,7 +671,7 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/projectiles/fireball_spit.wav" ],
+        "sounds" : [ "/sfx/projectiles/fireball_spit.ogg" ],
         "particles" : [
           [
 
