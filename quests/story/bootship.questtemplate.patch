@@ -1,0 +1,13 @@
+[
+	{
+		"op": "replace",
+		"path": "/text",
+		"value": "WELL SHIET.  That's as far as I'm gonna get on this piece of crap.  At least I got away from those demon-baby-aliens ^orange;(shivers)^#aee1ee;.  Anyways lets see if the ship is still working.  
+^green;TO THE AI CONSOLE!"
+	},
+	{
+		"op": "replace",
+		"path": "/completionText",
+		"value": "I'm done with this planet.  ^orange;(smiling)  ^white;Although it would take decades to reach another solar sistem with only the thrusters... "
+	}
+]
