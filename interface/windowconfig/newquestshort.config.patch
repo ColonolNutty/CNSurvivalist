@@ -90,5 +90,10 @@
 		"op": "replace",
 		"path": "/paneLayout/lblQuestBody/wrapWidth",
 		"value": 130
+	},
+	{
+		"op": "replace",
+		"path": "/paneLayout/btnDecline/position",
+		"value": [100, 200]
 	}
 ]
