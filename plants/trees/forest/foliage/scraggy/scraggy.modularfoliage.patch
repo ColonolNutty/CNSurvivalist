@@ -1,9 +1,0 @@
-[
-	{
-		"op": "add",
-		"path": "/dropConfig/drops/0/-",
-		"value": {
-			"item": "cnsbranch"
-		}
-	}
-]
