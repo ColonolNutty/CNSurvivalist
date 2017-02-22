@@ -14,8 +14,9 @@
 			"tier1light",
 			"tier1switch",
 			"tier1table",
-			"lantern",
-			"pickaxe"
+			"cnslantern",
+			"pickaxe",
+			"cnsarmory"
 		]
 	}
 ]

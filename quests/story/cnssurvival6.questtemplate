@@ -1,23 +1,30 @@
 {
-  "id" : "tutorial6.gearup",
+  "id" : "cnssurvival6",
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I can smelt iron ore in the stone furnace to get bars. It will probably take some time, but worth it I guess...",
   "completionText" : "Ore goes from solid to liquid and to solid again. ^#aee1ee;Almost like magic!   ^white;Now what about my ship, I'll need to repair the Thrusters.  I really don't want to talk to the AI though...",
   "speaker" : "player",
   "moneyRange" : [10, 10],
-  "canBeAbandoned" : false,
 
+  "canBeAbandoned" : false,
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "followUp" : "tutorial7.gearup",
-    "gatherRequirements" : {
-      "items" : {
-        "ironbar" : {
-          "count" : 1,
-          "consume" : false
-        }
-      }
-    }
+		"portraits" : {
+		  "questStarted" : "player",
+		  "questComplete" : "player"
+		},
+
+		"followUp" : "cnssurvival7",
+		"requireTurnIn" : false,
+		"canBeAbandoned" : false,
+		"conditions" : [
+			{
+				"type" : "gatherItem",
+				"itemName" : "ironbar",
+				"count" : 1,
+				"consume" : false
+			}
+		]
   }
 }

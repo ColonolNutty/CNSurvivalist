@@ -18,5 +18,10 @@
 		"op": "replace",
 		"path": "/moneyRange",
 		"value": [50, 50]
+	},
+	{
+		"op": "add",
+		"path": "/prerequisites",
+		"value": [ "gaterepair" ]
 	}
 ]

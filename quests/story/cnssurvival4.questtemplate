@@ -1,23 +1,30 @@
 {
-  "id" : "tutorial4.gearup",
+  "id" : "cnssurvival4",
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I want some meat. I'm ^#aee1ee;starving^white;.  But a branch won't do, I need a ^orange;bow and arrow ^white;to hunt for food. These weird looking ^orange;plants ^white;in caves could be nice for making a bow.",
   "completionText" : "This alien meat actually looks kinda tasty. I better cook it on a campfire before eating it though.. Sickness is the last thing I need right now!",
   "speaker" : "player",
   "moneyRange" : [10, 10],
-  "canBeAbandoned" : false,
 
+  "canBeAbandoned" : false,
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "followUp" : "tutorial5.gearup",
-    "gatherRequirements" : {
-      "items" : {
-        "alienmeat" : {
-          "count" : 1,
-          "consume" : false
-        }
-      }
-    }
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    
+    "followUp" : "cnssurvival5",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "alienmeat",
+			"count" : 1,
+			"consume" : false
+		}
+	]
   }
 }

@@ -1,23 +1,30 @@
 {
-  "id" : "tutorial8.gearup",
+  "id" : "cnssurvival8",
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I realize I don't know squat about space travel.  Hmmm, how does the universe work.. And... How will I be able to make new chips..",
   "completionText" : "Uhmm, why didn't I think of this before!! I must do research of course.. The key to the universe is knowledge! ^orange;(inspired)",
   "speaker" : "player",
   "moneyRange" : [10, 10],
-  "canBeAbandoned" : false,
 
+  "canBeAbandoned" : false,
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "followUp" : "tutorial9.gearup",
-    "gatherRequirements" : {
-      "items" : {
-        "chemistrytable" : {
-          "count" : 1,
-          "consume" : false
-        }
-      }
-    }
+		"portraits" : {
+		  "questStarted" : "player",
+		  "questComplete" : "player"
+		},
+
+		"followUp" : "cnssurvival9",
+		"requireTurnIn" : false,
+		"canBeAbandoned" : false,
+		"conditions" : [
+			{
+				"type" : "gatherItem",
+				"itemName" : "cnschemistrytable",
+				"count" : 1,
+				"consume" : false
+			}
+		]
   }
 }

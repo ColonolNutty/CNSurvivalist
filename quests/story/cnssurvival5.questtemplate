@@ -1,24 +1,31 @@
 {
-  "id" : "tutorial5.gearup",
+  "id" : "cnssurvival5",
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "Hmmm.. I need a house I guess! ^#aee1ee;With a nice bed, anvil, stone furnace, table and wooden chairs.. ^white;It's not safe out here in the middle of the night!",
   "completionText" : "^orange;(heavy breathing) ^white;Awhhh! 
 I'm tired... And these monsters, everywhere...",
   "speaker" : "player",
   "moneyRange" : [10, 10],
-  "canBeAbandoned" : false,
 
+  "canBeAbandoned" : false,
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "followUp" : "tutorial6.gearup",
-    "gatherRequirements" : {
-      "items" : {
-        "stonefurnace" : {
-          "count" : 1,
-          "consume" : false
-        }
-      }
-    }
+		"portraits" : {
+		  "questStarted" : "player",
+		  "questComplete" : "player"
+		},
+
+		"followUp" : "cnssurvival6",
+		"requireTurnIn" : false,
+		"canBeAbandoned" : false,
+		"conditions" : [
+			{
+				"type" : "gatherItem",
+				"itemName" : "craftingfurnace",
+				"count" : 1,
+				"consume" : false
+			}
+		]
   }
 }

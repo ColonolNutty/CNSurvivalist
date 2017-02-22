@@ -1,0 +1,58 @@
+[
+	{
+		"op": "replace",
+		"path": "/title",
+		"value": "^#9be3d6;THOUGHTS AND NEEDS"
+	},
+	{
+		"op": "replace",
+		"path": "/text",
+		"value":"Well that was interesting. Guess I'm stuck with a sassy AI.   ^#aee1ee;Wonderful!   ^white;Lets see what I can salvage from my locker."
+	},
+	{
+		"op": "replace",
+		"path": "/completionText",
+		"value": "This is it?   Crap.   There's not even a weapon.   At least I can use the locker door as a shovel.."
+	},
+	{
+		"op": "replace",
+		"path": "/rewards",
+		"value": [ ]
+	},
+	{
+		"op": "replace",
+		"path": "/script",
+		"value": "/quests/scripts/main.lua"
+	},
+	{
+		"op": "replace",
+		"path": "/moneyRange",
+		"value": [0, 0]
+	},
+	{
+		"op": "add",
+		"path": "/speaker",
+		"value": "player"
+	},
+	{
+		"op": "replace",
+		"path": "/scriptConfig",
+		"value": {
+			"portraits" : {
+				"questStarted" : "player",
+				"questComplete" : "player"
+			},
+			"followUp" : "cnssurvival2",
+			"requireTurnIn" : false,
+			"canBeAbandoned" : false,
+			"conditions" : [
+				{
+					"type" : "gatherItem",
+					"itemName" : "cnsdebris",
+					"count" : 1,
+					"consume" : false
+				}
+			]
+		}
+	}
+]

@@ -12,22 +12,74 @@
   "recoilTime" : 0.1,
   "level" : 9,
   "tooltipKind" : "gun",
+  "category" : "machinePistol",
   "weaponType" : "SMG",
   "itemTags" : ["weapon","ranged","smg"],
-  "fireTime" : 0.07,
-  "inaccuracy" : 0.02,
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
-  "projectileType" : "sbullet",
-  "projectile" : {
-	"power" : 2,
-	"speed" : 130,
-    "life" : 3
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "cnssmg2.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/mp2.ogg" ]
+    }
   },
 
-  "muzzleEffect" : {
-    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/mp3.ogg" } ]
-  }
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.07,
+    "baseDps" : 20.0,
+    "energyUsage" : 21,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockback" : 2
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

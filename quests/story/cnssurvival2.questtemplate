@@ -1,26 +1,34 @@
 {
-  "id" : "tutorial2.gearup",
+  "id" : "cnssurvival2",
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I hate going down there unarmed, but I won't survive if I don't.  Maybe I can make a wooden sword!",
   "completionText" : "I knew I should have paid attention in woodcraft 101.  Welp at least I have my trusty ^orange;Branch^white;.  Hope it doesn't break.",
   "speaker" : "player",
   "moneyRange" : [10, 10],
   "rewards" : [ 
-    [ [ "branch", 1 ] ] 
+    [ [ "cnsbranch", 1 ] ] 
   ],
-  "canBeAbandoned" : false,
 
+  "canBeAbandoned" : false,
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "followUp" : "tutorial3.gearup",
-    "gatherRequirements" : {
-      "items" : {
-        "fullwood1" : {
-          "count" : 1,
-          "consume" : false
-        }
-      }
-    }
+
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
+    
+    "followUp" : "cnssurvival3",
+	"requireTurnIn" : false,
+	"canBeAbandoned" : false,
+	"conditions" : [
+		{
+			"type" : "gatherItem",
+			"itemName" : "fullwood1",
+			"count" : 1,
+			"consume" : false
+		}
+	]
   }
 }
