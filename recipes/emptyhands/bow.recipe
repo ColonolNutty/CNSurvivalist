@@ -3,9 +3,6 @@
     { "item" : "fullwood1", "count" : 30 },
     { "item" : "plantfibre", "count" : 10 }
   ],
-  "output" : {
-    "item" : "bow",
-    "count" : 1
-  },
+  "output" : { "item" : "bow", "count" : 1 },
   "groups" : [ "plain", "all", "weapons" ]
 }

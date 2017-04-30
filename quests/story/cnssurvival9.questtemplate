@@ -1,30 +1,41 @@
 {
-  "id" : "cnssurvival9",
-  "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "Man, this will take a lot of work. If I only had paid attention in science classes.. ^orange;(feels dumb) ^white;Well, I'll just jump right into it I guess.. and write down my discoveries, if any... ",
-  "completionText" : "This is it, eh? My own research! ^orange;(very proud) ^white; Let's see..  ^#aee1ee;'Space and It's Pretty Stars'  ^white;..yeah, I got this covered..",
-  "speaker" : "player",
-  "moneyRange" : [10, 10],
+	"id" : "cnssurvival9",
+	"title" : "^#9be3d6;THOUGHTS AND NEEDS",
+	"text" : "Man, this will take a lot of work. If I had only paid attention in science classes.. ^orange;(feels dumb) ^white;Well, I'll just jump right into it I guess.. and write down my discoveries, if any... ",
+	"completionText" : "I've done it! I've crafted a new FTL Drive! Now I can explore the stars ^orange;(very proud) ^white; Next stop, the universe, I hope I'm prepared..",
+	"speaker" : "player",
+	"moneyRange" : [10, 10],
 
-  "canBeAbandoned" : false,
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
+	"canBeAbandoned" : false,
+	"updateDelta" : 10,
+	"script" : "/quests/scripts/story/cnsurvival9.lua",
+	"scriptConfig" : {
 		"portraits" : {
-		  "questStarted" : "player",
-		  "questComplete" : "player"
+			"questStarted" : "player",
+			"questComplete" : "player"
 		},
 
-		"followUp" : "ftlrepairmain",
+		"descriptions" : {
+			"collectSimpleCraftingTable" : "^white;I should make a ^orange;Simple Crafting Table^white; with my ^orange;Hands^white;",
+			"collectTelescope" : "^green;Craft^white; a ^orange;Telescope^white; using the ^orange;Simple Crafting Table^white;",
+			"researchLesserKnowledge" : "^white;^green;Learn^white; a ^orange;Lesser^white; knowledge, using the ^orange;Telescope^white;",
+			"researchAverageKnowledge" : "^white;^green;Acquire^white; an ^orange;Average^white; knowledge with the ^orange;Telescope^white;",
+			"collectFtlDrive" : "^white;I think I can ^green;craft^white; a new ^orange;FTL Drive^white; at the ^orange;Inventor's Table^white;"
+		},
+		
+		"items" : {
+			"simpleCraftingTable": { "item": "cnssimplecraft", "count": 1 },
+			"telescope": { "item": "cnstelescope", "count": 1 },
+			"lesserKnowledge": { "item": "cnsmatterbook", "count": 1 },
+			"averageKnowledge": { "item": "cnsmatterbook2", "count": 1 },
+			"ftl": { "item": "cnsftldrive", "count": 1 }
+		},
+
 		"requireTurnIn" : false,
 		"canBeAbandoned" : false,
-		"conditions" : [
-			{
-				"type" : "gatherItem",
-				"itemName" : "cnsmatterbook",
-				"count" : 1,
-				"consume" : false
-			}
-		]
-  }
+		"shipUpgrade" : {
+			"shipLevel" : 3,
+			"capabilities" : ["teleport", "planetTravel", "systemTravel"]
+		}
+	}
 }

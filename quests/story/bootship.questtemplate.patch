@@ -14,5 +14,10 @@
 		"op": "replace",
 		"path": "/completionText",
 		"value": "I'm done with this planet.  ^orange;(smiling)  ^white;Although it would take decades to reach another solar sistem with only the thrusters... "
+	},
+	{
+		"op": "add",
+		"path": "/scriptConfig/shipUpgrade/capabilities",
+		"value": ["teleport"]
 	}
 ]

@@ -6,5 +6,5 @@
   "description" : "The Book of Average Matter Knowledge",
   "shortdescription" : "Average Matter Book",
   
-  "learnBlueprintsOnPickup" : [ "cnsmatterbook3" ]
+  "learnBlueprintsOnPickup" : [ "cnsftldrive", "cnsmatterbook3" ]
 }
