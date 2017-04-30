@@ -1,24 +1,18 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "A stimpack full of red liquid"
-	},
-	{
-		"op": "replace",
-		"path": "/effects",
-		"value": [
-			[
-				{
-					"effect" : "runboost",
-					"duration" : 5
-				}
-			]
-		]
-	},
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "synthesisstim" ]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects", "inverse" : true },
+    { "op": "add", "path": "/effects", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects/0/0/effect", "value" : "redstim" },
+    { "op" : "replace", "path" : "/effects/0/0", "value" : { "effect" : "runboost", "duration" : 5 } }
+  ],
+  [
+    { "op": "replace", "path": "/description", "value": "A stimpack full of red liquid" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "synthesisstim" }
+  ]
 ]

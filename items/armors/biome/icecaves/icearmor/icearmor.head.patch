@@ -1,22 +1,26 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "This cryonic mask will protect agains the intense heat."
-	},
-	{
-		"op": "replace",
-		"path": "/statusEffects",
-		"value": [
-			{
+  [
+    { "op": "test", "path": "/statusEffects", "inverse" : true },
+    { "op": "add", "path": "/statusEffects", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "This cryonic mask will protect agains the intense heat."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Ice Mask"
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": {
 				"stat" : "biomeheatImmunity",
 				"amount" : 1
 			}
-		]
-	},
-	{
-		"op": "replace",
-		"path": "/shortdescription",
-		"value": "Ice Mask"
-	}
+    }
+  ]
 ]

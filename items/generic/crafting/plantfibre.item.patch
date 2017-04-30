@@ -1,7 +1,12 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "bandage", "climbingrope", "cnssurvivalbushhead", "cnssurvivalbushjacket" ]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bandage" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "climbingrope" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssurvivalbushhead" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssurvivalbushjacket" }
+  ]
 ]

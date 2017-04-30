@@ -142,7 +142,6 @@
 			
 			{ "item" : "aegisaltbow" },
 			
-			
 			{ "item" : "aegisaltpistol" },
 			{ "item" : "aegisaltrifle" },
 			{ "item" : "aegisaltshotgun" },
@@ -168,8 +167,6 @@
 			{ "item" : "novakidlightstaff2" },
 			
 			{ "item" : "apexfuelhatch" },
-			
-			{ "item" : "grapplinghook" },
 			{ "item" : "scififurnace" },
 			{ "item" : "scifianvil" }
 		]

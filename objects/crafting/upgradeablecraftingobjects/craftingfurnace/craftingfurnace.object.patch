@@ -1,32 +1,31 @@
 [
-	{
-		"op": "replace",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"smallbattery",
-			"battery",
-			"siliconboard",
-			"solariumstar",
-			"refinedviolium",
-			"refinedferozium",
-			"refinedaegisalt",
-			"molotov",
-			"durasteelbar",
-			"titaniumbar",
-			"ironbar",
-			"copperbar",
-			"silverbar",
-			"goldbar",
-			"tungstenbar",
-			"glass",
-			"bottle",
-			"firedclay",
-			"syringe",
-			"volatilepowder",
-			"paper",
-			"bomb",
-			"paper",
-			"glassmaterial"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "smallbattery" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "battery" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "siliconboard" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "solariumstar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "refinedviolium" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "refinedferozium" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "refinedaegisalt" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "molotov" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "durasteelbar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "titaniumbar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "ironbar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "copperbar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "silverbar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "goldbar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tungstenbar" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "glass" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bottle" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "firedclay" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "syringe" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "volatilepowder" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "paper" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bomb" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "glassmaterial" }
+  ]
 ]

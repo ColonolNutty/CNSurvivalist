@@ -1,22 +1,22 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"capturestation",
-			"railcraftingtable",
-			"wiringstation",
-			"3dprinter",
-			"capturestation",
-			"refinery",
-			"fossilstation",
-			"woodencookingtable",
-			"craftingmedical",
-			"craftinganvil",
-			"craftingfarm",
-			"craftingfurnace",
-			"craftingfurniture",
-			"craftingwheel"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "capturestation" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "railcraftingtable" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "wiringstation" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "3dprinter" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "capturestation" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "refinery" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fossilstation" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "woodencookingtable" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftingmedical" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftinganvil" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftingfarm" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftingfurnace" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftingfurniture" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftingwheel" }
+  ]
 ]

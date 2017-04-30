@@ -1,29 +1,29 @@
 [
-	{
-		"op": "replace",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"browndye",
-			"greendye",
-			"purpledye",
-			"pinkdye",
-			"orangedye",
-			"greydye",
-			"mannequin",
-			"syntheticmaterial",
-			"canvas",
-			"silk",
-			"dyeremover",
-			"reddye",
-			"blackdye",
-			"whitedye",
-			"tshirtchest",
-			"simplecapeback",
-			"shortcapeback",
-			"boxingglove",
-			"string",
-			"cottonwool",
-			"teddybearplush"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "browndye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "greendye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "purpledye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "pinkdye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "orangedye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "greydye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "mannequin" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "syntheticmaterial" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "canvas" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "silk" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "dyeremover" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "reddye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "blackdye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "whitedye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tshirtchest" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "simplecapeback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "shortcapeback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "boxingglove" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "string" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cottonwool" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "teddybearplush" }
+  ]
 ]

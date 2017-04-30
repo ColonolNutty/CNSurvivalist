@@ -19,8 +19,6 @@
 		"path": "/effects/robotic/kill/sounds",
 		"value": [  "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ]
 	},
-	
-	
 	{
 		"op": "replace",
 		"path": "/effects/organic/hit/particles",

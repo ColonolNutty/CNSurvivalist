@@ -1,17 +1,21 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "A hazmat mask. Avoid radiation!"
-	},
-	{
-		"op": "add",
-		"path": "/statusEffects",
-		"value": [
-			{
+  [
+    { "op": "test", "path": "/statusEffects", "inverse" : true },
+    { "op": "add", "path": "/statusEffects", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "A hazmat mask. Avoid radiation!"
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": {
 				"stat" : "biomeradiationImmunity",
 				"amount" : 1
 			}
-		]
-	}
+    }
+  ]
 ]

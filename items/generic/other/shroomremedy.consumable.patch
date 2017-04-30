@@ -1,24 +1,18 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "A concoction that seems to provide natural glow, but I need to extend it's duration."
-	},
-	{
-		"op": "replace",
-		"path": "/effects",
-		"value": [
-			[
-				{
-					"effect" : "glow",
-					"duration" : 10
-				}
-			]
-		]
-	},
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "fungusstim" ]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects", "inverse" : true },
+    { "op": "add", "path": "/effects", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects/0/0/effect", "value" : "regeneration3" },
+    { "op" : "replace", "path" : "/effects/0/0", "value" : { "effect" : "glow", "duration" : 10 } }
+  ],
+  [
+    { "op": "replace", "path": "/description", "value": "A concoction that seems to provide natural glow, but I need to extend it's duration." },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fungusstim" }
+  ]
 ]

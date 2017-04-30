@@ -1,7 +1,10 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "blackdye", "torch" ]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "blackdye" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "torch" }
+  ]
 ]

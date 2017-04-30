@@ -1,17 +1,21 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "A quiver with arrows. ^orange;(gives a little energy) "
-	},
-	{
-		"op": "add",
-		"path": "/statusEffects",
-		"value": [
-			{
-				"stat" : "maxEnergy",
+  [
+    { "op": "test", "path": "/statusEffects", "inverse" : true },
+    { "op": "add", "path": "/statusEffects", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "A quiver with arrows. ^orange;(gives a little energy) "
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": {
+				"stat" : "maxenergyscalingboost",
 				"amount" : 20
 			}
-		]
-	}
+    }
+  ]
 ]

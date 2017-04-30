@@ -1,14 +1,16 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "cnsbushback", "cnslargefire", "cnsgapahuk" ]
-	},
-	{
-		"op": "add",
-		"path": "/breakDropOptions",
-		"value": [
-			[ [ "coalore", 1, { } ] ]
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/breakDropOptions", "inverse" : true },
+    { "op": "add", "path": "/breakDropOptions", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsbushback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnslargefire" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsgapahuk" },
+    { "op": "add", "path": "/breakDropOptions/-", "value": [ [ "coalore", 1, { } ] ] }
+  ]
 ]

@@ -1,17 +1,21 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "Avoid radiation and protect those special parts!"
-	},
-	{
-		"op": "add",
-		"path": "/statusEffects",
-		"value": [
-			{
+  [
+    { "op": "test", "path": "/statusEffects", "inverse" : true },
+    { "op": "add", "path": "/statusEffects", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Avoid radiation and protect those special parts!"
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": {
 				"stat" : "biomeradiationImmunity",
 				"amount" : 1
 			}
-		]
-	}
+    }
+  ]
 ]

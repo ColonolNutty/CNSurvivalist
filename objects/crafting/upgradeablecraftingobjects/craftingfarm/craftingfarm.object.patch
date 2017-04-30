@@ -1,29 +1,29 @@
 [
-	{
-		"op": "replace",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"relocator",
-			"durablefishingrod",
-			"oredetector",
-			"cavedetector",
-			"sprinkler",
-			"halogenpack",
-			"grapplinghook",
-			"compoundbow",
-			"bow",
-			"tungstenbow",
-			"mothtrap",
-			"scarecrow",
-			"woodenwateringcan",
-			"wateringcan",
-			"bugnet",
-			"flashlight",
-			"flare",
-			"huntingspear",
-			"lanternstickback",
-			"mininghathead",
-			"fishingrod"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "relocator" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "durablefishingrod" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "oredetector" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cavedetector" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "sprinkler" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "halogenpack" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "grapplinghook" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "compoundbow" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bow" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tungstenbow" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "mothtrap" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "scarecrow" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "woodenwateringcan" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "wateringcan" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bugnet" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "flashlight" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "flare" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "huntingspear" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "lanternstickback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "mininghathead" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fishingrod" }
+  ]
 ]

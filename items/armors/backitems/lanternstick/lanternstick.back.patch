@@ -1,17 +1,27 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "A lantern on a stick. It's bright. Wear it on your back!"
-	},
-	{
-		"op": "replace",
-		"path": "/statusEffects",
-		"value": ["halogenglow"]
-	},
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": ["camelbak"]
-	}
+  [
+    { "op": "test", "path": "/statusEffects", "inverse" : true },
+    { "op": "add", "path": "/statusEffects", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "A lantern on a stick. It's bright. Wear it on your back!"
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": "halogenglow"
+    },
+    {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup/-",
+      "value": "camelbak"
+    }
+  ]
 ]

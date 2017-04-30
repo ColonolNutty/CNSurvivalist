@@ -1,10 +1,10 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"hoe",
-			"platform"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "hoe" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "platform" }
+  ]
 ]

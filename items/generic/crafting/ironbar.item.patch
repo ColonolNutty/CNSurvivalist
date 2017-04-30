@@ -1,22 +1,18 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "It's an iron bar. Useful for crafting basic weapons, armour and more!"
-	},
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"tier1bed",
-			"tier1chair",
-			"tier1door",
-			"tier1light",
-			"tier1switch",
-			"tier1table",
-			"cnslantern",
-			"pickaxe",
-			"cnsarmory"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tier1bed" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tier1chair" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tier1door" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tier1light" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tier1switch" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tier1table" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnslantern" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "pickaxe" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsarmory" },
+    { "op": "replace", "path": "/description", "value": "It's an iron bar. Useful for crafting basic weapons, armour and more!" }
+  ]
 ]

@@ -1,13 +1,13 @@
 [
-	{
-		"op": "replace",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"heatprotectionback",
-			"coldprotectionback",
-			"radiationprotectionback",
-			"breathprotectionback",
-			"startershield"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "heatprotectionback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "coldprotectionback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "radiationprotectionback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "breathprotectionback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "startershield" }
+  ]
 ]

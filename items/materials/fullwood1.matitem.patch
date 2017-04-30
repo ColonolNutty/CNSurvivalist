@@ -1,13 +1,13 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"bow",
-			"cnsdeathbow",
-			"darkwoodmaterial",
-			"cnsthrowfirewood",
-			"cnssimplecraft"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bow" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsdeathbow" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "darkwoodmaterial" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsthrowfirewood" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssimplecraft" }
+  ]
 ]

@@ -1,13 +1,13 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"cnsstonepickaxe",
-			"cnsstoneaxe",
-			"cnssimplecraft",
-			"craftingfurnace",
-			"cnssimplecraft"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsstonepickaxe" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsstoneaxe" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssimplecraft" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftingfurnace" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssimplecraft" }
+  ]
 ]

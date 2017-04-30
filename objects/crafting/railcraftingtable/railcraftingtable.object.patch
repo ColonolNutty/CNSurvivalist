@@ -1,7 +1,17 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": ["rustyrail", "compositerail", "railbumper", "railsensor", "railswitch", "railstop", "rustyrailplatform", "compositerailplatform", "railhook"]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "rustyrail" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "compositerail" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "railbumper" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "railsensor" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "railswitch" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "railstop" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "rustyrailplatform" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "compositerailplatform" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "railhook" }
+  ]
 ]

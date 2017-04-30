@@ -1,7 +1,23 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": ["capturepod", "pethealingstation", "pettether"]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup/-",
+      "value": "capturepod"
+    },
+    {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup/-",
+      "value": "pethealingstation"
+    },
+    {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup/-",
+      "value": "pettether"
+    }
+  ]
 ]

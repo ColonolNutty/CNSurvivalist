@@ -1,22 +1,26 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "This is not a zone I would like to keep cold, but better than melted."
-	},
-	{
-		"op": "replace",
-		"path": "/statusEffects",
-		"value": [
-			{
+  [
+    { "op": "test", "path": "/statusEffects", "inverse" : true },
+    { "op": "add", "path": "/statusEffects", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "This is not a zone I would like to keep cold, but better than melted."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Ice Pants"
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": {
 				"stat" : "biomeheatImmunity",
 				"amount" : 1
 			}
-		]
-	},
-	{
-		"op": "replace",
-		"path": "/shortdescription",
-		"value": "Ice Pants"
-	}
+    }
+  ]
 ]

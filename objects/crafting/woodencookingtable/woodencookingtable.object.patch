@@ -1,26 +1,26 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"bottledwater",
-			"sweetpopcorn",
-			"cake",
-			"bonbons",
-			"mashedpotato",
-			"corncob",
-			"meatdumplings",
-			"roastedcarrot",
-			"popcorn",
-			"bakedpotato",
-			"boiledpearlpeas",
-			"boiledrice",
-			"cookedalienmeat",
-			"cookedbacon",
-			"cookedfish",
-			"cookedpoultry",
-			"cookedribmeat",
-			"cookedtomato"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bottledwater" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "sweetpopcorn" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cake" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bonbons" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "mashedpotato" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "corncob" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "meatdumplings" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "roastedcarrot" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "popcorn" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bakedpotato" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "boiledpearlpeas" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "boiledrice" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cookedalienmeat" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cookedbacon" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cookedfish" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cookedpoultry" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cookedribmeat" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cookedtomato" }
+  ]
 ]

@@ -1,19 +1,17 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "This stim has natural glowing properties."
-	},
-	{
-		"op": "replace",
-		"path": "/effects",
-		"value": [
-			[
-				{
-				"effect" : "glow",
-				"duration" : 20
-				}
-			]
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects", "inverse" : true },
+    { "op": "add", "path": "/effects", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects/0/0/effect", "value" : "regeneration4" },
+    { "op" : "replace", "path" : "/effects/0/0", "value" : { "effect" : "glow", "duration" : 20 } }
+  ],
+  [
+    { "op": "replace", "path": "/description", "value": "This stim has natural glowing properties." }
+  ]
 ]

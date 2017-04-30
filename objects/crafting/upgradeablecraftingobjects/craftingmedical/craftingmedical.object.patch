@@ -1,18 +1,18 @@
 [
-	{
-		"op": "replace",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"greenstim",
-			"bluestim",
-			"medkit",
-			"nanowrap",
-			"burnspray",
-			"salve",
-			"redstim",
-			"yellowstim",
-			"bandage",
-			"antidote"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "greenstim" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bluestim" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "medkit" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "nanowrap" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "burnspray" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "salve" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "redstim" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "yellowstim" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bandage" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "antidote" }
+  ]
 ]

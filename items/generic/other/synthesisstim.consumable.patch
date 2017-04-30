@@ -1,24 +1,18 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "A stim full of tree sap, for increase agility, although I can do it better!"
-	},
-	{
-		"op": "replace",
-		"path": "/effects",
-		"value": [
-			[
-				{
-					"effect" : "runboost",
-					"duration" : 10
-				}
-			]
-		]
-	},
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "greenstim" ]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects", "inverse" : true },
+    { "op": "add", "path": "/effects", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects/0/0/effect", "value" : "regeneration4" },
+    { "op" : "replace", "path" : "/effects/0/0", "value" : { "effect" : "runboost", "duration" : 10 } }
+  ],
+  [
+    { "op": "replace", "path": "/description", "value": "A stim full of tree sap, for increase agility, although I can do it better!" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "greenstim" }
+  ]
 ]

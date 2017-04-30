@@ -1,18 +1,26 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "These rock pants are too heavy."
-	},
-	{
-		"op": "add",
-		"path": "/statusEffects",
-		"value": [
-			{
+  [
+    { "op": "test", "path": "/statusEffects", "inverse" : true },
+    { "op": "add", "path": "/statusEffects", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "These rock pants are too heavy."
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": {
 				"stat" : "protection",
 				"amount" : 30
-			},
-			"encumbered"
-		]
-	}
+			}
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": "encumbered"
+    }
+  ]
 ]

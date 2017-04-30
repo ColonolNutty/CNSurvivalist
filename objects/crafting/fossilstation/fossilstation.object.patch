@@ -1,14 +1,14 @@
 [
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [
-			"fossildisplay5",
-			"fossildisplay3",
-			"fossildisplay1",
-			"fossilbrushmaster",
-			"fossilbrushstudent",
-			"fossilbrushbeginner"
-		]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fossildisplay5" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fossildisplay3" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fossildisplay1" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fossilbrushmaster" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fossilbrushstudent" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fossilbrushbeginner" }
+  ]
 ]

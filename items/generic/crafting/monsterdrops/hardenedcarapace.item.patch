@@ -1,12 +1,13 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "These rock pants are too heavy."
-	},
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "turtleshellback", "rockhead", "rockchest", "rocklegs" ]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "turtleshellback" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "rockhead" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "rockchest" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "rocklegs" },
+    { "op": "replace", "path": "/description", "value": "These rock pants are too heavy." }
+  ]
 ]

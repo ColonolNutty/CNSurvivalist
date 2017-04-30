@@ -1,24 +1,18 @@
 [
-	{
-		"op": "replace",
-		"path": "/description",
-		"value": "A perfect mix for the Agility Stimpack!"
-	},
-	{
-		"op": "replace",
-		"path": "/effects",
-		"value": [
-			[
-				{
-					"effect" : "runboost",
-					"duration" : 30
-				}
-			]
-		]
-	},
-	{
-		"op": "add",
-		"path": "/learnBlueprintsOnPickup",
-		"value": [ "macromoleculealterer" ]
-	}
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects", "inverse" : true },
+    { "op": "add", "path": "/effects", "value": [] }
+  ],
+  [
+    { "op": "test", "path": "/effects/0/0/effect", "value" : "runboost" },
+    { "op" : "replace", "path" : "/effects/0/0", "value" : { "effect" : "runboost", "duration" : 30 } }
+  ],
+  [
+    { "op": "replace", "path": "/description", "value": "A perfect mix for the Agility Stimpack!" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "macromoleculealterer" }
+  ]
 ]
