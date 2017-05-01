@@ -1,12 +1,11 @@
 {
   "input" : [
-    { "item" : "corefragmentore", "count" : 30 },
-	{ "item" : "liquidwater", "count" : 150 },
-	{ "item" : "liquidoil", "count" : 150 },
-	{ "item" : "liquidfuel", "count" : 150 },
-	{ "item" : "coralfragment", "count" : 20 },
-	{ "item" : "paper", "count" : 15 }
-	
+    { "item" : "cnsmatterbook2", "count" : 1 },
+    { "item" : "liquidwater", "count" : 50 },
+    { "item" : "liquidoil", "count" : 50 },
+    { "item" : "liquidfuel", "count" : 50 },
+    { "item" : "coralfragment", "count" : 20 },
+    { "item" : "paper", "count" : 50 }
   ],
   "output" : {
     "item" : "cnsmatterbook3",

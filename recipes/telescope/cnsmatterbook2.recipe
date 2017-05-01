@@ -1,11 +1,8 @@
 {
   "input" : [
-    { "item" : "corefragmentore", "count" : 30 },
-	{ "item" : "slime", "count" : 200 },
-	{ "item" : "glassmaterial", "count" : 150 },
-	{ "item" : "goldore", "count" : 150 },
-	{ "item" : "paper", "count" : 15 }
-	
+    { "item" : "cnsmatterbook", "count" : 1 },
+    { "item" : "goldore", "count" : 30 },
+    { "item" : "paper", "count" : 25 }
   ],
   "output" : {
     "item" : "cnsmatterbook2",
