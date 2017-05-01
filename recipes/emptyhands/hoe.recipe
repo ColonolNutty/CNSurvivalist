@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 1 },
+    { "item" : "cobblestonematerial", "count" : 10 }
+  ],
+  "output" : { "item" : "hoe", "count" : 1 },
+  "groups" : [ "plain", "tools", "all" ]
+}
