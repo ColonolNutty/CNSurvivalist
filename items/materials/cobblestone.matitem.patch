@@ -6,6 +6,7 @@
   [
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsstonepickaxe" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsstoneaxe" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "hoe" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssimplecraft" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "craftingfurnace" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssimplecraft" }
