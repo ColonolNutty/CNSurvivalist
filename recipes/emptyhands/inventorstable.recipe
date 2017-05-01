@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "ironbar", "count" : 30 },
-    { "item" : "cnsmatterbook", "count" : 1 },
-	{ "item" : "money", "count" : 750 }
+    { "item" : "money", "count" : 750 }
   ],
   "output" : {
     "item" : "inventorstable",
