@@ -5,8 +5,7 @@ require "/quests/scripts/questutil.lua"
 
 function init()
   self.descriptions = config.getParameter("descriptions")
-  self.fuelHatchRepairItem = config.getParameter("fuelHatchRepairItem")
-  self.fuelHatchRepairItemCount = config.getParameter("fuelHatchRepairItemCount")
+  self.foodCategory = config.getParameter("foodCategory")
   
   setPortraits()
   
@@ -14,7 +13,7 @@ function init()
 
   storage.stage = storage.stage or 1
   self.stages = {
-    acquireIron,
+    collectFood,
     questComplete
   }
 
@@ -36,27 +35,23 @@ function update(dt)
 end
 
 function questComplete()
-  player.upgradeShip(config.getParameter("shipUpgrade"))
-  player.consumeItem({ name = self.fuelHatchRepairItem, count = self.fuelHatchRepairItemCount }, false)
 
   setPortraits()
   questutil.questCompleteActions()
   quest.complete()
 end
 
-function acquireIron()
+function collectFood()
   quest.setCompassDirection(nil)
 
   while storage.stage == 1 do
-    quest.setObjectiveList({{self.descriptions.collectRepairItem, false}})
-    quest.setProgress(player.hasCountOfItem(self.fuelHatchRepairItem) / self.fuelHatchRepairItemCount)
-    if player.hasItem({name = self.fuelHatchRepairItem, count = self.fuelHatchRepairItemCount}) then
+    quest.setObjectiveList({{self.descriptions.collectFood, false}})
+    hasFood = player.hasItemWithParameter("category", self.foodCategory)
+    if(hasFood) then
       storage.stage = 2
     end
     coroutine.yield()
   end
-
-  quest.setObjectiveList({})
 
   self.state:set(self.stages[storage.stage])
 end

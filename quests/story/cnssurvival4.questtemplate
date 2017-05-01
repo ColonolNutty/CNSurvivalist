@@ -1,30 +1,28 @@
 {
   "id" : "cnssurvival4",
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "I want some meat. I'm ^#aee1ee;starving^white;.  But a branch won't do, I need a ^orange;bow and arrow ^white;to hunt for food. These weird looking ^orange;plants ^white;in caves could be nice for making a bow.",
-  "completionText" : "This alien meat actually looks kinda tasty. I better cook it on a campfire before eating it though.. Sickness is the last thing I need right now!",
+  "text" : "I want some food. I'm ^#aee1ee;starving^white;.  I should find some food, maybe if I used a ^orange;bow and arrow ^white; I could get some meat. These weird looking ^orange;plants ^white;in caves could be nice for making a bow. I could also look around for some ^orange;Wheat^white; to make some bread or something.",
+  "completionText" : "This actually looks kinda tasty. I bet cooking it on a campfire would taste way better!",
   "speaker" : "player",
   "moneyRange" : [10, 10],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
+  "script" : "/quests/scripts/story/cnsurvival4.lua",
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : "player",
       "questComplete" : "player"
     },
+
+	"descriptions" : {
+	  "collectFood" : "^green;Find^white; something to eat"
+	},
+	
+	"foodCategory": "food", 
     
     "followUp" : "cnssurvival5",
 	"requireTurnIn" : false,
-	"canBeAbandoned" : false,
-	"conditions" : [
-		{
-			"type" : "gatherItem",
-			"itemName" : "alienmeat",
-			"count" : 1,
-			"consume" : false
-		}
-	]
+	"canBeAbandoned" : false
   }
 }

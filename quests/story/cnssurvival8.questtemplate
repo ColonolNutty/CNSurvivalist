@@ -1,7 +1,7 @@
 {
   "id" : "cnssurvival8",
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "I realize I don't know squat about space travel.  Hmmm, how does the universe work.. And... How will I be able to make new chips..",
+  "text" : "I realize I don't know squat about space travel.  Hmmm, how does the universe work.. And... How will I be able to make new chips.. I bet I could get there by crafting some simple items first",
   "completionText" : "Uhmm, why didn't I think of this before!! I must do research of course.. The key to the universe is knowledge! ^orange;(inspired)",
   "speaker" : "player",
   "moneyRange" : [10, 10],
@@ -21,7 +21,7 @@
 		"conditions" : [
 			{
 				"type" : "gatherItem",
-				"itemName" : "cnschemistrytable",
+				"itemName" : "cnssimplecraft",
 				"count" : 1,
 				"consume" : false
 			}
