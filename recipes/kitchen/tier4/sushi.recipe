@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "seaweed", "count" : 1 },
-    { "item" : "rice", "count" : 1 },
-    { "item" : "rawfish", "count" : 1 }
-  ],
-  "output" : { "item" : "sushi", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing" ]
-}

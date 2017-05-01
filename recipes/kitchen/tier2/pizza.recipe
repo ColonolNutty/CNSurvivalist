@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "pizzaslice", "count" : 5 }
-  ],
-  "output" : { "item" : "pizza", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "cookedfish", "count" : 1 },
-    { "item" : "coralcreep", "count" : 1 }
-  ],
-  "output" : { "item" : "seafoodgratin", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing" ]
-}

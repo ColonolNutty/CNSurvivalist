@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "sugar", "count" : 1 },
-    { "item" : "snowball", "count" : 1 }
-  ],
-  "output" : { "item" : "snowcone", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility" ]
-}

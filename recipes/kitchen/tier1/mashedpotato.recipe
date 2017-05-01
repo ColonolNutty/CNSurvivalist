@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "potato", "count" : 1 }
-  ],
-  "output" : { "item" : "mashedpotato", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost" ]
-}

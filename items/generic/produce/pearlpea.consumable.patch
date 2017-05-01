@@ -4,7 +4,14 @@
     { "op": "add", "path": "/effects", "value": [] }
   ],
   [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
     { "op" : "add", "path" : "/effects/-", "value" : [ { "effect" : "spawnpoop" } ] },
     { "op": "replace", "path": "/foodValue", "value": 1.25 }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "boiledpearlpeas" }
   ]
 ]

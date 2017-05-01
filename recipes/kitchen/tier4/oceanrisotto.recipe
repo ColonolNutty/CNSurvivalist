@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "rice", "count" : 1 },
-    { "item" : "reefpod", "count" : 1 },
-    { "item" : "cookedfish", "count" : 1 }
-  ],
-  "output" : { "item" : "oceanrisotto", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost" ]
-}
