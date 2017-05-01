@@ -35,10 +35,13 @@ function update(dt)
 end
 
 function questComplete()
-
+  if storage.complete then
+    return
+  end
   setPortraits()
   questutil.questCompleteActions()
   quest.complete()
+  storage.complete = true
 end
 
 function collectFood()
@@ -52,6 +55,8 @@ function collectFood()
     end
     coroutine.yield()
   end
+
+  quest.setObjectiveList({})
 
   self.state:set(self.stages[storage.stage])
 end

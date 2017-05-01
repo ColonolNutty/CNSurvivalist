@@ -36,12 +36,16 @@ function update(dt)
 end
 
 function questComplete()
+  if storage.complete then
+    return
+  end
   player.upgradeShip(config.getParameter("shipUpgrade"))
   player.consumeItem({ name = self.fuelHatchRepairItem, count = self.fuelHatchRepairItemCount }, false)
 
   setPortraits()
   questutil.questCompleteActions()
   quest.complete()
+  storage.complete = true
 end
 
 function acquireIron()
