@@ -130,11 +130,15 @@
 			"/sfx/environmental/forest_night2.ogg"
 		]
 	},
-	{
-		"op": "replace",
-		"path": "/surfacePlaceables/items",
-		"value": [
-			{
+  {
+    "op": "replace",
+    "path": "/surfacePlaceables/items",
+    "value": []
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
 				"mode" : "floor",
 				"priority" : 1.0,
 				"variants" : 1,
@@ -147,23 +151,30 @@
 						"parameters" : { }
 					}
 				]
-			},
-			{
-				"mode" : "floor",
-				"priority" : 1.0,
-				"variants" : 1,
-				"distribution" : "/biomes/distributions.config:potsRare",
+			}
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-				"type" : "object",
-				"objectSets" : [
-					{
-						"pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ] ],
-						"parameters" : { }
-					}
-				]
-			},
-
-			{
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
 				"mode" : "floor",
 				"priority" : 3.0,
 				"variants" : 1,
@@ -171,20 +182,25 @@
 
 				"type" : "microdungeon",
 				"microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-			},
+			}
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 3.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseSmall",
 
-			// MICRO DUNGEONS
-
-			{
-				"mode" : "floor",
-				"priority" : 3.0,
-				"variants" : 1,
-				"distribution" : "/biomes/distributions.config:denseSmall",
-
-				"type" : "grass",
-				"grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
-			},
-			{
+      "type" : "grass",
+      "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
 				"mode" : "floor",
 				"priority" : 2.0,
 				"variants" : 1,
@@ -198,96 +214,115 @@
 						"modHueShiftMax" : 180
 					}
 				]
-			},
-			{
-				"mode" : "floor",
-				"priority" : 2.0,
-				"variants" : 1,
-				"distribution" : "/biomes/distributions.config:denseLarge",
-
-				"type" : "tree",
-				"treeFoliageHueShiftMax" : 180,
-				"treeStemHueShiftMax" : 15,
-				"treeStemList" : [ "birch", "cocoa", "fleshy", "grumpy", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
-				"treeFoliageList" : [ "rose", "bubbles", "cloudy", "frumpy", "greenleaves", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "pinefoliage", "redleaves", "scraggy", "spikeyfoliage" ]
-			},
-
-			// CROPS
-
-			{
-				"mode" : "floor",
-				"priority" : 0.9,
-				"variants" : 1,
-				"distribution" : "/biomes/distributions.config:surfaceCrops",
-
-				"type" : "object",
-				"objectSets" : [
-					{
-						"pool" : [ [1, "wildwheatseed" ] ],
-						"parameters" : {
-							"startingStage" : 3
-						}
-					}
-				]
-			},
-			{
-				"mode" : "floor",
-				"priority" : 0.95,
-				"variants" : 1,
-				"distribution" : "/biomes/distributions.config:surfaceCrops",
-
-				"type" : "object",
-				"objectSets" : [
-					{
-						"pool" : [ [1, "wildcottonseed" ] ],
-						"parameters" : {
-							"startingStage" : 3
-						}
-					}
-				]
 			}
-		]
-	},
-	{
-		"op": "replace",
-		"path": "/undergroundPlaceables/items",
-		"value": [
-			{
-				"mode" : "floor",
-				"priority" : 1.0,
-				"variants" : 1,
-				"distribution" : "/biomes/distributions.config:undergroundCapsules",
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 2.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseLarge",
 
-				"type" : "object",
-				"objectSets" : [
-					{
-						"pool" : [ [1, "cnsbonepile" ] ],
-						"parameters" : { }
-					}
-				]
-			},
-			{
-				"mode" : "ceiling",
-				"priority" : 2.0,
-				"variants" : 1,
-				"distribution" : "/biomes/distributions.config:denseMedium",
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "birch", "cocoa", "fleshy", "grumpy", "pine", "roottree", "slimey", "something", "spikey", "twisted", "wood", "slobby", "pineytree" ],
+      "treeFoliageList" : [ "rose", "bubbles", "cloudy", "frumpy", "greenleaves", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "pinefoliage", "redleaves", "scraggy", "spikeyfoliage" ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 0.9,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:surfaceCrops",
 
-				"type" : "tree",
-				"treeFoliageHueShiftMax" : 180,
-				"treeStemHueShiftMax" : 10,
-				"treeStemList" : [ "rootvine", "rootvine2", "rootvine3" ],
-				"treeFoliageList" : [ "" ]
-			},
-			{
-				"mode" : "floor",
-				"priority" : 3.0,
-				"variants" : 1,
-				"period" : 5,
-				"distribution" : "/biomes/distributions.config:scatteredSmall",
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "wildwheatseed" ] ],
+          "parameters" : {
+            "startingStage" : 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 0.95,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:surfaceCrops",
 
-				"type" : "grass",
-				"grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
-			}
-		]
-	}
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "wildcottonseed" ] ],
+          "parameters" : {
+            "startingStage" : 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": []
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsbonepile" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "ceiling",
+      "priority" : 2.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseMedium",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 10,
+      "treeStemList" : [ "rootvine", "rootvine2", "rootvine3" ],
+      "treeFoliageList" : [ "" ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 3.0,
+      "variants" : 1,
+      "period" : 5,
+      "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+      "type" : "grass",
+      "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+    }
+  }
 ]
