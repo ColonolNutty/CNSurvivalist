@@ -3,5 +3,5 @@
     { "item" : "cotton", "count" : 6 }
   ],
   "output" : { "item" : "cnscottonfabric", "count" : 1 },
-  "groups" : [ "spin", "material" ]
+  "groups" : [ "craftingwheel", "ingredients" ]
 }

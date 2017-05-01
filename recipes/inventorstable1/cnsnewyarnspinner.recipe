@@ -1,7 +1,7 @@
 {
   "input" : [
-	{ "item" : "darkwoodmaterial", "count" : 50},
-	{ "item" : "money", "count" : 200}
+    { "item" : "darkwoodmaterial", "count" : 50},
+    { "item" : "money", "count" : 200}
   ],
   "output" : { "item" : "cnsnewyarnspinner", "count" : 1 },
   "groups" : [ "inventorstable", "craftingstations", "tools", "crafting", "all" ]

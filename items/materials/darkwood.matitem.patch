@@ -4,6 +4,7 @@
     { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
   ],
   [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "woodenwateringcan" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "hoe" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "platform" }
   ]

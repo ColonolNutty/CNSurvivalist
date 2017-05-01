@@ -8,5 +8,5 @@
     "item" : "greenstim",
     "count" : 1
   },
-  "groups" : [ "chemistrytable", "foodmobility" ]
+  "groups" : [ "craftingmedical2", "buffs" ]
 }
