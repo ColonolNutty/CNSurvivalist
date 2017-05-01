@@ -1,12 +1,12 @@
 [
   {
     "op": "add",
-    "path": "/groups",
+    "path": "/groups/-",
     "value": "plain"
   },
   {
     "op": "add",
-    "path": "/input",
+    "path": "/input/-",
     "value": { "item" : "money", "count" : 20 }
   }
 ]
