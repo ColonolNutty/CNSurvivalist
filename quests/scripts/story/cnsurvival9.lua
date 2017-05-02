@@ -25,21 +25,23 @@ function init()
   self.state:set(self.stages[storage.stage])
 end
 
-function questInteract(entityId)
-  if self.onInteract then
-    return self.onInteract(entityId)
-  end
-end
-
 function questStart()
 end
 
 function update(dt)
+  if storage.complete then
+    return
+  end
   self.state:update(dt)
 end
 
 function questComplete()
+  if storage.complete then
+    return
+  end
   player.upgradeShip(config.getParameter("shipUpgrade"))
+  player.consumeItem({ name = self.items.ftl.item, count = self.items.ftl.count })
+  storage.complete = true
 
   setPortraits()
   questutil.questCompleteActions()
@@ -67,6 +69,9 @@ function collectFtlDrive()
 end
 
 function acquireTheThing(description, itemInfo, currentStage)
+  if storage.complete then
+    return
+  end
   quest.setCompassDirection(nil)
   
   item = itemInfo.item
@@ -82,6 +87,7 @@ function acquireTheThing(description, itemInfo, currentStage)
     coroutine.yield()
   end
 
+  quest.setProgress(0)
   quest.setObjectiveList({})
 
   self.state:set(self.stages[storage.stage])

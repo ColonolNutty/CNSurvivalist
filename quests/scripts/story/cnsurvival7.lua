@@ -22,16 +22,13 @@ function init()
   self.state:set(self.stages[storage.stage])
 end
 
-function questInteract(entityId)
-  if self.onInteract then
-    return self.onInteract(entityId)
-  end
-end
-
 function questStart()
 end
 
 function update(dt)
+  if storage.complete then
+    return
+  end
   self.state:update(dt)
 end
 
@@ -41,14 +38,17 @@ function questComplete()
   end
   player.upgradeShip(config.getParameter("shipUpgrade"))
   player.consumeItem({ name = self.fuelHatchRepairItem, count = self.fuelHatchRepairItemCount }, false)
+  storage.complete = true
 
   setPortraits()
   questutil.questCompleteActions()
   quest.complete()
-  storage.complete = true
 end
 
 function acquireIron()
+  if storage.complete then
+    return
+  end
   quest.setCompassDirection(nil)
 
   while storage.stage == 1 do
