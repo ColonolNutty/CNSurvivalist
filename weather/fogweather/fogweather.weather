@@ -44,7 +44,7 @@
 
       "particle" : {
         "type" : "textured",
-        "image" : "/particles/fog/2.png",
+        "image" : "/particles/fog/1.png",
         "velocity" : [0, -0.5],
         "approach" : [15, 15],
         "angularVelocity" : 100,
