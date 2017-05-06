@@ -12,6 +12,8 @@
   "aliases" : {
     "portrait" : "walk.1",
     "knockback" : "walk.1",
-    "idle" : "walk.1"
+    "idle" : "walk.1",
+    "jump" : "jump.1",
+    "jump.0" : "jump.1"
   }
 }
