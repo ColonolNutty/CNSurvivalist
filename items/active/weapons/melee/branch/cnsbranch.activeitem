@@ -1,10 +1,10 @@
 {
   "itemName": "cnsbranch",
-  "price": 0,
   "level": 1,
+  "price": 0,
   "maxStack": 1,
   "rarity": "uncommon",
-  "description": "A large branch to temporary fend off hostile attacks!",
+  "description": "A large branch to temporarily fend off hostile attacks!",
   "shortdescription": "Branch",
   "tooltipKind": "sword",
   "category" : "broadsword",
@@ -12,17 +12,10 @@
   "itemTags": ["weapon", "melee", "broadsword"],
 
   "inventoryIcon": "cnsbranch.png",
-  //"image": "cnsbranch.png",
   "palette": "cnsbranch.weaponcolors",
-  
-  "animation" : "cnsbranch.animation",
-  "animationParts" : {
-    "blade" : "cnsbranch.png"
-  },
+
+  "animation" : "/items/active/weapons/melee/branch/cnsbranch.animation",
   "animationCustom" : {
-    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
-      "offset" : [-1.75, 1.75]
-    }}}},
     "sounds" : {
       "fire" : [ "/sfx/melee/branchswoosh.ogg" ]
     }
@@ -32,54 +25,13 @@
 
   "elementalType" : "physical",
 
+  "primaryAbilityType" : "cnsbranchslash",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
-    "class" : "MeleeSlash",
     "fireTime" : 0.5,
-    "baseDps" : 5,
-    "damageConfig" : {
-      "damageSourceKind" : "cnsbranchhit",
-      "knockback" : 15
-    },
-	"stances": {
-      "idle" : {
-		 "armRotation" : -90,
-		 "weaponRotation" : 0,
-		 "weaponOffset" : [0.5, 1.75],
-
-        "allowFlip" : true,
-        "allowRotate" : false
-      },
-      "windup" : {
-	    "twoHanded": true,
-        "duration" : 0.408,
-        "armRotation" : 90,
-        "weaponRotation" : -90,
-        "weaponOffset" : [0.75, 1.75],
-
-		 "windupBaseAngle" : -10,
-		 "windupAngleRange" : 70,
-		 
-        "allowFlip" : true,
-        "allowRotate" : false
-      },
-      "fire" : {
-	    "twoHanded": true,
-		"duration" : 0.4,
-        "armRotation" : 0,
-        "weaponRotation" : -90,
-        "weaponOffset" : [0.5, 1.75],
-
-        "allowFlip" : true,
-        "allowRotate" : false
-      }
-	}
+    "baseDps" : 5
   },
-  
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
-  
-  //These may be obsolete
-  "firePosition": [15.5, 4.5],
-  "fireTime": 0.8,
-  "fireAfterWindup": true
+
+  "altAbilityType" : "cnsbranchslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -3,5 +3,10 @@
 		"op": "add",
 		"path": "/cnsdeathbowshot",
 		"value": "/items/active/weapons/bow/abilities/cnsdeathbowshot.weaponability"
+	},
+	{
+		"op": "add",
+		"path": "/cnsbranchslash",
+		"value": "/items/active/weapons/melee/abilities/broadsword/cnsbranchslash.weaponability"
 	}
 ]

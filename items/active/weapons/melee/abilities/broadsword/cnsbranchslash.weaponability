@@ -1,0 +1,80 @@
+{
+  "animationParts" : {
+    "blade" : "cnsbranch.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "properties" : {
+            "offset" : [-1.75, 1.75]
+          }
+        }
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Branch Slash",
+    "type" : "cnsbranchslash",
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "swooshOffsetRegions" : [
+      [0.75, 0.0, 4.25, 5.0]
+    ],
+
+    "edgeTriggerGrace" : 0.25,
+
+    "fireTime" : 0.5,
+    "baseDps" : 5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "cnsbranchhit",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "timeout" : 0.5
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 15
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0.5, 1.75],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "twoHanded" : true,
+        "duration" : 0.408,
+        "armRotation" : 90,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.75, 1.75],
+
+        "windupBaseAngle" : -10,
+        "windupAngleRange" : 70,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "twoHanded" : true,
+        "duration" : 0.4,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.5, 1.75],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
+ 
