@@ -1,33 +1,48 @@
 {
   "itemName" : "cnsshotgun3",
   "price" : 20,
-  "inventoryIcon" : "cnsshotgun3.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "An excelent shotgun",
   "shortdescription" : "Super Shotgun",
-  "image" : "cnsshotgun3.png",
-  "handPosition" : [-2.5, -1.2],
-  "firePosition" : [12, 0],
-  "recoilTime" : 0.1,
-  "level" : 11,
   "tooltipKind" : "gun",
-  "weaponType" : "Shotgun",
-  "itemTags" : ["weapon","ranged","shotgun"],
-  "fireTime" : 2,
-  "inaccuracy" : 0.02,
+  "category" : "shotgun",
   "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "level" : 11,
+  
+  "largeImage" : "cnsshotgun3.png",
+  "inventoryIcon" : "cnsshotgun3.png",
+  
   "walkWhileFiring" : false,
 
-  "projectileType" : "trishot2",
-  "projectile" : {
-	"speed" : 150,
-    "life" : 3,
-	"power" : 30
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "middle" : "cnsshotgun3.png"
   },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/shotgun2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [1.5, 0.0],
   
-   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/shotgun2.ogg" } ],
-    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
-  }
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+  "elementalType" : "physical",
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [12, 0],
+  
+  "recoilTime" : 0.1,
+  
+  "primaryAbilityType" : "cnsgunshot",
+  "primaryAbility" : {
+    "fireTime" : 2,
+    "baseDps" : 30.0,
+    "projectileType" : "trishot2"
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
