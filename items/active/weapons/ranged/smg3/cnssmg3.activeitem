@@ -1,85 +1,47 @@
 {
   "itemName" : "cnssmg3",
   "price" : 20,
-  "inventoryIcon" : "cnssmg3.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Super SMG",
   "shortdescription" : "Super SMG",
-  "image" : "cnssmg3.png",
-  "handPosition" : [-2.5, -1.2],
-  "firePosition" : [10, 0],
-  "recoilTime" : 0.1,
-  "level" : 20,
   "tooltipKind" : "gun",
   "category" : "machinePistol",
-  "weaponType" : "SMG",
-  "itemTags" : ["weapon","ranged","smg"],
   "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "smg", "machinepistol"],
+  "level" : 20,
+  
+  "largeImage" : "cnssmg3.png",
+  "inventoryIcon" : "cnssmg3.png",
+  
   "walkWhileFiring" : false,
   
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "cnssmg3.png",
-    "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "middle" : "cnssmg3.png"
   },
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/gun/mp3.ogg" ]
     }
   },
+  
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [1.0, 0.0],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
-
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [10, 0],
+  
+  "recoilTime" : 0.1,
+  
+  "primaryAbilityType" : "cnssmgshot",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-
     "fireTime" : 0.02,
-    "baseDps" : 42.0,
-    "energyUsage" : 21,
-    "inaccuracy" : 0.02,
-
-    "projectileCount" : 1,
-    "fireType" : "auto",
-
-    "projectileType" : "standardbullet",
-    "projectileParameters" : {
-      "knockback" : 2
-    },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.11,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      }
-    }
+    "baseDps" : 42.0
   },
-
+  
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

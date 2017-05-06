@@ -8,5 +8,10 @@
 		"op": "add",
 		"path": "/cnsbranchslash",
 		"value": "/items/active/weapons/melee/abilities/broadsword/cnsbranchslash.weaponability"
+	},
+	{
+		"op": "add",
+		"path": "/cnssmgshot",
+		"value": "/items/active/weapons/ranged/abilities/cnssmgshot.weaponability"
 	}
 ]
