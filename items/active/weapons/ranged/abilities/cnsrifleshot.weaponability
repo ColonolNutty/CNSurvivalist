@@ -1,58 +1,60 @@
 {
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "cnsrifle1.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rifle1.ogg" ]
+    }
+  },
+
   "ability" : {
-    "type" : "cnsdeathbowshot",
-    "class" : "BowShot",
-    "name" : "Death Bow Shot",
-    "scripts" : ["/items/active/weapons/bow/abilities/bowshot.lua"],
+    "type" : "cnsrifleshot",
+    "class" : "GunFire",
+    "name" : "Rifle Shot",
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    
+    "fireTime" : 0.11,
+    "baseDps" : 10.5,
+    "energyUsage" : 21,
+    "inaccuracy" : 0.02,
 
-    "walkWhileFiring" : true,
+    "projectileCount" : 1,
+    "fireType" : "auto",
 
-    "fireOffset" : [1.75, 0],
-
-    "energyPerShot" : 10,
-
-    "cooldownTime" : 0.3,
-
-    "inaccuracy" : 0.01,
-
-    "drawFrameSelector" : "bowImageSelector",
-    "drawPowerMultiplier" : "drawTimeMultiplier",
-    "drawSpeedMultiplier" : "drawTimeMultiplier",
-
-    "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
-
-    "projectileType" : "cnskillerarrow",
-    "powerProjectileType" : "cnskillerarrow",
-    "powerProjectileTime" : [0.9, 1.1],
+    "projectileType" : "standardbullet",
     "projectileParameters" : {
-      "speed" : 70,
-      "power" : 30
+      "knockback" : 2
     },
-
     "stances" : {
       "idle" : {
-        "armRotation" : -30,
-        "weaponRotation" : 0,
-        "allowRotate" : true,
-        "allowFlip" : true,
-        "twoHanded" : true
-      },
-      "draw" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "allowRotate" : true,
-        "allowFlip" : true,
-        "twoHanded" : true
-      },
-      "fire" : {
-        "duration" : 0.2,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "allowRotate" : false,
-        "allowFlip" : true,
         "twoHanded" : true,
 
-        "frontArmFrame" : "idle.3"
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
       }
     }
   }

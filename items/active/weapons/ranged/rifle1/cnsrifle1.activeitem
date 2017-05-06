@@ -1,34 +1,47 @@
 {
   "itemName" : "cnsrifle1",
   "price" : 10,
-  "inventoryIcon" : "cnsrifle1.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A standard rifle weapon of iron and refined wood.",
   "shortdescription" : "Standard Rifle",
-  "category" : "assaultRifle",
-  "image" : "cnsrifle1.png",
-  "handPosition" : [-2.5, -1.2],
-  "firePosition" : [12, 0],
-  "recoilTime" : 0.1,
-  "level" : 6,
   "tooltipKind" : "gun",
-  "weaponType" : "Assault Rifle",
-  "itemTags" : ["weapon","ranged","assaultrifle"],
-  "fireTime" : 3,
-  "inaccuracy" : 0.02,
+  "category" : "assaultRifle",
   "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "assaultrifle"],
+  "level" : 6,
+  
+  "largeImage" : "cnsrifle1.png",
+  "inventoryIcon" : "cnsrifle1.png",
+  
   "walkWhileFiring" : false,
 
-  "projectileType" : "sbullet",
-  "projectile" : {
-	"speed" : 175,
-    "life" : 3,
-	"power" : 9
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "middle" : "cnsrifle1.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rifle1.ogg" ]
+    }
   },
 
-  "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/rifle1.ogg" } ],
-    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
-  }
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [1.5, 0.0],
+  
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+  "elementalType" : "physical",
+  "handPosition" : [-2.5, -1.2],
+  "firePosition" : [12, 0],
+  
+  "recoilTime" : 0.1,
+  
+  "primaryAbilityType" : "cnsrifleshot",
+  "primaryAbility" : {
+    "fireTime" : 3.5,
+    "baseDps" : 9.0
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

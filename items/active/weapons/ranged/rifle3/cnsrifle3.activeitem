@@ -1,34 +1,47 @@
 {
   "itemName" : "cnsrifle3",
   "price" : 20,
-  "inventoryIcon" : "cnsrifle3.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A piercing assault standard rifle with better grip, extra ammo and an iron scope.",
   "shortdescription" : "Piercing Assault Rifle",
-  "image" : "cnsrifle3.png",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "assaultrifle"],
+  "level" : 9,
+  
+  "largeImage" : "cnsrifle3.png",
+  "inventoryIcon" : "cnsrifle3.png",
+
+  "walkWhileFiring" : false,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "middle" : "cnsrifle3.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/revolver2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [1.5, 0.0],
+  
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+  "elementalType" : "physical",
   "handPosition" : [-2.5, -1.2],
   "firePosition" : [12, 0],
-  "recoilTime" : 0.1,
-  "level" : 9,
-  "tooltipKind" : "gun",
-  "weaponType" : "Assault Rifle",
-  "itemTags" : ["weapon","ranged","assaultrifle"],
-  "fireTime" : 0.4,
-  "inaccuracy" : 0.02,
-  "twoHanded" : true,
-  "walkWhileFiring" : false,
-
-  "projectileType" : "sbullet",
-  "projectile" : {
-	"speed" : 175,
-    "life" : 3,
-	"power" : 15
-  },
   
-  "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/revolver2.ogg" } ],
-    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation"
-  }
-}
+  "recoilTime" : 0.1,
+  
+  "primaryAbilityType" : "cnsrifleshot",
+  "primaryAbility" : {
+    "fireTime" : 0.4,
+    "baseDps" : 15.0
+  },
 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
