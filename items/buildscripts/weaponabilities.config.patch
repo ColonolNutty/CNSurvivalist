@@ -11,12 +11,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/cnssmgshot",
-		"value": "/items/active/weapons/ranged/abilities/cnssmgshot.weaponability"
-	},
-	{
-		"op": "add",
-		"path": "/cnsrifleshot",
-		"value": "/items/active/weapons/ranged/abilities/cnsrifleshot.weaponability"
+		"path": "/cnsgunshot",
+		"value": "/items/active/weapons/ranged/abilities/cnsgunshot.weaponability"
 	}
 ]

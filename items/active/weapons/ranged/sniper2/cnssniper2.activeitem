@@ -1,31 +1,48 @@
 {
   "itemName" : "cnssniper2",
-  "inventoryIcon" : "cnssniper2.png",
-  "description" : "Iron scope.",
-  "shortdescription" : "Upgraded Sniper",
-  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],  
+  "price" : 40,
   "maxStack" : 1,
-  "level" : 9,
   "rarity" : "Common",
-  "inspectionKind" : "gun",
-  "image" : "cnssniper2.png",
-  "recoilTime" : 0.1,
+  "description" : "Sniper Rifle with an Iron scope but upgraded.",
+  "shortdescription" : "Upgraded Sniper",
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "sniper"],
+  "level" : 9,
+  
+  "largeImage" : "cnssniper2.png",
+  "inventoryIcon" : "cnssniper2.png",
+  
+  "walkWhileFiring" : false,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "middle" : "cnssniper2.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/sniper1.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [1.5, 0.0],
+  
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+  "elementalType" : "physical",
   "handPosition" : [-2.5, -1.2],
   "firePosition" : [19, 2],
   "classMultiplier" : 12,
-
-  "fireTime" : 4,
-  "twoHanded" : true,
-
-  "projectileType" : "sbullet",
-  "projectile" : {
-	"power" : 55,
-	"speed" : 200,
-    "life" : 3
+  
+  "recoilTime" : 0.1,
+  
+  "primaryAbilityType" : "cnsgunshot",
+  "primaryAbility" : {
+    "fireTime" : 4,
+    "baseDps" : 55.0
   },
 
-  "muzzleEffect" : {
-    "animation" : "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/sniper1.ogg" } ]
-  }
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

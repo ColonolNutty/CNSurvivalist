@@ -37,7 +37,7 @@
   
   "recoilTime" : 0.1,
   
-  "primaryAbilityType" : "cnssmgshot",
+  "primaryAbilityType" : "cnsgunshot",
   "primaryAbility" : {
     "fireTime" : 0.02,
     "baseDps" : 42.0

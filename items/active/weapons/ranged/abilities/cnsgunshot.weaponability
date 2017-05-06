@@ -12,13 +12,13 @@
   },
 
   "ability" : {
-    "type" : "cnssmgshot",
+    "type" : "cnsgunshot",
     "class" : "GunFire",
-    "name" : "Smg Shot",
+    "name" : "Gun Shot",
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     
     "fireTime" : 0.07,
-    "baseDps" : 14.0,
+    "baseDps" : 5.0,
     "energyUsage" : 21,
     "inaccuracy" : 0.02,
 
