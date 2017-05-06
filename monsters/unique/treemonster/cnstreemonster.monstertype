@@ -1,5 +1,7 @@
 {
   "type" : "cnstreemonster",
+  "shortdescription" : "TreeMonster",
+  "description" : "It's a tree",
 
   "categories" : [ "treemonster" ],
   "parts" : [ "body" ],
@@ -34,7 +36,28 @@
       "targetOutOfSightTime" : 5,
 
       "foundTargetActions" : [ ],
+      "hostileActions" : [
+          {
+            "name" : "action-leap",
+            "cooldown" : 0.5,
+            "parameters" : {
+              "minimumRange" : 0,
+              "maximumRange" : 20,
+              "maxXRange" : 4,
+              "windupTime" : 0.3,
+              "windupState" : "idle",
 
+              "leapVelocity" : 25,
+              "collisionCheck" : true,
+              "highArc" : false,
+              "leapState" : "jump",
+              "fallState" : "fall",
+
+              "winddownState" : "",
+              "winddownTime" : 0.2
+            }
+          }
+        ],
       "approachActions" : [
         {
           "name" : "approach-walk",
@@ -44,7 +67,6 @@
             "jumpXVelocity" : 0,
             "jumpYVelocity" : 0,
             "jumpXControlForce" : 50,
-            "fallState" : "jump",
             "moveState" : "run",
             "run" : true
           }
@@ -98,8 +120,18 @@
       "collisionPoly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
       "mass" : 1.0,
       "walkSpeed" : 0,
-      "runSpeed" : 3.0
+      "runSpeed" : 3.0,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
     },
+
+    "bodyMaterialKind" : "organic",
 
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
 
@@ -111,13 +143,13 @@
       "damageSourceKind" : "slash",
       "statusEffects" : [ ]
     },
-	"colors" : "generated",
+    "colors" : "generated",
 
     "statusSettings" : {
       "statusProperties" : {
         "targetMaterialKind" : "organic"
       },
-	  "appliesWeatherStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
       "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 

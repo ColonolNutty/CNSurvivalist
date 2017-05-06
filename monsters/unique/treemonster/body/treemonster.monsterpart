@@ -1,11 +1,11 @@
 {
-  "name" : "cnszombiechest1",
+  "name" : "cnstreemonsterchest1",
   "category" : "treemonster",
   "type" : "body",
 
   "frames" : {
-    "chest" : "treemonster.png"
+    "body" : "treemonster.png"
   },
-
-  "parameters" : { }
+  
+  "parameters": {}
 }

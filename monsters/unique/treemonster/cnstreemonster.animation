@@ -8,19 +8,18 @@
           "idle" : {
             "frames" : 1
           },
-          "jump" : {
-            "frames" : 4,
-            "cycle" : 0.5,
-            "mode" : "transition",
-            "transition" : "fall"
-          },
-          "fall" : {
-            "frames" : 4
-          },
           "walk" : {
             "frames" : 4,
             "cycle" : 2.0,
             "mode" : "loop"
+          },
+          "jump" : {
+            "frames" : 4,
+            "cycle" : 0.5
+          },
+          "fall" : {
+            "frames" : 4,
+            "cycle" : 0.3
           },
           "run" : {
             "frames" : 4,
@@ -69,7 +68,7 @@
     },
 
     "parts" : {
-      "chest" : {
+      "body" : {
         "properties" : {
           "transformationGroups" : [ "body" ],
           "zLevel" : 2
