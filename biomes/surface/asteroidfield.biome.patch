@@ -8,5 +8,10 @@
 		"op": "replace",
 		"path": "/musicTrack/night/tracks",
 		"value": []
-	}
+	},
+  {
+    "op": "replace",
+    "path": "/surfacePlaceables/items",
+    "value": []
+  }
 ]

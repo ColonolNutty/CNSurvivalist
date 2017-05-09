@@ -43,40 +43,44 @@
 		"path": "/musicTrack/night/tracks",
 		"value": []
 	},
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:potsRare",
+  {
+    "op": "replace",
+    "path": "/surfacePlaceables/items",
+    "value": [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
 
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [ [1, "cnsbonepile" ] ],
-					"parameters" : { }
-				}
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/undergroundPlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:potsRare",
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "cnsbonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
 
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [ [1, "cnsbonepile" ] ],
-					"parameters" : { }
-				}
-			]
-		}
-	}
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "cnsbonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
 ]

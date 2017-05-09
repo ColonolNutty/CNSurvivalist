@@ -79,44 +79,93 @@
 			}
 		}
 	},
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:potsRare",
+  {
+    "op": "replace",
+    "path": "/surfacePlaceables/items",
+    "value": [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
 
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [ [1, "cnsbonepile" ] ],
-					"parameters" : { }
-				}
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/surfacePlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 0.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:surfaceCrops",
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "cnsbonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
 
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [ [1, "wilddirturchinseed" ] ],
-						"parameters" : {
-						"startingStage" : 2
-					}
-				}
-			]
-		}
-	},
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wilddirturchinseed" ] ],
+              "parameters" : {
+              "startingStage" : 2
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildbonebooseed" ] ],
+            "parameters" : {
+              "startingStage" : 4
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "smashbones1" ], [0.25, "smashbones2" ], [0.25, "smashbones3" ], [0.25, "smashbones4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "freebone" ]
+      },
+{
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "bleake" ],
+        "treeFoliageList" : [ "" ]
+      }
+    ]
+  },
 	{
 		"op": "replace",
 		"path": "/undergroundPlaceables/grassMod",
@@ -127,20 +176,48 @@
 		"path": "/undergroundPlaceables/grassModDensity",
 		"value": 0.2
 	},
-	{
-		"op": "add",
-		"path": "/undergroundPlaceables/items/-",
-		"value": {
-			"mode" : "ceiling",
-			"priority" : 2.0,
-			"variants" : 1,
-			"distribution" : "/biomes/distributions.config:denseLarge",
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": [
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
 
-			"type" : "tree",
-			"treeFoliageHueShiftMax" : 180,
-			"treeStemHueShiftMax" : 180,
-			"treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
-			"treeFoliageList" : [ "flowery", "starry", "dreamy" ]
-		}
-	}
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 180,
+        "treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
+        "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "bone"],
+        "treeFoliageList" : [ "" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.1, "smashbones1" ], [0.1, "smashbones2" ], [0.1, "smashbones3" ], [0.1, "smashbones4" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
 ]

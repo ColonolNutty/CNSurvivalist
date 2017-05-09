@@ -236,22 +236,46 @@
 		"path": "/undergroundPlaceables/grassModDensity",
 		"value": 0.2
 	},
-	{
-		"op": "add",
-		"path": "/undergroundPlaceables/items/-",
-		"value": {
-			"mode" : "floor",
-			"priority" : 1.0,
-			"variants" : 3,
-			"distribution" : "/biomes/distributions.config:potsRare",
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:potsRare",
 
-			"type" : "object",
-			"objectSets" : [
-				{
-					"pool" : [ [1, "cnsbonepile" ] ],
-					"parameters" : { }
-				}
-			]
-		}
-	}
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "cnsbonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "slimeblob1" ], [0.35, "slimeblob2" ], [0.35, "slimeblob3" ], [0.35, "slimeblob4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "sticky" ]
+      }
+    ]
+  }
 ]
