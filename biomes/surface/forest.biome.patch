@@ -103,7 +103,7 @@
 			"type" : "object",
 			"objectSets" : [
 				{
-					"pool" : [ [1, "wildcottonseed" ] ],
+					"pool" : [ [1, "wildcottonseed" ], [1, "wildpotatoseed" ] ],
 					"parameters" : {
 						"startingStage" : 3
 					}
@@ -111,6 +111,31 @@
 			]
 		}
 	},
+	{
+		"op": "add",
+		"path": "/surfacePlaceables/items/-",
+		"value": {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildpearlpeaseed" ], [1, "wildcornseed" ], [1, "wildriceseed" ]  ],
+            "parameters" : {
+              "startingStage" : 4
+            }
+          }
+        ]
+      }
+	},
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": []
+  },
 	{
 		"op": "add",
 		"path": "/undergroundPlaceables/items/-",
@@ -128,5 +153,35 @@
 				}
 			]
 		}
+	},
+	{
+		"op": "add",
+		"path": "/undergroundPlaceables/items/-",
+		"value": {
+      "mode" : "ceiling",
+      "priority" : 2.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseMedium",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 180,
+      "treeStemHueShiftMax" : 10,
+      "treeStemList" : [ "rootvine", "rootvine2", "rootvine3" ],
+      "treeFoliageList" : [ "" ]
+    }
+	},
+	{
+		"op": "add",
+		"path": "/undergroundPlaceables/items/-",
+		"value": {
+      "mode" : "floor",
+      "priority" : 3.0,
+      "variants" : 1,
+      "period" : 5,
+      "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+      "type" : "grass",
+      "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+    }
 	}
 ]
