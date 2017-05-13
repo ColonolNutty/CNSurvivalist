@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/scriptConfig/questGenerator/chance",
+		"value": 0.0
+	},
+	{
+		"op": "replace",
+		"path": "/scriptConfig/questGenerator/maxBoostedChance",
+		"value": 0.0
+	},
+	{
+		"op": "replace",
+		"path": "/statusControllerSettings/stats/maxHealth/baseValue",
+		"value": -1.0
+	}
+]

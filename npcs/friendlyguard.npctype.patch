@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/scriptConfig/questGenerator/chance",
+		"value": 0.0
+	},
+	{
+		"op": "replace",
+		"path": "/scriptConfig/questGenerator/pools",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/scriptConfig/questGenerator/timeLimit",
+		"value": 0
+	}
+]

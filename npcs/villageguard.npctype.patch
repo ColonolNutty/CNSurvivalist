@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/scriptConfig/questGenerator/pools",
+		"value": []
+	},
+	{
+		"op": "replace",
+		"path": "/scriptConfig/questGenerator/timeLimit",
+		"value": 0
+	}
+]
