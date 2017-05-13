@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 4,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.7, "oillantern1" ], [1.5, "haypile" ], [0.1, "haystack" ], [0.05, "outhouse" ] ],
+            "parameters" : { }
+          }
+
+
+        ]
+      }
+    ]
+  }
+]

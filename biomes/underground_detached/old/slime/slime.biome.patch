@@ -200,7 +200,6 @@
 					"type" : "microdungeon",
 					"microdungeons" : [ "terrainfeatures" ]
 				},
-
 				{
 					"mode" : "floor",
 					"priority" : 2.0,
@@ -213,7 +212,6 @@
 					"treeStemList" : [ "ashy", "coal" ],
 					"treeFoliageList" : [ "rustflower"]
 				},
-
 				{
 					"mode" : "floor",
 					"priority" : 3.0,

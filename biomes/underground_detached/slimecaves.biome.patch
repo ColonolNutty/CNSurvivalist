@@ -1,0 +1,44 @@
+[
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "slimeblob1" ], [0.25, "slimeblob2" ], [0.25, "slimeblob3" ], [0.25, "slimeblob4" ], [0.25, "slimeblob5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "grass",
+        "grasses" : [ "slime" ]
+      },
+      {
+        "mode" : "ceiling",
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "dripslime1" ], [0.35, "ceilingslime1" ], [0.35, "ceilingslime2" ], [0.35, "ceilingslime3" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+]

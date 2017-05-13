@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items",
+    "value": [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "cellstructure1" ], [0.35, "cellstructure2" ], [0.35, "cellstructure3" ], [0.35, "cellstructure4" ], [0.35, "cellstructure5" ], [0.35, "dnaplant1" ], [0.35, "dnaplant2" ], [0.35, "dnaplant3" ], [0.35, "dnaplant4" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+]
