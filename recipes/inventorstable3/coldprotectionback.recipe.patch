@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "durasteelbar", "count" : 12 },
+      { "item" : "battery", "count" : 1 },
+      { "item" : "scorchedcore", "count" : 1 },
+      { "item" : "money", "count" : 300 }
+    ]
+  }
+]

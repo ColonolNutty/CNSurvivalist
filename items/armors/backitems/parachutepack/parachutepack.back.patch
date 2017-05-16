@@ -18,6 +18,11 @@
       "op": "add",
       "path": "/statusEffects/-",
       "value": "encumbered2"
+    },
+    {
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": "nofalldamage"
     }
   ]
 ]

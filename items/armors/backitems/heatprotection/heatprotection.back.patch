@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/statusEffects",
+    "value": [
+      {
+        "stat" : "biomeheatImmunity",
+        "amount" : 1.0
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "This pack comes with heat neutralisation. Helpful on ^red;dangerously hot^reset; planets."
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Cooling Pack"
+  }
+]

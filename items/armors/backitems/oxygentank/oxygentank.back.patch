@@ -6,8 +6,38 @@
   [
     {
       "op": "replace",
+      "path": "/tooltipKind",
+      "value": "baseaugment"
+    },
+    {
+      "op": "replace",
+      "path": "/price",
+      "value": 500
+    },
+    {
+      "op": "replace",
+      "path": "/category",
+      "value": "enviroProtectionPack"
+    },
+    {
+      "op": "replace",
+      "path": "/rarity",
+      "value": "Uncommon"
+    },
+    {
+      "op": "add",
+      "path": "/acceptsAugmentType",
+      "value": "back"
+    },
+    {
+      "op": "add",
+      "path": "/radioMessagesOnPickup",
+      "value": [ "pickupepp" ]
+    },
+    {
+      "op": "replace",
       "path": "/description",
-      "value": "An oxygen tank. For underwater exploration!"
+      "value": "An oxygen tank. For underwater and space exploration!"
     },
     {
       "op": "add",

@@ -1,8 +1,0 @@
-{
-  "itemName" : "coldprotectionTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/skins/coldprotection/overlay.png",
-  "description" : "Protects the wearer from the extreme cold found on certain planets.",
-  "shortdescription" : "Cold Protection"
-
-}

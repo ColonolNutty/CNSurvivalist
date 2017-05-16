@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "titaniumbar", "count" : 12 },
+      { "item" : "copperbar", "count" : 8 },
+      { "item" : "venomsample", "count" : 1 },
+      { "item" : "money", "count" : 300 }
+    ]
+  }
+]

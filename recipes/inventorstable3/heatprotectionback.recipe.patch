@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "refinedaegisalt", "count" : 4 },
+      { "item" : "refinedferozium", "count" : 4 },
+      { "item" : "refinedviolium", "count" : 4 },
+      { "item" : "battery", "count" : 1 },
+      { "item" : "cryonicextract", "count" : 1 },
+      { "item" : "money", "count" : 300 }
+    ]
+  }
+]

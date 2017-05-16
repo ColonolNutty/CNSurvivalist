@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/statusEffects",
+    "value": [
+      {
+        "stat" : "biomeradiationImmunity",
+        "amount" : 1.0
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "This pack comes with radiation neutralisation. Use it on planets with ^red;high radiation levels^reset;."
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Radiation Pack"
+  }
+]
