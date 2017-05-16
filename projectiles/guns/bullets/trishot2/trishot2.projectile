@@ -27,7 +27,7 @@
     }
   ],
   "power" : 15.0,
-  "speed" : 50,
+  "speed" : 5,
   "damageKind" : "shotgunbullet",
   "knockbackRange" : [10, 40]
 }

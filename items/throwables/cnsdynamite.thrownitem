@@ -15,7 +15,7 @@
 
   "projectileType" : "cnszdynamite",
   "projectileConfig" : {
-    "speed" : 1,
+    "speed" : 40,
     "power" : 1000
   }
 }

@@ -1,6 +1,6 @@
 {
   "projectileName" : "cnszfirecracker",
-  "physics" : "grenadezbomb",
+  "physics" : "highgravgrenade",
   "bounces" : -1,
   "timeToLive" : 5,
   "image" : "cnszfirecracker.png",
