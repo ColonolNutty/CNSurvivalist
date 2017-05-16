@@ -5,7 +5,7 @@
   "frameNumber" : 1,
   "damageKindImage" : "icon2.png",
   "pointLight" : false,
-  "timeToLive" : 0.001,
+  "timeToLive" : 0.0,
   "actionOnReap" : [
     {
       "action" : "projectile",
@@ -27,7 +27,7 @@
     }
   ],
   "power" : 15.0,
-  "speed" : 75,
+  "speed" : 50,
   "damageKind" : "shotgunbullet",
   "knockbackRange" : [10, 40]
 }

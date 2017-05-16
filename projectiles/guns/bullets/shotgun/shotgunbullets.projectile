@@ -12,6 +12,7 @@
     }
   ],
   "power" : 5.0,
-  "speed" : 75,
-  "damageKind" : "default"
+  "speed" : 50,
+  "damageKind" : "shotgunbullet",
+  "knockbackRange" : [10, 40]
 }
