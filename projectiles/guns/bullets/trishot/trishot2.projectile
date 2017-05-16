@@ -26,8 +26,8 @@
       "angleAdjust" : 0
     }
   ],
-  "power" : 5.0,
+  "power" : 15.0,
   "speed" : 75,
-  "damageType" : "NoDamage",
-  "damageKind" : "default"
+  "damageKind" : "shotgunbullet",
+  "knockbackRange" : [10, 40]
 }
