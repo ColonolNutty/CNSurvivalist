@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 100},
+    { "item" : "titaniumbar", "count" : 50},
+    { "item" : "money", "count" : 8000}
+  ],
+  "output" : { "item" : "shipT8", "count" : 1 },
+  "groups" : [ "inventorstable", "craftingstations", "tools", "crafting", "all" ]
+}

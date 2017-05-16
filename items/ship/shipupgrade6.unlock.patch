@@ -1,0 +1,19 @@
+[
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Upgrades the ship to Tier 6"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tier 6 Ship Upgrade"
+    },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "shipT7" }
+  ]
+]
