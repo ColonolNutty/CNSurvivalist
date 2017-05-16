@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "torch", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "cnstorch",
+    "count" : 1
+  },
+  "duration": 0.0,
+  "groups" : [ "plain", "objects", "all" ]
+}
