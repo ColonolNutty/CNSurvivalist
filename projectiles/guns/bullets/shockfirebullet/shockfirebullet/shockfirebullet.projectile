@@ -6,11 +6,11 @@
   "damageKindImage" : "icon.png",
   "pointLight" : false,
   "actionOnReap" : [
-      {
+    {
       "action" : "config",
       "file" : "/projectiles/explosions/plasmaexplosion2/plasmaexplosion2.config"
     },
-	{
+    {
       "action" : "projectile",
       "type" : "teslabolt",
       "fuzzAngle" : 0,
@@ -73,7 +73,7 @@
       "angleAdjust" : 180,
       "inheritDamageFactor" : 0.03
     },
-	{
+    {
       "action" : "projectile",
       "type" : "molotovflame",
       "fuzzAngle" : 0,

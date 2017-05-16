@@ -5,7 +5,7 @@
   "frameNumber" : 1,
   "damageKindImage" : "icon2.png",
   "pointLight" : false,
-  "timeToLive" : 0.1,
+  "timeToLive" : 0.001,
   "actionOnReap" : [
     {
       "action" : "projectile",
@@ -26,7 +26,7 @@
       "angleAdjust" : 0
     }
   ],
-  "power" : 1.0,
+  "power" : 5.0,
   "speed" : 75,
   "damageType" : "NoDamage",
   "damageKind" : "default"
