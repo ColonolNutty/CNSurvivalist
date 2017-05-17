@@ -1,0 +1,39 @@
+{
+  "itemName" : "cnstorch",
+  "level" : 1,
+  "price" : 10,
+  "maxStack" : 1000,
+  "rarity" : "Legendary",
+  "description" : "A flickering torch that you can hold. It lights up the area.",
+  "shortdescription" : "Handheld torch",
+  "tooltipKind" : "tool",
+  "category" : "Tool",
+  "pointable" : true,
+  "twoHanded" : false,
+  "itemTags" : ["torch", "light"],
+
+  "largeImage" : "cnstorchbig.png",
+  "inventoryIcon" : "cnstorchicon.png",
+
+  "animation" : "/items/active/misc/cnstorch/cnstorch.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "idle" : [ "/sfx/objects/torch.ogg" ],
+      "fire" : [ "/sfx/objects/torch.ogg" ],
+      "fire2" : [ "/sfx/objects/torch.ogg" ],
+      "fire3" : [ "/sfx/objects/torch.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "cnstorchcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.0,
+    "baseDps" : 0.0
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

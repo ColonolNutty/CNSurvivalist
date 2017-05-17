@@ -13,5 +13,10 @@
 		"op": "add",
 		"path": "/cnsgunshot",
 		"value": "/items/active/weapons/ranged/abilities/cnsgunshot.weaponability"
+	},
+	{
+		"op": "add",
+		"path": "/cnstorchcombo",
+		"value": "/items/active/misc/cnstorch/cnstorchcombo.weaponability"
 	}
 ]
