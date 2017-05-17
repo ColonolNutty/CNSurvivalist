@@ -74,7 +74,7 @@
           "centered" : true,
           "fullbright" : true,
           "image" : "",
-          "offset" : [0, 1.0],
+          "offset" : [0, 0.7],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0]
         }
@@ -85,7 +85,7 @@
           "centered" : true,
           "fullbright" : true,
           "image" : "",
-          "offset" : [0, 1.0],
+          "offset" : [0, 0.7],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0]
         },
