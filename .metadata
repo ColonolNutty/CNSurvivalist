@@ -3,7 +3,7 @@
 	"description" : "The Survivalist Mod back from the Grave!",
 	"friendlyName" : "CNSurvivalist Resurrection",
 	"name" : "CNSurvivalist",
-	"requires" : ["CNAnimatedHandheldTorches"],
+	"includes" : ["CNAnimatedHandheldTorches"],
 	"version" : "Alpha.1.0",
 	"priority": -9998,
 	"thanks" : "A revival of antonsenlarsen's Survivalist Mod and Durlock's SM2.0"
