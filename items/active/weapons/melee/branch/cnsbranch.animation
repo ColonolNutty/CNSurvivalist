@@ -11,7 +11,7 @@
           "idle" : {
           },
           "fire" : {
-            "frames" : 2,
+            "frames" : 3,
             "cycle" : 0.08,
             "mode" : "transition",
             "transition" : "idle"
@@ -24,18 +24,14 @@
         "properties" : {
           "zLevel" : 0,
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
+          "image" : "cnsbranch.png:default",
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0.75, 1.75]
         }
       },
       "handle" : {
         "properties" : {
-          "zLevel" : 1,
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "transformationGroups" : ["weapon"],
-          "rotationCenter" : [0, 0]
+          "image" : ""
         }
       },
       "swoosh" : {
