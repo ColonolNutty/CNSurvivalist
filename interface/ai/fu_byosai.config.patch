@@ -2,6 +2,42 @@
   [
     {
       "op" : "test",
+      "path" : "/defaultShipUpgrade",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultShipUpgrade",
+      "value" : {}
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/scripts",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scripts",
+      "value" : []
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/scriptWidgetCallbacks",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptWidgetCallbacks",
+      "value" : []
+    }
+  ],
+  [
+    {
+      "op" : "test",
       "path" : "/gui/showMissions/visible",
       "inverse" : true
     },
@@ -24,6 +60,41 @@
     }
   ],
   [
+    {
+      "op" : "test",
+      "path" : "/gui/showCrew/callback",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/gui/showCrew/callback",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "add",
+      "path" : "/scripts/-",
+      "value" : "/interface/ai/fu_byosaiCNS.lua"
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptWidgetCallbacks/-",
+      "value" : "defaultShipCNS"
+    },
+    {
+      "op" : "replace",
+      "path" : "/defaultShipUpgrade",
+      "value" : {
+        "shipLevel" : 1,
+        "capabilities" : [ "teleport" ]
+      }
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/showCrew/callback",
+      "value" : "defaultShipCNS"
+    },
     {
       "op" : "replace",
       "path" : "/gui/showMissions/visible",
