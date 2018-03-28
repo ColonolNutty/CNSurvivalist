@@ -1,17 +1,18 @@
 {
-  "itemName" : "cnsmonsterskin",
+  "itemName" : "bandageplantCNS",
   "rarity" : "Common",
-  "price" : 10,
+  "price" : 25,
   "category" : "medicine",
-  "inventoryIcon" : "cnsmonsterskin.png",
-  "description" : "A piece of skin from a monster, can be used to bandage wounds.",
-  "shortdescription" : "Monster skin",
+  "inventoryIcon" : "bandageplantCNS.png",
+  "description" : "A bandage made from plant fibre. Can be used to heal minor wounds.",
+  "shortdescription" : "Bandage - Plant",
   "effects" : [ [
       {
         "effect" : "bandageCNS1",
         "duration" : 10
       }
     ] ],
+  "emote" : "",
   "emitters" : [ "bandageuse" ],
   "blockingEffects" : [
     "salveheal",

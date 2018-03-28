@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "plantfibre", "count" : 10 },
-	{ "item" : "fullwood1", "count" : 2 },
-	{ "item" : "money", "count" : 100 }
+    { "item" : "fullwood1", "count" : 2 },
+    { "item" : "money", "count" : 100 }
   ],
   "output" : { "item" : "cnssurvivalbushhead", "count" : 1 },
   "groups" : [ "plain", "armors" ]

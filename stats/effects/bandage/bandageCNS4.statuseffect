@@ -1,16 +1,16 @@
 {
-  "name" : "bandage3",
+  "name" : "bandageCNS4",
   "effectConfig" : {
-    "healAmount" : 35,
-    "emissionRate" : 4.5
+    "healAmount" : 45,
+    "emissionRate" : 10
   },
   "defaultDuration" : 5,
 
   "scripts" : [
-    "bandage.lua"
+    "bandageCNS.lua"
   ],
 
-  "animationConfig" : "bandage.animation",
+  "animationConfig" : "bandageCNS.animation",
 
   "label" : "Healing",
   "icon" : "/interface/statuses/heal.png"

@@ -1,10 +1,9 @@
 {
   "input" : [
-	{ "item" : "fullwood1", "count" : 1 },
-	{ "item" : "torch", "count" : 1 },
-	{ "item" : "coalore", "count" : 5 },
-	{ "item" : "money", "count" : 25 }	
-	
+    { "item" : "fullwood1", "count" : 1 },
+    { "item" : "torch", "count" : 1 },
+    { "item" : "coalore", "count" : 5 },
+    { "item" : "money", "count" : 25 }
   ],
   "output" : { "item" : "cnsthrowfirewood", "count" : 1 },
   "groups" : [ "plain", "all", "weapons" ]

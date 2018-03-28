@@ -4,9 +4,6 @@
     { "item" : "cobblestonematerial", "count" : 30 },
     { "item" : "money", "count" : 50 }
   ],
-  "output" : {
-    "item" : "cnssimplecraft",
-    "count" : 1
-  },
+  "output" : { "item" : "cnssimplecraft", "count" : 1 },
   "groups" : [ "plain", "objects", "all", "tools" ]
 }

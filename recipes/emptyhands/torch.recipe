@@ -4,9 +4,6 @@
     { "item" : "coalore", "count" : 1 },
     { "item" : "money", "count" : 1 }
   ],
-  "output" : {
-    "item" : "torch",
-    "count" : 1
-  },
+  "output" : { "item" : "torch", "count" : 1 },
   "groups" : [ "plain", "objects", "all" ]
 }

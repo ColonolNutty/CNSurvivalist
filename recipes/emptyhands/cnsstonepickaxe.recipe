@@ -3,9 +3,6 @@
     { "item" : "fullwood1", "count" : 1 },
     { "item" : "cobblestonematerial", "count" : 10 }
 	],
-  "output" : {
-    "item" : "cnsstonepickaxe",
-    "count" : 1
-  },
+  "output" : { "item" : "cnsstonepickaxe", "count" : 1 },
   "groups" : [ "plain", "objects", "all" ]
 }

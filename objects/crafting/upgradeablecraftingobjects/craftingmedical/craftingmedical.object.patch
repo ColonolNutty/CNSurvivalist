@@ -12,6 +12,7 @@
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "salve" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "redstim" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "yellowstim" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bandageplantCNS" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bandage" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "antidote" }
   ]
