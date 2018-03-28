@@ -1,435 +1,59 @@
 [
-	{
-		"op": "replace",
-		"path": "/planetDefaults/dayLengthRange",
-		"value": [500, 500]
-	},
-	{
-		"op": "replace",
-		"path": "/planetDefaults/gravityRange",
-		"value": [100, 100]
-	},
-	{
-		"op": "add",
-		"path": "/planetSizes/huge",
-		"value": {
-			"size" : [16000, 7008],
-
-			"gravityRange" : [100, 100],
-
-			"layerDefaults" : {
-				"secondaryRegionPeriod" : [6000, 6000],
-				"secondaryRegionSize" : [2500, 3000],
-				"dungeonCountRange" : [4, 5]
-			},
-
-			"layers" : {
-				"space" : {
-					"baseHeight" : 6500,
-					"layerLevel" : 6000
-				},
-				"atmosphere" : {
-					"baseHeight" : 5500,
-					"layerLevel" : 5000
-				},
-				"surface" : {
-					"baseHeight" : 4700,
-					"layerLevel" : 4600
-				},
-				"subsurface" : {
-					"baseHeight" : 4425,
-					"layerLevel" : 4400
-				},
-				"underground1" : {
-					"baseHeight" : 4325,
-					"layerLevel" : 4250
-				},
-				"underground2" : {
-					"baseHeight" : 4175,
-					"layerLevel" : 3100
-				},
-				"underground3" : {
-					"baseHeight" : 3025,
-					"layerLevel" : 2950
-				},
-				"underground4" : {
-					"baseHeight" : 2875,
-					"layerLevel" : 1800
-				},
-				"underground5" : {
-					"baseHeight" : 1725,
-					"layerLevel" : 1650
-				},
-				"underground6" : {
-					"baseHeight" : 1575,
-					"layerLevel" : 1000
-				},
-				"underground7" : {
-					"baseHeight" : 900,
-					"layerLevel" : 400
-				},
-				"underground8" : {
-					"baseHeight" : 300,
-					"layerLevel" : 150
-				},
-				"core" : {
-					"baseHeight" : 50,
-					"layerLevel" : 0
-				}
-			}
-		}
-	},
-	{
-		"op": "add",
-		"path": "/planetSizes/tiny",
-		"value": {
-			"size" : [2048, 1504],
-
-			"gravityRange" : [100, 100],
-
-			"layerDefaults" : {  
-				"secondaryRegionPeriod" : [1000, 1000],
-				"secondaryRegionSize" : [500, 500],
-				"dungeonCountRange" : [1, 1]
-			},
-
-				"layers" : {
-				"space" : {
-					"baseHeight" : 1400,
-					"layerLevel" : 1300
-				},
-				"atmosphere" : {
-					"baseHeight" : 1200,
-					"layerLevel" : 1100
-				},
-				"surface" : {
-					"baseHeight" : 875,
-					"layerLevel" : 800
-				},
-				"subsurface" : {
-					"baseHeight" : 625,
-					"layerLevel" : 600
-				},
-				"underground1" : {
-					"baseHeight" : 550,
-					"layerLevel" : 500
-				},
-				"underground2" : {
-					"baseHeight" : 150,
-					"layerLevel" : 100
-				},
-				"underground3" : {
-					"enabled" : false
-				},
-				"underground4" : {
-					"enabled" : false
-				},
-				"underground5" : {
-					"enabled" : false
-				},
-				"underground6" : {
-					"enabled" : false
-				},
-				"underground7" : {
-					"enabled" : false
-				},
-				"underground8" : {
-					"enabled" : false
-				},
-				"core" : {
-					"baseHeight" : 50,
-					"layerLevel" : 0
-				}
-			}
-		}
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/small/size",
-		"value": [4000, 4000]
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/small/gravityRange",
-		"value": [100, 100]
-	},
-	
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/size",
-		"value": [6016, 4000]
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/gravityRange",
-		"value": [100, 100]
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/layers/space",
-		"value": {
-          "baseHeight" : 3500,
-          "layerLevel" : 3000
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/layers/atmosphere",
-		"value": {
-          "baseHeight" : 2700,
-          "layerLevel" : 2400
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/layers/surface",
-		"value": {
-          "baseHeight" : 2075,
-          "layerLevel" : 2000
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/layers/subsurface",
-		"value": {
-          "baseHeight" : 1825,
-          "layerLevel" : 1800
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/layers/underground1",
-		"value": {
-          "baseHeight" : 1750,
-          "layerLevel" : 1700
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/layers/underground2",
-		"value": {
-          "baseHeight" : 1350,
-          "layerLevel" : 1300
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/medium/layers/underground3",
-		"value": {
-          "baseHeight" : 1000,
-          "layerLevel" : 950
-        }
-	},
-	
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/size",
-		"value": [8000, 5000]
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/gravityRange",
-		"value": [100, 100]
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/space",
-		"value": {
-          "baseHeight" : 4500,
-          "layerLevel" : 4000
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/atmosphere",
-		"value": {
-          "baseHeight" : 3500,
-          "layerLevel" : 3000
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/surface",
-		"value": {
-          "baseHeight" : 2700,
-          "layerLevel" : 2600
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/subsurface",
-		"value": {
-          "baseHeight" : 2425,
-          "layerLevel" : 2400
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/underground1",
-		"value": {
-          "baseHeight" : 2325,
-          "layerLevel" : 2250
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/underground2",
-		"value": {
-          "baseHeight" : 2175,
-          "layerLevel" : 2100
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetSizes/large/layers/underground3",
-		"value": {
-          "baseHeight" : 2025,
-          "layerLevel" : 1900
-        }
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/garden/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/forest/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/desert/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/savannah/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/snow/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/jungle/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/alien/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/tundra/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/volcanic/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/midnight/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypes/scorchedcity/layers/surface/dungeons",
-		"value": [ ]
-	},
-	{
-		"op": "add",
-		"path": "/planetTypes/slime",
-		"value": {
-			"threatRange" : [1, 1],
-			"layers" : {
-				"surface" : {
-					"primaryRegion" : [ "slime" ]
-				},
-				"subsurface" : {
-					"primaryRegion" : [ "slimecaves" ]
-				},
-				"underground1" : {
-					"primaryRegion" : [ "slimecaves" ]
-				},
-				"underground2" : {
-					"primaryRegion" : [ "slimecaves" ]
-				},
-				"underground3" : {
-					"primaryRegion" : [ "slimecaves" ]
-				},
-				"underground4" : {
-					"primaryRegion" : [ "slimecaves" ]
-				},
-				"underground5" : {
-					"primaryRegion" : [ "slimecaves" ]
-				},
-				"underground6" : {
-					"primaryRegion" : [ "slimecaves" ]
-				}
-			}
-		}
-	},
-	{
-		"op": "add",
-		"path": "/planetTypes/bones",
-		"value": {
-			"threatRange" : [1, 1],
-			"layers" : {
-				"surface" : {
-					"primaryRegion" : [ "bones" ]
-				},
-				"subsurface" : {
-					"primaryRegion" : [ "bones" ]
-				},
-				"underground1" : {
-					"primaryRegion" : [ "bonecaves" ]
-				},
-				"underground2" : {
-					"primaryRegion" : [ "bonecaves" ]
-				},
-				"underground3" : {
-					"primaryRegion" : [ "bonecaves" ]
-				},
-				"underground4" : {
-					"primaryRegion" : [ "bonecaves" ]
-				},
-				"underground5" : {
-					"primaryRegion" : [ "bonecaves" ]
-				},
-				"underground6" : {
-					"primaryRegion" : [ "bonecaves" ]
-				}
-			}
-		}
-	},
-	{
-		"op": "replace",
-		"path": "/regionTypes/forest/caveLiquid",
-		"value": [ "water", "tarliquid" ]
-	},
-	{
-		"op": "replace",
-		"path": "/regionTypes/jungle/caveLiquid",
-		"value": [ "water", "poison", "tarliquid" ]
-	},
-	{
-		"op": "add",
-		"path": "/regionTypes/slime",
-		"value": {
-			"caveLiquid" : [ "slimeliquid" ],
-			"blockSelector" : [ "remixedSurface" ],
-			"fgCaveSelector" : [ "surfaceCaves" ],
-			"bgCaveSelector" : [ "empty" ],
-			"biome" : [
-				[0, [ "slime" ]]
-			],
-			"subRegion" : [ ]
-		}
-	}
+  [
+    {
+      "op": "replace",
+      "path": "/planetTypes/garden/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/forest/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/desert/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/savannah/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/snow/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/jungle/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/alien/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/tundra/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/volcanic/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/midnight/layers/surface/dungeons",
+      "value": [ ]
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/scorchedcity/layers/surface/dungeons",
+      "value": [ ]
+    }
+  ]
 ]

@@ -12,7 +12,7 @@
   {
     "op": "replace",
     "path": "/completionText",
-    "value": "This is it?   Crap.   There's not even a weapon.   At least I can use the locker door as a shovel.."
+    "value": "This is it? Crap. There's not even a weapon. At least I can use the locker door as a shovel.."
   },
   {
     "op": "replace",
@@ -52,7 +52,16 @@
           "count" : 1,
           "consume" : false
         }
-      ]
+      ],
+
+      "descriptions" : {
+        "explore" : "Explore the ^orange;orbited planet^reset;",
+        "findGate" : "Find the ^orange;archaic energy source^reset;",
+        "collectRepairItem" : "Collect ^orange;Core Fragments^reset;",
+        "repairGate" : "Use the ^orange;Core Fragments^reset; to activate the Gate",
+        "findEsther" : "Find the source of the ^orange;mysterious messages^reset;"
+      },
+      "gateRepairCount" : 20
     }
   }
 ]

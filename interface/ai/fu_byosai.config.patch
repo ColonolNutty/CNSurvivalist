@@ -1,0 +1,43 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/gui/showMissions/visible",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/gui/showMissions/visible",
+      "value" : false
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/gui/showCrew/caption",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/gui/showCrew/caption",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/gui/showMissions/visible",
+      "value" : false
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/showCrew/caption",
+      "value" : "REBOOT SYSTENS"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shipStatus",
+      "value" : "ERROR: ^green;DEATH TO ALL HUMANOIDS^#aee1ee;Info:'S.A.I.L.::run.innerLoop', 'Cnt#: ', 1198, 'Sum:ms:', ERROR: 'Min', 15, 'Max', 7199, 'Horse', 9899, 'Avg', 23, 'Last:::', '8176b3', 'Var:avg,us: ERROR: ERROR: REBOOT REQUIRED!!!'"
+    }
+  ]
+]

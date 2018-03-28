@@ -7,7 +7,7 @@
 	{
 		"op": "replace",
 		"path": "/text",
-		"value": "When the Fuel Panel got... eeh ... 'mysteriously' blown up, the fuel got dumped into the vaccum of space.  ^orange;(facepalm)  ^white;Now, if I'm not mistaken, fuel can be refined from ^orange;Liquid Erchius.  ^white;The problem is it's only found in ^green;underground pools ^white;on ^orange;airless planets^white;, and I kinda like to breath..."
+		"value": "When the Fuel Panel got, eh... 'mysteriously' blown up, the fuel got dumped into the vaccum of space. ^orange;(facepalm) ^white;Now, if I'm not mistaken, fuel can be refined from ^orange;Liquid Erchius. ^white;The problem is it's only found in ^green;underground pools ^white;on ^orange;airless planets^white;, and I kinda like to breath..."
 	},
 	{
 		"op": "replace",

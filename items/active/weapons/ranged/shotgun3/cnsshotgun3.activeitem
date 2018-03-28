@@ -41,7 +41,7 @@
   "primaryAbility" : {
     "fireTime" : 2,
     "baseDps" : 30.0,
-    "projectileType" : "trishot2"
+    "projectileType" : "trishot2CNS"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

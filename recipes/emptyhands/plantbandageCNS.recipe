@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 3 },
+    { "item" : "money", "count" : 3 }
+  ],
+  "output" : { "item" : "bandage", "count" : 1 },
+  "groups" : [ "plain", "all", "other" ]
+}

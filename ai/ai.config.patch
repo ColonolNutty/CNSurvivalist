@@ -12,16 +12,16 @@
 	{
 		"op": "replace",
 		"path": "/shipStatus/1/text",
-		"value": "^orange;(sigh) ^#aee1ee;You are still here? You know what you should do!? You should defenitly go down to the planet. I mean, there'r only class ^orange;Omega ^#aee1ee;monsters down there."
+		"value": "^orange;(sigh) ^#aee1ee;You are still here? You know what you should do?! You should definitely go down to the planet. I mean, there are only class ^orange;Omega^#aee1ee; monsters down there. You'll do fine, I'm sure."
 	},
 	{
 		"op": "replace",
 		"path": "/shipStatus/2/text",
-		"value": "I don't wanna talk to you now. Go away."
+		"value": "I don't wanna talk to you right now. Go away!"
 	},
 	{
 		"op": "replace",
 		"path": "/shipStatus/3/text",
-		"value": "What are you doing here?  Get out there before you break the ship ^white;again!"
+		"value": "What are you doing here?  Get out there before you break the ship ^cyan;again!^reset;"
 	}
 ]

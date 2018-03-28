@@ -1,9 +1,9 @@
 {
-  "projectileName" : "trishot2",
-  "image" : "trishot2.png",
+  "projectileName" : "trishot2CNS",
+  "image" : "trishot2CNS.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
-  "damageKindImage" : "icon2.png",
+  "damageKindImage" : "icon2CNS.png",
   "pointLight" : false,
   "timeToLive" : 0.0,
   "actionOnReap" : [
