@@ -76,9 +76,9 @@
             "select" : 1,
             "pool" : [
               [1, "cnsbonepile" ],
-              [1, "unknownore" ],
-              [1, "organicpit" ],
-              [1, "goldchunk" ]
+              [1, "cnsunknownore" ],
+              [1, "cnsorganicpit" ],
+              [1, "cnsgoldchunk" ]
             ],
             "parameters" : { }
           }
@@ -102,9 +102,9 @@
             "select" : 1,
             "pool" : [
               [1, "cnsbonepile" ],
-              [1, "unknownore" ],
-              [1, "organicpit" ],
-              [1, "goldchunk" ]
+              [1, "cnsunknownore" ],
+              [1, "cnsorganicpit" ],
+              [1, "cnsgoldchunk" ]
             ],
             "parameters" : { }
           }
