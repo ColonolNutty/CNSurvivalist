@@ -3,29 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/materials/fullwood1.matitem.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/materials/fullwood1.matitem.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/clusternade/cnsnormgrenade.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenade/cnsgrenade.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/clusternade/cnsnormgrenade.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenade/cnsgrenade.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/clusternade/cnsnormgrenadeicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenade/cnsgrenadeicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsdynamite.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsdynamite/cnsdynamite.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsdynamiteicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsdynamite/cnsdynamiteicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsfirecracker.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsfirecracker/cnsfirecracker.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsfirecrackericon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsfirecracker/cnsfirecrackericon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnslightningnade.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadeshockfire/cnsgrenadeshockfire.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnslightningnade.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadeshockfire/cnsgrenadeshockfire.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnslightningnadeicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadeshockfire/cnsgrenadeshockfireicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowfirewood.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowfirewood2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowfirewoodicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowfirewoodicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwoodicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowstone.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowablestone/cnsthrowablestone.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowstoneicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowstoneicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowablestone/cnsthrowablestoneicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/player.config.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/player.config.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnslightningnade.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnslightningnade.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsnormgrenade.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsnormgrenade.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsthrowfirewood.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsthrowfirewood.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsthrowstone.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsthrowstone.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsmininglantern.flashlight" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsmininglantern.flashlight" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +33,16 @@
           <entry key="codex" value="2" />
           <entry key="config" value="1" />
           <entry key="consumable" value="9" />
+          <entry key="flashlight" value="1" />
           <entry key="frames" value="3" />
+          <entry key="harvestingtool" value="1" />
           <entry key="head" value="20" />
           <entry key="item" value="26" />
           <entry key="legs" value="11" />
           <entry key="lua" value="4" />
+          <entry key="miningtool" value="2" />
           <entry key="patch" value="14" />
-          <entry key="png" value="24" />
+          <entry key="png" value="25" />
           <entry key="statuseffect" value="2" />
           <entry key="thrownitem" value="5" />
           <entry key="txt" value="1" />
@@ -68,11 +51,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="24" />
-          <entry key="JSON" value="102" />
+          <entry key="Image" value="25" />
+          <entry key="JSON" value="104" />
           <entry key="Lua" value="2" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -84,9 +67,11 @@
           <entry key="codex" value="1" />
           <entry key="consumable" value="48" />
           <entry key="damage" value="1" />
+          <entry key="flashlight" value="7" />
           <entry key="head" value="201" />
           <entry key="item" value="82" />
           <entry key="legs" value="103" />
+          <entry key="miningtool" value="29" />
           <entry key="patch" value="10" />
           <entry key="recipe" value="7" />
           <entry key="thrownitem" value="28" />
@@ -94,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="736" />
+          <entry key="JSON" value="772" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="165" />
         </counts>
@@ -103,22 +88,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowablestone/cnsthrowablestone.thrownitem">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/cnsstoneaxe.harvestingtool">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -211,9 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/pinkbeanie/cnspinkbeanie.head" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsleatherbandana/cnsleatherbandana.head" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbluebeanie/cnsbluebeanie.head" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsnavycap/cnsnavycap.head" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/cnspinkbeanie.head" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsredbandana/cnsredbandana.head" />
@@ -262,6 +231,9 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrownfirewood/cnsthrownfirewood.thrownitem" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowablestone/cnsthrowablestone.thrownitem" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsmininglantern.flashlight" />
       </list>
     </option>
   </component>
@@ -381,25 +353,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/cnsneopreneswimsuit/chestf.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/cnsneopreneswimsuit/bsleevem.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/cnsneopreneswimsuit/fsleevem.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/cnsneopreneswimsuit/pantsm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/cnsneopreneswimsuit/cnsneopreneswimsuit.legs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/cnsneopreneswimsuit/cnsneopreneswimsuit.chest">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -655,16 +608,43 @@
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowablestone/cnsthrowablestone.thrownitem">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxebig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/cnsmininglantern.flashlight">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/cnsstoneaxe.harvestingtool">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

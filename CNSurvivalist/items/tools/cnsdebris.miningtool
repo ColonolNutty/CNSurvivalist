@@ -6,7 +6,7 @@
   "maxStack" : 1,
   "rarity" : "common",
   "tooltipKind" : "tool",
-  "description" : "Debris from what used to be a locker in the space ship. May be used as a tool!",
+  "description" : "Debris from what used to be a locker in the space ship. May be used as a tool for gathering materials.",
   "shortdescription" : "Debris",
   "largeImage" : "cnsdebrislarge.png",
   "image" : "cnsdebris.png",

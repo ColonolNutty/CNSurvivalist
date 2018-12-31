@@ -5,7 +5,7 @@
   "inventoryIcon" : "cnsstonepickaxeicon.png",
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "An improvised pickaxe. At least it's better than a piece of debris..",
+  "description" : "An improvised pickaxe. At least it's better than a piece of debris...",
   "shortdescription" : "Stone Pickaxe",
   "tooltipKind" : "tool",
   "largeImage" : "cnsstonepickaxebig.png",

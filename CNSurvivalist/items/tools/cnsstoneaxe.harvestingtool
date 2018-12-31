@@ -5,7 +5,7 @@
   "inventoryIcon" : "cnsstoneaxeicon.png",
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "Great for chopping down trees. For now.",
+  "description" : "Ok at chopping down trees.",
   "shortdescription" : "Stone Axe",
   "largeImage" : "cnsstoneaxebig.png",
   "image" : "cnsstoneaxe.png",

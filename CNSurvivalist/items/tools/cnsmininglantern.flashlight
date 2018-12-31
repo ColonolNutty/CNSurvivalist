@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "maxStack" : 1,
   "description" : "A flickering lantern. It lights up the area.",
-  "shortdescription" : "Lantern",
+  "shortdescription" : "Mining Lantern",
   "largeImage" : "cnsmininglanternbig.png",
   "tooltipKind" : "tool",
   "pointable" : false,
