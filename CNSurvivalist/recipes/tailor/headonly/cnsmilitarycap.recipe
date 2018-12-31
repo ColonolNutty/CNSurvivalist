@@ -4,6 +4,6 @@
 	{ "item" : "greendye", "count" : 1 },
 	{ "item" : "money", "count" : 100 }
   ],
-  "output" : { "item" : "cnsmilitarycap", "count" : 1 },
+  "output" : { "item" : "cnsmilitarycaphead", "count" : 1 },
   "groups" : [ "tailor", "all" ]
 }

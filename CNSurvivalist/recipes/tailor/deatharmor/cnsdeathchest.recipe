@@ -5,6 +5,6 @@
 	{ "item" : "cnsmonsterheart", "count" : 10 },
 	{ "item" : "money", "count" : 2500 }
   ],
-  "output" : { "item" : "cnsdeathchest", "count" : 1 },
+  "output" : { "item" : "cnsdeatharmorchest", "count" : 1 },
   "groups" : [ "tailor", "all" ]
 }

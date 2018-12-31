@@ -3,6 +3,6 @@
 	{ "item" : "leather", "count" : 5 },
 	{ "item" : "money", "count" : 100 }
   ],
-  "output" : { "item" : "cnsleatherbandana", "count" : 1 },
+  "output" : { "item" : "cnsleatherbandanahead", "count" : 1 },
   "groups" : [ "tailor", "armor", "all" ]
 }

@@ -4,6 +4,6 @@
 	{ "item" : "bluedye", "count" : 1 },
 	{ "item" : "money", "count" : 500 }
   ],
-  "output" : { "item" : "cnsnavypants", "count" : 1 },
+  "output" : { "item" : "cnsnavyarmorpants", "count" : 1 },
   "groups" : [ "tailor", "all" ]
 }

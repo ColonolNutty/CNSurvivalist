@@ -4,6 +4,6 @@
 	{ "item" : "money", "count" : 100 },
     { "item" : "cnsmonsterheart", "count" : 2 }
   ],
-  "output" : { "item" : "cnsredbandana", "count" : 1 },
+  "output" : { "item" : "cnsredbandanahead", "count" : 1 },
   "groups" : [ "tailor", "armor", "all" ]
 }
