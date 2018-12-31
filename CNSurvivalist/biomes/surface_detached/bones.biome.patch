@@ -53,7 +53,7 @@
 	{
 		"op": "add",
 		"path": "/parallax",
-		"value": "/parallax/surface/bones.parallax"
+		"value": "/parallax/surface/cnsbones.parallax"
 	},
 	{
 		"op": "add",
@@ -90,7 +90,7 @@
         "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "bonesmicrodungeons" ]
+        "microdungeons" : [ "cnsbonesmicrodungeons" ]
       },
       {
         "mode" : "floor",

@@ -10,7 +10,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/slime",
+		"path": "/cnsslime",
 		"value": [
 			[0.5, "fog"],
 			[0.05, "acidrain"],

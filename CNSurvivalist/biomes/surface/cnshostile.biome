@@ -90,7 +90,7 @@
   "subBlocks" : [ "fleshblock", "corruptdirt" ],
   "ores" : "surfaceOres",
 
-  "parallax" : "/parallax/surface/alien.parallax",
+  "parallax" : "/parallax/surface/cnshostile.parallax",
 
   "ambientNoises" : {
     "day" : {

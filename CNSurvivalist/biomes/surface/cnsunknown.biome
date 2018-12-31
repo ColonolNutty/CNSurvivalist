@@ -142,7 +142,7 @@
   "subBlocks" : [ "dirt" ],
   "ores" : "surfaceOres",
 
-  "parallax" : "/parallax/surface/alien.parallax",
+  "parallax" : "/parallax/surface/cnsunknown.parallax",
 
   "ambientNoises" : {
     "day" : {

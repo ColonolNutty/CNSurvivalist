@@ -11,70 +11,70 @@
     },
 
     {
-      "kind" : "bonebelow",
+      "kind" : "cnsbonebelow",
       "offset" : [0, 920],
       "parallax" : 1.7,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone1",
+      "kind" : "cnsbone1",
       "offset" : [0, 50],
       "parallax" : 1.8,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone2",
+      "kind" : "cnsbone2",
       "offset" : [0, 50],
       "parallax" : 2,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone3",
+      "kind" : "cnsbone3",
       "offset" : [0, 50],
       "parallax" : 3,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone4",
+      "kind" : "cnsbone4",
       "offset" : [0, 50],
       "parallax" : 4,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone5",
+      "kind" : "cnsbone5",
       "offset" : [0, 50],
       "parallax" : 5,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone6",
+      "kind" : "cnsbone6",
       "offset" : [0, 50],
       "parallax" : 6,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "boneisland",
+      "kind" : "cnsboneisland",
       "offset" : [0, 35],
       "parallax" : 6.001,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone7",
+      "kind" : "cnsbone7",
       "offset" : [0, 50],
       "parallax" : 7,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "bone8",
+      "kind" : "cnsbone8",
       "offset" : [0, 50],
       "parallax" : 8,
       "directives" : "?brightness=20?saturation=-10",

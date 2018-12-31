@@ -19,7 +19,7 @@
     },
 
     {
-      "kind" : "alienback",
+      "kind" : "greenback",
       "offset" : [0, 450],
       "parallax" : 12,
       "directives" : "?brightness=20?saturation=-10",

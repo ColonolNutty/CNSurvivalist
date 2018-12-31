@@ -76,7 +76,7 @@
 	{
 		"op": "replace",
 		"path": "/parallax",
-		"value": "/parallax/surface/slime.parallax"
+		"value": "/parallax/surface/cnsslime.parallax"
 	},
 	{
 		"op": "add",

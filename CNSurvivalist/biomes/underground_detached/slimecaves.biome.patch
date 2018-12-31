@@ -24,7 +24,7 @@
         "distribution" : "/biomes/distributions.config:denseMedium",
 
         "type" : "grass",
-        "grasses" : [ "slime" ]
+        "grasses" : [ "cnsslime" ]
       },
       {
         "mode" : "ceiling",

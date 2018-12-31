@@ -124,12 +124,12 @@
 	},
 	{
 		"op": "add",
-		"path": "/planetTypeToDescription/slime",
+		"path": "/planetTypeToDescription/cnsslime",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "add",
-		"path": "/planetTypeToDescription/bones",
+		"path": "/planetTypeToDescription/cnsbones",
 		"value": ["", "", ""]
 	},
 	{
