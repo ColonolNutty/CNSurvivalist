@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "craftingMaterial",
   "inventoryIcon" : "cnszalaxonbar.png",
-  "description" : "It's a zalaxum bar.",
-  "shortdescription" : "Zalaxum Bar",
+  "description" : "It's a zalaxon bar.",
+  "shortdescription" : "Zalaxon Bar",
   "itemTags" : [ "reagent" ]
 }

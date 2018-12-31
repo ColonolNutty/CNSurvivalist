@@ -1,9 +1,9 @@
 {
-  "itemName" : "bandageplantCNS",
+  "itemName" : "cnsbandageplant",
   "rarity" : "Common",
   "price" : 25,
   "category" : "medicine",
-  "inventoryIcon" : "bandageplantCNS.png",
+  "inventoryIcon" : "cnsbandageplant.png",
   "description" : "A bandage made from plant fibre. Can be used to heal minor wounds.",
   "shortdescription" : "Bandage - Plant",
   "effects" : [ [

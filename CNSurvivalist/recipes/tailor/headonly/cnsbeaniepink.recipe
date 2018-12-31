@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "cnscottonfabric", "count" : 20 },
+    { "item" : "cnsfabriccotton", "count" : 20 },
 	{ "item" : "bluedye", "count" : 2 },
 	{ "item" : "reddye", "count" : 2 },
 	{ "item" : "money", "count" : 500 }

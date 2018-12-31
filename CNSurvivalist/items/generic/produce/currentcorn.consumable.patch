@@ -4,7 +4,7 @@
     { "op": "add", "path": "/effects", "value": [] }
   ],
   [
-    { "op" : "add", "path" : "/effects/-", "value" : [ { "effect" : "spawnpoop" } ] },
+    { "op" : "add", "path" : "/effects/-", "value" : [ { "effect" : "cnsspawnpoop" } ] },
     { "op": "replace", "path": "/foodValue", "value": 1.5 }
   ]
 ]

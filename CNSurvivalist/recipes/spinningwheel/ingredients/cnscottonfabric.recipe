@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "cotton", "count" : 6 }
   ],
-  "output" : { "item" : "cnscottonfabric", "count" : 1 },
+  "output" : { "item" : "cnsfabriccotton", "count" : 1 },
   "groups" : [ "craftingwheel", "ingredients" ]
 }

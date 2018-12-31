@@ -4,7 +4,7 @@
   "price" : 0,
   "category" : "medicine",
   "inventoryIcon" : "cnsbestialbread.png",
-  "description" : "A bread from monster parts. Not very delicate, but it definitely gives you strength.",
+  "description" : "Bread made from monster parts. Not very tasty, but it definitely gives you strength.",
   "shortdescription" : "Bestial Bread",
   "effects" : [ [
       {

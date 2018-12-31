@@ -4,8 +4,7 @@
   "rarity" : "rare",
   "category" : "craftingMaterial",
   "inventoryIcon" : "cnsprocessor.png",
-  "description" : "This should replace the Processor that got blown up!",
+  "description" : "This should replace the Processor that blew up!",
   "shortdescription" : "Thruster's Processor",
   "itemTags" : [ "reagent" ]
-
 }

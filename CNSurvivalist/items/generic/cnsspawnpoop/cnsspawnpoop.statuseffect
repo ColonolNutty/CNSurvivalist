@@ -1,10 +1,10 @@
 {
-  "name" : "spawnpoop",
+  "name" : "cnsspawnpoop",
   "spawnCount" : 1,
   "defaultDuration" : 1,
 
   "scripts" : [
-    "spawnpoop.lua"
+    "cnsspawnpoop.lua"
   ],
 
   "label" : "Spawn poop"

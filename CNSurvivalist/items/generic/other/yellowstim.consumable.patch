@@ -13,6 +13,6 @@
   ],
   [
     { "op": "replace", "path": "/description", "value": "A perfect mix for the Glow Stimpack!" },
-    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "macromoleculealterer" }
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsmacromoleculealterer" }
   ]
 ]

@@ -6,7 +6,7 @@
   "category" : "food",
   "tooltipKind" : "food",
   "inventoryIcon" : "cnsrevoltingstew.png",
-  "description" : "...whoever made this screwed it up. They screwed it up baaad.",
+  "description" : "Whoever made this, screwed it up. They screwed it up big time.",
   "shortdescription" : "Revolting Stew",
   "foodValue" : 6,
   "maxStack" : 1000,

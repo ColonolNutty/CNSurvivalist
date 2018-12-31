@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsgascanempty",
+  "price" : 0,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsgascanempty.png",
+  "description" : "An empty gas can for moving bio-fuel.",
+  "shortdescription" : "Gas Can (Empty)",
+  "itemTags" : [ "reagent" ]
+}

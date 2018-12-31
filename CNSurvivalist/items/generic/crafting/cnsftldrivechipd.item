@@ -1,9 +1,9 @@
 {
-  "itemName" : "cnsftldrive",
+  "itemName" : "cnsftldrivechip",
   "price" : 10,
   "rarity" : "Rare",
   "category" : "craftingMaterial",
-  "inventoryIcon" : "cnsftldrive.png",
+  "inventoryIcon" : "cnsftldrivechip.png",
   "description" : "Faster Than Light circuit drive",
   "shortdescription" : "FTL Drive Chip",
   "itemTags" : [ "reagent" ],

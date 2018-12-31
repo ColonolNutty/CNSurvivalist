@@ -5,6 +5,6 @@
     { "item" : "cnsmatterbook2", "count" : 1 },
     { "item" : "money", "count" : 1000 }
   ],
-  "output" : { "item" : "cnsftldrive", "count" : 1 },
+  "output" : { "item" : "cnsftldrivechip", "count" : 1 },
   "groups" : [ "inventorstable", "craftingstations", "all" ]
 }

@@ -53,11 +53,11 @@
 			{ "item" : "woodencookingtable" },
 			{ "item" : "refinery" },
 			//BIOMASS GEN
-			{ "item" : "cnsgas" },
+			{ "item" : "cnsgasliquid" },
 			
 			//GAS TANK
-			{ "item" : "cnsfullgascan" },
-			{ "item" : "cnsgascan" },
+			{ "item" : "cnsgascanfull" },
+			{ "item" : "cnsgascanempty" },
 			
 			//ARMORY
 			{ "item" : "cnsrifle1" },

@@ -28,7 +28,7 @@
 			"telescope": { "item": "cnstelescope", "count": 1 },
 			"lesserKnowledge": { "item": "cnsmatterbook", "count": 1 },
 			"averageKnowledge": { "item": "cnsmatterbook2", "count": 1 },
-			"ftl": { "item": "cnsftldrive", "count": 1 }
+			"ftl": { "item": "cnsftldrivechip", "count": 1 }
 		},
 
 		"requireTurnIn" : false,

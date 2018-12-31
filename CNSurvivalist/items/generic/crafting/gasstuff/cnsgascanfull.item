@@ -1,0 +1,11 @@
+{
+  "itemName" : "cnsgascanfull",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "cnsgascanfull.png",
+  "description" : "Gas can with 10 litres of bio-fuel. Eco-friendly travelling!",
+  "shortdescription" : "Gas Can (Full)",
+  "fuelAmount" : 10,
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ]
+}

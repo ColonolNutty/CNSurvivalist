@@ -4,7 +4,7 @@
   "price" : 25,
   "category" : "medicine",
   "inventoryIcon" : "cnsmacromoleculealterer.png",
-  "description" : "Alters the polyptide macromolecule with bloodcarbo mix, gives special abilities on use.",
+  "description" : "Alters the polypeptide macro-molecule with blood-carbohydrate mix, gives special abilities on use.",
   "shortdescription" : "Macromolecule Alterer",
   "handPosition" : [8, 0],
   "effects" : [ [

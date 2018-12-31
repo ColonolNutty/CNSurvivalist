@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "cnszalaxonore.png",
-  "description" : "Zalaxum. An extremely rare and mysterious ore. Could it possibly be smelted?",
-  "shortdescription" : "Zalaxum Ore",
+  "description" : "Zalaxon. An extremely rare and mysterious ore. Could it possibly be smelted?",
+  "shortdescription" : "Zalaxon Ore",
   "itemTags" : [ "reagent" ]
 }

@@ -3,6 +3,6 @@
 	{ "item" : "liquidfuel", "count" : 2 },
 	{ "item" : "coalore", "count" : 1 }
   ],
-  "output" : { "item" : "cnsgas", "count" : 1 },
+  "output" : { "item" : "cnsgasliquid", "count" : 1 },
   "groups" : [ "cnsbiomass" ]
 }

@@ -6,7 +6,7 @@
   "category" : "food",
   "tooltipKind" : "food",
   "inventoryIcon" : "cnsrottenapple.png",
-  "description" : "This apple is clearly rotten. It's even got a worm writhing around in it...do I dare?",
+  "description" : "This apple is clearly rotten. It even has a worm writhing around in it... do I dare?",
   "shortdescription" : "Rotten Apple",
   "foodValue" : 2,
   "maxStack" : 1000,

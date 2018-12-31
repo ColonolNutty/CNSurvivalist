@@ -1,11 +1,10 @@
 {
-  "itemName" : "cnscottonfabric",
+  "itemName" : "cnsfabriccotton",
   "price" : 20,
   "rarity" : "common",
   "category" : "craftingMaterial",
-  "inventoryIcon" : "cnscottonfabric.png",
+  "inventoryIcon" : "cnsfabriccotton.png",
   "description" : "Cloth, perfect for a tailor to work with!",
-  "shortdescription" : "Cotton Cloth",
+  "shortdescription" : "Cotton Fabric",
   "itemTags" : [ "reagent" ]
-  
 }

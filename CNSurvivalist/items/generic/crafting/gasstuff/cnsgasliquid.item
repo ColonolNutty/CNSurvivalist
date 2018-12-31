@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsgasliquid",
+  "price" : 0,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsgasliquid.png",
+  "description" : "Liquid gas, a result of pyrolyzing bio-matter. Requires a gas can to use!",
+  "shortdescription" : "Liquid Gas",
+  "itemTags" : [ "reagent" ]
+}

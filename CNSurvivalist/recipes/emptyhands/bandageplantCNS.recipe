@@ -3,6 +3,6 @@
     { "item" : "plantfibre", "count" : 3 },
     { "item" : "money", "count" : 3 }
   ],
-  "output" : { "item" : "bandageplantCNS", "count" : 1 },
+  "output" : { "item" : "cnsbandageplant", "count" : 1 },
   "groups" : [ "plain", "all", "other" ]
 }

@@ -1,0 +1,10 @@
+{
+  "itemName" : "cnsbiomatterroots",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cnsbiomatterroots.png",
+  "description" : "Roots. Bio-matter. It can be used to make bio-fuel!",
+  "shortdescription" : "Roots",
+  "itemTags" : [ "reagent" ]
+}
