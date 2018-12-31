@@ -6,17 +6,17 @@
   "price" : 300,
 
   "description" : "A big chunk of ice.",
-  "shortdescription" : "Chunk of Ice",
+  "shortdescription" : "Ice Chunk",
   "race" : "generic",
 
   "apexDescription" : "A shard of ice.",
   "avianDescription" : "A cold shard of ice.",
   "floranDescription" : "Sssmashed ice.",
-  "glitchDescription" : "Statement. An ice shard.",
+  "glitchDescription" : "Analysis. A shard made of ice.",
   "humanDescription" : "A bit of ice.",
   "hylotlDescription" : "A fractured chunk of ice.",
 
-  "inventoryIcon" : "cnscapsulemedicon.png",
+  "inventoryIcon" : "cnsfrozendiaicon.png",
   "orientations" : [
     {
       "image" : "cnsfrozendia.png:<color>",

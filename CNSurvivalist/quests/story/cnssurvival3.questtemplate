@@ -20,7 +20,7 @@
 	"conditions" : [
 		{
 			"type" : "gatherItem",
-			"itemName" : "cnslargefire",
+			"itemName" : "cnscampfirelarge",
 			"count" : 1,
 			"consume" : false
 		}

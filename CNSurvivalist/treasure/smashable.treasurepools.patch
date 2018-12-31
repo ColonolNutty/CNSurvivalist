@@ -1,7 +1,7 @@
 [
 	{
 		"op": "add",
-		"path": "/frozendia",
+		"path": "/cnsfrozendia",
 		"value": [
 			[0, 
 				{
@@ -19,7 +19,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/unknownore",
+		"path": "/cnsunknownore",
 		"value": [
 			[0, 
 				{
@@ -37,7 +37,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/goldchunk",
+		"path": "/cnsgoldchunk",
 		"value": [
 			[0, 
 				{
@@ -55,7 +55,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/organicpit",
+		"path": "/cnsorganicpit",
 		"value": [
 			[0, 
 				{
@@ -75,7 +75,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/bonepile",
+		"path": "/cnsbonepile",
 		"value": [
 			[0,
 				{

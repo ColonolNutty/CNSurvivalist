@@ -6,5 +6,5 @@
     "item" : "woodenwateringcan",
     "count" : 1
   },
-  "groups" : [ "simplecraft", "objects", "tools", "all" ]
+  "groups" : [ "cnssimplecraft", "objects", "tools", "all" ]
 }

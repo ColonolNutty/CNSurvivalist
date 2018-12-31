@@ -9,7 +9,7 @@
   ],
   [
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsbushback" },
-    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnslargefire" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnscampfirelarge" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsgapahuk" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnstorch" },
     { "op": "add", "path": "/breakDropOptions/-", "value": [ [ "coalore", 1, { } ] ] },

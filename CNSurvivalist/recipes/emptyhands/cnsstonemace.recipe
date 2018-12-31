@@ -6,5 +6,5 @@
     { "item" : "money", "count" : 150 }
   ],
   "output" : { "item" : "cnsstonemace", "count" : 1 },
-  "groups" : [ "simplecraft", "all", "other" ]
+  "groups" : [ "cnssimplecraft", "all", "other" ]
 }

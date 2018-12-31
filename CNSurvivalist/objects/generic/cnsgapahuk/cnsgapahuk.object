@@ -36,7 +36,7 @@
   "sitPosition" : [-2.5, 6],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
-  "sitCoverImage" : "/objects/generic/gapahuk/cnsgapahuklit.png",
+  "sitCoverImage" : "/objects/generic/cnsgapahuk/cnsgapahuklit.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     "regeneration1",

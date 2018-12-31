@@ -4,20 +4,12 @@
   "rarity" : "Common",
   "printable" : false,
   "subtitle" : "Fill your gas cans!",
-  "description" : "A gas tank. Fill cans with biofuel!",
+  "description" : "A gas tank. Fill cans with bio-fuel!",
   "shortdescription" : "Gas Tank",
   "race" : "generic",
   "category" : "crafting",
   "objectType" : "container",
   "price" : 50,
-
-  "apexDescription" : "A gas tank!",
-  "avianDescription" : "A gas tank!",
-  "floranDescription" : "A gas tank!",
-  "glitchDescription" : "A gas tank!",
-  "humanDescription" : "A gas tank!",
-  "hylotlDescription" : "A gas tank!",
-  "novakidDescription" : "A gas tank!",
 
   "inventoryIcon" : "cnsgastankicon.png",
   "orientations" : [
@@ -41,6 +33,6 @@
   "autoCloseCooldown" : 3600,
   
 	"breakDropOptions" : [ [
-      [ "ironbarore", 10, { } ]
+      [ "ironbar", 10, { } ]
 	] ]
 }

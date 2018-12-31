@@ -8,5 +8,5 @@
     "item" : "quiverback",
     "count" : 1
   },
-  "groups" : [ "simplecraft", "all" ]
+  "groups" : [ "cnssimplecraft", "all" ]
 }

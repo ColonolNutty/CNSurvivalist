@@ -1,5 +1,5 @@
 {
-  "objectName" : "rightspike1",
+  "objectName" : "cnsrightspike1",
   "colonyTags" : [],
   "rarity" : "Common",
   "category" : "trap",
@@ -40,7 +40,7 @@
   "inventoryIcon" : "righticon.png",
   "orientations" : [
     {
-      "image" : "rightspike1.png",
+      "image" : "cnsrightspike1.png",
       "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

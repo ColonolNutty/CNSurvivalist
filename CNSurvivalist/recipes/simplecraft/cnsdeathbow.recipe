@@ -9,5 +9,5 @@
 	"item" : "cnsdeathbow", 
 	"count" : 1 
   },
-  "groups" : [ "simplecraft", "all", "weapons" ]
+  "groups" : [ "cnssimplecraft", "all", "weapons" ]
 }

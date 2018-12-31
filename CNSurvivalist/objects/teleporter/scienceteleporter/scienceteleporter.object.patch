@@ -1,0 +1,47 @@
+[
+  {
+    "op" : "replace",
+    "path": "/description",
+    "value": "This will let me teleport from anywhere! \n^red;Destroyed when broken."
+  },
+  {
+    "op" : "replace",
+    "path": "/apexDescription",
+    "value": "The cables on this teleporter are exposed, but touching them will void the warranty."
+  },
+  {
+    "op" : "replace",
+    "path": "/avianDescription",
+    "value": "The cables on this teleporter are exposed, but touching them will void the warranty."
+  },
+  {
+    "op" : "replace",
+    "path": "/floranDescription",
+    "value": "Teleporter cablesss exposssed, mussst be careful. "
+  },
+  {
+    "op" : "replace",
+    "path": "/glitchDescription",
+    "value": "Observation. The cables on this teleporter are exposed, but touching them will void the warranty."
+  },
+  {
+    "op" : "replace",
+    "path": "/humanDescription",
+    "value": "The cables on this teleporter are exposed, but touching them will void the warranty."
+  },
+  {
+    "op" : "replace",
+    "path": "/hylotlDescription",
+    "value": "The cables on this teleporter are exposed, but touching them will void the warranty."
+  },
+  {
+    "op" : "replace",
+    "path": "/novakidDescription",
+    "value": "The cables on this teleporter are exposed, but touching them will void the warranty."
+  },
+  {
+    "op" : "replace",
+    "path": "/health",
+    "value": 20
+  }
+]

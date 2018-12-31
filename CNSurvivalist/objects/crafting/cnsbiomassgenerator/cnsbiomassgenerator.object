@@ -1,11 +1,11 @@
 {
-  "objectName" : "cnsbiomassgen",
+  "objectName" : "cnsbiomassgenerator",
   "colonyTags" : ["biomass","light"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Heat biological material (wood, plants, roots or other materials) to make gas and exciting stuff!",
-  "shortdescription" : "Pyrolysis Oven",
-  "subtitle" : "Thermochemical decomp.",
+  "shortdescription" : "Bio-Mass Generator",
+  "subtitle" : "Thermochemical decomposition.",
   "race" : "generic",
   "category" : "crafting",
   "price" : 30,
@@ -52,10 +52,10 @@
     }
   },
 
-  "inventoryIcon" : "cnsbiomassgenicon.png",
+  "inventoryIcon" : "cnsbiomassgeneratoricon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "cnsbiomassgen.png:<color>.<frame>", "fullbright" : true } ],
+      "imageLayers" : [ { "image" : "cnsbiomassgenerator.png:<color>.<frame>", "fullbright" : true } ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -67,7 +67,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "cnsbiomassgen.png:<color>.<frame>", "fullbright" : true } ],
+      "imageLayers" : [ { "image" : "cnsbiomassgenerator.png:<color>.<frame>", "fullbright" : true } ],
       "direction" : "right",
 
       "imagePosition" : [0, 0],

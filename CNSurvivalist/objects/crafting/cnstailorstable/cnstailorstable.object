@@ -9,7 +9,7 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/cnstailorstable.config",
-    "filter" : [ "tailor" ]
+    "filter" : [ "cnstailor" ]
   },
   "category" : "crafting",
   "price" : 500,

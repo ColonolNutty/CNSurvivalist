@@ -6,17 +6,17 @@
   "price" : 30,
 
   "description" : "A pile of bones.",
-  "shortdescription" : "Pile of bones",
+  "shortdescription" : "Pile of Bones",
   "race" : "generic",
 
   "apexDescription" : "A pile of bones. Left overs?",
   "avianDescription" : "A pile of bones. Something inside?",
   "floranDescription" : "Sssmash!",
-  "glitchDescription" : "Contemplative. This could be me.",
+  "glitchDescription" : "Contemplative. This could be me. Wait, we don't have bones!",
   "humanDescription" : "Hey, at least it's not me!",
   "hylotlDescription" : "What's left of a poor physical being.",
   
-  "inventoryIcon" : "cnsbonepile.png",
+  "inventoryIcon" : "cnsbonepileicon.png",
   "orientations" : [
     {
       "image" : "cnsbonepile.png:<color>",

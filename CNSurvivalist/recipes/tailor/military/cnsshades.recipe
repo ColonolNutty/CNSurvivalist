@@ -4,5 +4,5 @@
 	{ "item" : "money", "count" : 1000 }
   ],
   "output" : { "item" : "cnsmilitaryarmorhead", "count" : 1 },
-  "groups" : [ "tailor", "all" ]
+  "groups" : [ "cnstailor", "all" ]
 }

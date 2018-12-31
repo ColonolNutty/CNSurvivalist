@@ -5,5 +5,5 @@
     { "item" : "money", "count" : 1000 }
   ],
   "output" : { "item" : "cnstelescope", "count" : 1 },
-  "groups" : [ "simplecraft", "objects", "tools", "all" ]
+  "groups" : [ "cnssimplecraft", "objects", "tools", "all" ]
 }

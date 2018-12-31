@@ -6,17 +6,13 @@
   "price" : 300,
 
   "description" : "A big chunk of unknown ore.",
-  "shortdescription" : "Chuck of Ore",
+  "shortdescription" : "Chunk of Ore",
   "race" : "generic",
-  
-  "apexDescription" : "The hell is this?",
-  "avianDescription" : "The hell is this?",
-  "floranDescription" : "The hell is this?",
-  "glitchDescription" : "The hell is this?",
-  "humanDescription" : "The hell is this?",
-  "hylotlDescription" : "The hell is this?",
 
-  "inventoryIcon" : "cnsunknownore.png",
+  "glitchDescription" : "Analysis. I cannot determine what this is.",
+  "humanDescription" : "I'm not even sure what I'm looking at.",
+
+  "inventoryIcon" : "cnsunknownoreicon.png",
   "orientations" : [
     {
       "image" : "cnsunknownore.png:<color>",

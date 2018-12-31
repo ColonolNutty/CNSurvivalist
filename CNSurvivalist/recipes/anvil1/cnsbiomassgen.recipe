@@ -5,6 +5,6 @@
 	{ "item" : "coalore", "count" : 25 },
 	{ "item" : "fullwood1", "count" : 25 }
   ],
-  "output" : { "item" : "cnsbiomassgen", "count" : 1 },
+  "output" : { "item" : "cnsbiomassgenerator", "count" : 1 },
   "groups" : [ "craftinganvil", "other", "all" ]
 }

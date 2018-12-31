@@ -42,7 +42,7 @@
 			
 			//INVENTORSTABLE
 			{ "item" : "pixelcompressor" },
-			{ "item" : "cnsbiomassgen" },
+			{ "item" : "cnsbiomassgenerator" },
 			{ "item" : "cnsgastank" },
 			{ "item" : "cnsarmory" },
 			{ "item" : "cnstailorstable" },

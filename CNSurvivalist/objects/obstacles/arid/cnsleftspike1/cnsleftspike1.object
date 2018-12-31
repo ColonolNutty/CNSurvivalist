@@ -1,5 +1,5 @@
 {
-  "objectName" : "ceilingspike1",
+  "objectName" : "cnsleftspike1",
   "colonyTags" : [],
   "rarity" : "Common",
   "category" : "trap",
@@ -37,22 +37,22 @@
     }
   },
 
-  "inventoryIcon" : "ceilingicon.png",
+  "inventoryIcon" : "lefticon.png",
   "orientations" : [
     {
-      "image" : "ceilingspike1.png:<color>",
-      "imagePosition" : [0, -8],
+      "image" : "cnsleftspike1.png",
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "top" ]
+      "anchors" : [ "left" ]
 
     }
   ],
 
   "touchDamage" : {
-    "poly" : [ [0.5, -0.5], [1.0, 1.0], [0.0, 1.0] ],
+    "poly" : [ [1.5, 0.5], [0, 1.0], [0.0, 0.0] ],
     "damage" : 15,
 
     "damageType" : "IgnoresDef",

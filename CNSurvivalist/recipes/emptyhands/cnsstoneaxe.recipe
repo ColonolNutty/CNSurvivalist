@@ -4,5 +4,5 @@
     { "item" : "cobblestonematerial", "count" : 10 }
 	],
   "output" : { "item" : "cnsstoneaxe", "count" : 1 },
-  "groups" : [ "simplecraft", "objects", "all" ]
+  "groups" : [ "cnssimplecraft", "objects", "all" ]
 }

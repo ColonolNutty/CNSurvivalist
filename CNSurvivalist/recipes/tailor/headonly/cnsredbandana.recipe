@@ -5,5 +5,5 @@
     { "item" : "cnsmonsterheart", "count" : 2 }
   ],
   "output" : { "item" : "cnsredbandanahead", "count" : 1 },
-  "groups" : [ "tailor", "armor", "all" ]
+  "groups" : [ "cnstailor", "armor", "all" ]
 }

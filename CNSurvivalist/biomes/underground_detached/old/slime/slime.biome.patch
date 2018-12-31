@@ -134,7 +134,7 @@
 					"type" : "object",
 					"objectSets" : [
 						{
-							"pool" : [ [1, "organicpit" ] ],
+							"pool" : [ [1, "cnsorganicpit" ] ],
 							"parameters" : { }
 						}
 					]

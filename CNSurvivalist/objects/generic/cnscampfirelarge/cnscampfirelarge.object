@@ -1,10 +1,10 @@
 {
-  "objectName" : "cnslargefire",
+  "objectName" : "cnscampfirelarge",
   "colonyTags" : ["cooking","light"],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "Vital for survival, this large campfire! ^orange;Artwork by Dielji",
-  "shortdescription" : "Large Campfire",
+  "description" : "Vital for survival, a large campfire! ^orange;Artwork by Dielji^reset;",
+  "shortdescription" : "Campfire (Large)",
   "subtitle" : "Cooking and warmth!",
   "race" : "generic",
   "category" : "crafting",
@@ -15,10 +15,10 @@
 
   "apexDescription" : "A roaring fire.",
   "avianDescription" : "A beacon of light and heat.",
-  "floranDescription" : "Warm and toassssssty.",
+  "floranDescription" : "Warm and toasssty.",
   "glitchDescription" : "Idea. I want to roast giant marshmallows.",
   "humanDescription" : "Warm your weary bones.",
-  "hylotlDescription" : "A large fire to warm a home.",
+  "hylotlDescription" : "A large fire to warm up the outdoors.",
 
   "lightColor" : [179, 149, 107],
 
@@ -52,10 +52,10 @@
     }
   },
 
-  "inventoryIcon" : "cnslargefireicon.png",
+  "inventoryIcon" : "cnscampfirelargeicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "cnslargefire.png:<color>.<frame>", "fullbright" : true }, { "image" : "cnslargefirelit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "cnscampfirelarge.png:<color>.<frame>", "fullbright" : true }, { "image" : "cnscampfirelargelit.png:<color>.<frame>" } ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -67,7 +67,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "cnslargefire.png:<color>.<frame>", "fullbright" : true }, { "image" : "cnslargefirelit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "cnscampfirelarge.png:<color>.<frame>", "fullbright" : true }, { "image" : "cnscampfirelargelit.png:<color>.<frame>" } ],
       "direction" : "right",
 
       "imagePosition" : [0, 0],
