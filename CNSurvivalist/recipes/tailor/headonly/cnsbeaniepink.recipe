@@ -5,6 +5,6 @@
 	{ "item" : "reddye", "count" : 2 },
 	{ "item" : "money", "count" : 500 }
   ],
-  "output" : { "item" : "cnscnspinkbeaniehead", "count" : 1 },
+  "output" : { "item" : "cnspinkbeaniehead", "count" : 1 },
   "groups" : [ "cnstailor", "all" ]
 }

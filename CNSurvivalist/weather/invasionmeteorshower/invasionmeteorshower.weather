@@ -1,10 +1,10 @@
 {
-  "name" : "invasionmeteorshower",
+  "name" : "cnssmallmeteorshower",
   "icon" : "/interface/cockpit/weather/smallmeteorstorm.png",
 
   "projectiles" : [
     {
-      "projectile" : "invasionmeteor",
+      "projectile" : "cnssmallmeteor",
       "parameters" : {
         "power" : 3
       },

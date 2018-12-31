@@ -58,7 +58,7 @@
 
   "projectiles" : [
     {
-      "projectile" : "cnszthrowstone",
+      "projectile" : "cnszthrowablestone",
       "parameters" : {
         "power" : 10
       },

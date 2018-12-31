@@ -1,0 +1,576 @@
+{
+  "projectileName" : "cnsstoneblockspawner",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 0.5,
+  "damageKindImage" : "icon.png",
+  "image" : "cnsstoneblockspawner.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "speed" : 45,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/cnsstoneshower/cnsstoneshower.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 50
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 70
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 50
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 70
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 50
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 70
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : -180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 50
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 70
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "cnsstoneblockprojectile",
+      "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    }
+  ],
+  "power" : 0,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" }
+}

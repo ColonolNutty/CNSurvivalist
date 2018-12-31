@@ -41,7 +41,7 @@
   "primaryAbility" : {
     "fireTime" : 5,
     "baseDps" : 50.0,
-    "projectileType" : "shockfirebullet"
+    "projectileType" : "cnsshockfirebullet"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

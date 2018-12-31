@@ -1,0 +1,28 @@
+{
+  "projectileName" : "cnsstoneblockprojectile",
+  "materialId" : 161,
+  "physics" : "grenade",
+
+  // uses alternate animation path
+  "image" : "",
+  "animationCycle" : 0,
+  "frameNumber" : 0,
+  "power" : 20,
+
+  "speed" : 45,
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosionnospark/regularexplosionnospark.config"
+    },
+    {
+      "action" : "tile",
+      "materials" : [
+        {"kind" : "stonerubble"}
+      ]
+    }
+  ],
+  "damageKind" : "slash",
+  "emitters" : [ "javelinred" ]
+}

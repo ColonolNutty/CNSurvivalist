@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "cnszthrowfirewood",
+  "projectileType" : "cnszburningwood",
   "projectileConfig" : {
     "speed" : 70,
     "power" : 7

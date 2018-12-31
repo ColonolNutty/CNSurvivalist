@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.5,
 
-  "projectileType" : "cnszthrowstone",
+  "projectileType" : "cnszthrowablestone",
   "projectileConfig" : {
     "speed" : 45,
     "power" : 10

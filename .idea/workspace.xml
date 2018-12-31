@@ -3,88 +3,79 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/slimecaves.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/slimecaves.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone1/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone1/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone2/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone2/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone3/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone3/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone4/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone4/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone5/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone5/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone6/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone6/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone7/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone7/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bone8/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbone8/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/bonebelow/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsbonebelow/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/boneisland/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsboneisland/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/boneisland/base/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsboneisland/base/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/base/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/base/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/base/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod1/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod1/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod1/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod1/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod1/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod1/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenback/mod2/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/mod2/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/greenfront/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenfront/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/iceback/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsiceback/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod1/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod1/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod1/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod1/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod1/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod1/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimeback/mod2/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimeback/mod2/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimefront/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimefront/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/images/slimerock/base/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsslimerock/base/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/alien.parallax" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnshostile.parallax" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/arctic.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/arcticoceanfloor.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/asteroidfield.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/barren.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/bones.parallax" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsbones.parallax" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/desert.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/forest.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/garden.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/hostile.parallax" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsicy.parallax" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/icy.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/jungle.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/magma.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/magmaoceanfloor.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/midnight.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/moon.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/ocean.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/oceanfloor.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/oceanmission.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/savannah.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/scorched.parallax" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/scorched.parallax.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/slime.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/snow.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/tentacles.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/toxic.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/toxicoceanfloor.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/tundra.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/unknown.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/volcanic.parallax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/weather.config.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/weather.config.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun1/cnsshotgun1.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun1/cnsshotgun1.activeitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun2/cnsshotgun2.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun2/cnsshotgun2.activeitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun3/cnsshotgun3.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun3/cnsshotgun3.activeitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper3/cnssniper3.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper3/cnssniper3.activeitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/cnspinkbeanie.head" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/cnspinkbeanie.head" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadeshockfire/cnsgrenadeshockfire.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadeshockfire/cnsgrenadeshockfire.thrownitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/puff2c.particle" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/cnspuff2c.particle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/rain/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/rain/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/rain/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/deathbowexplosion/deathbowexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdeathbowexplosion/cnsdeathbowexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/invasionexplosion/invasionexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/woodexplosion/cnswoodexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnswoodexplosion/cnswoodexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebulleticon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/shockfirebullet.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/shockfirebullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/shockfirebullet.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/icon.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunicon.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullets.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/icon2CNS.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishoticon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/trishot2CNS.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/trishot2CNS.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/trishot2CNS.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrow.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrow.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrow.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrow.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrowicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrowicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/invisibleprojectile2/invisibleprojectile2.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsinvisibleprojectile/cnsinvisibleprojectile.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/invisibleprojectile2/invisibleprojectile2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsinvisibleprojectile/cnsinvisibleprojectile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/invisibleprojectile2/invisibleprojectile2.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsinvisibleprojectile/cnsinvisibleprojectile.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/material/stoneblockprojectile.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/material/cnsstoneblockprojectile.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawnericon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/stoneblockspawner.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawner.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/stoneblockspawner.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/stoneblockspawner.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawner.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszdynamite.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszdynamite/cnszdynamite.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszdynamite.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszdynamite/cnszdynamite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszdynamite.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszdynamite/cnszdynamite.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszfirecracker.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszfirecracker/cnszfirecracker.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszfirecracker.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszfirecracker/cnszfirecracker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszfirecracker.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszfirecracker/cnszfirecracker.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnsznormgrenade.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenade/cnszgrenade.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnsznormgrenade.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenade/cnszgrenade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnsznormgrenade.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenade/cnszgrenade.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/lightningnade/cnszlightningnade.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenadeshockfire/cnszgrenadeshockfire.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/lightningnade/cnszlightningnade.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenadeshockfire/cnsgrenadeshockfire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/lightningnade/cnszlightningnade.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenadeshockfire/cnszgrenadeshockfire.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/throwfirewood/cnszthrowfirewood.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszburningwood/cnszburningwood.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/throwfirewood/cnszthrowfirewood.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszburningwood/cnszburningwood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/throwfirewood/cnszthrowfirewood.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszburningwood/cnszburningwood.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/invasion/invasionmeteor/invasionmeteor.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/invasion/invasionmeteor/smallmeteor.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.frames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/invasion/invasionmeteor/smallmeteor.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/throwstone/cnszthrowstone.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/throwstone/cnszthrowstone.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsbeaniepink.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsbeaniepink.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/weather/invasionmeteorshower/invasionmeteorshower.weather" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/weather/invasionmeteorshower/invasionmeteorshower.weather" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +102,7 @@
           <entry key="biome" value="2" />
           <entry key="chest" value="14" />
           <entry key="codex" value="2" />
-          <entry key="config" value="1" />
+          <entry key="config" value="7" />
           <entry key="consumable" value="9" />
           <entry key="flashlight" value="1" />
           <entry key="frames" value="13" />
@@ -124,10 +115,12 @@
           <entry key="monsterpart" value="19" />
           <entry key="monstertype" value="14" />
           <entry key="object" value="22" />
-          <entry key="parallax" value="10" />
+          <entry key="parallax" value="14" />
+          <entry key="particle" value="1" />
           <entry key="partparams" value="5" />
           <entry key="patch" value="18" />
-          <entry key="png" value="45" />
+          <entry key="png" value="52" />
+          <entry key="projectile" value="8" />
           <entry key="statuseffect" value="2" />
           <entry key="thrownitem" value="5" />
           <entry key="txt" value="2" />
@@ -136,11 +129,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="45" />
-          <entry key="JSON" value="187" />
+          <entry key="Image" value="52" />
+          <entry key="JSON" value="197" />
           <entry key="Lua" value="6" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -162,76 +155,65 @@
           <entry key="monsterpart" value="102" />
           <entry key="monstertype" value="15" />
           <entry key="object" value="553" />
-          <entry key="parallax" value="53" />
+          <entry key="parallax" value="73" />
           <entry key="patch" value="10" />
+          <entry key="projectile" value="33" />
           <entry key="recipe" value="7" />
           <entry key="thrownitem" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1526" />
+          <entry key="JSON" value="1546" />
           <entry key="PATCH" value="3" />
-          <entry key="PLAIN_TEXT" value="176" />
+          <entry key="PLAIN_TEXT" value="209" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tentaclecometspore</find>
-      <find>zombieTreasure</find>
-      <find>cnsbiomassgen</find>
-      <find>ironbarore</find>
-      <find>simplecraft</find>
-      <find>tailor</find>
-      <find>gapahuk</find>
-      <find>largefire</find>
-      <find>goldchunk</find>
-      <find>unknownore</find>
-      <find>bonepile</find>
-      <find>frozendia</find>
-      <find>organicpit</find>
-      <find>ceilingspike1</find>
-      <find>cnsceilingspike1</find>
-      <find>leftspike1</find>
-      <find>rightpike1</find>
-      <find>but touching them still voids the warranty</find>
-      <find>bone</find>
-      <find>green</find>
-      <find>greenfront</find>
-      <find>iceback</find>
-      <find>bones</find>
-      <find>parall</find>
       <find>hostile</find>
       <find>slime</find>
       <find>icy</find>
       <find>unknown</find>
       <find>paral</find>
       <find>divider/alienrock</find>
+      <find>slimefront</find>
+      <find>slimerock</find>
+      <find>iceback</find>
+      <find>puff2c</find>
+      <find>dynamiteexplosion</find>
+      <find>bombblockexplosion</find>
+      <find>deathbowexplosion</find>
+      <find>invasionexplosion</find>
+      <find>stoneshower</find>
+      <find>woodexplosion</find>
+      <find>shockfirebullet</find>
+      <find>cnscns</find>
+      <find>trishot2CNS</find>
+      <find>cnstrishot</find>
+      <find>killerarrow</find>
+      <find>invisibleprojectile2</find>
+      <find>invisibleprojectil</find>
+      <find>invisibleprojectile</find>
+      <find>stoneblockprojectile</find>
+      <find>stoneblockspawner</find>
+      <find>cnszlightningnade</find>
+      <find>cnszthrowfirewood</find>
+      <find>smallmeteor</find>
+      <find>invasion</find>
     </findStrings>
     <replaceStrings>
-      <replace>cnslargeflyingboss</replace>
-      <replace>cnslargebipedboss</replace>
-      <replace>cnslargequadrupedboss</replace>
-      <replace>cnslargefishboss</replace>
-      <replace>cnsinvis</replace>
-      <replace>cnstentaclecometsporechest</replace>
-      <replace>cnstentaclecometspore_organic</replace>
-      <replace>cnstentaclecometspore</replace>
-      <replace>cnszombieTreasure</replace>
-      <replace>cnsbiomassgenerator</replace>
-      <replace>cnssimplecraft</replace>
-      <replace>cnstailor</replace>
-      <replace>cnsgapahuk</replace>
-      <replace>cnscampfirelarge</replace>
-      <replace>cnsgoldchunk</replace>
-      <replace>cnsunknownore</replace>
-      <replace>cnsbonepile</replace>
-      <replace>cnsfrozendia</replace>
       <replace>cnsorganicpit</replace>
       <replace>cnsceilingspike1</replace>
       <replace>ceilingspike1</replace>
@@ -244,6 +226,24 @@
       <replace>cnsslime</replace>
       <replace>cnsunknown</replace>
       <replace>but touching them will void the warranty</replace>
+      <replace>cnsslimefront</replace>
+      <replace>cnsslimerock</replace>
+      <replace>cnspuff2c</replace>
+      <replace>cnsdeathbowexplosion</replace>
+      <replace>cnsinvasionexplosion</replace>
+      <replace>cnsstoneshower</replace>
+      <replace>cnswoodexplosion</replace>
+      <replace>cnsshockfirebullet</replace>
+      <replace>cns</replace>
+      <replace>cnstrishot</replace>
+      <replace>cnskillerarrow</replace>
+      <replace>cnsinvisibleprojectile</replace>
+      <replace>cnsstoneblockprojectile</replace>
+      <replace>cnsstoneblockspawner</replace>
+      <replace>cnszgrenadeshockfire</replace>
+      <replace>cnszburningwood</replace>
+      <replace>cnsinvasionmeteor</replace>
+      <replace>cnssmallmeteor</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations\cnsbloodextraspraydown</dir>
@@ -261,6 +261,12 @@
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\generic\spawnpoop</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnsinvis</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\parallax\images\greenback</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\explosions\cnswoodexplosion</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\guns\bullets\shockfirebullet</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\guns\unsorted\cnskillerarrow</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\cnsinvisibleprojectile2</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\cnsinvisibleprojectile</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\throwable\cnszdynamite</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist</dir>
     </dirStrings>
   </component>
@@ -270,14 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/generic/other/cnsmacromoleculealterer.consumable" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/generic/cnsspawnpoop/cnsspawnpoop.statuseffect" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/generic/unsorted/cnsrevoltingstew.consumable" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/generic/unsorted/cnsrottenapple.consumable" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/clusternade/cnsgrenadenormal.thrownitem" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsdynamite.thrownitem" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadelightning/cnsgrenadelightning.thrownitem" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrownfirewood/cnsthrownfirewood.thrownitem" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowablestone/cnsthrowablestone.thrownitem" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool" />
@@ -321,6 +319,14 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome" />
         <option value="$PROJECT_DIR$/CNSurvivalist/parallax/surface/scorched.parallax" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsicy.parallax" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsunknown.parallax" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnshostile.parallax" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.projectile" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.projectile" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.projectile" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.projectile" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/material/cnsstoneblockprojectile.projectile" />
       </list>
     </option>
   </component>
@@ -349,6 +355,36 @@
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="cnsinvasion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="cnsinvasion" type="462c0819:PsiDirectoryNode" />
+              <item name="cnssmallmeteor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -368,11 +404,11 @@
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnszombie\head\cnszombiehead" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnstreemonster" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnstentaclecometspore" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnstentaclecometspore\organic\body" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnstentaclecometspore\organic" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\throwables\cnsthrowablestone" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\throwable\cnszfirecracker" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\throwable\cnszdynamite" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\guns\arrows" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\guns\bullets\cnsshockfirebullet" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\explosions\cnsdynamiteexplosion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,6 +438,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -427,94 +464,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/arms/cnszombiearms/cnszombiearmsfsleeve.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody/cnszombiebody.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody/cnszombiebody.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody2/cnszombiebody2.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/head/cnszombiehead/cnszombiehead.monsterpart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/head/cnszombiehead/cnszombiehead.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody2/cnszombiebody2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/head/cnszombiehead/cnszombiehead.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/tail/cnszombietail/cnszombietail.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/cnszombie.monstertype">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/cnszombie.partparams">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.monstertype">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/music/soundtracks.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsarmory/cnsarmory.object">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnschemistrytable/cnschemistrytable.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsbiomassgenerator/cnsbiomassgenerator.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsgastank/cnsgastank.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnssimplecraft/cnssimplecraft.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnstailorstable/cnstailorstable.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnstelescope/cnstelescope.object">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/cnscampfirelarge/cnscampfirelarge.object">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -654,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsicy.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/tentacles.parallax">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -689,12 +631,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnshostile.parallax">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsbones.parallax">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="351">
+          <caret line="99" column="27" lean-forward="true" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenfront/base/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsunknown.parallax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsicy.parallax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnshostile.parallax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/cnspuff2c.particle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/particles/rain/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.projectile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdeathbowexplosion/cnsdeathbowexplosion.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.projectile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.projectile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.projectile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/material/cnsstoneblockprojectile.projectile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

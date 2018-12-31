@@ -12,7 +12,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "cnszlightningnade",
+  "projectileType" : "cnszgrenadeshockfire",
   "projectileConfig" : {
     "speed" : 70,
     "power" : 8
