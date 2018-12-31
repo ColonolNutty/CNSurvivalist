@@ -1,5 +1,6 @@
 {
   "input" : [
+  	{ "item" : "cnssniper2", "count" : 1},
   	{ "item" : "coalore", "count" : 50},
 	{ "item" : "durasteelbar", "count" : 20},
 	{ "item" : "cnsglowingmatter", "count" : 2},

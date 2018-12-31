@@ -4,7 +4,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/deathbowexplosion/deathbowexplosion.config"
+      "file" : "/projectiles/explosions/cnsdeathbowexplosion/cnsdeathbowexplosion.config"
     }
   ],
   "image" : "cnskillerarrow.png",

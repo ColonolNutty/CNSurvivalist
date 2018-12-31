@@ -1,28 +1,28 @@
 {
-  "itemName" : "cnsrifle1",
+  "itemName" : "cnsshotgun1",
   "price" : 10,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A standard rifle weapon of iron and refined wood.",
-  "shortdescription" : "Standard Rifle",
+  "description" : "A standard shotgun",
+  "shortdescription" : "Standard Shotgun",
   "tooltipKind" : "gun",
-  "category" : "assaultRifle",
+  "category" : "shotgun",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "assaultrifle"],
-  "level" : 6,
+  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "level" : 8,
   
-  "largeImage" : "cnsrifle1.png",
-  "inventoryIcon" : "cnsrifle1.png",
+  "largeImage" : "cnsshotgun1.png",
+  "inventoryIcon" : "cnsshotgun1.png",
   
   "walkWhileFiring" : false,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "middle" : "cnsrifle1.png"
+    "middle" : "cnsshotgun1.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/rifle1.ogg" ]
+      "fire" : [ "/sfx/gun/cnsshotgun1.ogg" ]
     }
   },
 
@@ -39,8 +39,9 @@
   
   "primaryAbilityType" : "cnsgunshot",
   "primaryAbility" : {
-    "fireTime" : 3.5,
-    "baseDps" : 9.0
+    "fireTime" : 4,
+    "baseDps" : 20.0,
+    "projectileType" : "trishot2CNS"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

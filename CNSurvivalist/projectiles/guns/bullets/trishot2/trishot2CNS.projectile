@@ -9,25 +9,25 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "shotgunbullets",
+      "type" : "cnsshotgunbullets",
       "inheritDamageFactor" : 0.333,
       "angleAdjust" : 25
     },
     {
       "action" : "projectile",
-      "type" : "shotgunbullets",
+      "type" : "cnsshotgunbullets",
       "inheritDamageFactor" : 0.333,
       "angleAdjust" : -25
     },
     {
       "action" : "projectile",
-      "type" : "shotgunbullets",
+      "type" : "cnsshotgunbullets",
       "inheritDamageFactor" : 0.333,
       "angleAdjust" : 0
     }
   ],
   "power" : 15.0,
   "speed" : 5,
-  "damageKind" : "shotgunbullet",
+  "damageKind" : "cnsshotgunbullet",
   "knockbackRange" : [10, 40]
 }

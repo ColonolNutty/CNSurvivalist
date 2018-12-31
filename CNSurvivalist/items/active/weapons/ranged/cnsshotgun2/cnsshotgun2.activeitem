@@ -1,28 +1,28 @@
 {
-  "itemName" : "cnsshotgun1",
-  "price" : 10,
+  "itemName" : "cnsshotgun2",
+  "price" : 15,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A standard shotgun",
-  "shortdescription" : "Standard Shotgun",
+  "description" : "An upgraded shotgun",
+  "shortdescription" : "Upgraded Shotgun",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "shotgun"],
-  "level" : 8,
+  "level" : 9,
   
-  "largeImage" : "cnsshotgun1.png",
-  "inventoryIcon" : "cnsshotgun1.png",
+  "largeImage" : "cnsshotgun2.png",
+  "inventoryIcon" : "cnsshotgun2.png",
   
   "walkWhileFiring" : false,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "middle" : "cnsshotgun1.png"
+    "middle" : "cnsshotgun2.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/shotgun4.ogg" ]
+      "fire" : [ "/sfx/gun/cnsshotgun2.ogg" ]
     }
   },
 
@@ -39,8 +39,8 @@
   
   "primaryAbilityType" : "cnsgunshot",
   "primaryAbility" : {
-    "fireTime" : 4,
-    "baseDps" : 20.0,
+    "fireTime" : 3,
+    "baseDps" : 25.0,
     "projectileType" : "trishot2CNS"
   },
 

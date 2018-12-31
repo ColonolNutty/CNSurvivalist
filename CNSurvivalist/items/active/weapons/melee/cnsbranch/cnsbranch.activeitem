@@ -14,10 +14,10 @@
   "inventoryIcon": "cnsbranch.png",
   "palette": "cnsbranch.weaponcolors",
 
-  "animation" : "/items/active/weapons/melee/branch/cnsbranch.animation",
+  "animation" : "/items/active/weapons/melee/cnsbranch/cnsbranch.animation",
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/melee/branchswoosh.ogg" ]
+      "fire" : [ "/sfx/melee/cnsbranchswoosh.ogg" ]
     }
   },
 

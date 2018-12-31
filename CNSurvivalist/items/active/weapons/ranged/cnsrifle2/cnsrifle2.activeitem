@@ -1,28 +1,28 @@
 {
-  "itemName" : "cnsshotgun3",
-  "price" : 20,
+  "itemName" : "cnsrifle2",
+  "price" : 15,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "An excelent shotgun",
-  "shortdescription" : "Super Shotgun",
+  "description" : "An upgraded standard rifle with better grip and extra ammo.",
+  "shortdescription" : "Upgraded Rifle",
   "tooltipKind" : "gun",
-  "category" : "shotgun",
+  "category" : "assaultRifle",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "shotgun"],
-  "level" : 11,
+  "itemTags" : ["weapon", "ranged", "assaultrifle"],
+  "level" : 8,
   
-  "largeImage" : "cnsshotgun3.png",
-  "inventoryIcon" : "cnsshotgun3.png",
-  
-  "walkWhileFiring" : false,
+  "largeImage" : "cnsrifle2.png",
+  "inventoryIcon" : "cnsrifle2.png",
 
+  "walkWhileFiring" : false,
+  
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "middle" : "cnsshotgun3.png"
+    "middle" : "cnsrifle2.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/shotgun2.ogg" ]
+      "fire" : [ "/sfx/gun/cnsrifle2.ogg" ]
     }
   },
 
@@ -39,9 +39,8 @@
   
   "primaryAbilityType" : "cnsgunshot",
   "primaryAbility" : {
-    "fireTime" : 2,
-    "baseDps" : 30.0,
-    "projectileType" : "trishot2CNS"
+    "fireTime" : 0.8,
+    "baseDps" : 12.0
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

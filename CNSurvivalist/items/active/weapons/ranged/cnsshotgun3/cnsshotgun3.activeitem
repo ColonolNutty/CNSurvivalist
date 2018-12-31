@@ -1,28 +1,28 @@
 {
-  "itemName" : "cnssniper1",
+  "itemName" : "cnsshotgun3",
   "price" : 20,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Sniper Rifle with an Iron scope",
-  "shortdescription" : "Standard Sniper",
+  "description" : "An excellent shotgun",
+  "shortdescription" : "Super Shotgun",
   "tooltipKind" : "gun",
-  "category" : "sniperRifle",
+  "category" : "shotgun",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "sniper"],
-  "level" : 8,
+  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "level" : 11,
   
-  "largeImage" : "cnssniper1.png",
-  "inventoryIcon" : "cnssniper1.png",
+  "largeImage" : "cnsshotgun3.png",
+  "inventoryIcon" : "cnsshotgun3.png",
   
   "walkWhileFiring" : false,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "middle" : "cnssniper1.png"
+    "middle" : "cnsshotgun3.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/sniper1.ogg" ]
+      "fire" : [ "/sfx/gun/cnsshotgun3.ogg" ]
     }
   },
 
@@ -33,14 +33,15 @@
   
   "elementalType" : "physical",
   "handPosition" : [-2.5, -1.2],
-  "firePosition" : [17, 2],
+  "firePosition" : [12, 0],
   
   "recoilTime" : 0.1,
   
   "primaryAbilityType" : "cnsgunshot",
   "primaryAbility" : {
-    "fireTime" : 5,
-    "baseDps" : 31.0
+    "fireTime" : 2,
+    "baseDps" : 30.0,
+    "projectileType" : "trishot2CNS"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

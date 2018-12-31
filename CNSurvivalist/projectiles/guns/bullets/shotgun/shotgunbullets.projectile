@@ -1,6 +1,6 @@
 {
-  "projectileName" : "shotgunbullets",
-  "image" : "shotgunbullets.png",
+  "projectileName" : "cnsshotgunbullets",
+  "image" : "cnsshotgunbullets.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
@@ -13,6 +13,6 @@
   ],
   "power" : 5.0,
   "speed" : 50,
-  "damageKind" : "shotgunbullet",
+  "damageKind" : "cnsshotgunbullet",
   "knockbackRange" : [10, 40]
 }

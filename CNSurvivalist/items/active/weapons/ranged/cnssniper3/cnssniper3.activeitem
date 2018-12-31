@@ -3,7 +3,7 @@
   "price" : 60,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Sniper Rifle that shoots shock bulletsIron scope.",
+  "description" : "Sniper Rifle that shoots shock bullets with an Iron scope.",
   "shortdescription" : "Shockfire Sniper",
   "tooltipKind" : "gun",
   "category" : "sniperRifle",

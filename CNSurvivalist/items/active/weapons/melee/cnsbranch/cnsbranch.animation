@@ -52,7 +52,7 @@
             },
             "fire" : {
               "properties" : {
-                "image" : "/items/active/weapons/melee/branch/swoosh/cnsbranchswoosh.png:<frame>",
+                "image" : "/items/active/weapons/melee/cnsbranch/swoosh/cnsbranchswoosh.png:<frame>",
                 "damageArea" : [ [-1.5, -1.125], [2.25, -1.125], [3.625, -1.5], [4.5, -2], [4.5, -2.5], [4.125, -2.875], [3, -3.375], [-1.5, -3.375] ]
               }
             }
