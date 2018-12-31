@@ -8,7 +8,7 @@
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/story/cnsurvival7.lua",
+  "script" : "/quests/scripts/story/cnssurvival7.lua",
   "scriptConfig" : {
 	"portraits" : {
 	  "questStarted" : "player",
