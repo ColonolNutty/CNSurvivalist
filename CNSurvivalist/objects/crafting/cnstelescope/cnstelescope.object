@@ -14,7 +14,7 @@
         }
       }
 	},
-    "filter" : [ "telescope" ]
+    "filter" : [ "cnstelescope" ]
   },
   "printable" : false,
   "description" : "Learn more about the universe with a telescope!",

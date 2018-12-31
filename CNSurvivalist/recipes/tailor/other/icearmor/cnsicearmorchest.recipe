@@ -6,5 +6,5 @@
     { "item" : "money", "count" : 3000 }
   ],
   "output" : { "item" : "icearmorchest", "count" : 1 },
-  "groups" : [ "chemistrytable", "all", "other" ]
+  "groups" : [ "cnschemistrytable", "all", "other" ]
 }

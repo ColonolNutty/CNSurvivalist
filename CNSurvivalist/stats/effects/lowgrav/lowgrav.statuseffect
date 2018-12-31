@@ -11,5 +11,5 @@
   
   "animationConfig" : "lowgrav.animation",
 
-  "icon" : "/interface/statuses/parachute.png"
+  "icon" : "/interface/statuses/cnsparachute.png"
 }

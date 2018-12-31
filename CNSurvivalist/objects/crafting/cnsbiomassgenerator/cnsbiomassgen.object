@@ -83,10 +83,10 @@
 
   "statusEffects" : [],
 
-  "recipeGroup" : "biomass",
+  "recipeGroup" : "cnsbiomass",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 3,
-  "uiConfig" : "/interface/objectcrafting/biomass.config",
+  "uiConfig" : "/interface/objectcrafting/cnsbiomass.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
 

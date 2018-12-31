@@ -2,193 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashrangedright/cnsbloodspurtsplashrangedright.frames" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtblades/bloodspurtblades.animation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtblades/bloodspurtblades.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtblades/cnsbloodspurtblades.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtblades/bloodspurtblades.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtblades/bloodspurtblades.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtblades/cnsbloodspurtblades.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtblades/bloodspurtblades.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtblades/cnsbloodspurtblades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtbladesstatic/bloodspurtbladesstatic.animation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtbladesstatic/bloodspurtbladesstatic.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtbladesstatic/cnsbloodspurtbladesstatic.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtbladesstatic/bloodspurtbladesstatic.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtbladesstatic/bloodspurtbladesstatic.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtbladesstatic/cnsbloodspurtbladesstatic.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtbladesstatic/bloodspurtbladesstatic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtbladesstatic/bloodspurtbladesstatic.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtbladesstatic/cnsbloodspurtbladesstatic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtcenter/bloodspurtcenter.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtcenter/cnsbloodspurtcenter.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtcenter/bloodspurtcenter.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtcenter/cnsbloodspurtcenter.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtcenter/bloodspurtcenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtcenter/bloodspurtcenter.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtcenter/cnsbloodspurtcenter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeath/bloodspurtdeath.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtdeath/cnsbloodspurtdeath.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeath/bloodspurtdeath.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeath/bloodspurtdeath.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtdeath/cnsbloodspurtdeath.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeath/bloodspurtdeath.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeath/bloodspurtdeath.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtdeath/cnsbloodspurtdeath.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeathup/bloodspurtdeathup.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtdeathup/cnsbloodspurtdeathup.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeathup/bloodspurtdeathup.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtdeathup/cnsbloodspurtdeathup.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeathup/bloodspurtdeathup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtdeathup/bloodspurtdeathup.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtdeathup/cnsbloodspurtdeathup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplash/bloodspurtsplash.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplash/cnsbloodspurtsplash.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplash/bloodspurtsplash.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplash/bloodspurtsplash.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplash/cnsbloodspurtsplash.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplash/bloodspurtsplash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplash/bloodspurtsplash.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplash/cnsbloodspurtsplash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashbite/bloodspurtsplashbite.animation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashbite/bloodspurtsplashbite.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashbite/cnsbloodspurtsplashbite.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashbite/bloodspurtsplashbite.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashbite/cnsbloodspurtsplashbite.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashbite/bloodspurtsplashbite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashbite/bloodspurtsplashbite.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashbite/cnsbloodspurtsplashbite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashdefault/bloodspurtsplashdefault.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashdefault/cnsbloodspurtsplashdefault.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashdefault/bloodspurtsplashdefault.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashdefault/bloodspurtsplashdefault.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashdefault/cnsbloodspurtsplashdefault.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashdefault/bloodspurtsplashdefault.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashdefault/bloodspurtsplashdefault.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashdefault/cnsbloodspurtsplashdefault.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashham/bloodspurtsplashham.animation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashham/bloodspurtsplashham.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashham/cnsbloodspurtsplashham.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashham/bloodspurtsplashham.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashham/cnsbloodspurtsplashham.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashham/bloodspurtsplashham.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashham/cnsbloodspurtsplashham.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashhamright/bloodspurtsplashhamright.animation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashhamright/bloodspurtsplashhamright.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashhamright/cnsbloodspurtsplashhamright.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashhamright/bloodspurtsplashhamright.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashhamright/bloodspurtsplashhamright.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashhamright/cnsbloodspurtsplashhamright.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashhamright/bloodspurtsplashhamright.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashhamright/cnsbloodspurtsplashhamright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormal/bloodspurtsplashnormal.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashnormal/cnsbloodspurtsplashnormal.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormal/bloodspurtsplashnormal.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormal/bloodspurtsplashnormal.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashnormal/cnsbloodspurtsplashnormal.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormal/bloodspurtsplashnormal.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashnormal/cnsbloodspurtsplashnormal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormalright/bloodspurtsplashnormalright.animation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormalright/bloodspurtsplashnormalright.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashnormalright/cnsbloodspurtsplashnormalright.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormalright/bloodspurtsplashnormalright.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormalright/bloodspurtsplashnormalright.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashnormalright/cnsbloodspurtsplashnormalright.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashnormalright/bloodspurtsplashnormalright.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashnormalright/cnsbloodspurtsplashnormalright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashranged/bloodspurtsplashranged.animation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashranged/bloodspurtsplashranged.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashranged/cnsbloodspurtsplashranged.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashranged/bloodspurtsplashranged.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashranged/cnsbloodspurtsplashranged.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashranged/bloodspurtsplashranged.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashranged/bloodspurtsplashranged.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashranged/cnsbloodspurtsplashranged.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashrangedright/bloodspurtsplashrangedright.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashrangedright/cnsbloodspurtsplashrangedright.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashrangedright/bloodspurtsplashrangedright.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashrangedright/cnsbloodspurtsplashrangedright.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashrangedright/bloodspurtsplashrangedright.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashrangedright/cnsbloodspurtsplashrangedright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashright/bloodspurtsplashright.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashright/cnsbloodspurtsplashright.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashright/bloodspurtsplashright.frames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashright/bloodspurtsplashright.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashright/cnsbloodspurtsplashright.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashright/bloodspurtsplashright.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashright/cnsbloodspurtsplashright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashspear/bloodspurtsplashspear.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashspear/cnsbloodspurtsplashspear.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashspear/bloodspurtsplashspear.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashspear/cnsbloodspurtsplashspear.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/bloodspurtsplashspear/bloodspurtsplashspear.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtsplashspear/cnsbloodspurtsplashspear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/fizz1/fizz1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsfizz1/cnsfizz1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/fizz2/fizz2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsfizz2/cnsfizz2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/fizz3/fizz3.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsfizz3/cnsfizz3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/fizz4/fizz4.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsfizz4/cnsfizz4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/fizz5/fizz5.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsfizz5/cnsfizz5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbits/otherbits.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbits/cnsotherbits.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbits/otherbits.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbits/cnsotherbits.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbits/otherbits.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbits/cnsotherbits.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbits/otherbits.rar" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbits/cnsotherbits.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbits/otherbitsold.rar" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbits/cnsotherbitsold.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbitsshort/otherbitsshort.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbitsshort/cnsotherbitsshort.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbitsshort/otherbitsshort.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbitsshort/cnsotherbitsshort.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/otherbitsshort/otherbitsshort.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsotherbitsshort/cnsotherbitsshort.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/animations/puff2c/puff2c.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnspuff2c/cnspuff2c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/acid.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/acid.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/axe.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/axe.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/bite.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/bite.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/bow.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/bow.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/brain.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/brain.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/bubble.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/bubble.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/cns1hsword.damage" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/cns1hsword.damage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/cns2hsword.damage" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/cns2hsword.damage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/cnselectroshock.damage" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/cnselectroshock.damage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/cnstestburning.damage" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/cnstestburning.damage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/cnstestpoison.damage" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/cnstestpoison.damage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage,.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage,.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/default.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/default.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/fire.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/fire.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/flamethrower.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/flamethrower.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/flowerpower.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/flowerpower.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/fryingpan.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/fryingpan.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/hammer.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/hammer.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/heat.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/heat.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/lash.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/lash.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/plasma.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/plasma.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/retro.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/retro.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/slash.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/slash.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/spear.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/spear.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/steelchair.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/steelchair.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/crustoise/crustoise.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/crustoise/crustoise.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/iguarmor/iguarmor.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/iguarmor/iguarmor.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/oculob/oculob.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/oculob/oculob.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/pulpin/pulpin.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/pulpin/pulpin.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/snaggler/snaggler.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/snaggler/snaggler.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/tintic/tintic.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/tintic/tintic.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/triplod/triplod.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/triplod/triplod.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/dungeon/apexmutant/apexmutant.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/dungeon/apexmutant/apexmutant.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/agrobat/agrobat.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/agrobat/agrobat.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/batong/batong.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/batong/batong.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/bobfae/bobfae.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/bobfae/bobfae.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/monopus/monopus.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/monopus/monopus.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/paratail/paratail.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/paratail/paratail.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/pteropod/pteropod.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/pteropod/pteropod.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/scandroid/scandroid.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/flyers/scandroid/scandroid.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/bonebird/bonebird.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/bonebird/bonebird.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/largeflying/largeflying.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/largeflying/largeflying.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/minidrone/minidrone.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/minidrone/minidrone.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/smallflying/smallflying.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/smallflying/smallflying.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largebiped/largebiped.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largebiped/largebiped.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largequadruped/largequadruped.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largequadruped/largequadruped.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/smallbiped/smallbiped.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/smallbiped/smallbiped.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/smallquadruped/smallquadruped.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/smallquadruped/smallquadruped.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/ignome/ignome.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/ignome/ignome.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/lumoth/lumoth.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/lumoth/lumoth.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/nautileech/nautileech.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/nautileech/nautileech.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/pyromantle/pyromantle.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/pyromantle/pyromantle.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/skimbus/skimbus.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/skimbus/skimbus.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/spookit/spookit.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/spookit/spookit.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/squeem/squeem.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/squeem/squeem.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/wisper/wisper.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/wisper/wisper.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/invis/cnsinvis.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/invis/cnsinvis.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/tentaclecometspore/cnstentaclecometspore.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/tentaclecometspore/cnstentaclecometspore.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/treemonster/cnstreemonster.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/treemonster/cnstreemonster.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/zombie/cnszombie.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/zombie/cnszombie.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/adultpoptop/adultpoptop.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/adultpoptop/adultpoptop.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/anglure/anglure.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/anglure/anglure.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/bobot/bobot.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/bobot/bobot.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/bulbop/bulbop.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/bulbop/bulbop.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/capricoat/capricoat.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/capricoat/capricoat.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/crabcano/crabcano.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/crabcano/crabcano.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/crutter/crutter.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/crutter/crutter.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/fennix/fennix.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/fennix/fennix.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/gleap/gleap.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/gleap/gleap.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hemogoblin/hemogoblin.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hemogoblin/hemogoblin.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hemogoblinbutt/hemogoblinbutt.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hemogoblinbutt/hemogoblinbutt.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hemogoblinhead/hemogoblinhead.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hemogoblinhead/hemogoblinhead.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hypnare/hypnare.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/hypnare/hypnare.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/kingnutmidgeling/kingnutmidgeling.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/kingnutmidgeling/kingnutmidgeling.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/lilodon/lilodon.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/lilodon/lilodon.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/mandraflora/mandraflora.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/mandraflora/mandraflora.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/miasmop/miasmop.animation..patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/miasmop/miasmop.animation..patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/narfin/narfin.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/narfin/narfin.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/nutmidge/nutmidge.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/nutmidge/nutmidge.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/nutmidgeling/nutmidgeling.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/nutmidgeling/nutmidgeling.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/oogler/oogler.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/oogler/oogler.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/orbide/orbide.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/orbide/orbide.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/peblit/peblit.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/peblit/peblit.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/petricub/petricub.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/petricub/petricub.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/pipkin/pipkin.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/pipkin/pipkin.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/poptop/poptop.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/poptop/poptop.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/punchy/punchy.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/punchy/punchy.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/quagmutt/quagmutt.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/quagmutt/quagmutt.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/ringram/ringram.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/ringram/ringram.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/scaveran/scaveran.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/scaveran/scaveran.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/smoglin/smoglin.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/smoglin/smoglin.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/snaunt/snaunt.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/snaunt/snaunt.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/sporgus/sporgus.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/sporgus/sporgus.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/taroni/taroni.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/taroni/taroni.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/toumingo/toumingo.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/toumingo/toumingo.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/trictus/trictus.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/trictus/trictus.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/voltip/voltip.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/voltip/voltip.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/yokat/yokat.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/yokat/yokat.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/puff2c.particle" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/puff2c.particle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/codex/documents/cnssurvivalguide.codex" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/codex/documents/cnssurvivalguide.codex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/codex/documents/codexiconCNS.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/codex/documents/cnscodexicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/staticspurtblade/staticspurt2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnsstaticspurtblade/cnsstaticspurt2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/objectcrafting/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/acceptover.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/acceptOver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/newquest.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/NewQuest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/rejectover.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/rejectOver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/rejectup.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/newquest/rejectUp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete/acceptrewardover.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete/acceptRewardOver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete/acceptrewardup.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete/acceptRewardUp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete2/okayover.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete2/okayOver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete2/okayup.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/quests/questcomplete2/okayUp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/statuses/parachute.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/statuses/cnsparachute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/statuses/thirsty.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/statuses/cnsthirsty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/statuses/wellhydrated.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/statuses/cnswellhydrated.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/title/firstlogoTMP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsarmory/cnsarmory.object" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsarmory/cnsarmory.object" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsbiomassgenerator/cnsbiomassgen.object" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsbiomassgenerator/cnsbiomassgen.object" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnstelescope/cnstelescope.object" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnstelescope/cnstelescope.object" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnslightningnade.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnslightningnade.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsnormgrenade.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsnormgrenade.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsrifle1.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsrifle1.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsrifle2.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsrifle2.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsrifle3.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsrifle3.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsshotgun1.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsshotgun1.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsshotgun2.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsshotgun2.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsshotgun3.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsshotgun3.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssmg1.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssmg1.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssmg2.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssmg2.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssmg3.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssmg3.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssniper1.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssniper1.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssniper2.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssniper2.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssniper3.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnssniper3.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatback.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatback.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatchest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmathead.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmathead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatlegs.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatlegs.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorchest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorhead.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorhead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorlegs.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorlegs.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.statuseffect" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,36 +58,44 @@
     <session id="-464913708">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="animation" value="2" />
+          <entry key="animation" value="5" />
+          <entry key="codex" value="2" />
+          <entry key="config" value="1" />
           <entry key="frames" value="3" />
-          <entry key="patch" value="1" />
+          <entry key="lua" value="2" />
+          <entry key="patch" value="6" />
+          <entry key="png" value="7" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="4" />
-          <entry key="PATCH" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Image" value="7" />
+          <entry key="JSON" value="11" />
+          <entry key="PATCH" value="2" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="animation" value="1" />
+          <entry key="codex" value="1" />
           <entry key="damage" value="1" />
           <entry key="patch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -237,34 +103,55 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtblades/cnsbloodspurtblades.animation">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/cns1hswordhitspark/cns1hswordhitsparkblood.animation">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/windowconfig/cnsarmory.config">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cnsbloodextraspraydown</find>
-      <find>bloodextraspraydown</find>
-      <find>bloodspurtblades</find>
-      <find>bloodspurtbladesstatic</find>
-      <find>bloodspurtcenter</find>
-      <find>bloodspurtdeath</find>
-      <find>bloodspurtdeathup</find>
-      <find>cnsbloodspurtdeathup</find>
-      <find>cnsbloodspurt</find>
       <find>bloodspurt</find>
-      <find>cnscns</find>
       <find>otherbits</find>
       <find>fizz</find>
       <find>puff2c</find>
+      <find>cnscns</find>
+      <find>codexiconcns</find>
+      <find>staticspurt2</find>
+      <find>staticspurtblade</find>
+      <find>blue.png</find>
+      <find>armory</find>
+      <find>chemistrytable</find>
+      <find>gascraft</find>
+      <find>gas</find>
+      <find>telescope</find>
+      <find>arrow</find>
+      <find>cnsarrow</find>
+      <find>bio_footer</find>
+      <find>bio_body</find>
+      <find>bio_footer2</find>
+      <find>biomass</find>
+      <find>gastank</find>
+      <find>cnsgastank</find>
+      <find>acceptRewardOver</find>
+      <find>acceptRewardUp</find>
+      <find>acceptOver</find>
+      <find>NewQuest</find>
+      <find>rejectOver</find>
+      <find>parachute</find>
+      <find>wellhydrated</find>
+      <find>thirsty</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -279,12 +166,27 @@
       <replace>cnsotherbits</replace>
       <replace>cnsfizz</replace>
       <replace>cnspuff2c</replace>
+      <replace>cnscodexicon</replace>
+      <replace>cnsstaticspurt2</replace>
+      <replace>cnsstaticspurtblade</replace>
+      <replace>cnsarmory</replace>
+      <replace>cnschemistrytable</replace>
+      <replace>cnsgascraft</replace>
+      <replace>cnstelescope</replace>
+      <replace>cnsarrow</replace>
+      <replace>arrow</replace>
+      <replace>cnsbio_footer</replace>
+      <replace>cnsbio_footer2</replace>
+      <replace>cnsbiomass</replace>
+      <replace>cnsgastank</replace>
+      <replace>cnsparachute</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations\cnsbloodextraspraydown</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations\cnsbloodspurtcenter</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations\cnsbloodspurtdeathup</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\damage\cnsstaticspurtblade</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -294,6 +196,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtblades/cnsbloodspurtblades.animation" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/codex/documents/cnssurvivalguide.codex" />
       </list>
     </option>
   </component>
@@ -308,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,14 +223,33 @@
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="windowconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -358,7 +279,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,6 +293,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="LuaJ" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -381,11 +303,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/ai/ai.config.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodmiststatic/cnsbloodmiststatic.frames">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/alpine.biome.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bioluminescence.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/cnsbloodspurtblades/cnsbloodspurtblades.animation">
       <provider selected="true" editor-type-id="text-editor">
@@ -393,6 +322,61 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/ai/ai.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/celestial/biomes.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/cnsstaticspurtblade/cnsstaticspurt2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/ai/fu_byosaiCNS.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/ai/fu_byosai.config.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/codex/documents/cnssurvivalguide.codex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/objectcrafting/cnsarrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/statuses/hungry.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/title/firstlogoTMP.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/title/firstlogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/cns1hswordhitspark/cns1hswordhitsparkblood.animation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/windowconfig/cnsarmory.config">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

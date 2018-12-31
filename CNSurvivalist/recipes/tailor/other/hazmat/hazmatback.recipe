@@ -5,5 +5,5 @@
     { "item" : "money", "count" : 3000 }
   ],
   "output" : { "item" : "hazmatback", "count" : 1 },
-  "groups" : [ "chemistrytable", "all", "hazardgear", "buffs" ]
+  "groups" : [ "cnschemistrytable", "all", "hazardgear", "buffs" ]
 }

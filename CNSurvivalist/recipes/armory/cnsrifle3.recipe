@@ -5,5 +5,5 @@
 	{ "item" : "money", "count" : 2250}
   ],
   "output" : { "item" : "cnsrifle3", "count" : 1 },
-  "groups" : [ "armory", "weapons", "all" ]
+  "groups" : [ "cnsarmory", "weapons", "all" ]
 }
