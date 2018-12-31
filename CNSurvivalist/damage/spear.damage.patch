@@ -44,7 +44,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashNormal/BloodSpurtSplashNormal.animation",
+              "animation" : "/animations/cnsbloodspurtSplashNormal/cnsbloodspurtSplashNormal.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -58,7 +58,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashNormalRight/BloodSpurtSplashNormalRight.animation",
+              "animation" : "/animations/cnsbloodspurtSplashNormalRight/cnsbloodspurtSplashNormalRight.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -101,7 +101,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtBlades/BloodSpurtBlades.animation",
+              "animation" : "/animations/cnsbloodspurtblades/cnsbloodspurtblades.animation",
               "size" : 1.6,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -131,7 +131,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBitsShort/OtherBitsShort.animation",
+              "animation" : "/animations/cnsotherbitsShort/cnsotherbitsShort.animation",
               "size" : 0.5,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -145,7 +145,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBitsShort/OtherBitsShort.animation",
+              "animation" : "/animations/cnsotherbitsShort/cnsotherbitsShort.animation",
               "size" : 0.5,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -159,7 +159,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBitsShort/OtherBitsShort.animation",
+              "animation" : "/animations/cnsotherbitsShort/cnsotherbitsShort.animation",
               "size" : 0.3,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -173,7 +173,7 @@
             },
 		    {
               "type" : "animated",
-              "animation" : "/animations/OtherBitsShort/OtherBitsShort.animation",
+              "animation" : "/animations/cnsotherbitsShort/cnsotherbitsShort.animation",
               "size" : 0.3,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -355,7 +355,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtBladesStatic/BloodSpurtBladesStatic.animation",
+              "animation" : "/animations/cnsbloodspurtbladesStatic/cnsbloodspurtbladesStatic.animation",
               "size" : 1.1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -370,7 +370,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashNormal/BloodSpurtSplashNormal.animation",
+              "animation" : "/animations/cnsbloodspurtSplashNormal/cnsbloodspurtSplashNormal.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -384,7 +384,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashNormalRight/BloodSpurtSplashNormalRight.animation",
+              "animation" : "/animations/cnsbloodspurtSplashNormalRight/cnsbloodspurtSplashNormalRight.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -427,7 +427,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtDeath/BloodSpurtDeath.animation",
+              "animation" : "/animations/cnsbloodspurtdeath/cnsbloodspurtdeath.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -457,7 +457,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.8,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -471,7 +471,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.8,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -485,7 +485,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.8,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -499,7 +499,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.8,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -513,7 +513,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.8,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -527,7 +527,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.3,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -541,7 +541,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.3,
               "angularVelocity" : 0,
               "fade" : 1,

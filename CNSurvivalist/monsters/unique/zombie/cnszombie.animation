@@ -331,7 +331,7 @@
   "particleEmitters" : {
     "deathPoof" : {
       "particles" : [
-        { "particle" : "puff2c" },
+        { "particle" : "cnspuff2c" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },

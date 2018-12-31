@@ -1,8 +1,8 @@
 {
-  "kind" : "puff2c",
+  "kind" : "cnspuff2c",
   "definition" : {
     "type" : "animated",
-    "animation" : "/animations/puff2c/puff2c.animation",
+    "animation" : "/animations/cnspuff2c/cnspuff2c.animation",
     "size" : 1,
     "angularVelocity" : 35,
     "fade" : 1,

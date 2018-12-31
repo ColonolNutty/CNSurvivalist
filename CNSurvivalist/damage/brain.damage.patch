@@ -168,7 +168,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtBladesStatic/BloodSpurtBladesStatic.animation",
+              "animation" : "/animations/cnsbloodspurtbladesStatic/cnsbloodspurtbladesStatic.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -183,7 +183,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashRanged/BloodSpurtSplashRanged.animation",
+              "animation" : "/animations/cnsbloodspurtSplashRanged/cnsbloodspurtSplashRanged.animation",
               "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -197,7 +197,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtSplashRangedRight/BloodSpurtSplashRangedRight.animation",
+              "animation" : "/animations/cnsbloodspurtSplashRangedRight/cnsbloodspurtSplashRangedRight.animation",
               "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -212,7 +212,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/BloodSpurtDeath/BloodSpurtDeath.animation",
+              "animation" : "/animations/cnsbloodspurtdeath/cnsbloodspurtdeath.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -272,7 +272,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -286,7 +286,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -300,7 +300,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -314,7 +314,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -328,7 +328,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.7,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -342,7 +342,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -356,7 +356,7 @@
             },
             {
               "type" : "animated",
-              "animation" : "/animations/OtherBits/OtherBits.animation",
+              "animation" : "/animations/cnsotherbits/cnsotherbits.animation",
               "size" : 0.2,
               "angularVelocity" : 0,
               "fade" : 1,
