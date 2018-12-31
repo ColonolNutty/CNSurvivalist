@@ -1,9 +1,9 @@
 {
-  "itemName" : "cnsthrowstone",
+  "itemName" : "cnsthrowablestone",
   "price" : 50,
   "rarity" : "Uncommon",
-  "inventoryIcon" : "cnsthrowstoneicon.png",
-  "image" : "cnsthrowstoneicon.png",
+  "inventoryIcon" : "cnsthrowablestoneicon.png",
+  "image" : "cnsthrowablestoneicon.png",
   "shortdescription" : "Throwable Stone",
   "description" : "Throw stones at your enemies!",
 

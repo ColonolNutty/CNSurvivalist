@@ -1,9 +1,9 @@
 {
-  "itemName" : "cnsthrowfirewood",
+  "itemName" : "cnsburningwood",
   "price" : 50,
   "rarity" : "Common",
-  "inventoryIcon" : "cnsthrowfirewoodicon.png",
-  "image" : "cnsthrowfirewood2.png",
+  "inventoryIcon" : "cnsburningwoodicon.png",
+  "image" : "cnsburningwood.png",
   "shortdescription" : "Burning wood",
   "description" : "Throw burning wood at your enemies!!",
 

@@ -1,10 +1,10 @@
 {
-  "itemName" : "cnslightningnade",
+  "itemName" : "cnsgrenadeshockfire",
   "price" : 50,
   "rarity" : "Common",
-  "inventoryIcon" : "cnslightningnadeicon.png",
-  "image" : "cnslightningnadeicon.png",
-  "shortdescription" : "Shockfire Grenade",
+  "inventoryIcon" : "cnsgrenadeshockfireicon.png",
+  "image" : "cnsgrenadeshockfireicon.png",
+  "shortdescription" : "Grenade (Shockfire)",
   "description" : "A shock grenade with additional fire!",
   "ammoUsage" : 1,
 

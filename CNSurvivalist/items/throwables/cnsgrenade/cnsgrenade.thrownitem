@@ -1,11 +1,11 @@
 {
-  "itemName" : "cnsnormgrenade",
+  "itemName" : "cnsgrenade",
   "price" : 50,
   "rarity" : "Common",
-  "inventoryIcon" : "cnsnormgrenadeicon.png",
-  "image" : "cnsnormgrenadeicon.png",
+  "inventoryIcon" : "cnsgrenadeicon.png",
+  "image" : "cnsgrenadeicon.png",
   "shortdescription" : "Grenade",
-  "description" : "A grenade!",
+  "description" : "A grenade. It goes boom!",
   
   "ammoUsage" : 1,
 

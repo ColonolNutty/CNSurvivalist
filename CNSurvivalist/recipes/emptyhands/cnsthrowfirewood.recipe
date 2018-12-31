@@ -5,6 +5,6 @@
     { "item" : "coalore", "count" : 5 },
     { "item" : "money", "count" : 25 }
   ],
-  "output" : { "item" : "cnsthrowfirewood", "count" : 1 },
+  "output" : { "item" : "cnsburningwood", "count" : 1 },
   "groups" : [ "plain", "all", "weapons" ]
 }
