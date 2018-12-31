@@ -43,7 +43,7 @@
 	},	
 	{
 		"op": "add",
-		"path": "/invisTreasure",
+		"path": "/cnsinvisTreasure",
 		"value": [
 			[1, 
 				{
@@ -64,7 +64,7 @@
 	},	
 	{
 		"op": "add",
-		"path": "/zombieTreasure",
+		"path": "/cnszombieTreasure",
 		"value": [
 			[1, 
 				{

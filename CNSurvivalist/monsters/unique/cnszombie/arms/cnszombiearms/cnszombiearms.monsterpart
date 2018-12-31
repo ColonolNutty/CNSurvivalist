@@ -1,0 +1,11 @@
+{
+  "name" : "cnszombiearms",
+  "category" : "cnszombie",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "cnszombiearmsfsleeve.png",
+    "backArm" : "cnszombiearmsbsleeve.png"
+  },
+  "parameters" : {}
+}

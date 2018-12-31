@@ -1,0 +1,14 @@
+{
+  "name" : "cnszombiehead",
+  "category" : "cnszombie",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "cnszombiehead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}
+

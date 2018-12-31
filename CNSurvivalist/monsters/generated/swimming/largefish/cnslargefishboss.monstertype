@@ -1,5 +1,5 @@
 {
-  "type" : "cnslargefishBoss",
+  "type" : "cnslargefishboss",
 
   "categories" : [ "largefish" ],
   "parts" : [ "head", "tail", "fin" ],

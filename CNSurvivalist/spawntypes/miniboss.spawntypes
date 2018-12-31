@@ -11,7 +11,7 @@
     },
 
     "spawnChance" : 0.001,
-    "monsterType" : "cnslargebipedBoss",
+    "monsterType" : "cnslargebipedboss",
     "monsterParameters" : {
       "aggressive" : true
     }
@@ -29,7 +29,7 @@
     },
 
     "spawnChance" : 0.001,
-    "monsterType" : "cnslargequadrupedBoss",
+    "monsterType" : "cnslargequadrupedboss",
     "monsterParameters" : {
       "aggressive" : true
     }
@@ -47,7 +47,7 @@
     },
 
     "spawnChance" : 0.001,
-    "monsterType" : "cnslargeflyingBoss",
+    "monsterType" : "cnslargeflyingboss",
     "monsterParameters" : {
       "aggressive" : true
     }
@@ -65,7 +65,7 @@
     },
 
     "spawnChance" : 0.001,
-    "monsterType" : "cnslargefishBoss",
+    "monsterType" : "cnslargefishboss",
     "monsterParameters" : {
       "aggressive" : true
     }

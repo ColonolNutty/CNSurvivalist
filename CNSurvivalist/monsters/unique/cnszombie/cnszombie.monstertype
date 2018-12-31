@@ -1,20 +1,14 @@
 {
-  "type" : "cnslargebipedboss",
+  "type" : "cnszombie",
 
-  "categories" : [ "largebiped" ],
-  "parts" : [ "arms", "chest", "tail", "head" ],
-  "partParameters" : "largebiped.partparams",
+  "categories" : [ "cnszombie" ],
+  "parts" : [ "arms", "body", "tail", "head" ],
+  "partParameters" : "cnszombie.partparams",
 
-  "animation" : "largebiped.animation",
+  "animation" : "cnszombie.animation",
   "reversed" : true,
 
-  "dropPools" : [
-    {
-      "default" : "minibosstreasure",
-      "bow" : "minibosstreasure",
-      "brain" : "brain"
-    }
-  ],
+  "dropPools" : [ "cnszombieTreasure" ],
 
   "baseParameters" : {
     "scripts" : [
@@ -28,6 +22,7 @@
 
       "targetQueryRange" : 400,
       "targetOnDamage" : true,
+      "targetEntityTypes" : [ "player", "npc", "monster" ],
       "keepTargetInSight" : true,
       "keepTargetInRange" : 60,
       "targetOutOfSightTime" : 5,
@@ -49,7 +44,6 @@
           }
         }
       ],
-	  
 	  "followActions" : [		
         {		
           "name" : "approach-teleport",		
@@ -76,15 +70,14 @@
           "name" : "wander-walk",
           "cooldown" : 6.0,
           "parameters" : {
-            "wanderTime" : [3, 9]
+            "wanderTime" : [5, 15]
           }
         }
       ]
     },
 
-    "skillCount" : 1,
-    "baseSkills" : [ "chargeAttack", "pounceAttack" ],
-    //"specialSkills" : [ "shockingWaveAttack", "staticDischargeAttack", "bubbleBlastAttack", "waterGunAttack", "burninghaloAttack", "gasBelchAttack", "rainbowVomitAttack", "shockingBoltAttack", "plasmaTorpedoAttack", "eyeballSprayAttack", "bloodVomitAttack", "acidicSpitAttack", "fireballAttack", "icerockShotAttack", "doubleBarbSprayAttack", "miniDragonBreathAttack", "acidSprayAttack", "beamBurstAttack", "plasmaSweepAttack", "eyeballShotAttack", "glitterAttack", "darkGravityBallAttack", "fireSwirlAttack", "rockRollAttack", "iceBlastAttack", "snotBubbleAttack", "leafyGustAttack", "mudBallAttack", "lightBallAttack", "shardSprayAttack", "blueFlameAttack", "smokeRingAttack", "putridWaveAttack", "boneRainAttack", "orbOfZotsAttack", "snotShotAttack", "fishBreathAttack", "explosivePhlegmAttack", "cellBlastAttack" ],
+    "skillCount" : 0,
+    "baseSkills" : [ ],
 
     "knockoutTime" : 0.1,
     "knockoutEffect" : "blink",
@@ -92,35 +85,34 @@
       "damage" : "stunned"
     },
     "deathParticles" : "deathPoof",
-	
-	"colors" : "generated",
-    "scale" : 2.0,
+
+    "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-1.6, -4.4], [-0.8, -5.2], [0.8, -5.2], [1.6, -4.4], [1.6, 0.2], [0.8, 1.0], [-0.8, 1.0], [-1.6, 0.2] ],
-      "mass" : 1.6,
-      "walkSpeed" : 3.0,
-      "runSpeed" : 11.0
+      "collisionPoly" : [ [-0.8, -2.2], [-0.4, -2.6], [0.4, -2.6], [0.8, -2.2], [0.8, 0.1], [0.4, 0.5], [-0.4, 0.5], [-0.8, 0.1] ],
+      "mass" : 0.6,
+      "walkSpeed" : 2,
+      "runSpeed" : 2.0
     },
 
-    "metaBoundBox" : [-5.0, -5.0, 5.0, 5.0],
+    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
 
     "touchDamage" : {
-      "poly" : [ [-2, -5.2], [2, -5.2], [2, 0], [-2, 0] ],
-      "damage" : 30,
+      "poly" : [ [-1.5, -3.9], [1.5, -3.9], [1.5, 0.85], [-1.5, 0.85] ],
+      "damage" : 40,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
       "statusEffects" : [ ]
     },
+	"colors" : "generated",
 
     "statusSettings" : {
       "statusProperties" : {
         "targetMaterialKind" : "organic"
       },
-
-      "appliesWeatherStatusEffects" : true,
-	  "appliesEnvironmentStatusEffects" : false,
+	  "appliesWeatherStatusEffects" : false,
+      "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
       "primaryScriptSources" : [
@@ -129,29 +121,29 @@
       "primaryScriptDelta" : 5,
 
       "stats" : {
-        "knockbackStunTime" : {
-          "baseValue" : 0.25
-        },
-        "knockbackThreshold" : {
-          "baseValue" : 9
-        },
         "maxHealth" : {
-          "baseValue" : 300
+          "baseValue" : 100
         },
         "maxShield" : {
           "baseValue" : 0.0
         },
         "protection" : {
-          "baseValue" : 2.0
+          "baseValue" : 1.0
+        },
+        "knockbackStunTime" : {
+          "baseValue" : 0.1
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 5
         },
         "healthRegen" : {
           "baseValue" : 0.0
         },
         "shieldRegen" : {
           "baseValue" : 0.0
-        },		
-        "powerMultiplier" : {		
-          "baseValue" : 1.0		
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
         }
       },
 
@@ -173,7 +165,7 @@
       }
     },
 
-    "mouthOffset" : [0.5, 0.5],
+    "mouthOffset" : [0, 0],
     "feetOffset" : [0, -21],
 	"capturable" : false
   }

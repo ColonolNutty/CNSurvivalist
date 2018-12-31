@@ -1,0 +1,9 @@
+{
+  "name" : "cnsinvistail",
+  "category" : "cnsinvis_organic",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "cnsinvistail.png"
+  }
+}

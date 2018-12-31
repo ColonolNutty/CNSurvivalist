@@ -1,0 +1,12 @@
+{
+  "name" : "cnsinvishead",
+  "category" : "cnsinvis_organic",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "cnsinvishead.png"
+  },
+
+  "parameters" : { }
+}
+
