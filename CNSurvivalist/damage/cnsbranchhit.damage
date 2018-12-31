@@ -8,7 +8,7 @@
           [
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -131,7 +131,7 @@
           [
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -144,7 +144,7 @@
               "layer" : "middle"
             },
 
-			
+
             {
               "type" : "ember",
               "size" : 1.0,
@@ -552,7 +552,7 @@
         ]
       }
     },
-	
+
     "robotic" : {
       "hit" : {
         "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
@@ -560,7 +560,7 @@
           [
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitspark.animation",
               "size" : "1",
               "angularVelocity" : 0,
               "fade" : 1,
@@ -677,7 +677,7 @@
           [
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitspark.animation",
               "size" : "1",
               "angularVelocity" : 0,
               "fade" : 1,
@@ -1082,7 +1082,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -1206,7 +1206,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/2hswordhitspark/2hswordhitspark.animation",
+              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
