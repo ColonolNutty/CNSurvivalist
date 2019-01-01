@@ -7,9 +7,6 @@
     { "item" : "coralfragment", "count" : 20 },
     { "item" : "paper", "count" : 50 }
   ],
-  "output" : {
-    "item" : "cnsmatterbook3",
-    "count" : 1
-  },
+  "output" : { "item" : "cnsmatterbook3", "count" : 1 },
   "groups" : [ "cnstelescope" ]
 }

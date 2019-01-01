@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "cobblestonematerial", "count" : 20 },
+      { "item" : "mud", "count" : 4 },
+      { "item" : "cnscampfirelarge", "count" : 1 },
+      { "item" : "money", "count" : 50 }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/groups/-",
+    "value" : "plain"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 25 },
+    { "item" : "plantfibre", "count" : 10 },
+    { "item" : "money", "count" : 150 }
+  ],
+  "output" : { "item" : "quiverback", "count" : 1 },
+  "groups" : [ "cnssimplecraft", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "cnsgascanempty", "count" : 1},
+	{ "item" : "cnsgas", "count" : 5}
+  ],
+  "output" : { "item" : "cnsgascanfull", "count" : 1 },
+  "groups" : [ "cnsgastank" ]
+}

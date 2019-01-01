@@ -1,12 +1,14 @@
 [
   {
-    "op": "add",
-    "path": "/groups/-",
-    "value": "plain"
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "darkwoodmaterial", "count" : 50 }
+    ]
   },
   {
-    "op": "add",
-    "path": "/input/-",
-    "value": { "item" : "money", "count" : 20 }
+    "op": "replace",
+    "path": "/groups",
+    "value": [ "cnssimplecraft", "farming" ]
   }
 ]

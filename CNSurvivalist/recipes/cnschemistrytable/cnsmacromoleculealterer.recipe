@@ -4,9 +4,6 @@
     { "item" : "yellowstim", "count" : 3 },
     { "item" : "cnsmonsterheart", "count" : 5 }
   ],
-  "output" : {
-    "item" : "cnsmacromoleculealterer",
-    "count" : 1
-  },
+  "output" : { "item" : "cnsmacromoleculealterer", "count" : 1 },
   "groups" : [ "cnschemistrytable", "foodglow", "foodmobility", "foodhealing", "foodother" ]
 }

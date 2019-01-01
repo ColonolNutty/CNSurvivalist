@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "fullwood1", "count" : 1 },
+      { "item" : "coalore", "count" : 1 },
+      { "item" : "money", "count" : 1 }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/output/count",
+    "value" : 1
+  }
+]

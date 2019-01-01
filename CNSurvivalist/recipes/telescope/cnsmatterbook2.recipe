@@ -4,9 +4,6 @@
     { "item" : "goldore", "count" : 30 },
     { "item" : "paper", "count" : 25 }
   ],
-  "output" : {
-    "item" : "cnsmatterbook2",
-    "count" : 1
-  },
+  "output" : { "item" : "cnsmatterbook2", "count" : 1 },
   "groups" : [ "cnstelescope" ]
 }

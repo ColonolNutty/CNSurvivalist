@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cnsfabriccotton", "count" : 20 },
+	{ "item" : "bluedye", "count" : 4 },
+	{ "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "cnsbeaniebluehead", "count" : 1 },
+  "groups" : [ "cnstailor", "all" ]
+}

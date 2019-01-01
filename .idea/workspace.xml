@@ -2,80 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/woodenteleporter.recipe.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun1/cnsshotgun1.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun1/cnsshotgun1.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun2/cnsshotgun2.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun2/cnsshotgun2.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun3/cnsshotgun3.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsshotgun3/cnsshotgun3.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper3/cnssniper3.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper3/cnssniper3.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/cnspinkbeanie.head" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/cnspinkbeanie.head" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadeshockfire/cnsgrenadeshockfire.thrownitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsgrenadeshockfire/cnsgrenadeshockfire.thrownitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/puff2c.particle" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/cnspuff2c.particle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/rain/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/rain/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/particles/rain/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsdynamiteexplosion.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/bombblockexplosion/cnsfirecrackerexplosion.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/deathbowexplosion/deathbowexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdeathbowexplosion/cnsdeathbowexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/invasionexplosion/invasionexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/stoneshower/stoneshower.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/woodexplosion/cnswoodexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnswoodexplosion/cnswoodexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebulleticon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/shockfirebullet.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/shockfirebullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shockfirebullet/shockfirebullet/shockfirebullet.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/icon.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunicon.xcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullets.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/shotgun/shotgunbullets.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.xcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/icon2CNS.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishoticon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/trishot2CNS.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/trishot2CNS.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/trishot2/trishot2CNS.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrow.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrow.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrow.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrow.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/unsorted/killerarrow/cnskillerarrowicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/arrows/cnskillerarrow/cnskillerarrowicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/invisibleprojectile2/invisibleprojectile2.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsinvisibleprojectile/cnsinvisibleprojectile.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/invisibleprojectile2/invisibleprojectile2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsinvisibleprojectile/cnsinvisibleprojectile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/invisibleprojectile2/invisibleprojectile2.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsinvisibleprojectile/cnsinvisibleprojectile.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/material/stoneblockprojectile.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/material/cnsstoneblockprojectile.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawnericon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/stoneblockspawner.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawner.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/stoneblockspawner.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/stoneblockspawner/stoneblockspawner.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/cnsstoneblockspawner/cnsstoneblockspawner.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszdynamite.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszdynamite/cnszdynamite.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszdynamite.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszdynamite/cnszdynamite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszdynamite.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszdynamite/cnszdynamite.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszfirecracker.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszfirecracker/cnszfirecracker.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszfirecracker.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszfirecracker/cnszfirecracker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnszfirecracker.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszfirecracker/cnszfirecracker.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnsznormgrenade.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenade/cnszgrenade.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnsznormgrenade.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenade/cnszgrenade.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/bomb/cnsznormgrenade.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenade/cnszgrenade.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/lightningnade/cnszlightningnade.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenadeshockfire/cnszgrenadeshockfire.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/lightningnade/cnszlightningnade.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenadeshockfire/cnsgrenadeshockfire.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/lightningnade/cnszlightningnade.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszgrenadeshockfire/cnszgrenadeshockfire.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/throwfirewood/cnszthrowfirewood.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszburningwood/cnszburningwood.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/throwfirewood/cnszthrowfirewood.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszburningwood/cnszburningwood.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/throwfirewood/cnszthrowfirewood.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/throwable/cnszburningwood/cnszburningwood.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/invasion/invasionmeteor/invasionmeteor.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/invasion/invasionmeteor/smallmeteor.frames" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.frames" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/invasion/invasionmeteor/smallmeteor.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/throwstone/cnszthrowstone.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/throwstone/cnszthrowstone.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsbeaniepink.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsbeaniepink.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/weather/invasionmeteorshower/invasionmeteorshower.weather" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/weather/invasionmeteorshower/invasionmeteorshower.weather" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbluebeanie/cnsbluebeanie.head" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeanieblue/cnsbeanieblue.head" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbluebeanie/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeanieblue/head.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbluebeanie/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeanieblue/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbluebeanie/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeanieblue/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/cnspinkbeanie.head" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeaniepink/cnsbeaniepink.head" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeaniepink/head.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeaniepink/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnspinkbeanie/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeaniepink/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/gasstuff/cnsgasliquid.item" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/gasstuff/cnsgas.item" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/gasstuff/cnsgasliquid.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/gasstuff/cnsgas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/player.config.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/player.config.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnslightningnade.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsgrenadeshockfire.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsnormgrenade.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/armory/cnsgrenade.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/cnsbiomassgen/cnsgas.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnsbiomassgen/cnsgasliquid.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/cnsmacromoleculealterer.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/cnsmacromoleculealterer.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/grassremedy.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/cnsgrassremedy.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/shroomremedy.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/cnsremedyshroom.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/synthesisstim.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/cnssynthesisstim.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/cnsgastank/cnsfullgascan.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnsgastank/cnsgascanfull.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/bandageplantCNS.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsbandageplant.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/bow.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsbow.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnslargefire.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnscampfirelarge.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnssurvivalbushjacket.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnssurvivalbushchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsthrowfirewood.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsburningwood.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsthrowstone.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsthrowablestone.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/fullwood1.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsfullwood1.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/hoe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnshoe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/inventorstable.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/inventorstable.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/pickaxe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnspickaxe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/torch.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/torch.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/farmtable1/farming/woodenwateringcan.recipe.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/farmtable1/farming/woodenwateringcan.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/furnace3/ingredients/wire.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/furnace3/ingredients/wire.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnsftldrive.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnsftldrivechip.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/ironanvil.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftinganvil.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable1/buffs/yellowstim.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable1/buffs/yellowstim.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable2/buffs/greenstim.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable2/buffs/greenstim.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/simplecraft/cnsdeathbow.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnssimplecraft/cnsdeathbow.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/simplecraft/cnstelescope.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnssimplecraft/cnstelescope.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/simplecraft/woodenwateringcan.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/deatharmor/cnsdeathchest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsdeatharmor/cnsdeatharmorchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/deatharmor/cnsdeathhelmet.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsdeatharmor/cnsdeatharmorhelmet.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/deatharmor/cnsdeathpants.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsdeatharmor/cnsdeatharmorpants.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsbeanieblue.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsbeanieblue.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsbeaniepink.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsbeaniepink.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsleatherbandana.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsleatherbandana.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsmilitarycap.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsmilitarycap.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsnavycap.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsnavycap.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsredbandana.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsredbandana.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/leatheroutfit/cnsleatherjacket.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsleatheroutfit/cnsleatheroutfitchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/leatheroutfit/cnsleatherpants.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsleatheroutfit/cnsleatheroutfitpants.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/military/cnsmilitarychest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsmilitaryarmor/cnsmilitaryarmorchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/military/cnsmilitarylegs.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsmilitaryarmor/cnsmilitaryarmorlegs.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/military/cnsshades.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsmilitaryarmor/cnsmilitaryarmorhead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/navyarmor/cnsnavychest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsnavyarmor/cnsnavyarmorchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/navyarmor/cnsnavypants.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsnavyarmor/cnsnavyarmorpants.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/backs/cnscamelbak.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnscamelbak.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/backs/cnslanternstickback.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnslanternstickback.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/backs/cnsquiverback.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsquiverback.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/backs/cnsturtleshellback.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsturtleshellback.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/backs/oxygentank.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsoxygentank.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/backs/parachutepack.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsparachutepack.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatback.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/hazmat/cnshazmatback.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatchest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/hazmat/cnshazmatchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmathead.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/hazmat/cnshazmathead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/hazmat/hazmatlegs.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/hazmat/cnshazmatlegs.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorchest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/icearmor/cnsicearmorchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorhead.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/icearmor/cnsicearmorhead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/icearmor/cnsicearmorlegs.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/icearmor/cnsicearmorlegs.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/rock/cnsrockchest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/rock/cnsrockchest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/rock/cnsrockhead.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/rock/cnsrockhead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/rock/cnsrocklegs.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/rock/cnsrocklegs.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/snowinfantry/snowinfantrychest.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/snowinfantry/snowinfantrychest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/snowinfantry/snowinfantryhead.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/snowinfantry/snowinfantryhead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/other/snowinfantry/snowinfantrylegs.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/snowinfantry/snowinfantrylegs.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/shadow/cnsshadowsgarb.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsshadows/cnsshadowschest.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/shadow/cnsshadowshood.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsshadows/cnsshadowshead.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/shadow/cnsshadowspants.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsshadows/cnsshadowspants.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/stoneteleporter.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/stoneteleporter.recipe.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/woodenteleporter.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +114,14 @@
           <entry key="chest" value="14" />
           <entry key="codex" value="2" />
           <entry key="config" value="7" />
-          <entry key="consumable" value="9" />
+          <entry key="consumable" value="10" />
           <entry key="flashlight" value="1" />
           <entry key="frames" value="13" />
           <entry key="harvestingtool" value="1" />
-          <entry key="head" value="20" />
+          <entry key="head" value="21" />
           <entry key="item" value="26" />
           <entry key="legs" value="11" />
-          <entry key="lua" value="8" />
+          <entry key="lua" value="10" />
           <entry key="miningtool" value="2" />
           <entry key="monsterpart" value="19" />
           <entry key="monstertype" value="14" />
@@ -118,9 +129,11 @@
           <entry key="parallax" value="14" />
           <entry key="particle" value="1" />
           <entry key="partparams" value="5" />
-          <entry key="patch" value="18" />
+          <entry key="patch" value="37" />
           <entry key="png" value="52" />
           <entry key="projectile" value="8" />
+          <entry key="questtemplate" value="1" />
+          <entry key="recipe" value="82" />
           <entry key="statuseffect" value="2" />
           <entry key="thrownitem" value="5" />
           <entry key="txt" value="2" />
@@ -130,10 +143,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="52" />
-          <entry key="JSON" value="197" />
-          <entry key="Lua" value="6" />
+          <entry key="JSON" value="280" />
+          <entry key="Lua" value="8" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="PLAIN_TEXT" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -156,44 +169,63 @@
           <entry key="monstertype" value="15" />
           <entry key="object" value="553" />
           <entry key="parallax" value="73" />
-          <entry key="patch" value="10" />
+          <entry key="patch" value="186" />
           <entry key="projectile" value="33" />
-          <entry key="recipe" value="7" />
+          <entry key="recipe" value="55" />
           <entry key="thrownitem" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1546" />
+          <entry key="JSON" value="1767" />
           <entry key="PATCH" value="3" />
-          <entry key="PLAIN_TEXT" value="209" />
+          <entry key="PLAIN_TEXT" value="212" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/stoneteleporter.recipe.patch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hostile</find>
-      <find>slime</find>
-      <find>icy</find>
-      <find>unknown</find>
-      <find>paral</find>
-      <find>divider/alienrock</find>
-      <find>slimefront</find>
-      <find>slimerock</find>
-      <find>iceback</find>
-      <find>puff2c</find>
-      <find>dynamiteexplosion</find>
-      <find>bombblockexplosion</find>
       <find>deathbowexplosion</find>
       <find>invasionexplosion</find>
       <find>stoneshower</find>
@@ -212,14 +244,20 @@
       <find>cnszthrowfirewood</find>
       <find>smallmeteor</find>
       <find>invasion</find>
+      <find>grenadezbomb</find>
+      <find>throwstone</find>
+      <find>cnsurvival4</find>
+      <find>cnsurvival</find>
+      <find>lightning</find>
+      <find>shroomremedy</find>
+      <find>synthesisstim</find>
+      <find>cnsgasliquid</find>
+      <find>cnsftldrive</find>
+      <find>cnspinkbeaniehead</find>
+      <find>headhead</find>
+      <find>cnsredbandanahead</find>
     </findStrings>
     <replaceStrings>
-      <replace>cnsorganicpit</replace>
-      <replace>cnsceilingspike1</replace>
-      <replace>ceilingspike1</replace>
-      <replace>cnsleftspike1</replace>
-      <replace>cnsrightspike1</replace>
-      <replace>cnsbone</replace>
       <replace>greenback</replace>
       <replace>cnsbones</replace>
       <replace>cnshostile</replace>
@@ -244,6 +282,12 @@
       <replace>cnszburningwood</replace>
       <replace>cnsinvasionmeteor</replace>
       <replace>cnssmallmeteor</replace>
+      <replace>throwablestone</replace>
+      <replace>cnssurvival4</replace>
+      <replace>cnssurvival</replace>
+      <replace>cnsgas</replace>
+      <replace>cnsbeaniepinkhead</replace>
+      <replace>cnsnavycaphead</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations\cnsbloodextraspraydown</dir>
@@ -276,26 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsburningwood/cnsburningwood.thrownitem" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/throwables/cnsthrowablestone/cnsthrowablestone.thrownitem" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsmininglantern.flashlight" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsstoneaxe.harvestingtool" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/largeflying/cnslargeflyingboss.monstertype" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largebiped/cnslargebipedboss.monstertype" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largequadruped/cnslargequadrupedboss.monstertype" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/generated/swimming/largefish/cnslargefishboss.monstertype" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/invis/organic/arms/invisarms/cnsinvisarms.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/organic/arms/invisarms/cnsinvisarms.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/organic/body/cnstentaclecometsporechest.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometsporechest.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometspore.monstertype" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/body.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.monstertype" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/body.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/arms/cnszombiearms/cnszombiearms.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody/cnszombiebody.monsterpart" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody2/cnszombiebody2.monsterpart" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/head/cnszombiehead/cnszombiehead.monsterpart" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/tail/cnszombietail/cnszombietail.monsterpart" />
@@ -327,6 +351,26 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.projectile" />
         <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.projectile" />
         <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/material/cnsstoneblockprojectile.projectile" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/cnschemistrytable/cnsmacromoleculealterer.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/cnsgastank/cnsgascanfull.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/inventorstable.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/torch.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/furnace3/ingredients/wire.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftinganvil.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable1/buffs/yellowstim.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable2/buffs/greenstim.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/cnssimplecraft/cnsdeathbow.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/cnssimplecraft/woodenwateringcan.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/farmtable1/farming/woodenwateringcan.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsbeanieblue.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/tailor/headonly/cnsnavycap.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsquiverback.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/woodenteleporter.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/stoneteleporter.recipe.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe" />
       </list>
     </option>
   </component>
@@ -359,31 +403,90 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="armors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="cnsinvasion" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="armors" type="462c0819:PsiDirectoryNode" />
+              <item name="headonly" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="cnsinvasion" type="462c0819:PsiDirectoryNode" />
-              <item name="cnssmallmeteor" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="armors" type="462c0819:PsiDirectoryNode" />
+              <item name="headonly" type="462c0819:PsiDirectoryNode" />
+              <item name="cnsbeanieblue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="armors" type="462c0819:PsiDirectoryNode" />
+              <item name="headonly" type="462c0819:PsiDirectoryNode" />
+              <item name="cnsbeaniepink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="medicaltable1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="medicaltable1" type="462c0819:PsiDirectoryNode" />
+              <item name="buffs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="spinningwheel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="spinningwheel" type="462c0819:PsiDirectoryNode" />
+              <item name="ingredients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="teleporterstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="telescope" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,11 +500,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\generic\other" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\objects\generic\minibiome\barren\cnsunknownore" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\objects\generic\minibiome\barren\cnsgoldchunk" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\objects\generic\minibiome\bonepile" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnszombie\tail\cnszombietail" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnszombie\head\cnszombiehead" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\throwable\cnszfirecracker" />
@@ -464,286 +567,246 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/cnscampfirelarge/cnscampfirelarge.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/cnsgapahuk/cnsgapahuk.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/barren/cnsgoldchunk/cnscapsulemedicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/barren/cnsgoldchunk/cnsgoldchunk.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/barren/cnsgoldchunk/cnsgoldchunk.frames">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsstonemace.recipe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/ice/cnsfrozendia/cnsfrozendia.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsstoneaxe.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/ice/cnsfrozendia/cnsfrozendiaicon.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnssimplecraft.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/barren/cnsunknownore/cnsunknownore.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/barren/cnsgoldchunk/cnsgoldchunk.object">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/torch.recipe.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <caret line="15" column="1" lean-forward="true" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/bonepile/cnsbonepile.object">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnsarmory.recipe">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/ice/cnsfrozendia/cnsfrozendia.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/cnsorganicpit/cnsorganicpit.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/sapling/sapling.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/generic/torch/torch.object.patch">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnsftldrivechip.recipe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/obstacles/arid/cnsceilingspike1/cnsceilingspike1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/obstacles/arid/groundspike1/groundspike1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/obstacles/arid/cnsleftspike1/cnsleftspike1.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/obstacles/arid/cnsrightspike1/cnsrightspike1.object">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/spawner/techstation.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/teleporter/scienceteleporter/scienceteleporter.object.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/alien.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" lean-forward="true" selection-end-line="254" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/arctic.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/wired/light/cnstimedlight.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/tentacles.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="241" column="5" lean-forward="true" selection-end-line="254" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/volcanic.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" lean-forward="true" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/scorched.parallax.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsslime.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="true" selection-end-line="248" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenback/base/4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsbones.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="99" column="27" lean-forward="true" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/images/cnsgreenfront/base/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsunknown.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsicy.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnshostile.parallax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/particles/explosions/deathpoof/cnspuff2c.particle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/particles/rain/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.projectile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdeathbowexplosion/cnsdeathbowexplosion.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsstoneshower/cnsstoneshower.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnstrishot/cnstrishot.projectile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshockfirebullet/cnsshockfirebullet.projectile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/guns/bullets/cnsshotgunbullet/cnsshotgunbullet.projectile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/material/cnsstoneblockprojectile.projectile">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftinganvil.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/furnace3/ingredients/wire.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable2/radiationprotectionback.recipe.patch">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable3/coldprotectionback.recipe.patch">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable3/heatprotectionback.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/inventorstable.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable2/buffs/greenstim.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnssimplecraft/cnsdeathbow.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnssimplecraft/cnswoodenwateringcan.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/farmtable1/farming/woodenwateringcan.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/spinningwheel/ingredients/cnscottonfabric.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsdeatharmor/cnsdeatharmorchest.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/headonly/cnsbeaniepink/cnsbeaniepink.head">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsbeaniepink.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsleatherbandana.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsmilitarycap.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsnavycap.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsredbandana.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/headonly/cnsbeanieblue.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsleatheroutfit/cnsleatheroutfitchest.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsleatheroutfit/cnsleatheroutfitpants.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsmilitaryarmor/cnsmilitaryarmorchest.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsmilitaryarmor/cnsmilitaryarmorhead.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnscamelbak.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnslanternstickback.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsquiverback.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsturtleshellback.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsoxygentank.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/backs/cnsparachutepack.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/hazmat/cnshazmatback.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/icearmor/cnsicearmorchest.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/rock/cnsrockchest.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/other/snowinfantry/snowinfantrychest.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsshadows/cnsshadowschest.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsshadows/cnsshadowshead.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsshadows/cnsshadowspants.recipe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cookingtable1/sides/bread.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cookingtable1/sides/corncob.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/woodenteleporter.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="true" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable1/buffs/yellowstim.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/stoneteleporter.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
