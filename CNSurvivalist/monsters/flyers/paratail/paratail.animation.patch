@@ -17,7 +17,7 @@
 	{
 		"op": "replace",
 		"path": "/sounds/aggroHop",
-		"value": [ "/sfx/npc/birds/bird4.ogg" ]
+		"value": [ "/sfx/npc/cnsbirds/cnsbird4.ogg" ]
 	},
 	{
 		"op": "replace",

@@ -17,7 +17,7 @@
 	{
 		"op": "replace",
 		"path": "/sounds/aggroHop",
-		"value": [ "/sfx/npc/quadruped/scaveran_attack.ogg" ]
+		"value": [ "/sfx/npc/quadruped/cnsscaveran_attack.ogg" ]
 	},
 	{
 		"op": "replace",

@@ -8,7 +8,7 @@
 		"op": "replace",
 		"path": "/onShowSound",
 		"value": [
-			"/sfx/interface/newquest.ogg"
+			"/sfx/interface/cnsnewquest.ogg"
 		]
 	},
 	{

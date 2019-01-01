@@ -12,17 +12,17 @@
 	{
 		"op": "replace",
 		"path": "/pickupSoundsSmall",
-		"value":  [ "/sfx/objects/survivalpoints.ogg" ]
+		"value":  [ "/sfx/objects/cnssurvivalpoints.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/pickupSoundsMedium",
-		"value":  [ "/sfx/objects/survivalpoints.ogg" ]
+		"value":  [ "/sfx/objects/cnssurvivalpoints.ogg" ]
 	},
 	{
 		"op": "replace",
 		"path": "/pickupSoundsLarge",
-		"value":  [ "/sfx/objects/survivalpoints.ogg" ]
+		"value":  [ "/sfx/objects/cnssurvivalpoints.ogg" ]
 	},
 	{
 		"op": "replace",

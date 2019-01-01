@@ -84,5 +84,5 @@
   "duration" : [50, 400],  
   "maximumWind" : 40.0,
 
-  "weatherNoises" : [ "/sfx/weather/fogstorm.ogg" ]
+  "weatherNoises" : [ "/sfx/weather/cnsfogstorm.ogg" ]
 }
