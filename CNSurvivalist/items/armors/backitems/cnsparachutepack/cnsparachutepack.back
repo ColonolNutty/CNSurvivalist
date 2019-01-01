@@ -14,7 +14,7 @@
 
   "statusEffects" : [
     "lowgrav",
-    "encumbered2",
+    "cnsencumbered2",
     "nofalldamage"
   ],
 

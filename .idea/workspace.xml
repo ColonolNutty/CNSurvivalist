@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/spawntypes/miniboss.spawntypes" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/spawntypes/cnsminiboss.spawntypes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepack.back" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepack.back" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/turtleshell/turtleshell.back.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/turtleshell/turtleshell.back.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/decorative/costumes/rock/rock.chest.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/decorative/costumes/rock/rock.chest.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/decorative/costumes/rock/rock.head.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/decorative/costumes/rock/rock.head.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/decorative/costumes/rock/rock.legs.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/decorative/costumes/rock/rock.legs.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/generic/other/cnsbandageplant.consumable" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/generic/other/cnsbandageplant.consumable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/generic/other/cnsmonsterskin.consumable" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/generic/other/cnsmonsterskin.consumable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/largeflying/cnslargeflyingboss.monstertype" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/flying/largeflying/cnslargeflyingboss.monstertype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largebiped/cnslargebipedboss.monstertype" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largebiped/cnslargebipedboss.monstertype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largequadruped/cnslargequadrupedboss.monstertype" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/ground/largequadruped/cnslargequadrupedboss.monstertype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/swimming/largefish/cnslargefishboss.monstertype" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/generated/swimming/largefish/cnslargefishboss.monstertype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometspore.monstertype" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometspore.monstertype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.monstertype" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.monstertype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage.animation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS.lua" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS1.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage1.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS2.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage2.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS3.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage3.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS4.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage4.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS5.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage5.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/bandage/bandageCNS6.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage6.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/encumbered/encumbered.lua" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsencumbered/cnsencumbered.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/encumbered/encumbered.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsencumbered/cnsencumbered.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/encumbered2/encumbered2.lua" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsencumbered2/cnsencumbered2.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/encumbered2/encumbered2.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsencumbered2/cnsencumbered2.statuseffect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.animation.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.statuseffect" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.statuseffect.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/stats/spawnpoop_on_eat.lua" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/stats/cnsspawnpoop_on_eat.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/treasure/monster.treasurepools.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/treasure/monster.treasurepools.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/treasure/smashable.treasurepools.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/treasure/smashable.treasurepools.patch" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="activeitem" value="1" />
-          <entry key="animation" value="9" />
+          <entry key="animation" value="10" />
           <entry key="back" value="5" />
           <entry key="biome" value="2" />
           <entry key="chest" value="14" />
@@ -37,7 +67,7 @@
           <entry key="head" value="21" />
           <entry key="item" value="26" />
           <entry key="legs" value="11" />
-          <entry key="lua" value="10" />
+          <entry key="lua" value="15" />
           <entry key="miningtool" value="2" />
           <entry key="monsterpart" value="19" />
           <entry key="monstertype" value="14" />
@@ -45,13 +75,13 @@
           <entry key="parallax" value="14" />
           <entry key="particle" value="1" />
           <entry key="partparams" value="5" />
-          <entry key="patch" value="37" />
+          <entry key="patch" value="46" />
           <entry key="png" value="52" />
           <entry key="projectile" value="8" />
           <entry key="questtemplate" value="1" />
           <entry key="recipe" value="82" />
           <entry key="spawntypes" value="1" />
-          <entry key="statuseffect" value="2" />
+          <entry key="statuseffect" value="3" />
           <entry key="thrownitem" value="5" />
           <entry key="txt" value="2" />
           <entry key="weaponability" value="2" />
@@ -60,10 +90,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="52" />
-          <entry key="JSON" value="280" />
-          <entry key="Lua" value="8" />
+          <entry key="JSON" value="290" />
+          <entry key="Lua" value="13" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -86,45 +116,27 @@
           <entry key="monstertype" value="15" />
           <entry key="object" value="553" />
           <entry key="parallax" value="73" />
-          <entry key="patch" value="186" />
+          <entry key="patch" value="480" />
           <entry key="projectile" value="33" />
           <entry key="recipe" value="55" />
+          <entry key="statuseffect" value="1" />
           <entry key="thrownitem" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1767" />
+          <entry key="JSON" value="2061" />
           <entry key="PATCH" value="3" />
-          <entry key="PLAIN_TEXT" value="212" />
+          <entry key="PLAIN_TEXT" value="213" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/spawntypes/cnsminiboss.spawntypes">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lightning</find>
-      <find>shroomremedy</find>
-      <find>synthesisstim</find>
-      <find>cnsgasliquid</find>
-      <find>cnsftldrive</find>
-      <find>cnspinkbeaniehead</find>
-      <find>headhead</find>
-      <find>cnsredbandanahead</find>
-      <find>plasmaexplosion2</find>
-      <find>rifle1</find>
-      <find>sniper1</find>
-      <find>stonehit</find>
-      <find>newquest</find>
       <find>quest_event</find>
       <find>hitground</find>
       <find>invasion</find>
@@ -142,18 +154,21 @@
       <find>brokennav</find>
       <find>fogstorm</find>
       <find>snowstorm</find>
+      <find>miniboss</find>
+      <find>apexmutant</find>
+      <find>bandageCNS</find>
+      <find>bandagecns</find>
+      <find>encumbered</find>
+      <find>encumbered2</find>
+      <find>cnsparachute</find>
+      <find>spawnpoop_on_eat</find>
+      <find>minibosstreasure</find>
+      <find>sporemonstertreasure</find>
+      <find>cnssporemonstertreasure</find>
+      <find>cnstentaclecometsporetreasure</find>
+      <find>cnsminibosstreasure</find>
     </findStrings>
     <replaceStrings>
-      <replace>cnstrishot</replace>
-      <replace>cnskillerarrow</replace>
-      <replace>cnsinvisibleprojectile</replace>
-      <replace>cnsstoneblockprojectile</replace>
-      <replace>cnsstoneblockspawner</replace>
-      <replace>cnszgrenadeshockfire</replace>
-      <replace>cnszburningwood</replace>
-      <replace>cnsinvasionmeteor</replace>
-      <replace>cnssmallmeteor</replace>
-      <replace>throwablestone</replace>
       <replace>cnssurvival4</replace>
       <replace>cnssurvival</replace>
       <replace>cnsgas</replace>
@@ -174,6 +189,16 @@
       <replace>cnssurvivalpoints</replace>
       <replace>cnsfogstorm</replace>
       <replace>cnssnowstorm</replace>
+      <replace>cnsminiboss</replace>
+      <replace>cnsbandage</replace>
+      <replace>cnsencumbered</replace>
+      <replace>cnsencumbered2</replace>
+      <replace>cnsspawnpoop_on_eat</replace>
+      <replace>cnsminibosstreasure</replace>
+      <replace>cnssporemonstertreasure</replace>
+      <replace>cnstentaclecometsporetreasure</replace>
+      <replace>cnstentaclecometsporeTreasure</replace>
+      <replace>cnsminibossTreasure</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations\cnsbloodextraspraydown</dir>
@@ -206,11 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody2/cnszombiebody2.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/head/cnszombiehead/cnszombiehead.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/tail/cnszombietail/cnszombietail.monsterpart" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/cnszombie.monstertype" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsbiomassgenerator/cnsbiomassgen.object" />
         <option value="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsbiomassgenerator/cnsbiomassgenerator.object" />
         <option value="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnschemistrytable/cnschemistrytable.object" />
         <option value="$PROJECT_DIR$/CNSurvivalist/objects/crafting/cnsgastank/cnsgastank.object" />
@@ -257,6 +277,11 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe" />
         <option value="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe" />
         <option value="$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.animation.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.statuseffect" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.statuseffect.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/treasure/smashable.treasurepools.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/treasure/monster.treasurepools.patch" />
       </list>
     </option>
   </component>
@@ -289,46 +314,14 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="armors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="armors" type="462c0819:PsiDirectoryNode" />
-              <item name="headonly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="armors" type="462c0819:PsiDirectoryNode" />
-              <item name="headonly" type="462c0819:PsiDirectoryNode" />
-              <item name="cnsbeanieblue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="armors" type="462c0819:PsiDirectoryNode" />
-              <item name="headonly" type="462c0819:PsiDirectoryNode" />
-              <item name="cnsbeaniepink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="spawntypes" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="fogweather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,66 +401,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsstoneaxe.recipe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnssimplecraft.recipe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/torch.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnsarmory.recipe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnsftldrivechip.recipe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftinganvil.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/furnace3/ingredients/wire.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable2/radiationprotectionback.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable3/coldprotectionback.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable3/heatprotectionback.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/inventorstable.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable2/buffs/greenstim.recipe.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -646,8 +579,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/spawntypes/uniques.spawntypes.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/spawntypes/cnsminiboss.spawntypes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/species/apex.species.patch">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/stats/effects/cnsbandage/cnsbandage.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/stats/player/stat_primary.animation.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.statuseffect.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/stats/effects/lowgrav/lowgrav.animation.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/stats/cnsspawnpoop_on_eat.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/treasure/smashable.treasurepools.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/treasure/shiplocker.treasurepools.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/treasure/monster.treasurepools.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/treasure/hunting.treasurepools.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/treasure/cropharvest.treasurepools.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11158">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

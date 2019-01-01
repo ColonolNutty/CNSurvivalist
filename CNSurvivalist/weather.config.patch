@@ -31,9 +31,9 @@
 		"op": "replace",
 		"path": "/garden",
 		"value": [
-			[0.05, "fogweatherstone"],
+			[0.05, "cnsfogweatherstone"],
 			[0.11, "storm"],
-			[0.15, "fogweather"],
+			[0.15, "cnsfogweather"],
 			[0.27, "drizzle"],
 			[0.25, "clear"]
 		]
@@ -56,7 +56,7 @@
 		"path": "/forest",
 		"value": [
 			[0.25, "clear"],
-			[0.25, "fogweather"],
+			[0.25, "cnsfogweather"],
 			[0.29, "duststorm"],
 			[0.27, "drizzle"],
 			[0.05, "storm"],

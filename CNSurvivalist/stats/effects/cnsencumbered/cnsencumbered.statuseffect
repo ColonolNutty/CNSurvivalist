@@ -1,10 +1,10 @@
 {
-  "name" : "encumbered",
+  "name" : "cnsencumbered",
   "effectConfig" : {},
   "defaultDuration" : 3,
 
   "scripts" : [
-    "encumbered.lua"
+    "cnsencumbered.lua"
   ],
 
   "label" : "Slow",

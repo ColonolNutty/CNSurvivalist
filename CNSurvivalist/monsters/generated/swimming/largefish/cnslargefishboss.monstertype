@@ -135,8 +135,8 @@
   
   "dropPools" : [
     {
-      "default" : "minibosstreasure",
-      "bow" : "minibosstreasure"
+      "default" : "cnsminibossTreasure",
+      "bow" : "cnsminibossTreasure"
     }
   ]
 }

@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/icon",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/icon",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/label",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/label",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/icon",
+      "value" : "/interface/statuses/cnsparachute.png"
+    },
+    {
+      "op" : "remove",
+      "path" : "/label"
+    }
+  ]
+]

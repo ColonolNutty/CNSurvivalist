@@ -8,7 +8,7 @@
   "shortdescription" : "Bandage - Plant",
   "effects" : [ [
       {
-        "effect" : "bandageCNS1",
+        "effect" : "cnsbandage1",
         "duration" : 10
       }
     ] ],
@@ -17,12 +17,12 @@
   "blockingEffects" : [
     "salveheal",
     "bandageheal",
-    "bandageCNS1",
-    "bandageCNS2",
-    "bandageCNS3",
-    "bandageCNS4",
-    "bandageCNS5",
-    "bandageCNS6",
+    "cnsbandage1",
+    "cnsbandage2",
+    "cnsbandage3",
+    "cnsbandage4",
+    "cnsbandage5",
+    "cnsbandage6",
     "medkitheal",
     "nanowrapheal"
   ]

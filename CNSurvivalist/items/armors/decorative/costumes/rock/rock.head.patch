@@ -20,7 +20,7 @@
     {
       "op": "add",
       "path": "/statusEffects/-",
-      "value": "encumbered"
+      "value": "cnsencumbered"
     }
   ]
 ]

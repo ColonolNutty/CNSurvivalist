@@ -10,7 +10,7 @@
 
   "dropPools" : [
     {
-      "default" : "sporemonstertreasure",
+      "default" : "cnstentaclecometsporeTreasure",
       "bow" : "hunting",
       "brain" : "brain"
     }

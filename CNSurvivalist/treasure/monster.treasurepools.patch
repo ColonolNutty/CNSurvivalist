@@ -1,11 +1,11 @@
 [
 	{
 		"op": "add",
-		"path": "/minibosstreasure",
+		"path": "/cnsminibossTreasure",
 		"value": [
 			[1, {
 				"pool" : [
-          {"weight" : 1, "item" : ["money", 10]},
+          			{"weight" : 1, "item" : ["money", 10]},
 					{"weight" : 1.0, "item" : ["money", 80]},
 					{"weight" : 0.7, "item" : ["money", 150]},
 					{"weight" : 0.5, "item" : ["money", 250]},
@@ -22,11 +22,11 @@
 	},	
 	{
 		"op": "add",
-		"path": "/sporemonstertreasure",
+		"path": "/cnstentaclecometsporeTreasure",
 		"value": [
 			[1, {
 				"pool" : [
-          {"weight" : 1, "item" : ["money", 5]},
+          			{"weight" : 1, "item" : ["money", 5]},
 					{"weight" : 0.36, "item" : ["money", 10]},
 					{"weight" : 0.36, "item" : ["money", 15]},
 					{"weight" : 0.18, "item" : ["money", 10]},
@@ -48,7 +48,7 @@
 			[1, 
 				{
 					"pool" : [
-            {"weight" : 1, "item" : ["money", 10]},
+            			{"weight" : 1, "item" : ["money", 10]},
 						{"weight" : 1.0, "item" : ["cnsunknown1ore", 1]},
 						{"weight" : 0.15, "item" : ["cnsseveredhead", 1]},
 						{"weight" : 0.2, "item" : ["goldore", 3]}
@@ -69,7 +69,7 @@
 			[1, 
 				{
 					"pool" : [
-            {"weight" : 1, "item" : ["money", 10]},
+            			{"weight" : 1, "item" : ["money", 10]},
 						{"weight" : 0.5, "item" : ["goldore", 5]},
 						{"weight" : 0.8, "item" : ["money", 100]},
 						{"weight" : 0.2, "item" : ["diamond", 2]},
@@ -134,7 +134,7 @@
 		"op": "replace",
 		"path": "/weaklingMonsterTreasure/0/1/pool",
 		"value": [
-      {"weight" : 1, "item" : ["money", 5]},
+      		{"weight" : 1, "item" : ["money", 5]},
 			{"weight" : 0.10, "item" : "alienmeat"}
 		]
 	},
@@ -171,7 +171,7 @@
 		"op": "replace",
 		"path": "/robotTreasure/0/1/pool",
 		"value": [
-      {"weight" : 1, "item" : ["money", 10]},
+      		{"weight" : 1, "item" : ["money", 10]},
 			{"weight" : 0.10, "item" : ["money", 50]},
 			{"weight" : 0.20, "item" : ["money", 30]},
 			{"weight" : 0.10, "item" : "wire"}
@@ -199,7 +199,7 @@
 		"op": "replace",
 		"path": "/largefishtreasure/0/1/pool",
 		"value": [
-      {"weight" : 1, "item" : ["money", 10]},
+      		{"weight" : 1, "item" : ["money", 10]},
 			{"weight" : 0.10, "item" : ["money", 50]},
 			{"weight" : 0.20, "item" : ["money", 30]},
 			{"weight" : 0.10, "item" : [ "rawfish", 1]}
@@ -227,7 +227,7 @@
 		"op": "replace",
 		"path": "/moontantTreasure/0/1/pool",
 		"value": [
-      {"weight" : 1, "item" : ["money", 10]},
+      		{"weight" : 1, "item" : ["money", 10]},
 			{"weight" : 0.10, "item" : ["money", 50]},
 			{"weight" : 0.20, "item" : ["money", 30]}
 		]

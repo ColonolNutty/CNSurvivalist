@@ -1,9 +1,9 @@
 {
-  "name" : "encumbered2",
+  "name" : "cnsencumbered2",
   "effectConfig" : {},
   "defaultDuration" : 3,
 
   "scripts" : [
-    "encumbered2.lua"
+    "cnsencumbered2.lua"
   ]
 }

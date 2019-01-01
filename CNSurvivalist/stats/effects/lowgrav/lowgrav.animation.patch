@@ -1,0 +1,25 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/particleEmitters/statustext",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/particleEmitters/statustext",
+      "value" : {}
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/particleEmitters/embers/particles/0/particle/size",
+      "value" : 0
+    },
+    {
+      "op" : "remove",
+      "path" : "/particleEmitters/statustext"
+    }
+  ]
+]

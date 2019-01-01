@@ -1,16 +1,16 @@
 {
-  "name" : "bandageCNS6",
+  "name" : "cnsbandage5",
   "effectConfig" : {
-    "healAmount" : 70,
+    "healAmount" : 55,
     "emissionRate" : 10
   },
   "defaultDuration" : 5,
 
   "scripts" : [
-    "bandageCNS.lua"
+    "cnsbandage.lua"
   ],
 
-  "animationConfig" : "bandageCNS.animation",
+  "animationConfig" : "cnsbandage.animation",
 
   "label" : "Healing",
   "icon" : "/interface/statuses/heal.png"
