@@ -1,7 +1,7 @@
 [
 	{
 		"op": "add",
-		"path": "/spawnGroups/miniBoss",
+		"path": "/spawnGroups/cnsminiboss",
 		"value": [
 			[1.0, "cnsaggroSmallBipedBoss"],
 			[1.0, "cnsaggroLargeBipedBoss"],
