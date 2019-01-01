@@ -14,7 +14,7 @@
 	"inventoryIcon" : "cnsstonemace.png",
 	"image": "cnsstonemace.png",
 	
-	"animation" : "axe.animation",
+	"animation" : "cnsstonemace.animation",
 	"animationParts" : {
 		"handle" : "",
 		"blade" : "cnsstonemace.png"

@@ -1,7 +1,7 @@
 {
   "itemName" : "cnsparachutepackback",
   "price" : 5000,
-  "inventoryIcon" : "cnsparachuteicons.png:back",
+  "inventoryIcon" : "cnsparachutepackicon.png",
   "rarity" : "Legendary",
   "category" : "backwear",
   "description" : "A parachute. Take that gravity!",

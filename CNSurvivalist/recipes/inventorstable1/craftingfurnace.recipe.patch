@@ -10,7 +10,7 @@
     ]
   },
   {
-    "op": "replace",
+    "op": "add",
     "path": "/groups/-",
     "value" : "plain"
   }

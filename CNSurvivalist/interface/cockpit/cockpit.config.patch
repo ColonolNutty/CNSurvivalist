@@ -3,168 +3,128 @@
 		"op": "replace",
 		"path": "/threatLevelText/default",
 		"value": [
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
+			"Unknown",
+			"Unknown",
+			"Unknown",
+			"Unknown",
+			"Unknown",
+			"Unknown",
+			"Unknown",
+			"Unknown",
+			"Unknown",
+			"Unknown"
 		]
 	},
 	{
 		"op": "replace",
-		"path": "/threatLevelToText/moon",
+		"path": "/threatLevelText/moon",
 		"value": [
-			""
+			"Unknown"
 		]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeLabel/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/planetTypeToDescription/garden",
+		"path": "/visitableTypeDescription/garden",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/forest",
+		"path": "/visitableTypeDescription/forest",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/desert",
+		"path": "/visitableTypeDescription/desert",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/snow",
+		"path": "/visitableTypeDescription/snow",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/savannah",
+		"path": "/visitableTypeDescription/savannah",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/ocean",
+		"path": "/visitableTypeDescription/ocean",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/toxic",
+		"path": "/visitableTypeDescription/toxic",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/jungle",
+		"path": "/visitableTypeDescription/jungle",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/alien",
+		"path": "/visitableTypeDescription/alien",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/arctic",
+		"path": "/visitableTypeDescription/arctic",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/tundra",
+		"path": "/visitableTypeDescription/tundra",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/volcanic",
+		"path": "/visitableTypeDescription/volcanic",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/midnight",
+		"path": "/visitableTypeDescription/midnight",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/scorchedcity",
+		"path": "/visitableTypeDescription/scorchedcity",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/magma",
+		"path": "/visitableTypeDescription/magma",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/moon",
+		"path": "/visitableTypeDescription/moon",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/asteroids",
+		"path": "/visitableTypeDescription/asteroids",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/barren",
+		"path": "/visitableTypeDescription/barren",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "replace",
-		"path": "/planetTypeToDescription/ancientgateway",
+		"path": "/visitableTypeDescription/ancientgateway",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "add",
-		"path": "/planetTypeToDescription/cnsslime",
+		"path": "/visitableTypeDescription/cnsslime",
 		"value": ["", "", ""]
 	},
 	{
 		"op": "add",
-		"path": "/planetTypeToDescription/cnsbones",
+		"path": "/visitableTypeDescription/cnsbones",
 		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/dayLengthText/label/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/dayLengthText/value/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/sizeText/label/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/sizeText/value/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/weatherText/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/oreText/text",
-		"value": ""
-	},
-	{
-		"op": "replace",
-		"path": "/guiConfig/planetTypeDescription/value",
-		"value": ""
 	}
 ]
