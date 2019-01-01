@@ -3,6 +3,6 @@
     { "item" : "ironbar", "count" : 10 },
     { "item" : "torch", "count" : 1 }
   ],
-  "output" : { "item" : "mininglantern", "count" : 1 },
+  "output" : { "item" : "cnsmininglantern", "count" : 1 },
   "groups" : [ "craftinganvil", "tools", "all" ]
 }

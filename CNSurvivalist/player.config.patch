@@ -20,7 +20,7 @@
 			{ "item" : "darkwoodmaterial" },
 			
 			//IRON BAR
-			{ "item" : "mininglantern" },
+			{ "item" : "cnsmininglantern" },
 			
 			//PLANT FIBRE
 			{ "item" : "fabric" },
