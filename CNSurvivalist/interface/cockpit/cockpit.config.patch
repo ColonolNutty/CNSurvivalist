@@ -1,130 +1,172 @@
 [
-	{
-		"op": "replace",
-		"path": "/threatLevelText/default",
-		"value": [
-			"Unknown",
-			"Unknown",
-			"Unknown",
-			"Unknown",
-			"Unknown",
-			"Unknown",
-			"Unknown",
-			"Unknown",
-			"Unknown",
-			"Unknown"
-		]
-	},
-	{
-		"op": "replace",
-		"path": "/threatLevelText/moon",
-		"value": [
-			"Unknown"
-		]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/garden",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/forest",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/desert",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/snow",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/savannah",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/ocean",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/toxic",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/jungle",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/alien",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/arctic",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/tundra",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/volcanic",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/midnight",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/scorchedcity",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/magma",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/moon",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/asteroids",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/barren",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "replace",
-		"path": "/visitableTypeDescription/ancientgateway",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "add",
-		"path": "/visitableTypeDescription/cnsslime",
-		"value": ["", "", ""]
-	},
-	{
-		"op": "add",
-		"path": "/visitableTypeDescription/cnsbones",
-		"value": ["", "", ""]
-	}
+  {
+    "op": "replace",
+    "path": "/threatLevelText/default",
+    "value": [
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/threatLevelText/moon",
+    "value": [
+      "Unknown"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/garden",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/forest",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/desert",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/snow",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/savannah",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/ocean",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/toxic",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/jungle",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/alien",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/arctic",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/tundra",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/volcanic",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/midnight",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/scorchedcity",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/magma",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/moon",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/asteroids",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/barren",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "replace",
+    "path": "/visitableTypeDescription/ancientgateway",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/cnshostile",
+    "value": "Unknown"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/cnsunknown",
+    "value": "Unknown"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/cnshostile",
+    "value": [74, 35, 35]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/cnsunknown",
+    "value": [255, 255, 255]
+  },
+  {
+    "op": "add",
+    "path": "/displayWeathers/cnsfogweather",
+    "value": {
+      "displayName" : "Fog",
+      "icon" : "/interface/cockpit/weather/fog.png"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/displayWeathers/cnsfogweatherstone",
+    "value": {
+      "displayName" : "Stone Fog",
+      "icon" : "/interface/cockpit/weather/fog.png"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/displayWeathers/cnssmallmeteorshower",
+    "value": {
+      "displayName" : "Small Meteor Shower",
+      "icon" : "/interface/cockpit/weather/smallmeteorstorm.png"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/displayOres/cnszalaxonore",
+    "value": {
+      "displayName" : "Zalaxon",
+      "icon" : "/items/generic/crafting/newore/cnszalaxonore.png"
+    }
+  }
 ]

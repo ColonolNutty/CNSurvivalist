@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnspuff2c/cnspuff2c.animation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNSurvivalist/animations/cnspuff2c/cnspuff2c.frames" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/melee/cnsstonemace/cnsstonemace.animation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/melee/cnsstonemace/cnsstonemace.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/melee/cnsstonemace/cnsstonemace.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepack.back" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepack.back" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepackicons.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepackicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/cnsftldrivechipd.item" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/cnsftldrivechip.item" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/cnsftldrivechipd.png" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/cnsftldrivechip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnstailorstable.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnstailorstable.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +16,13 @@
     <session id="-464913708">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,16 +30,17 @@
           <entry key="activeitem" value="2" />
           <entry key="animation" value="13" />
           <entry key="back" value="6" />
-          <entry key="biome" value="2" />
+          <entry key="biome" value="4" />
           <entry key="chest" value="14" />
           <entry key="codex" value="2" />
-          <entry key="config" value="7" />
+          <entry key="config" value="9" />
           <entry key="consumable" value="10" />
           <entry key="flashlight" value="1" />
           <entry key="frames" value="18" />
+          <entry key="gitignore" value="1" />
           <entry key="harvestingtool" value="1" />
           <entry key="head" value="21" />
-          <entry key="item" value="27" />
+          <entry key="item" value="30" />
           <entry key="legs" value="11" />
           <entry key="lua" value="15" />
           <entry key="miningtool" value="2" />
@@ -56,8 +50,8 @@
           <entry key="parallax" value="14" />
           <entry key="particle" value="1" />
           <entry key="partparams" value="5" />
-          <entry key="patch" value="54" />
-          <entry key="png" value="59" />
+          <entry key="patch" value="58" />
+          <entry key="png" value="60" />
           <entry key="projectile" value="8" />
           <entry key="questtemplate" value="1" />
           <entry key="recipe" value="86" />
@@ -66,16 +60,16 @@
           <entry key="thrownitem" value="5" />
           <entry key="txt" value="2" />
           <entry key="weaponability" value="2" />
-          <entry key="weather" value="5" />
+          <entry key="weather" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="59" />
-          <entry key="JSON" value="314" />
+          <entry key="Image" value="60" />
+          <entry key="JSON" value="327" />
           <entry key="Lua" value="13" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="PLAIN_TEXT" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -90,6 +84,7 @@
           <entry key="damage" value="1" />
           <entry key="flashlight" value="7" />
           <entry key="frames" value="7" />
+          <entry key="gitignore" value="5" />
           <entry key="harvestingtool" value="14" />
           <entry key="head" value="201" />
           <entry key="item" value="86" />
@@ -99,7 +94,7 @@
           <entry key="monstertype" value="15" />
           <entry key="object" value="553" />
           <entry key="parallax" value="73" />
-          <entry key="patch" value="490" />
+          <entry key="patch" value="701" />
           <entry key="projectile" value="33" />
           <entry key="recipe" value="55" />
           <entry key="statuseffect" value="1" />
@@ -108,56 +103,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="2086" />
+          <entry key="JSON" value="2297" />
           <entry key="PATCH" value="3" />
-          <entry key="PLAIN_TEXT" value="213" />
+          <entry key="PLAIN_TEXT" value="218" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftinganvil.recipe.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="121" column="42" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweather.weather">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnstailorstable.recipe">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="17">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -166,8 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>zombie</find>
-      <find>zombie1.ogg</find>
       <find>survivalpoints</find>
       <find>brokennav</find>
       <find>fogstorm</find>
@@ -196,6 +153,8 @@
       <find>nav</find>
       <find>threatLevelToText</find>
       <find>planetTypeToDescription</find>
+      <find>fog.png</find>
+      <find>cnsbones</find>
     </findStrings>
     <replaceStrings>
       <replace>cnsnavycaphead</replace>
@@ -261,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/barren/cnsunknownore/cnsunknownore.object" />
         <option value="$PROJECT_DIR$/CNSurvivalist/objects/generic/minibiome/cnsorganicpit/cnsorganicpit.object" />
         <option value="$PROJECT_DIR$/CNSurvivalist/objects/obstacles/arid/cnsleftspike1/cnsleftspike1.object" />
         <option value="$PROJECT_DIR$/CNSurvivalist/objects/obstacles/arid/cnsrightspike1/cnsrightspike1.object" />
@@ -312,13 +270,14 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnstailorstable.recipe" />
         <option value="$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="551" />
-    <option name="width" value="1330" />
-    <option name="height" value="970" />
+    <option name="x" value="-10" />
+    <option name="width" value="815" />
+    <option name="height" value="560" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -328,6 +287,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,20 +304,19 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="biomes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="cnsfogweather" type="462c0819:PsiDirectoryNode" />
+              <item name="biomes" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,8 +365,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -421,74 +381,16 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="LuaJ" weight="0.3295302" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="LuaJ" order="3" weight="0.3295302" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cnstailor/cnsshadows/cnsshadowspants.recipe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cookingtable1/sides/bread.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/cookingtable1/sides/corncob.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/woodenteleporter.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" lean-forward="true" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/medicaltable1/buffs/yellowstim.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/teleporterstore/stoneteleporter.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook.recipe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook2.recipe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/telescope/cnsmatterbook3.recipe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/spawntypes/uniques.spawntypes.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/spawntypes/cnsminiboss.spawntypes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
@@ -548,16 +450,6 @@
         <state relative-caret-position="-4352" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnssmallmeteorshower/cnssmallmeteorshower.weather">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweatherstone.weather">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/player.config.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -606,9 +498,7 @@
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/cns1hswordhitspark/cns1hswordhitsparkblood.frames">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepack.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepack.frames" />
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/armors/backitems/cnsparachutepack/cnsparachutepackf.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -649,27 +539,6 @@
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnsarmory.recipe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnstailorstable.recipe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftinganvil.recipe.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/treasure/cropharvest.treasurepools.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -684,17 +553,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftinganvil.recipe.patch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="121" column="42" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="42" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/craftingfurnace.recipe.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/inventorstable1/cnstailorstable.recipe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnssmallmeteorshower/cnssmallmeteorshower.weather">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweatherstone.weather">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/newore/cnszalaxonore.item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/newore/cnsbiomatterroots.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/generic/crafting/newore/cnsbiomatterroots.item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweather.weather">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="4" lean-forward="true" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/cockpit.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23732">
+          <caret line="1420" column="15" lean-forward="true" selection-start-line="1420" selection-start-column="15" selection-end-line="1420" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/alien.biome.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/core/blaststonecorelayer.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
