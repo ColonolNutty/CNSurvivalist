@@ -1,71 +1,65 @@
 [
-	{
-		"op": "add",
-		"path": "/spawnProfile",
-		"value": {
-			"groups" : [
-				{
-					"select" : 3,
-					"pool" : [ 
-						[ 1.0, "cnszombie" ]
-					]
-				}
-			],
-			"monsterParameters" : {
-				"colors" : "volcanic",
-				"statusSettings" : {
-					"stats" : {
-						"poisonImmunity" : {
-							"baseValue" : 1.0
-						}
-					}
-				}
-			}
-		}
-	},
-	{
-		"op": "add",
-		"path": "/spawnProfile/groups/-",
-		"value": {
-			"select" : 1,
-			"pool" : [
-				[ 1, "cnstreemonster" ]
-			]
-		}
-	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/day/tracks",
-		"value": []
-	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/night/tracks",
-		"value": []
-	},
-  {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDist",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "terrainfeatures" ]
-      },
-      {
+  [
+    {
+      "op": "test",
+      "path": "/spawnProfile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile",
+      "value": {
+        "groups" : [],
+        "monsterParameters" : {
+          "colors" : "volcanic",
+          "statusSettings" : {
+            "stats" : {
+              "poisonImmunity" : {
+                "baseValue" : 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/spawnProfile/groups",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups",
+      "value": []
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups/-",
+      "value": {
+        "select" : 3,
+        "pool" : [
+          [ 1.0, "cnszombie" ]
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups/-",
+      "value": {
+        "select" : 1,
+        "pool" : [
+          [ 1, "cnstreemonster" ]
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
@@ -79,13 +73,11 @@
           }
         ]
       }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
+    },
+    {
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
@@ -99,6 +91,6 @@
           }
         ]
       }
-    ]
-  }
+    }
+  ]
 ]

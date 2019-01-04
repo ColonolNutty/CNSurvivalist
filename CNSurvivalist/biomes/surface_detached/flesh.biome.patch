@@ -1,89 +1,38 @@
 [
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "microdungeon",
-        "microdungeons" : [ "fleshmicrodungeons" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.15, "fleshbush1" ], [0.15, "fleshbush2" ], [0.15, "fleshbush3" ], [0.15, "fleshbush4" ], [0.15, "fleshbush5" ], [0.15, "fleshbush6" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 180,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "fleshstem" ],
-        "treeFoliageList" : [ "fleshfoliage" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsorganicpit" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   },
   {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "ceiling",
-        "priority" : 2.5,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "vein", "bluevein" ],
-        "treeFoliageList" : [ "veiny", "blueveiny" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "dripblood1" ] ],
-            "parameters" : { }
-          }
-        ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsorganicpit" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

@@ -1,91 +1,38 @@
 [
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "geode" ],
-        "treeFoliageList" : [ "geodefoliage" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.1, "geodelowanatural" ], [0.1, "geodebnatural" ], [0.1, "geodecnatural" ], [0.1, "geodednatural" ], [0.1, "geodehighanatural" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:everywhere",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "geodemicrodungeons" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildneonmelonseed" ] ],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [ 1, "cnsgoldchunk" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   },
   {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.05, "geodelowanatural" ], [0.05, "geodebnatural" ], [0.05, "geodecnatural" ], [0.05, "geodednatural" ], [0.05, "geodehighanatural" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 180,
-        "treeStemHueShiftMax" : 10,
-        "treeStemList" : [ "geodevine" ],
-        "treeFoliageList" : [ "" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [ 1, "cnsgoldchunk" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

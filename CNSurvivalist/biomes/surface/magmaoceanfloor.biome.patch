@@ -1,41 +1,50 @@
 [
-	{
-		"op": "replace",
-		"path": "/musicTrack/day/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/night/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack01.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack02.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack03.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack01.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack02.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack03.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "grass",
-        "grasses" : [ "pebbles" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsbonepile" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

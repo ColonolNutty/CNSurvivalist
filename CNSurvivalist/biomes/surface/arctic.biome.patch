@@ -11,102 +11,24 @@
 		}
 	},
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:ultraRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "fancysnowman" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsfrozendia" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:overgroundChests",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "igloo" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDist",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "iceplatforming" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "terrainfeatures" ]
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "grass",
-        "grasses" : [ "ceilingice", "ceilingthinice", "ceilingiceballs", "ceilingsnow" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [
+            [ 0.9, "cnsfrozendia" ],
+            [ 0.1, "cnsbonepile" ]
+          ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

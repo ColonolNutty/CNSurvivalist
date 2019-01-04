@@ -1,13 +1,13 @@
 [
 	{
 		"op": "replace",
-		"path": "/spawnProfile/groups/0/select",
-		"value": 1
+		"path": "/spawnProfile/groups/2/select",
+		"value": 4
 	},
 	{
 		"op": "replace",
-		"path": "/spawnProfile/groups/2/select",
-		"value": 4
+		"path": "/spawnProfile/groups/0/select",
+		"value": 1
 	},
 	{
 		"op": "add",
@@ -21,201 +21,70 @@
 			]
 		}
 	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/day/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/night/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDist",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "savannahmicrodungeons" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "encounterdungeons" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseSmall",
-
-        "type" : "grass",
-        "grasses" : [ "savannahgrass" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "savannahbush",
-            "baseHueShiftMax" : 0,
-            "modHueShiftMax" : 0
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseSmall",
-
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "savannahgreenbush",
-            "baseHueShiftMax" : 0,
-            "modHueShiftMax" : 0
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rare",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "bleake" ],
-        "treeFoliageList" : [ "flatte" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "thornplant" ] ],
-            "parameters" : {
-              "startingStage" : 1
-            }
-          }
-        ]
-      },
-
-      {
-        "mode" : "floor",
-        "priority" : 0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildcurrentcornseed" ] ],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
-      }
-    ]
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack01.ogg"
   },
   {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack02.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack03.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack01.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack02.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack03.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsbonepile" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "grass",
-        "grasses" : [ "testflower7", "testflower8" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "savannahbush",
-            "baseHueShiftMax" : 0,
-            "modHueShiftMax" : 0
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 30,
-        "treeStemHueShiftMax" : 10,
-        "treeStemList" : [ "desertvine"],
-        "treeFoliageList" : [ "leafed" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsbonepile" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

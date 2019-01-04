@@ -1,102 +1,51 @@
 [
-	{
-		"op": "replace",
-		"path": "/spawnProfile/groups/0/select",
-		"value": 2
-	},
-	{
-		"op": "add",
-		"path": "/spawnProfile/groups/-",
-		"value": {
-			"select" : 1,
-			"pool" : [
-				[ 0.4, "blueback" ],
-				[ 0.3, "greentip" ],
-				[ 0.3, "redwing" ]
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/hueShiftOptions",
-		"value": [-15, 0, 15]
-	},
-	{
-		"op": "add",
-		"path": "/weather",
-		"value": [
-			[0, [
-					"/weather.config:alien"
-				]
-			]
-		]
-	},
-	{
-		"op": "add",
-		"path": "/skyOptions",
-		"value": [
-			{
-				"mainColor" : [36, 17, 3],
-
-				"morningColors" : [ [23, 18, 1], [23, 18, 1] ],
-				"dayColors" : [ [36, 17, 3], [36, 17, 3] ],
-				"eveningColors" : [ [104, 40, 40], [104, 40, 40] ],
-				"nightColors" : [ [60, 0, 0], [20, 0, 0] ],
-
-				"morningLightColor" : [23, 18, 1],
-				"dayLightColor" : [36, 17, 3],
-				"eveningLightColor" : [23, 18, 1],
-				"nightLightColor" : [40, 17, 17]
-			}
-		]
-	},
-	{
-		"op": "add",
-		"path": "/parallax",
-		"value": "/parallax/surface/cnsbones.parallax"
-	},
-	{
-		"op": "add",
-		"path": "/ambientNoises",
-		"value": {
-			"day" : {
-				"tracks" : [ "/sfx/environmental/desert_day.ogg" ]
-			},
-			"night" : {
-				"tracks" : [ "/sfx/environmental/desert_night.ogg" ]
-			}
-		}
-	},
-	{
-		"op": "add",
-		"path": "/musicTrack",
-		"value": {
-			"day" : {
-				"tracks" : [ ]
-			},
-			"night" : {
-				"tracks" : [ ]
-			}
-		}
-	},
-  {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "cnsbonesmicrodungeons" ]
-      },
-      {
+  [
+    {
+      "op": "test",
+      "path": "/parallax",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/parallax",
+      "value": "/parallax/surface/alien.parallax"
+    }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/spawnProfile/groups/0/select",
+      "value": 2
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups/-",
+      "value": {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "blueback" ],
+          [ 0.3, "greentip" ],
+          [ 0.3, "redwing" ]
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/parallax",
+      "value": "/parallax/surface/cnsbones.parallax"
+    },
+    {
+      "op": "remove",
+      "path": "/surfacePlaceables/items/2"
+    },
+    {
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+        "distribution" : "/biomes/distributions.config:potsCommon",
 
         "type" : "object",
         "objectSets" : [
@@ -105,128 +54,29 @@
             "parameters" : { }
           }
         ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wilddirturchinseed" ] ],
-              "parameters" : {
-              "startingStage" : 2
-            }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildbonebooseed" ] ],
-            "parameters" : {
-              "startingStage" : 4
-            }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.25, "smashbones1" ], [0.25, "smashbones2" ], [0.25, "smashbones3" ], [0.25, "smashbones4" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "grass",
-        "grasses" : [ "freebone" ]
-      },
-{
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rare",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "bleake" ],
-        "treeFoliageList" : [ "" ]
       }
-    ]
-  },
-	{
-		"op": "replace",
-		"path": "/undergroundPlaceables/grassMod",
-		"value": [ "aliengrass" ]
-	},
-	{
-		"op": "replace",
-		"path": "/undergroundPlaceables/grassModDensity",
-		"value": 0.2
-	},
-  {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 180,
-        "treeStemHueShiftMax" : 180,
-        "treeStemList" : [ "vine", "vine2", "vine3", "vine4" ],
-        "treeFoliageList" : [ "flowery", "starry", "dreamy" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "bone"],
-        "treeFoliageList" : [ "" ]
-      },
-      {
+    },
+    {
+      "op": "remove",
+      "path": "/undergroundPlaceables/items/0"
+    },
+    {
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        "distribution" : "/biomes/distributions.config:scatteredPots",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.1, "smashbones1" ], [0.1, "smashbones2" ], [0.1, "smashbones3" ], [0.1, "smashbones4" ] ],
+            "pool" : [ [1, "cnsbonepile" ] ],
             "parameters" : { }
           }
         ]
       }
-    ]
-  }
+    }
+  ]
 ]

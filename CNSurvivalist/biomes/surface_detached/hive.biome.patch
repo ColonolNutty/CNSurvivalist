@@ -1,75 +1,38 @@
 [
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0.1,
-        "variants" : 5,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "hivebush1" ], [0.35, "hivebush2" ], [0.35, "hivebush3" ], [0.35, "hivebush4" ], [0.35, "hivebush5" ], [0.35, "hivelight1" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "hivemicrodungeons" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsbonepile" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   },
   {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "hive" ],
-        "treeFoliageList" : [ "hive" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:superCommon",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 10,
-        "treeStemList" : [ "hivevine" ],
-        "treeFoliageList" : [ "" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsbonepile" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

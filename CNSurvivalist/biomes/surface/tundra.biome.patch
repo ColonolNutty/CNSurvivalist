@@ -21,279 +21,40 @@
 			]
 		}
 	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/day/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/night/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDist",
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "microdungeon",
-        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeRareMicrodungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "tundramicrodungeons" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "encounterdungeons" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "terrainfeatures" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:overgroundChests",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "igloo" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:overgroundChests",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "iceplatforming" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsfrozendia" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:moderateClumps",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 12,
-        "treeStemList" : [ "geometricstem", "icespherestem" ],
-        "treeFoliageList" : [ "" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "geometricshard1" ], [0.35, "geometricshard2" ], [0.35, "geometricshard3" ], [0.35, "geometricshard4" ], [0.35, "geometricshard5" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildeggshootseed" ] ],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
-      },
-
-      {
-        "mode" : "floor",
-        "priority" : 0.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wilddiodiaseed" ] ],
-            "parameters" : {
-              "startingStage" : 3
-            }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "grass",
-        "grasses" : [ "geometric" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "frozenmistprimer" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:ultraRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "fancysnowman" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "iceshard1" ], [0.35, "iceshard2" ], [0.35, "iceshard3" ], [0.35, "iceshard4" ], [0.35, "iceshard5" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
-            "parameters" : { }
-          }
-        ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsfrozendia" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   },
   {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "grass",
-        "grasses" : [ "ceilingice", "ceilingthinice", "ceilingiceballs", "ceilingsnow" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:hazardUndergroundMid",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ]
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingMid",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ]
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 180,
-        "treeStemHueShiftMax" : 10,
-        "treeStemList" : [ "snowyvine" ],
-        "treeFoliageList" : [ "" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsfrozendia" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

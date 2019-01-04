@@ -1,10 +1,26 @@
 [
 	{
 		"op": "add",
-		"path": "/scatteredDangerous",
+		"path": "/cnsscatteredDangerous",
 		"value": {
 			"type" : "random",
 			"blockProbability" : 0.09
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cnsnoSpawn",
+		"value": {
+			"type" : "random",
+			"blockProbability" : 0.00
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cnsprettyOften",
+		"value": {
+			"type" : "random",
+			"blockProbability" : 0.03
 		}
 	},
 	{
@@ -101,21 +117,5 @@
 		"op": "replace",
 		"path": "/superCommon/blockProbability",
 		"value": 1.0
-	},
-	{
-		"op": "add",
-		"path": "/noSpawn",
-		"value": {
-			"type" : "random",
-			"blockProbability" : 0.00
-		}
-	},
-	{
-		"op": "add",
-		"path": "/prettyOften",
-		"value": {
-			"type" : "random",
-			"blockProbability" : 0.03
-		}
 	}
 ]

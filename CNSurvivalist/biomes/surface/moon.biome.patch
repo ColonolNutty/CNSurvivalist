@@ -1,70 +1,68 @@
 [
-	{
-		"op": "replace",
-		"path": "/musicTrack/day/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
-	{
-		"op": "replace",
-		"path": "/musicTrack/night/tracks",
-		"value": ["/music/cnssurvivaltrack01.ogg", "/music/cnssurvivaltrack02.ogg", "/music/cnssurvivaltrack03.ogg"]
-	},
   {
-    "op": "replace",
-    "path": "/surfacePlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDist",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "terrainfeatures" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      }
-    ]
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack01.ogg"
   },
   {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:potsRare",
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack02.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/day/tracks/-",
+    "value": "/music/cnssurvivaltrack03.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack01.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack02.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/-",
+    "value": "/music/cnssurvivaltrack03.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "cnsbonepile" ] ],
-            "parameters" : { }
-          }
-        ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsunknownore" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:potsRare",
+
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "cnsunknownore" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]

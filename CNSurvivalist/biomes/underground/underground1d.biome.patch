@@ -1,80 +1,20 @@
 [
   {
-    "op": "replace",
-    "path": "/undergroundPlaceables/items",
-    "value": [
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundOreRocks",
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:undergroundOreRocks",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-      {
-        "mode" : "background",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundFossils",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["sand", "sandstone01", "bonematerial"]}
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:hazardUndergroundTop",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.20, "desertgroundspike1" ], [0.20, "desertgroundspike2" ], [0.20, "desertgroundspike3" ], [0.20, "desertgroundspike4" ] ]
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingTop",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.20, "desertceilingspike1" ], [0.20, "desertceilingspike2" ], [0.20, "desertceilingspike3" ], [0.20, "desertceilingspike4" ] ]
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 99.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseSmall",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "underground1dmicrodungeons" ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "undergroundencounterdungeons" ]
-      }
-    ]
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ], [0.1, "cnsgoldchunk" ] ],
+          "parameters" : { }
+        }
+      ]
+    }
   }
 ]
