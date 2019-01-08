@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/bow.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/bow.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/brain.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/brain.damage.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/cns1hsword.damage" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/cns1hsword.damage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage,.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage,.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage,.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage.patch" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fogweather</find>
       <find>meteorshower</find>
       <find>mininglantern</find>
       <find>cnspuff2c.animation</find>
@@ -150,6 +143,7 @@
       <find>cnsprettyOften</find>
       <find>hazardUndergroundTop</find>
       <find>1hswordhitspark</find>
+      <find>/animations/cns1hswordhitspark</find>
     </findStrings>
     <replaceStrings>
       <replace>cnssniper1</replace>
@@ -293,6 +287,12 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="damage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
