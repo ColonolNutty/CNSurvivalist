@@ -3,83 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/core/blaststonecorelayer.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/core/gardencorelayer.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/core/gardencorelayer.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/core/magmarockcorelayer.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/core/obisidiancorelayer.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/alien.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/alien.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/arctic.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/arctic.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/arcticoceanfloor.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/arcticoceanfloor.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/asteroidfield.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/barren.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/barren.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/desert.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/desert.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/forest.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/forest.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/garden.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/garden.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/jungle.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/jungle.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/lunarbase.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/lunarbase.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/magma.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/magma.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/magmaoceanfloor.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/magmaoceanfloor.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/midnight.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/midnight.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/moon.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/moon.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/ocean.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/ocean.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/oceanfloor.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/oceanfloor.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/oceanmission.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/savannah.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/savannah.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/scorched.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/scorched.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/scorchedcity.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/scorchedcity.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/snow.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/snow.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/tentacle.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/tentacle.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/toxic.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/toxic.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/toxicoceanfloor.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/toxicoceanfloor.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/tundra.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/tundra.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/volcanic.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/volcanic.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/alpine.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/alpine.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bioluminescence.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/colourful.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/eyepatch.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/flesh.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/flesh.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/geode.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/geode.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/giantflowers.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/hive.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/hive.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/ice.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/ice.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/mushroompatch.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/oasis.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/old/flowers/flowers.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/old/sandstone/sandstone.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/prism.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/prism.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/rust.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/spring.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/steamspring.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/swamp.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/swamp.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/tar.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/tar.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0a.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0b.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0b.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0c.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0c.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0d.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0d.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1a.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1a.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1b.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1b.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1c.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1c.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1d.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1d.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3a.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3a.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3b.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3b.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3c.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3c.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3d.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3d.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5a.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5a.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5b.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5b.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5c.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5c.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5d.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5d.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/bonecaves.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/bonecaves.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/cellcaves.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/fleshcave.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/fleshcave.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/icecaves.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/icecaves.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/abandonedmines/abandonedmines.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/colorful/colorfulcave.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/crystalcave/crystalcave.biome.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/hive/hiveold.biome.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/zen/zen.biome.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/bow.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/bow.damage.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/brain.damage.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/brain.damage.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/cns1hsword.damage" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/cns1hsword.damage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage,.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/damage/dagger.damage,.patch" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +37,8 @@
           <entry key="biome" value="35" />
           <entry key="chest" value="14" />
           <entry key="codex" value="2" />
-          <entry key="config" value="9" />
+          <entry key="config" value="12" />
+          <entry key="configfunctions" value="1" />
           <entry key="consumable" value="10" />
           <entry key="flashlight" value="1" />
           <entry key="frames" value="18" />
@@ -125,7 +55,7 @@
           <entry key="parallax" value="16" />
           <entry key="particle" value="1" />
           <entry key="partparams" value="5" />
-          <entry key="patch" value="187" />
+          <entry key="patch" value="196" />
           <entry key="png" value="61" />
           <entry key="projectile" value="8" />
           <entry key="questtemplate" value="1" />
@@ -141,10 +71,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="61" />
-          <entry key="JSON" value="489" />
+          <entry key="JSON" value="501" />
           <entry key="Lua" value="13" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -169,7 +99,7 @@
           <entry key="monstertype" value="15" />
           <entry key="object" value="553" />
           <entry key="parallax" value="73" />
-          <entry key="patch" value="2479" />
+          <entry key="patch" value="2525" />
           <entry key="projectile" value="33" />
           <entry key="recipe" value="55" />
           <entry key="statuseffect" value="1" />
@@ -178,7 +108,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="4107" />
+          <entry key="JSON" value="4153" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="218" />
         </counts>
@@ -186,82 +116,10 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="315" column="6" lean-forward="true" selection-start-line="315" selection-start-column="6" selection-end-line="315" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/bonecaves.biome.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/fleshcave.biome.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/icecaves.biome.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/underground_detached/old/slime/slime.biome">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/lunarbase.biome.patch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="36" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>encumbered2</find>
-      <find>cnsparachute</find>
-      <find>spawnpoop_on_eat</find>
-      <find>minibosstreasure</find>
-      <find>sporemonstertreasure</find>
-      <find>cnssporemonstertreasure</find>
-      <find>cnstentaclecometsporetreasure</find>
-      <find>cnsminibosstreasure</find>
       <find>fogweather</find>
       <find>meteorshower</find>
       <find>mininglantern</find>
@@ -284,9 +142,16 @@
       <find>lax</find>
       <find>undergroundOreRocks</find>
       <find>potsRare</find>
+      <find>noSpawn</find>
+      <find>prettyOften</find>
+      <find>scatteredDangerous</find>
+      <find>depth1</find>
+      <find>: &quot;gold&quot;</find>
+      <find>cnsprettyOften</find>
+      <find>hazardUndergroundTop</find>
+      <find>1hswordhitspark</find>
     </findStrings>
     <replaceStrings>
-      <replace>cnsrifle1</replace>
       <replace>cnssniper1</replace>
       <replace>cnsstonehit</replace>
       <replace>cnsnewquest</replace>
@@ -315,6 +180,7 @@
       <replace>but touching them will void the warranty</replace>
       <replace>visitableTypeDescription</replace>
       <replace />
+      <replace>cns1hswordhitspark</replace>
       <replace>undergroundPlaceables</replace>
     </replaceStrings>
     <dirStrings>
@@ -349,8 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/moon.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/oceanfloor.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/ocean.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/garden.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/desert.biome.patch" />
@@ -395,16 +259,17 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5b.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5c.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5d.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/bonecaves.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/fleshcave.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/icecaves.biome.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/slimecaves.biome.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
     <option name="width" value="815" />
     <option name="height" value="560" />
   </component>
@@ -427,82 +292,7 @@
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="biomes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="biomes" type="462c0819:PsiDirectoryNode" />
-              <item name="underground_detached" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="biomes" type="462c0819:PsiDirectoryNode" />
-              <item name="underground_detached" type="462c0819:PsiDirectoryNode" />
-              <item name="old" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="biomes" type="462c0819:PsiDirectoryNode" />
-              <item name="underground_detached" type="462c0819:PsiDirectoryNode" />
-              <item name="old" type="462c0819:PsiDirectoryNode" />
-              <item name="slime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="parallax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="biomes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="biomes" type="462c0819:PsiDirectoryNode" />
-              <item name="underground_detached" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="biomes" type="462c0819:PsiDirectoryNode" />
-              <item name="underground_detached" type="462c0819:PsiDirectoryNode" />
-              <item name="old" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="parallax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="parallax" type="462c0819:PsiDirectoryNode" />
-              <item name="surface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -556,7 +346,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -582,61 +371,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bioluminescence.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/forest.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="62" column="4" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsbones.parallax">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/surface_detached/bones.biome">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/colourful.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/eyepatch.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/flesh.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/giantflowers.biome.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/hive.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/mushroompatch.biome.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
@@ -844,20 +578,6 @@
         <state relative-caret-position="-241" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/lunarbase.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/underground_detached/old/slime/slime.biome">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/zen/zen.biome.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -865,27 +585,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="315" column="6" lean-forward="true" selection-start-line="315" selection-start-column="6" selection-end-line="315" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/cellcaves.biome.patch">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/luminouscaves.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/mushrooms.biome.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/underground_detached/old/slime/slime.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/bonecaves.biome.patch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -900,6 +621,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/lunarbase.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/stonecaves.biome.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/tarpit.biome.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/wilderness.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/oredistributions.configfunctions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="132" column="6" lean-forward="true" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/distributions.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="476" column="5" lean-forward="true" selection-start-line="476" selection-start-column="5" selection-end-line="476" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#denseLarge#0;n#!!top" />
+            <element signature="n#!!block;n#denseMedium#0;n#!!top" />
+            <element signature="n#!!block;n#denseSmall#0;n#!!top" />
+            <element signature="n#!!block;n#scatteredSmall#0;n#!!top" />
+            <element signature="n#!!block;n#scatteredPots#0;n#!!top" />
+            <element signature="n#!!block;n#scatteredLarge#0;n#!!top" />
+            <element signature="n#!!block;n#moderateClumps#0;n#!!top" />
+            <element signature="n#!!block;n#rareClumpySmall#0;n#!!top" />
+            <element signature="n#!!block;n#rareClumpyLarge#0;n#!!top" />
+            <element signature="n#!!block;n#denseSurfaceCrops#0;n#!!top" />
+            <element signature="n#!!block;n#surfaceCrops#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundCrops#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundVines#0;n#!!top" />
+            <element signature="n#!!block;n#surfaceCapsules#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundCapsules#0;n#!!top" />
+            <element signature="n#!!block;n#potsRare#0;n#!!top" />
+            <element signature="n#!!block;n#tiyDist#0;n#!!top" />
+            <element signature="n#!!block;n#tiyDistRare#0;n#!!top" />
+            <element signature="n#!!block;n#tiyDistPlatform#0;n#!!top" />
+            <element signature="n#!!block;n#tiyDistTerrainfeatures#0;n#!!top" />
+            <element signature="n#!!block;n#randomEncounter#0;n#!!top" />
+            <element signature="n#!!block;n#overgroundChests#0;n#!!top" />
+            <element signature="n#!!block;n#overgroundRareChests#0;n#!!top" />
+            <element signature="n#!!block;n#backerStatues#0;n#!!top" />
+            <element signature="n#!!block;n#mainBiomeMicrodungeon#0;n#!!top" />
+            <element signature="n#!!block;n#mainBiomeRareMicrodungeon#0;n#!!top" />
+            <element signature="n#!!block;n#mainBiomeEncounterDungeon#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundBiomeEncounterDungeon#0;n#!!top" />
+            <element signature="n#!!block;n#scorchedcityMicrodungeon#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundtechChests#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundweaponChests#0;n#!!top" />
+            <element signature="n#!!block;n#layer1Chests#0;n#!!top" />
+            <element signature="n#!!block;n#layer2Chests#0;n#!!top" />
+            <element signature="n#!!block;n#layer3Chests#0;n#!!top" />
+            <element signature="n#!!block;n#minibiomeChests#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundChallengeDoors#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundOreRocks#0;n#!!top" />
+            <element signature="n#!!block;n#undergroundFossils#0;n#!!top" />
+            <element signature="n#!!block;n#hazardUndergroundCeilingTop#0;n#!!top" />
+            <element signature="n#!!block;n#hazardUndergroundCeilingMid#0;n#!!top" />
+            <element signature="n#!!block;n#hazardUndergroundCeilingLower#0;n#!!top" />
+            <element signature="n#!!block;n#hazardUndergroundCeilingCore#0;n#!!top" />
+            <element signature="n#!!block;n#everywhere#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/slimecaves.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>

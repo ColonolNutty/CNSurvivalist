@@ -152,7 +152,7 @@
             "mode" : "floor",
             "priority" : 2.0,
             "variants" : 1,
-            "distribution" : "/biomes/distributions.config:cnsscatteredDangerous",
+            "distribution" : "/biomes/distributions.config:cnsScatteredDangerous",
 
             "type" : "bush",
             "bushes" : [

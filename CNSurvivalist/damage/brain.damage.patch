@@ -28,7 +28,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/cns1hswordhitspark/1hswordhitspark.animation",
+              "animation" : "/animations/cns1hswordhitspark/cns1hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -760,7 +760,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/cns1hswordhitspark/1hswordhitspark.animation",
+              "animation" : "/animations/cns1hswordhitspark/cns1hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -885,7 +885,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animations/cns1hswordhitspark/1hswordhitspark.animation",
+              "animation" : "/animations/cns1hswordhitspark/cns1hswordhitspark.animation",
               "size" : 1,
               "angularVelocity" : 0,
               "fade" : 1,
