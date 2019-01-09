@@ -12,7 +12,7 @@
 	{
 		"op": "replace",
 		"path": "/particleEmitters/deathPoof/particles/0/particle",
-		"value": "cnspuff2c"
+		"value": "puff2c"
 	},
 	{
 		"op": "replace",

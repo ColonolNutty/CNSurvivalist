@@ -1,9 +1,0 @@
-{
-  "name" : "cnszombietail",
-  "category" : "cnszombie",
-  "type" : "tail",
-
-  "frames" : {
-    "tail" : "cnszombietail.png"
-  }
-}

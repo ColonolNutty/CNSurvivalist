@@ -28,7 +28,7 @@
           [
             {
               "type" : "animated",
-              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitsparkblood.animation",
+              "animation" : "/animations/2hswordhitspark/2hswordhitsparkblood.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,
@@ -338,7 +338,7 @@
           [
             {
               "type" : "animated",
-              "animation" : "/animations/cns2hswordhitspark/cns2hswordhitsparkblood.animation",
+              "animation" : "/animations/2hswordhitspark/2hswordhitsparkblood.animation",
               "size" : 1.2,
               "angularVelocity" : 0,
               "fade" : 1,

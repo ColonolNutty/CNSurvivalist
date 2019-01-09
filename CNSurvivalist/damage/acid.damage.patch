@@ -14,7 +14,7 @@
 		"path": "/effects/organic/kill/particles/0/-",
 		"value": {
 			"type": "animated",
-			"animation": "/animations/cns1hswordhitspark/cns1hswordhitsparkblood.animation",
+			"animation": "/animations/1hswordhitspark/1hswordhitsparkblood.animation",
 			"size": 1.2,
 			"angularVelocity": 0,
 			"fade": 1,
