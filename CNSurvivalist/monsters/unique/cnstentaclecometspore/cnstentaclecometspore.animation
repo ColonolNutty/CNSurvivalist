@@ -11,30 +11,35 @@
           "idle" : {
             "frames" : 1
           },
-          "jump" : {
+          "windup" : {
             "frames" : 1
+          },
+          "walk" : {
+            "frames" : 8,
+            "cycle" : 1,
+            "mode" : "loop"
           },
           "run" : {
             "frames" : 8,
             "cycle" : 0.75,
             "mode" : "loop"
           },
-          "fall" : {
-            "frames" : 1
-          },
           "blink" : {
             "frames" : 3,
             "mode" : "transition",
             "transition" : "idle"
           },
-          "open" : {
-            "frames" : 8,
-            "mode" : "transition",
-            "transition" : "idle"
+          "jump" : {
+            "frames" : 5,
+            "cycle" : 0.2,
+            "properties" : {
+              "immediateSound" : "/sfx/npc/monsters/monster_hop.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
+            }
           },
-          "walk" : {
-            "frames" : 8,
-            "mode" : "loop"
+          "fall" : {
+            "frames" : 5,
+            "cycle" : 0.5
           }
         }
       },
@@ -54,7 +59,7 @@
 
     "parts" : {
 
-      "chest" : {
+      "body" : {
         "properties" : {
           "transformationGroups" : [ "body" ],
           "zLevel" : 2
@@ -64,12 +69,17 @@
           "body" : {
             "closedIdle" : {
               "properties" : {
-                "image" : "<partImage>:open.1"
+                "image" : "<partImage>:jump.1"
               }
             },
             "idle" : {
               "properties" : {
                 "image" : "<partImage>:idle"
+              }
+            },
+            "windup" : {
+              "properties" : {
+                "image" : "<partImage>:windup"
               }
             },
             "run" : {
@@ -79,22 +89,17 @@
             },
             "jump" : {
               "properties" : {
-                "image" : "<partImage>:jump"
+                "image" : "<partImage>:jump.<frame>"
               }
             },
             "fall" : {
               "properties" : {
-                "image" : "<partImage>:fall"
+                "image" : "<partImage>:fall.<frame>"
               }
             },
             "blink" : {
               "properties" : {
                 "image" : "<partImage>:blink.<frame>"
-              }
-            },
-            "open" : {
-              "properties" : {
-                "image" : "<partImage>:open.<frame>"
               }
             },
             "walk" : {
@@ -118,6 +123,14 @@
   "transformationGroups" : {
     "body" : {"interpolated" : true},
     "aim" : {"interpolated" : true}
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0.25,
+      "directives" : "fade=ffffff;0.5"
+    }
   },
 
   "particleEmitters" : {
@@ -145,15 +158,8 @@
   },
 
   "sounds" : {
-    "aggroHop" : [ ],
-    "deathPuff" : [ ]
-  },
-  "effects" : {
-    "blink" : {
-      "type" : "flash",
-      "time" : 0.25,
-      "directives" : "fade=ffffff;0.5"
-    }
+    "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
+    "deathPuff" : [ "/sfx/npc/quadruped/teethyhead_death.ogg" ]
   }
 }
 

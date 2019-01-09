@@ -1,9 +1,0 @@
-{
-  "name" : "cnstentaclecometspore",
-  "category" : "cnstentaclecometspore",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "cnstentaclecometspore.png"
-  }
-}

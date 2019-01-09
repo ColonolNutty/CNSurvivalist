@@ -18,7 +18,6 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/unique/cnstentaclecometspore/cnstentaclecometspore.lua",
       "/monsters/monster.lua"
     ],
 
@@ -32,53 +31,83 @@
       "targetEntityTypes" : [ "player", "npc", "monster" ],
       "keepTargetInSight" : false,
       "keepTargetInRange" : 60,
-      "targetOutOfSightTime" : 999,
+      "targetOutOfSightTime" : 40,
 
       "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "hostileActions" : [
+        {
+          "name" : "action-leap",
+          "cooldown" : 0.1,
+          "parameters" : {
+            "minimumRange" : 5,
+            "maximumRange" : 20,
+            "windupTime" : 0.1,
+            "windupState" : "windup",
+
+            "leapVelocity" : 35,
+            "collisionCheck" : true,
+            "highArc" : true,
+            "leapState" : "jump",
+            "fallState" : "fall",
+
+            "winddownTime" : 0.25,
+            "winddownState" : "idle"
+          }
+        }
+      ],
+
+      "periodicActions" : [],
 
       "approachActions" : [
         {
           "name" : "approach-walk",
           "parameters" : {
             "canJump" : true,
-            "maxJumps" : 6,
-            "jumpXVelocity" : 5,
-            "jumpYVelocity" : 5,
+            "maxJumps" : 8,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
             "jumpXControlForce" : 50,
-            "fallState" : "jump",
-            "moveState" : "run",
+            "minXRange" : 10,
             "run" : true
           }
         }
       ],
-	  "followActions" : [		
-        {		
-          "name" : "approach-teleport",		
-          "parameters" : {		
-          }		
-        },		
-        {		
-          "name" : "approach-walk",		
-          "parameters" : {		
-            "canJump" : true,		
-            "maxJumps" : 6,		
-            "jumpXVelocity" : 5,		
-            "jumpYVelocity" : 5,		
-            "jumpXControlForce" : 50,		
-            "fallState" : "jump",		
-            "moveState" : "run",		
-            "run" : true		
-          }		
-        }		
+
+	    "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 8,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10,
+            "run" : true
+          }
+        }
       ],
 
       "wanderActions" : [
         {
           "name" : "wander-walk",
-          "cooldown" : 6.0,
+          "cooldown" : 4.0,
           "parameters" : {
             "wanderTime" : [5, 15]
           }
+        }
+      ],
+
+      "deathActions" : [
+        {
+          "name" : "action-blink",
+          "parameters" : {}
         }
       ]
     },
@@ -112,14 +141,14 @@
       "damageSourceKind" : "bite",
       "statusEffects" : [ ]
     },
-	"colors" : "generated",
+	  "colors" : "generated",
 
     "statusSettings" : {
       "statusProperties" : {
         "targetMaterialKind" : "organic"
       },
-	  "appliesWeatherStatusEffects" : false,
       "appliesEnvironmentStatusEffects" : false,
+	    "appliesWeatherStatusEffects" : true,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
       "primaryScriptSources" : [
@@ -128,20 +157,20 @@
       "primaryScriptDelta" : 5,
 
       "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.1
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 5
+        },
         "maxHealth" : {
-          "baseValue" : 14
+          "baseValue" : 50
         },
         "maxShield" : {
           "baseValue" : 0.0
         },
         "protection" : {
           "baseValue" : 1.0
-        },
-        "knockbackStunTime" : {
-          "baseValue" : 0.1
-        },
-        "knockbackThreshold" : {
-          "baseValue" : 5
         },
         "healthRegen" : {
           "baseValue" : 0.0
@@ -151,6 +180,33 @@
         },
         "powerMultiplier" : {
           "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "poisonResistance" : {
+          "baseValue" : -0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0.0
         }
       },
 
@@ -174,6 +230,6 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
-	"capturable" : false
+	  "capturable" : false
   }
 }
