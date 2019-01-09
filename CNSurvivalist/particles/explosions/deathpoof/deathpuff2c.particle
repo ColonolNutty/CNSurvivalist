@@ -1,5 +1,5 @@
 {
-  "kind" : "puff2c",
+  "kind" : "deathpuff2c",
   "definition" : {
     "type" : "animated",
     "animation" : "/animations/puff2c/puff2c.animation",

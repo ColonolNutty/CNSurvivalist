@@ -3,7 +3,7 @@
 		"op": "add",
 		"path": "/-",
 		"value": {
-			"name" : "cnsinvismonster",
+			"name" : "cnsinvis",
 
 			"spawnParameters" : {
 				"area" : "surface",
@@ -13,7 +13,7 @@
 
 			"groupSize" : [1, 1],
 			"spawnChance" : 0.04,
-			"monsterType" : "cnsinvismonster",
+			"monsterType" : "cnsinvis",
 			"monsterParameters" : {
 				"aggressive" : true
 			}

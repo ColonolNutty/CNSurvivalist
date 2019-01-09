@@ -18,7 +18,10 @@
   	"walkbackwards.6" : "walk.3",
   	"walkbackwards.7" : "walk.2",
   	"walkbackwards.8" : "walk.1",
-    "walk": "walk.1",
-    "walk.0": "walk.1"
+    "portrait" : "walk.1",
+    "knockback" : "walk.1",
+    "idle" : "walk.1",
+    "walk" : "walk.1",
+    "walk.0" : "walk.1"
   }
 }

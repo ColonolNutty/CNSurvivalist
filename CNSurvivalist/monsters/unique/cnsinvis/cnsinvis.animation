@@ -37,7 +37,7 @@
         }
       },
       "damage" : {
-        "priority" : 0,
+        "priority" : 1,
         "default" : "none",
         "states" : {
           "none" : {
@@ -98,7 +98,7 @@
           "damage" : {
             "stunned" : {
               "properties" : {
-                "image" : "<partImage>:walk"
+                "image" : "<partImage>:jump"
               }
             }
           }
@@ -152,71 +152,17 @@
           "damage" : {
             "stunned" : {
               "properties" : {
-                "image" : "<partImage>:walk"
+                "image" : "<partImage>:jump"
               }
             }
           }
         }
       },
 
-      "chest" : {
+      "body" : {
         "properties" : {
           "transformationGroups" : [ "body" ],
           "zLevel" : 2
-        },
-
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
-              }
-            },
-            "jump" : {
-              "properties" : {
-                "image" : "<partImage>:jump"
-              }
-            },
-            "walk" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
-              }
-            },
-            "run" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
-              }
-            },
-            "chargewindup" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
-              }
-            },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
-              }
-            },
-            "chargewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
-              }
-            }
-          },
-          "damage" : {
-            "stunned" : {
-              "properties" : {
-                "image" : "<partImage>:jump"
-              }
-            }
-          }
-        }
-      },
-
-      "tail" : {
-        "properties" : {
-          "transformationGroups" : [ "body" ],
-          "zLevel" : 1
         },
 
         "partStates" : {
@@ -331,7 +277,7 @@
   "particleEmitters" : {
     "deathPoof" : {
       "particles" : [
-        { "particle" : "puff2c" },
+        { "particle" : "deathpuff2c" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },

@@ -12,7 +12,5 @@
     "meleeProjectile" : [ "override", "chomp4" ]
   },
 
-  "partParameters" : {
-
-  }
+  "partParameters" : {}
 }

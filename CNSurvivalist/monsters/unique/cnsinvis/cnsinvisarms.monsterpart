@@ -1,0 +1,12 @@
+{
+  "name" : "cnsinvisarms",
+  "category" : "cnsinvis",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "cnsinvisarmsfsleeve.png",
+    "backArm" : "cnsinvisarmsbsleeve.png"
+  },
+
+  "parameters" : {}
+}

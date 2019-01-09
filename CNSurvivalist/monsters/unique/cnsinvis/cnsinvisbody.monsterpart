@@ -1,0 +1,11 @@
+{
+  "name" : "cnsinvisbody",
+  "category" : "cnsinvis",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "cnsinvisbody.png"
+  },
+
+  "parameters" : { }
+}
