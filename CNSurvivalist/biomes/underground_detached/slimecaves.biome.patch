@@ -9,7 +9,7 @@
       "distribution" : "/biomes/distributions.config:denseMedium",
 
       "type" : "grass",
-      "grasses" : [ "cnsslime" ]
+      "grasses" : [ "slime" ]
     }
   }
 ]
