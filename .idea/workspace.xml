@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/cnssmallmeteor/cnssmallmeteorhit.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/projectiles/cnssmallmeteorhit.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/ship/cnsbrokennav.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnshostile.parallax" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnshostile.parallax" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +33,10 @@
           <entry key="animation" value="45" />
           <entry key="back" value="6" />
           <entry key="behavior" value="1" />
-          <entry key="biome" value="35" />
+          <entry key="biome" value="51" />
           <entry key="chest" value="14" />
           <entry key="codex" value="2" />
-          <entry key="config" value="14" />
+          <entry key="config" value="25" />
           <entry key="configfunctions" value="1" />
           <entry key="consumable" value="10" />
           <entry key="flashlight" value="1" />
@@ -50,34 +46,34 @@
           <entry key="head" value="21" />
           <entry key="item" value="30" />
           <entry key="legs" value="11" />
-          <entry key="lua" value="21" />
+          <entry key="lua" value="22" />
           <entry key="miningtool" value="2" />
           <entry key="monsterpart" value="48" />
           <entry key="monstertype" value="44" />
           <entry key="object" value="22" />
-          <entry key="parallax" value="16" />
+          <entry key="parallax" value="18" />
           <entry key="particle" value="6" />
           <entry key="partparams" value="15" />
-          <entry key="patch" value="208" />
-          <entry key="png" value="116" />
+          <entry key="patch" value="218" />
+          <entry key="png" value="123" />
           <entry key="projectile" value="11" />
           <entry key="questtemplate" value="1" />
           <entry key="recipe" value="86" />
           <entry key="spawntypes" value="1" />
           <entry key="statuseffect" value="3" />
           <entry key="thrownitem" value="5" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="3" />
           <entry key="weaponability" value="2" />
           <entry key="weather" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="116" />
-          <entry key="JSON" value="659" />
-          <entry key="Lua" value="19" />
+          <entry key="Image" value="123" />
+          <entry key="JSON" value="698" />
+          <entry key="Lua" value="20" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,7 +81,7 @@
           <entry key="activeitem" value="25" />
           <entry key="animation" value="239" />
           <entry key="back" value="156" />
-          <entry key="biome" value="60" />
+          <entry key="biome" value="109" />
           <entry key="chest" value="246" />
           <entry key="codex" value="1" />
           <entry key="config" value="24" />
@@ -103,9 +99,9 @@
           <entry key="monsterpart" value="170" />
           <entry key="monstertype" value="188" />
           <entry key="object" value="553" />
-          <entry key="parallax" value="73" />
+          <entry key="parallax" value="106" />
           <entry key="partparams" value="5" />
-          <entry key="patch" value="2566" />
+          <entry key="patch" value="3511" />
           <entry key="projectile" value="36" />
           <entry key="recipe" value="55" />
           <entry key="statuseffect" value="1" />
@@ -114,7 +110,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="5020" />
+          <entry key="JSON" value="6047" />
           <entry key="Lua" value="96" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="218" />
@@ -124,11 +120,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="1530">
+              <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="142" column="19" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!block;n#spawnProfile#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="161" column="39" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsunknown.parallax">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsslime.parallax">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/cockpit.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3192">
+              <caret line="1004" column="4" lean-forward="true" selection-start-line="1004" selection-start-column="4" selection-end-line="1004" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!block;n#background#0;n#!!block;n#children#0;n#!!block;n#planetinfo#0;n#!!block;n#gui#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/surface/alien.biome">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
+              <folding>
+                <element signature="e#1521#4160#0" />
+                <element signature="n#!!block;n#ambientNoises#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/cockpitview.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="422" column="28" selection-start-line="422" selection-start-column="18" selection-end-line="422" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -137,40 +206,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fixship</find>
-      <find>puff2c</find>
-      <find>cnsminibossTreasure</find>
-      <find>bodyMaterialKind</find>
-      <find>&quot;organic&quot;</find>
-      <find>&quot;wooden&quot;</find>
-      <find>organic</find>
-      <find>treemonster.ogg</find>
-      <find>pengu1</find>
-      <find>cnszombie/</find>
-      <find>tiger_pain1.ogg</find>
-      <find>lion_attack</find>
-      <find>idle2.ogg</find>
-      <find>birdflap</find>
-      <find>idle1.ogg</find>
-      <find>attack.ogg</find>
-      <find>scaveran_attack.ogg</find>
-      <find>cnsscaveran_attack.ogg</find>
-      <find>scaveran_attack</find>
-      <find>monstersplosion</find>
-      <find>/npc/</find>
-      <find>explosion</find>
-      <find>/gun/cnsdynami</find>
-      <find>cnsdynamiteexplosion.ogg</find>
-      <find>plasmaexplosion2</find>
-      <find>newquest</find>
-      <find>cnsbrokennav</find>
       <find>cnsnav</find>
       <find>smallmeteorhit.ogg</find>
       <find>smallmeteor</find>
+      <find>grenadezbomb</find>
+      <find>grasslands</find>
+      <find>_liquid1</find>
+      <find>icy</find>
+      <find>cnsunknown</find>
+      <find>&quot;barren&quot;</find>
+      <find>&quot;bones&quot;</find>
+      <find>terrestrialHorizonGraphics</find>
+      <find>spawnProfile</find>
+      <find>barren</find>
+      <find>&quot;grasses&quot; : [ &quot;slime&quot; ]</find>
+      <find>undergroundPlaceables</find>
+      <find>slime</find>
+      <find>&quot;garden&quot;</find>
+      <find>&quot;midnight&quot;</find>
+      <find>&quot;small&quot;</find>
+      <find>&quot;large&quot;</find>
+      <find>surfaceOres</find>
+      <find>ship</find>
+      <find>worldTypeDescription</find>
+      <find>planetinfo</find>
+      <find>&quot;description&quot; :</find>
+      <find>&quot;description&quot;</find>
+      <find>visitableTypeDescription</find>
+      <find>slimeback</find>
+      <find>bone8</find>
+      <find>greenback</find>
     </findStrings>
     <replaceStrings>
-      <replace>cnssurvivalpoints</replace>
-      <replace>cnsfogstorm</replace>
       <replace>cnssnowstorm</replace>
       <replace>cnsminiboss</replace>
       <replace>cnsbandage</replace>
@@ -199,6 +266,8 @@
       <replace>config.getParameter</replace>
       <replace>body</replace>
       <replace>monsters/scaveran_attack.ogg</replace>
+      <replace>terrestrialGraphics</replace>
+      <replace>cnsslime</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\animations\cnsbloodextraspraydown</dir>
@@ -234,14 +303,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0d.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1a.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1b.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1c.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1d.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3a.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3b.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3c.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground3d.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5a.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground5b.biome.patch" />
@@ -251,7 +312,6 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/bonecaves.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/fleshcave.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/icecaves.biome.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/body/cnszombiebody2/cnszombiebody2.frames" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/arms/cnszombiearms/cnszombiearmsbsleeve.frames" />
@@ -285,10 +345,21 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.animation" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/cnsinvis.animation" />
         <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsslime.biome" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/weather.config.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/terrestrial_worlds.config.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/celestial.config.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsunknown.parallax" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="235" />
+    <option name="y" value="123" />
     <option name="width" value="1220" />
     <option name="height" value="860" />
   </component>
@@ -310,94 +381,20 @@
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="monsters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="monsters" type="462c0819:PsiDirectoryNode" />
-              <item name="crawlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="monsters" type="462c0819:PsiDirectoryNode" />
-              <item name="crawlers" type="462c0819:PsiDirectoryNode" />
-              <item name="crustoise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+              <item name="parallax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
-              <item name="explosions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="cinematics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="melee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="parallax" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,18 +408,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\interface\bookmarks\icons" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\interface\cockpit\planets" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnstreemonster" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnstentaclecometspore" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnszombie" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\armors\backitems\cnsparachutepack" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\active\weapons\melee\cnsstonemace" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\biomes\surface" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\projectiles" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\gun" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\projectile" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\npc\monsters" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnsinvis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -454,7 +451,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -478,216 +475,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/pulpin/pulpin.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/nutmidge/nutmidge.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/nutmidgeling/nutmidgeling.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/miasmop/miasmop.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/kingnutmidgeling/kingnutmidgeling.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometsporebody.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/hemogoblin/hemogoblin.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/snaggler/snaggler.monstertype">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/hemogoblin/hemogoblin.frames">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/hemogoblin/hemogoblin.monstertype">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/walkers/hemogoblin/hemogoblin.animation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometspore.animation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" column="43" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4216">
-          <caret line="248" column="22" selection-start-line="248" selection-start-column="22" selection-end-line="248" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/slimecaves.biome.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometspore.monstertype">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/cnstentaclecometsporebody.monsterpart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstentaclecometspore/default.frames">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.partparams">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/particles/explosions/deathpoof/greendeathember.particle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/particles/explosions/deathpoof/greenmonstersplosion.particle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/crustoise/crustoise.monstertype.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/iguarmor/iguarmor.animation.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/ai/ai.config.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/animations/puff2c/puff2c.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/animations/puff2c/puff2c.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/puff2c/puff2c.frames">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/animations/puff2c/puff2c.animation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/puff2c/puff2c.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/iguarmor/iguarmor.monstertype.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/default.frames">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/active/weapons/bow/bow/bow.activeitem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/projectiles/guns/arrows/woodenarrow/flamingwoodenarrow.projectile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/projectiles/guns/arrows/woodenarrow/woodenarrow.projectile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonsterbody.monsterpart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonsterbody.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.monstertype">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/animations/puff2c/puff2c.animation.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.animation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/crustoise/crustoise.animation.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/crustoise/crustoise.animation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="176" column="17" lean-forward="true" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/boss/spiderboss/spiderboss.animation">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -756,8 +543,255 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/celestial/system/terrestrial/biomes/alien/maskie1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/celestial/system/terrestrial/biomes/alien/maskie2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/underground_detached/minivillage.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-717">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/surface/barren.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/celestial/biomes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/underground_detached/slimecaves.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1051">
+          <caret line="180" column="3" lean-forward="true" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/old/slime/slime.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/bonecaves.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface_detached/bones.biome.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsslime.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="71" column="15" lean-forward="true" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!block;n#spawnProfile#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/distributions.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/underground_detached/old/slime/slime.biome">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/underground_detached/slimecaves.biome.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/weather.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/currencies.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/instance_worlds.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/systemworld.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/universeflags.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/world_template.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/universe_server.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/terrestrial_worlds.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="899" column="5" lean-forward="true" selection-start-line="899" selection-start-column="5" selection-end-line="899" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#planetSizes#0;n#!!top" />
+            <element signature="n#!!block;n#planetTypes#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/terrestrial_worlds.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="164" column="52" lean-forward="true" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
+          <folding>
+            <element signature="e#1173#1713#0" />
+            <element signature="e#1719#2263#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/celestial.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-869">
+          <caret line="835" column="24" selection-start-line="835" selection-start-column="24" selection-end-line="835" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/celestial.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="308" column="16" lean-forward="true" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/surface/forest.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/planets/midnight.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/planets/moon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/planets/barren.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/bookmarks/icons/midnight.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/planets/alien.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/surface/arctic.biome">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/biomes/surface/alien.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="e#1521#4160#0" />
+            <element signature="n#!!block;n#ambientNoises#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsunknown.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="142" column="19" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!block;n#spawnProfile#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnshostile.biome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/cockpitview.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="422" column="28" selection-start-line="422" selection-start-column="18" selection-end-line="422" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/interface/cockpit/cockpit.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3192">
+          <caret line="1004" column="4" lean-forward="true" selection-start-line="1004" selection-start-column="4" selection-end-line="1004" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#background#0;n#!!block;n#children#0;n#!!block;n#planetinfo#0;n#!!block;n#gui#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="161" column="39" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsunknown.parallax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/parallax/surface/cnsslime.parallax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>

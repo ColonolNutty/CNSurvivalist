@@ -140,7 +140,7 @@
 
   "mainBlock" : "alienrock",
   "subBlocks" : [ "dirt" ],
-  "ores" : "surfaceOres",
+  "ores" : "surface",
 
   "parallax" : "/parallax/surface/cnsunknown.parallax",
 

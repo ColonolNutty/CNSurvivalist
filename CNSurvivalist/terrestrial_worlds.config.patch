@@ -1,6 +1,182 @@
 [
   [
     {
+      "op": "test",
+      "path": "/planetTypes/cnshostile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/planetTypes/cnshostile",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypes/cnsunknown",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/planetTypes/cnsunknown",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypes/cnsslime",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/planetTypes/cnsslime",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnshostile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnshostile",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnsunknown",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnsunknown",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnsslime",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnsslime",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/planetTypes/cnsunknown",
+      "value": {
+        "threatRange" : [4, 4],
+        "layers" : {
+          "surface" : {
+            "primaryRegion" : ["cnsunknown"],
+            "secondaryRegions" : [ "midnight", "barren" ],
+            "dungeonCountRange" : [2, 2],
+            "dungeons" : [
+              [1.0, "apextestfacility"], [1.0, "apexbase"],
+              [1.0, "dungeoncrawler"], [1.0, "evilfortress"],
+              [1.0, "humanprison"]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/cnshostile",
+      "value": {
+        "threatRange" : [6, 6],
+        "layers" : {
+          "surface" : {
+            "primaryRegion" : ["cnshostile"],
+            "secondaryRegions" : ["desert", "snow", "barren"],
+            "dungeonCountRange" : [2, 2],
+            "dungeons" : [
+              [1.0, "apextestfacility"], [1.0, "apexbase"],
+              [1.0, "dungeoncrawler"], [1.0, "evilfortress"],
+              [1.0, "humanprison"]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypes/cnsslime",
+      "value": {
+        "blendSize" : 30,
+        "threatRange" : [3, 3],
+        "layers" : {
+          "surface" : {
+            "primaryRegion" : ["cnsslime"],
+            "secondaryRegions" : ["toxic"],
+            "baseHeight" : 1150,
+            "layerLevel" : 1050,
+            "dungeonCountRange" : [2, 2],
+            "dungeons" : [
+              [1.0, "apextestfacility"], [1.0, "apexbase"], [1.0, "apexcamp"],
+              [1.0, "dungeoncrawler"], [1.0, "glitchsewer"]
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnshostile",
+      "value": {
+        "blockSelector" : [ "remixedMildSurface" ],
+        "fgCaveSelector" : [ "surfaceCaves" ],
+        "bgCaveSelector" : [ "empty" ],
+        "biome" : [
+          [1, [ "cnshostile" ]]
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnsunknown",
+      "value": {
+        "blockSelector" : [ "remixedMildSurface" ],
+        "fgCaveSelector" : [ "surfaceCaves" ],
+        "bgCaveSelector" : [ "empty" ],
+        "biome" : [
+          [1, [ "cnsunknown" ]]
+        ]
+      },
+      "subRegion" : ["bioluminescence"]
+    },
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnsslime",
+      "value": {
+        "oceanLiquid" : [ "slimeliquid", "poison" ],
+        "blockSelector" : [ "remixedMildSurface" ],
+        "caveLiquid" : [ "slimeliquid", "poison" ],
+        "caveLiquidSeedDensityRange" : [20, 20],
+        "fgCaveSelector" : [ "surfaceCaves" ],
+        "bgCaveSelector" : [ "empty" ],
+        "biome" : [
+          [1, [ "cnsslime" ]]
+        ],
+        "subRegion" : ["bioluminescence"]
+      }
+    }
+  ],
+  [
+    {
       "op": "replace",
       "path": "/planetTypes/garden/layers/surface/dungeons",
       "value": [ ]
@@ -13,46 +189,6 @@
     {
       "op": "replace",
       "path": "/planetTypes/desert/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/savannah/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/snow/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/jungle/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/alien/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/tundra/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/volcanic/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/midnight/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/scorchedcity/layers/surface/dungeons",
       "value": [ ]
     }
   ]

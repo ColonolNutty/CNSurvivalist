@@ -19,14 +19,14 @@
     },
 
     {
-      "kind" : "greenback",
+      "kind" : "cnsgreenback",
       "offset" : [0, 450],
       "parallax" : 12,
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "foliage/treefront",
+      "kind" : "cnsgreenfront",
       "offset" : [0, 300],
       "parallax" : 2.5,
       "directives" : "?saturation=-5?brightness=10",

@@ -119,6 +119,21 @@
   },
   {
     "op": "add",
+    "path": "/visitableTypeDescription/cnshostile",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/cnsunknown",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/cnsslime",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "add",
     "path": "/planetTypeNames/cnshostile",
     "value": "Unknown"
   },
@@ -129,12 +144,22 @@
   },
   {
     "op": "add",
+    "path": "/planetTypeNames/cnsslime",
+    "value": "Unknown"
+  },
+  {
+    "op": "add",
     "path": "/planetTypeColors/cnshostile",
     "value": [74, 35, 35]
   },
   {
     "op": "add",
     "path": "/planetTypeColors/cnsunknown",
+    "value": [255, 255, 255]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/cnsslime",
     "value": [255, 255, 255]
   },
   {

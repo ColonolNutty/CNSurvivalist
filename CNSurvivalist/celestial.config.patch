@@ -1,0 +1,314 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialHorizonGraphics/cnsunknown",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/cnsunknown",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialHorizonGraphics/cnshostile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/cnshostile",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialHorizonGraphics/cnsicy",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/cnsicy",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialHorizonGraphics/cnsgrasslands",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/cnsgrasslands",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialHorizonGraphics/bones",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/bones",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialHorizonGraphics/cnsslime",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/cnsslime",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialHorizonGraphics/tentacles",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/tentacles",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/cnsunknown",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/cnsunknown",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/cnshostile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/cnshostile",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/cnsicy",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/cnsicy",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/cnsgrasslands",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/cnsgrasslands",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/bones",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/bones",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/cnsslime",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/cnsslime",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/tentacles",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/tentacles",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/cnsunknown",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/cnsunknown_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/cnshostile",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/cnshostile_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/cnsicy",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/cnsicy_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/cnsgrasslands",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/cnsgrasslands_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/cnsslime",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/cnsslime_<selector>.png",
+        "liquidTextures" : "/celestial/system/terrestrial/horizon/liquids/cnsslimeliquid_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/bones",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/bones_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/tentacles",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/tentacles_<selector>.png",
+        "liquidTextures" : "/celestial/system/terrestrial/horizon/liquids/tentaclejuice_<selector>.png",
+        "maskPerPlanetRange" : [0, 0]
+      }
+    }
+  ],
+  [
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/cnsunknown",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/cnsunknown/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange" : [1, 30]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/cnshostile",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/cnshostile/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange" : [1, 30]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/cnsicy",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/cnsicy/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange" : [1, 30]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/cnsgrasslands",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/cnsgrasslands/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange" : [1, 30]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/cnsslime",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/cnsslime/maskie<num>.png",
+        "liquidImages" : "/celestial/system/terrestrial/liquids/cnsslimeliquid_.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+        "dynamicsRange" : [1, 30],
+        "baseCount" : 2
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/bones",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/bones/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange" : [1, 30]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/tentacles",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/tentacles/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange" : [1, 30]
+      }
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+      "value": "cnshostile"
+    },
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+      "value": "cnsunknown"
+    },
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+      "value": "cnsslime"
+    }
+  ]
+]
