@@ -1,7 +1,7 @@
 {
   "type" : "cnstreemonster",
-  "shortdescription" : "TreeMonster",
-  "description" : "It's a tree",
+  "shortdescription" : "Tree Monster",
+  "description" : "It's a tree that has come to life!",
 
   "categories" : [ "cnstreemonster" ],
   "parts" : [ "body" ],
@@ -131,7 +131,7 @@
       }
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "wooden",
 
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
 
@@ -147,7 +147,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "wooden"
       },
       "appliesWeatherStatusEffects" : false,
       "appliesEnvironmentStatusEffects" : false,
@@ -205,6 +205,6 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -21],
-	"capturable" : false
+	  "capturable" : false
   }
 }

@@ -26,7 +26,7 @@
             "cycle" : 0.5,
             "mode" : "loop",
             "properties" : {
-              "persistentSound" : "/sfx/npc/cnstreemonster/treemonster.ogg"
+              "persistentSound" : "/sfx/npc/cnstreemonster/cnstreemonster.ogg"
             }
           },
           "chargewindup" : {
@@ -130,22 +130,23 @@
   },
 
   "transformationGroups" : {
-    "body" : {"interpolated" : true},
-    "aim" : {"interpolated" : true}
+    "body" : { "interpolated" : true },
+    "aim" : { "interpolated" : true }
   },
 
   "particleEmitters" : {
     "deathPoof" : {
       "particles" : [
         { "particle" : "deathpuff2c" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
+        { "particle" : "greenmonstersplosion" },
+        { "particle" : "greendeathember" },
+        { "particle" : "greendeathember" },
+        { "particle" : "greendeathember" },
+        { "particle" : "greendeathember" },
+        { "particle" : "greendeathember" },
+        { "particle" : "greendeathember" },
+        { "particle" : "greendeathember" },
+        { "particle" : "greendeathember" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -159,7 +160,7 @@
   },
 
   "sounds" : {
-    "aggroHop" : [ "/sfx/npc/cnstreemonster/treemonster.ogg" ],
+    "aggroHop" : [ "/sfx/npc/cnstreemonster/cnstreemonster.ogg" ],
     "deathPuff" : [ ]
   },
   "effects" : {

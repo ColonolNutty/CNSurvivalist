@@ -1,0 +1,9 @@
+{
+  "name" : "cnstreemonsterbody",
+  "category" : "cnstreemonster",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "cnstreemonsterbody.png"
+  }
+}
