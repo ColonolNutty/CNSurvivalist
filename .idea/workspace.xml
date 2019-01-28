@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle1/cnsrifle1.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle1/cnsrifle1.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle2/cnsrifle2.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle2/cnsrifle2.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper1/cnssniper1.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper1/cnssniper1.activeitem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnsdynamiteexplosion.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/projectiles/cnsdynamiteexplosion.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnsrifle1.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnsrifle2.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnssniper1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnssmallmeteorexplosion/cnssmallmeteorexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/cnssmallmeteor/cnssmallmeteorhit.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/projectiles/cnssmallmeteorhit.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/ship/cnsbrokennav.ogg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +60,7 @@
           <entry key="partparams" value="15" />
           <entry key="patch" value="208" />
           <entry key="png" value="116" />
-          <entry key="projectile" value="10" />
+          <entry key="projectile" value="11" />
           <entry key="questtemplate" value="1" />
           <entry key="recipe" value="86" />
           <entry key="spawntypes" value="1" />
@@ -79,7 +74,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="116" />
-          <entry key="JSON" value="658" />
+          <entry key="JSON" value="659" />
           <entry key="Lua" value="19" />
           <entry key="PATCH" value="2" />
           <entry key="PLAIN_TEXT" value="68" />
@@ -93,7 +88,7 @@
           <entry key="biome" value="60" />
           <entry key="chest" value="246" />
           <entry key="codex" value="1" />
-          <entry key="config" value="11" />
+          <entry key="config" value="24" />
           <entry key="consumable" value="48" />
           <entry key="damage" value="1" />
           <entry key="flashlight" value="7" />
@@ -111,7 +106,7 @@
           <entry key="parallax" value="73" />
           <entry key="partparams" value="5" />
           <entry key="patch" value="2566" />
-          <entry key="projectile" value="33" />
+          <entry key="projectile" value="36" />
           <entry key="recipe" value="55" />
           <entry key="statuseffect" value="1" />
           <entry key="thrownitem" value="28" />
@@ -119,7 +114,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="5004" />
+          <entry key="JSON" value="5020" />
           <entry key="Lua" value="96" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="218" />
@@ -129,20 +124,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/windowconfig/newquestshort.config.patch">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -151,10 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hop</find>
-      <find>slimecaves</find>
-      <find>cnsslime</find>
-      <find>&quot;slime&quot;</find>
       <find>fixship</find>
       <find>puff2c</find>
       <find>cnsminibossTreasure</find>
@@ -181,6 +163,10 @@
       <find>cnsdynamiteexplosion.ogg</find>
       <find>plasmaexplosion2</find>
       <find>newquest</find>
+      <find>cnsbrokennav</find>
+      <find>cnsnav</find>
+      <find>smallmeteorhit.ogg</find>
+      <find>smallmeteor</find>
     </findStrings>
     <replaceStrings>
       <replace>cnssurvivalpoints</replace>
@@ -238,6 +224,7 @@
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\throwable\cnszdynamite</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\armors\backitems\heatprotection</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\AssetsUnpacked</dir>
+      <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\cnssmallmeteor</dir>
       <dir>C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist</dir>
     </dirStrings>
   </component>
@@ -247,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0c.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground0d.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1a.biome.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/underground/underground1b.biome.patch" />
@@ -298,6 +284,7 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/cnsinvis.monstertype" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.animation" />
         <option value="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/cnsinvis.animation" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile" />
       </list>
     </option>
   </component>
@@ -391,6 +378,27 @@
               <item name="sfx" type="462c0819:PsiDirectoryNode" />
               <item name="melee" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="sfx" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="sfx" type="462c0819:PsiDirectoryNode" />
+              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="sfx" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -410,8 +418,8 @@
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\active\weapons\melee\cnsstonemace" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\gun" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\projectiles" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\gun" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\projectile" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\npc\monsters" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnsinvis" />
@@ -470,13 +478,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/tintic/tintic.monstertype">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/pulpin/pulpin.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -739,6 +740,13 @@
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/plasmaexplosion2/plasmaexplosion2.config.patch">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/windowconfig/newquestshort.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -746,10 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/windowconfig/newquestshort.config.patch">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/weather/cnsinvasion/cnssmallmeteor/cnssmallmeteor.projectile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>

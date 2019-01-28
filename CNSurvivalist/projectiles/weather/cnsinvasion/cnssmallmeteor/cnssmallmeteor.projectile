@@ -6,10 +6,10 @@
   "frameNumber" : 1,
   "actionOnReap" : [
     {
-	    "action" : "config",
-		"file" : "/projectiles/explosions/cnscnssmallmeteorexplosion/cnscnssmallmeteorexplosion.config"
-	},
-	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/cnscnssmallmeteorexplosion/cnscnssmallmeteorexplosion.config"
+    },
+    {
         "action" : "spawnmonster",
         "type" : "cnstentaclecometspore",
         "arguments" : { "initialPauseTime" : 0, "targetNoticeDistance" : 200}
