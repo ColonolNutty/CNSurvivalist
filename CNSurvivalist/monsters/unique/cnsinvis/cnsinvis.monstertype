@@ -53,8 +53,7 @@
       "followActions" : [
         {
           "name" : "approach-teleport",
-          "parameters" : {
-          }
+          "parameters" : {}
         },
         {
           "name" : "approach-walk",

@@ -6,7 +6,11 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 1
+            "frames" : 1,
+            "properties" : {
+              "persistentSound" : "/sfx/npc/cnsinvis/cnsidle1.ogg",
+              "persistentSoundStopTime" : 1.25
+            }
           },
           "jump" : {
             "frames" : 1
@@ -29,7 +33,10 @@
           "charge" : {
             "frames" : 8,
             "cycle" : 0.5,
-            "mode" : "loop"
+            "mode" : "loop",
+            "properties" : {
+              "immediateSound" : "/sfx/npc/cnsinvis/cnsattack.ogg"
+            }
           },
           "chargewinddown" : {
             "frames" : 1
@@ -299,8 +306,8 @@
   },
 
   "sounds" : {
-    "aggroHop" : [ "/sfx/npc/cnsinvis/scream1.ogg", "/sfx/npc/cnsinvis/scream2.ogg", "/sfx/npc/cnsinvis/scream3.ogg" ],
-    "deathPuff" : [ "/sfx/npc/cnsinvis/pengu2.ogg" ]
+    "aggroHop" : [ "/sfx/npc/cnsinvis/cnsattack.ogg", "/sfx/npc/cnsinvis/cnsscream1.ogg", "/sfx/npc/cnsinvis/cnsscream2.ogg", "/sfx/npc/cnsinvis/cnsscream3.ogg" ],
+    "deathPuff" : [ "/sfx/npc/cnsinvis/cnspengu1.ogg", "/sfx/npc/cnsinvis/cnspengu2.ogg" ]
   },
   "effects" : {
     "blink" : {

@@ -299,8 +299,8 @@
   },
 
   "sounds" : {
-    "aggroHop" : [ "/sfx/npc/cnszombie/zombie5.ogg" ],
-    "deathPuff" : [ "/sfx/npc/cnszombie/zombie1.ogg", "/sfx/npc/cnszombie/zombie2.ogg", "/sfx/npc/cnszombie/zombie3.ogg", "/sfx/npc/cnszombie/zombie4.ogg", "/sfx/npc/cnszombie/zombie5.ogg" ]
+    "aggroHop" : [ "/sfx/npc/cnszombie/cnszombie5.ogg" ],
+    "deathPuff" : [ "/sfx/npc/cnszombie/cnszombie1.ogg", "/sfx/npc/cnszombie/cnszombie2.ogg", "/sfx/npc/cnszombie/cnszombie3.ogg", "/sfx/npc/cnszombie/cnszombie4.ogg", "/sfx/npc/cnszombie/cnszombie5.ogg" ]
   },
   "effects" : {
     "blink" : {

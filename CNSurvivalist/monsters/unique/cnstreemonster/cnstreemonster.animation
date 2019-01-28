@@ -26,7 +26,8 @@
             "cycle" : 0.5,
             "mode" : "loop",
             "properties" : {
-              "persistentSound" : "/sfx/npc/cnstreemonster/cnstreemonster.ogg"
+              "persistentSound" : "/sfx/npc/cnstreemonster/cnstreemonster.ogg",
+              "persistentSoundStopTime" : 1.25
             }
           },
           "chargewindup" : {
