@@ -6,35 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/tintic/tintic.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/tintic/tintic.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/triplod/triplod.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/crawlers/triplod/triplod.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/spookit/spookit.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/spookit/spookit.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/wisper/wisper.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/ghosts/wisper/wisper.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/cnsinvis.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/cnsinvis.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/cnsinvis.monstertype" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnsinvis/cnsinvis.monstertype" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnstreemonster/cnstreemonster.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/cnszombie.animation" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/unique/cnszombie/cnszombie.animation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/orbide/orbide.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/orbide/orbide.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/pipkin/pipkin.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/pipkin/pipkin.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/poptop/poptop.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/poptop/poptop.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/ringram/ringram.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/ringram/ringram.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/scaveran/scaveran.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/scaveran/scaveran.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/snaunt/snaunt.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/snaunt/snaunt.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/toumingo/toumingo.animation.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/monsters/walkers/toumingo/toumingo.animation.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsbirds/birdflap.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsbirds/cnsbirdflap.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsbirds/cnsscaveran_attack.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/monsters/scaveran_attack.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/attack.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/cnsattack.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/idle1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/cnsidle1.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/pengu1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/cnspengu1.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/pengu2.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/cnspengu2.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/scream1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/cnsscream1.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/scream2.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/cnsscream2.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/scream3.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnsinvis/cnsscream3.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/zombie1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/cnszombie1.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/zombie2.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/cnszombie2.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/zombie3.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/cnszombie3.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/zombie4.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/cnszombie4.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/zombie5.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/npc/cnszombie/cnszombie5.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle1/cnsrifle1.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle1/cnsrifle1.activeitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle2/cnsrifle2.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnsrifle2/cnsrifle2.activeitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper1/cnssniper1.activeitem" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/active/weapons/ranged/cnssniper1/cnssniper1.activeitem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsfirecrackerexplosion/cnsfirecrackerexplosion.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnsdynamiteexplosion.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/sfx/projectiles/cnsdynamiteexplosion.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnsrifle1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnsrifle2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/sfx/gun/cnssniper1.ogg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +45,7 @@
           <entry key="biome" value="35" />
           <entry key="chest" value="14" />
           <entry key="codex" value="2" />
-          <entry key="config" value="13" />
+          <entry key="config" value="14" />
           <entry key="configfunctions" value="1" />
           <entry key="consumable" value="10" />
           <entry key="flashlight" value="1" />
@@ -83,7 +63,7 @@
           <entry key="parallax" value="16" />
           <entry key="particle" value="6" />
           <entry key="partparams" value="15" />
-          <entry key="patch" value="206" />
+          <entry key="patch" value="208" />
           <entry key="png" value="116" />
           <entry key="projectile" value="10" />
           <entry key="questtemplate" value="1" />
@@ -99,7 +79,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="116" />
-          <entry key="JSON" value="655" />
+          <entry key="JSON" value="658" />
           <entry key="Lua" value="19" />
           <entry key="PATCH" value="2" />
           <entry key="PLAIN_TEXT" value="68" />
@@ -107,12 +87,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="activeitem" value="24" />
+          <entry key="activeitem" value="25" />
           <entry key="animation" value="239" />
           <entry key="back" value="156" />
           <entry key="biome" value="60" />
           <entry key="chest" value="246" />
           <entry key="codex" value="1" />
+          <entry key="config" value="11" />
           <entry key="consumable" value="48" />
           <entry key="damage" value="1" />
           <entry key="flashlight" value="7" />
@@ -138,7 +119,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="4992" />
+          <entry key="JSON" value="5004" />
           <entry key="Lua" value="96" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="218" />
@@ -147,15 +128,29 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/windowconfig/newquestshort.config.patch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>action-blink</find>
-      <find>deathpuff</find>
-      <find>open</find>
-      <find>deathpuff2c.ogg</find>
-      <find>sounds/deathPuff</find>
       <find>hop</find>
       <find>slimecaves</find>
       <find>cnsslime</find>
@@ -181,6 +176,11 @@
       <find>scaveran_attack</find>
       <find>monstersplosion</find>
       <find>/npc/</find>
+      <find>explosion</find>
+      <find>/gun/cnsdynami</find>
+      <find>cnsdynamiteexplosion.ogg</find>
+      <find>plasmaexplosion2</find>
+      <find>newquest</find>
     </findStrings>
     <replaceStrings>
       <replace>cnssurvivalpoints</replace>
@@ -355,6 +355,19 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="projectiles" type="462c0819:PsiDirectoryNode" />
+              <item name="explosions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="sfx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,31 +375,21 @@
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="npc" type="462c0819:PsiDirectoryNode" />
+              <item name="cinematics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="npc" type="462c0819:PsiDirectoryNode" />
-              <item name="cnsbirds" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="npc" type="462c0819:PsiDirectoryNode" />
-              <item name="monsters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="sfx" type="462c0819:PsiDirectoryNode" />
-              <item name="npc" type="462c0819:PsiDirectoryNode" />
-              <item name="quadruped" type="462c0819:PsiDirectoryNode" />
+              <item name="melee" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,11 +410,11 @@
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\active\weapons\melee\cnsstonemace" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\gun" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\projectiles" />
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\projectile" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\npc\monsters" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnsinvis" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\monsters\unique\cnszombie" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\sfx\cinematics" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\projectiles\throwable\cnszfirecracker" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,6 +444,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -466,19 +470,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/snaggler/snaggler.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/snaggler/snaggler.animation">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/tintic/tintic.animation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/crawlers/tintic/tintic.monstertype">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
@@ -742,6 +733,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/plasmaexplosion2/plasmaexplosion2.config.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/projectiles/explosions/cnsdynamiteexplosion/cnsdynamiteexplosion.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/interface/windowconfig/newquestshort.config.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
         </state>
       </provider>
     </entry>

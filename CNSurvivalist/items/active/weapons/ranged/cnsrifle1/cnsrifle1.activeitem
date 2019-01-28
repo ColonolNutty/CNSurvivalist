@@ -22,7 +22,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/cnsrifle1.ogg" ]
+      "fire" : [ "/sfx/gun/rifle1.ogg" ]
     }
   },
 
