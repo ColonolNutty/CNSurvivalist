@@ -3,7 +3,7 @@
 
   "layers" : [
     {
-      "kind" : "divider/alienrock",
+      "kind" : "divider/bluerock",
       "offset" : [0, 200],
       "nohueshift" : true,
       "lightMapped" : true,
@@ -17,7 +17,6 @@
       "tileLimitTop" : 125,
       "parallax" : 1.2
     },
-
     {
       "kind" : "cnsslimeback",
       "offset" : [0, 394],
@@ -40,105 +39,104 @@
       "fadePercent" : 0.03
     },
 
-	
  // Day Clouds
 
     {
-      "kind" : "clouds3",
+      "kind" : "acidclouds3",
+      "baseCount" : 2,
+      "offset" : [0, 240],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "acidclouds2",
+      "baseCount" : 2,
+      "offset" : [0, 280],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "acidclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 300],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "acidclouds3",
       "baseCount" : 2,
       "offset" : [0, 120],
       "parallax" : 9,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.15,
-      "unlit" : true,
-      "timeOfDayCorrelation" : "dayCloudVisible"
-    },
-    {
-      "kind" : "clouds2",
-      "baseCount" : 2,
-      "offset" : [0, 140],
-      "parallax" : 14,
-      "minSpeed" : 2000,
+      "minSpeed" : 1000,
       "maxSpeed" : 5000,
-      "fadePercent" : 0.06,
+      "fadePercent" : 0.0,
       "unlit" : true,
       "timeOfDayCorrelation" : "dayCloudVisible"
     },
     {
-      "kind" : "clouds1",
+      "kind" : "acidclouds2",
       "baseCount" : 2,
-      "offset" : [0, 150],
+      "offset" : [0, 160],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "acidclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 200],
       "parallax" : 6,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.04,
-      "unlit" : true,
-      "timeOfDayCorrelation" : "dayCloudVisible"
-    },
-    {
-      "kind" : "clouds3",
-      "baseCount" : 2,
-      "offset" : [0, 60],
-      "parallax" : 9,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.15,
-      "unlit" : true,
-      "timeOfDayCorrelation" : "dayCloudVisible"
-    },
-    {
-      "kind" : "clouds2",
-      "baseCount" : 2,
-      "offset" : [0, 80],
-      "parallax" : 14,
-      "minSpeed" : 2000,
+      "minSpeed" : 1000,
       "maxSpeed" : 5000,
-      "fadePercent" : 0.06,
+      "fadePercent" : 0.0,
       "unlit" : true,
       "timeOfDayCorrelation" : "dayCloudVisible"
     },
     {
-      "kind" : "clouds1",
+      "kind" : "acidclouds3",
       "baseCount" : 2,
-      "offset" : [0, 100],
-      "parallax" : 6,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.04,
-      "unlit" : true,
-      "timeOfDayCorrelation" : "dayCloudVisible"
-    },
-    {
-      "kind" : "clouds3",
-      "baseCount" : 2,
-      "offset" : [0, 1],
+      "offset" : [0, 2],
       "parallax" : 9,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.15,
-      "unlit" : true,
-      "timeOfDayCorrelation" : "dayCloudVisible"
-    },
-    {
-      "kind" : "clouds2",
-      "baseCount" : 2,
-      "offset" : [0, 20],
-      "parallax" : 14,
-      "minSpeed" : 2000,
+      "minSpeed" : 1000,
       "maxSpeed" : 5000,
-      "fadePercent" : 0.06,
+      "fadePercent" : 0.0,
       "unlit" : true,
       "timeOfDayCorrelation" : "dayCloudVisible"
     },
     {
-      "kind" : "clouds1",
+      "kind" : "acidclouds2",
       "baseCount" : 2,
       "offset" : [0, 40],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "acidclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 80],
       "parallax" : 6,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.04,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
       "unlit" : true,
       "timeOfDayCorrelation" : "dayCloudVisible"
     },
@@ -146,101 +144,101 @@
 // Night Clouds
 
     {
-      "kind" : "clouds3",
+      "kind" : "acidclouds3",
+      "baseCount" : 2,
+      "offset" : [0, 240],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "acidclouds2",
+      "baseCount" : 2,
+      "offset" : [0, 280],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "acidclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 300],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "acidclouds3",
       "baseCount" : 2,
       "offset" : [0, 120],
       "parallax" : 9,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.15,
-      "unlit" : false,
-      "timeOfDayCorrelation" : "nightCloudVisible"
-    },
-    {
-      "kind" : "clouds2",
-      "baseCount" : 2,
-      "offset" : [0, 140],
-      "parallax" : 14,
-      "minSpeed" : 2000,
+      "minSpeed" : 1000,
       "maxSpeed" : 5000,
-      "fadePercent" : 0.06,
+      "fadePercent" : 0.0,
       "unlit" : false,
       "timeOfDayCorrelation" : "nightCloudVisible"
     },
     {
-      "kind" : "clouds1",
+      "kind" : "acidclouds2",
       "baseCount" : 2,
-      "offset" : [0, 150],
+      "offset" : [0, 160],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "acidclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 200],
       "parallax" : 6,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.04,
-      "unlit" : false,
-      "timeOfDayCorrelation" : "nightCloudVisible"
-    },
-    {
-      "kind" : "clouds3",
-      "baseCount" : 2,
-      "offset" : [0, 60],
-      "parallax" : 9,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.15,
-      "unlit" : false,
-      "timeOfDayCorrelation" : "nightCloudVisible"
-    },
-    {
-      "kind" : "clouds2",
-      "baseCount" : 2,
-      "offset" : [0, 80],
-      "parallax" : 14,
-      "minSpeed" : 2000,
+      "minSpeed" : 1000,
       "maxSpeed" : 5000,
-      "fadePercent" : 0.06,
+      "fadePercent" : 0.0,
       "unlit" : false,
       "timeOfDayCorrelation" : "nightCloudVisible"
     },
     {
-      "kind" : "clouds1",
+      "kind" : "acidclouds3",
       "baseCount" : 2,
-      "offset" : [0, 100],
-      "parallax" : 6,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.04,
-      "unlit" : false,
-      "timeOfDayCorrelation" : "nightCloudVisible"
-    },
-    {
-      "kind" : "clouds3",
-      "baseCount" : 2,
-      "offset" : [0, 1],
+      "offset" : [0, 2],
       "parallax" : 9,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.15,
-      "unlit" : false,
-      "timeOfDayCorrelation" : "nightCloudVisible"
-    },
-    {
-      "kind" : "clouds2",
-      "baseCount" : 2,
-      "offset" : [0, 20],
-      "parallax" : 14,
-      "minSpeed" : 2000,
+      "minSpeed" : 1000,
       "maxSpeed" : 5000,
-      "fadePercent" : 0.06,
+      "fadePercent" : 0.0,
       "unlit" : false,
       "timeOfDayCorrelation" : "nightCloudVisible"
     },
     {
-      "kind" : "clouds1",
+      "kind" : "acidclouds2",
       "baseCount" : 2,
       "offset" : [0, 40],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "acidclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 80],
       "parallax" : 6,
-      "minSpeed" : 5000,
-      "maxSpeed" : 10000,
-      "fadePercent" : 0.04,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
       "unlit" : false,
       "timeOfDayCorrelation" : "nightCloudVisible"
     }

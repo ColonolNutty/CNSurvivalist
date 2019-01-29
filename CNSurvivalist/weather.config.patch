@@ -2,6 +2,18 @@
 	[
     {
       "op" : "test",
+      "path" : "/cnsgarden",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/cnsgarden",
+      "value" : []
+    }
+  ],
+	[
+    {
+      "op" : "test",
       "path" : "/barren",
       "inverse" : true
     },
@@ -24,6 +36,17 @@
     }
   ],
   [
+    {
+      "op": "replace",
+      "path": "/cnsgarden",
+      "value": [
+        [0.05, "cnsfogweatherstone"],
+        [0.11, "storm"],
+        [0.15, "cnsfogweather"],
+        [0.27, "drizzle"],
+        [0.25, "clear"]
+      ]
+    },
     {
       "op": "replace",
       "path": "/barren",

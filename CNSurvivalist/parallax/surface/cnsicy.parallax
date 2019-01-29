@@ -3,18 +3,18 @@
 
   "layers" : [
     {
-      "kind" : "divider/alienrock",
-      "offset" : [0, 200],
+      "kind" : "divider/ice",
+      "offset" : [0, 400],
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.199
     },
     {
-      "kind" : "tile/rock",
+      "kind" : "tile/ice",
       "nohueshift" : true,
       "lightMapped" : true,
       "repeatY" : true,
-      "tileLimitTop" : 125,
+      "tileLimitTop" : 325,
       "parallax" : 1.2
     },
 
@@ -25,26 +25,55 @@
       "directives" : "?brightness=20?saturation=-10",
       "fadePercent" : 0.15
     },
+
     {
-      "kind" : "foliage/treefront",
-      "offset" : [0, 300],
-      "parallax" : 2.5,
-      "directives" : "?saturation=-5?brightness=10",
-      "fadePercent" : 0.03
+      "kind" : "northern",
+      "frequency" : 0.5,
+      "offset" : [0, 375],
+      "parallax" : 30,
+      "timeOfDayCorrelation" : "nightVisible",
+      "unlit" : true
     },
     {
-      "kind" : "foliage/treefront",
-      "offset" : [0, 275],
-      "parallax" : 3,
-      "directives" : "?saturation=-10?brightness=5",
-      "fadePercent" : 0.03
+      "kind" : "icespikes2",
+      "baseCount" : 1,
+      "offset" : [0, 270],
+      "parallax" : 8,
+      "fadePercent" : 0.3
     },
     {
-      "kind" : "foliage/treeback",
-      "offset" : [0, 255],
-      "parallax" : 3.5,
-      "directives" : "?saturation=-5?brightness=10",
-      "fadePercent" : 0.03
+      "kind" : "icespikes",
+      "baseCount" : 1,
+      "offset" : [0, 320],
+      "parallax" : 6,
+      "fadePercent" : 0.15
+    },
+    {
+      "kind" : "frozenback",
+      "baseCount" : 1,
+      "offset" : [0, 420],
+      "parallax" : 12.5,
+      "fadePercent" : 0.3
+    },
+    {
+      "kind" : "snowfront",
+      "baseCount" : 2,
+      "offset" : [0, 465],
+      "parallax" : 4,
+      "fadePercent" : 0.05
+    },
+    {
+      "kind" : "snowfront",
+      "baseCount" : 2,
+      "offset" : [0, 535],
+      "parallax" : 2,
+      "fadePercent" : 0.05
+    },
+    {
+      "kind" : "snowfront",
+      "offset" : [0, 620],
+      "parallax" : 1.5,
+      "fadePercent" : 0.05
     },
 
  // Day Clouds

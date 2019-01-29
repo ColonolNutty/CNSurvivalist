@@ -1,15 +1,5 @@
 [
 	{
-		"op": "replace",
-		"path": "/spawnProfile/groups/0/select",
-		"value": 1
-	},
-	{
-		"op": "replace",
-		"path": "/spawnProfile/groups/2/select",
-		"value": 4
-	},
-	{
 		"op": "add",
 		"path": "/spawnProfile/groups/-",
 		"value": {
@@ -34,8 +24,8 @@
       "objectSets" : [
         {
           "pool" : [
-            [ 0.5, "cnsbonepile" ],
-            [ 0.5, "cnsunknownore" ]
+            [ 0.7, "cnsbonepile" ],
+            [ 0.3, "cnsunknownore" ]
           ],
           "parameters" : { }
         }
@@ -56,7 +46,7 @@
         {
           "pool" : [
             [ 0.5, "cnsbonepile" ],
-            [ 0.8, "cnsunknownore" ]
+            [ 0.5, "cnsunknownore" ]
           ],
           "parameters" : { }
         }

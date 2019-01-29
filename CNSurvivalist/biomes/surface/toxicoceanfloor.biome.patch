@@ -5,7 +5,7 @@
 		"value": {
 			"select" : 1,
 			"pool" : [
-				[ 0.1, "cnsaggroLargeFishBoss" ]
+				[ 0.4, "cnsaggroLargeFishBoss" ]
 			]
 		}
 	},

@@ -119,6 +119,11 @@
   },
   {
     "op": "add",
+    "path": "/visitableTypeDescription/cnsgarden",
+    "value": ["", "", ""]
+  },
+  {
+    "op": "add",
     "path": "/visitableTypeDescription/cnshostile",
     "value": ["", "", ""]
   },
@@ -131,6 +136,11 @@
     "op": "add",
     "path": "/visitableTypeDescription/cnsslime",
     "value": ["", "", ""]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/cnsgarden",
+    "value": "Unknown"
   },
   {
     "op": "add",
@@ -149,18 +159,23 @@
   },
   {
     "op": "add",
+    "path": "/planetTypeColors/cnsgarden",
+    "value": [0, 200, 0]
+  },
+  {
+    "op": "add",
     "path": "/planetTypeColors/cnshostile",
     "value": [74, 35, 35]
   },
   {
     "op": "add",
     "path": "/planetTypeColors/cnsunknown",
-    "value": [255, 255, 255]
+    "value": [255, 0, 255]
   },
   {
     "op": "add",
     "path": "/planetTypeColors/cnsslime",
-    "value": [255, 255, 255]
+    "value": [0, 255, 0]
   },
   {
     "op": "add",

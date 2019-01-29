@@ -27,11 +27,11 @@
       },
       {
         "select" : 1,
-		"pool" : [
+        "pool" : [
           [ 0.1, "cnsaggroLargeBipedBoss" ],
           [ 0.1, "cnsaggroLargeQuadrupedBoss" ],
           [ 0.1, "cnsaggroLargeFlyingBoss" ]
-		]
+        ]
       },
       {
         "select" : 3,

@@ -11,7 +11,7 @@
       "value": {
         "groups" : [],
         "monsterParameters" : {
-          "colors" : "snow"
+          "colors" : "desert"
         }
       }
     }
@@ -24,7 +24,7 @@
     },
     {
       "op": "add",
-      "path": "/spawnProfile",
+      "path": "/spawnProfile/groups",
       "value": []
     }
   ],

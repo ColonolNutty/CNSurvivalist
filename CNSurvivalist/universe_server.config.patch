@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/findStarterWorldParameters/starterWorld/terrestrialBiome",
+    "value" : "cnsgarden"
+  },
+  {
+    "op" : "replace",
+    "path" : "/findStarterWorldParameters/starterWorld/terrestrialSize",
+    "value" : "small"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name" : "cnsbandage3",
+  "effectConfig" : {
+    "healAmount" : 35,
+    "emissionRate" : 4.5
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "cnsbandage.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

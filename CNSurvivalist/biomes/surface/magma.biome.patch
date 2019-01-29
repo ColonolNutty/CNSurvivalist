@@ -11,16 +11,6 @@
 			]
 		}
 	},
-	{
-		"op": "add",
-		"path": "/spawnProfile/groups/-",
-		"value": {
-			"select" : 1,
-			"pool" : [
-				[ 1, "cnstreemonster" ]
-			]
-		}
-	},
   {
     "op": "add",
     "path": "/musicTrack/day/tracks/-",

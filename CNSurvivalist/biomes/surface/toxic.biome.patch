@@ -1,10 +1,5 @@
 [
 	{
-		"op": "replace",
-		"path": "/spawnProfile/groups/2/select",
-		"value": 4
-	},
-	{
 		"op": "add",
 		"path": "/spawnProfile/groups/-",
 		"value": {
@@ -20,9 +15,19 @@
 		"op": "add",
 		"path": "/spawnProfile/groups/-",
 		"value": {
+			"select" : 2,
+			"pool" : [
+				[ 1.0, "cnszombie" ]
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/spawnProfile/groups/-",
+		"value": {
 			"select" : 1,
 			"pool" : [
-				[ 1, "cnstreemonster" ]
+				[ 0.3, "cnstreemonster" ]
 			]
 		}
 	},

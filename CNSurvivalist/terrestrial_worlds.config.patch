@@ -2,6 +2,18 @@
   [
     {
       "op": "test",
+      "path": "/planetTypes/cnsgarden",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/planetTypes/cnsgarden",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
       "path": "/planetTypes/cnshostile",
       "inverse": true
     },
@@ -32,6 +44,18 @@
     {
       "op": "add",
       "path": "/planetTypes/cnsslime",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnsgarden",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnsgarden",
       "value": {}
     }
   ],
@@ -72,6 +96,21 @@
     }
   ],
   [
+    {
+      "op": "replace",
+      "path": "/planetTypes/cnsgarden",
+      "value": {
+        "threatRange" : [1, 1],
+        "layers" : {
+          "surface" : {
+            "primaryRegion" : ["cnsgarden"],
+            "secondaryRegions" : ["garden", "forest"],
+            "dungeonCountRange" : [2, 2],
+            "dungeons" : [[1.0, "naturalcave"]]
+          }
+        }
+      }
+    },
     {
       "op": "replace",
       "path": "/planetTypes/cnsunknown",
@@ -135,6 +174,20 @@
   [
     {
       "op": "replace",
+      "path": "/regionTypes/cnsgarden",
+      "value": {
+        "caveLiquid" : [ "water" ],
+        "blockSelector" : [ "remixedMildSurface" ],
+        "fgCaveSelector" : [ "surfaceCaves" ],
+        "bgCaveSelector" : [ "empty" ],
+        "biome" : [
+          [0, [ "cnsgarden" ]]
+        ],
+        "subRegion" : [ ]
+      }
+    },
+    {
+      "op": "replace",
       "path": "/regionTypes/cnshostile",
       "value": {
         "blockSelector" : [ "remixedMildSurface" ],
@@ -173,23 +226,6 @@
         ],
         "subRegion" : ["bioluminescence"]
       }
-    }
-  ],
-  [
-    {
-      "op": "replace",
-      "path": "/planetTypes/garden/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/forest/layers/surface/dungeons",
-      "value": [ ]
-    },
-    {
-      "op": "replace",
-      "path": "/planetTypes/desert/layers/surface/dungeons",
-      "value": [ ]
     }
   ]
 ]

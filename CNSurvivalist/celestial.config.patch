@@ -2,6 +2,18 @@
   [
     {
       "op": "test",
+      "path": "/terrestrialHorizonGraphics/cnsgarden",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/cnsgarden",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
       "path": "/terrestrialHorizonGraphics/cnsunknown",
       "inverse": true
     },
@@ -80,6 +92,18 @@
     {
       "op": "add",
       "path": "/terrestrialHorizonGraphics/tentacles",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrestrialGraphics/cnsgarden",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/cnsgarden",
       "value": {}
     }
   ],
@@ -168,6 +192,16 @@
     }
   ],
   [
+    {
+      "op": "replace",
+      "path": "/terrestrialHorizonGraphics/cnsgarden",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
+        "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "maskRange" : [1, 25],
+        "maskPerPlanetRange" : [3, 3]
+      }
+    },
     {
       "op": "replace",
       "path": "/terrestrialHorizonGraphics/cnsunknown",
@@ -228,6 +262,16 @@
     }
   ],
   [
+    {
+      "op": "replace",
+      "path": "/terrestrialGraphics/cnsgarden",
+      "value": {
+        "baseImages" : "/celestial/system/terrestrial/biomes/garden/maskie<num>.png",
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+        "dynamicsRange" : [1, 30],
+        "baseCount" : 5
+      }
+    },
     {
       "op": "replace",
       "path": "/terrestrialGraphics/cnsunknown",
@@ -295,6 +339,11 @@
     }
   ],
   [
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Tier1/baseParameters/terrestrialType/-",
+      "value": "cnsgarden"
+    },
     {
       "op": "add",
       "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",

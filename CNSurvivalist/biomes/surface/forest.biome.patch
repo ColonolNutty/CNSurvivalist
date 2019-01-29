@@ -1,140 +1,161 @@
 [
-	{
-		"op": "add",
-		"path": "/spawnProfile/groups/-",
-		"value": {
-			"select" : 1,
-			"pool" : [ 
-				[ 1, "cnstreemonster" ]
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/spawnProfile/groups/-",
-		"value": {
-			"select" : 1,
-			"pool" : [
-				[ 0.1, "cnsaggroLargeBipedBoss" ],
-				[ 0.1, "cnsaggroLargeQuadrupedBoss" ],
-				[ 0.1, "cnsaggroLargeFlyingBoss" ]
-			]
-		}
-	},
-	{
-		"op": "replace",
-		"path": "/spawnProfile/groups/0/select",
-		"value": 1
-	},
-	{
-		"op": "replace",
-		"path": "/spawnProfile/groups/2/select",
-		"value": 3
-	},
-  {
-    "op": "add",
-    "path": "/musicTrack/day/tracks/-",
-    "value": "/music/cnssurvivaltrack01.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/day/tracks/-",
-    "value": "/music/cnssurvivaltrack02.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/day/tracks/-",
-    "value": "/music/cnssurvivaltrack03.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/night/tracks/-",
-    "value": "/music/cnssurvivaltrack01.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/night/tracks/-",
-    "value": "/music/cnssurvivaltrack02.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/night/tracks/-",
-    "value": "/music/cnssurvivaltrack03.ogg"
-  },
-  {
-    "op": "remove",
-    "path": "/surfacePlaceables/items/4"
-  },
-  {
-    "op": "remove",
-    "path": "/surfacePlaceables/items/3"
-  },
-  {
-    "op": "remove",
-    "path": "/surfacePlaceables/items/2"
-  },
-  {
-    "op": "remove",
-    "path": "/surfacePlaceables/items/0"
-  },
-  {
-    "op": "add",
-    "path": "/surfacePlaceables/items/-",
-    "value": {
-      "mode" : "floor",
-      "priority" : 1.0,
-      "variants" : 1,
-      "distribution" : "/biomes/distributions.config:potsRare",
-
-      "type" : "object",
-      "objectSets" : [
-        {
-          "pool" : [ [1, "cnsbonepile" ] ],
-          "parameters" : { }
+  [
+    {
+      "op": "test",
+      "path": "/spawnProfile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile",
+      "value": {
+        "groups" : [],
+        "monsterParameters" : {
+          "colors" : "forest"
         }
-      ]
+      }
     }
-  },
-  {
-    "op": "remove",
-    "path": "/undergroundPlaceables/items/5"
-  },
-  {
-    "op": "remove",
-    "path": "/undergroundPlaceables/items/4"
-  },
-  {
-    "op": "remove",
-    "path": "/undergroundPlaceables/items/3"
-  },
-  {
-    "op": "remove",
-    "path": "/undergroundPlaceables/items/2"
-  },
-  {
-    "op": "remove",
-    "path": "/undergroundPlaceables/items/1"
-  },
-  {
-    "op": "remove",
-    "path": "/undergroundPlaceables/items/0"
-  },
-  {
-    "op": "add",
-    "path": "/undergroundPlaceables/items/-",
-    "value": {
-      "mode" : "floor",
-      "priority" : 1.0,
-      "variants" : 1,
-      "distribution" : "/biomes/distributions.config:potsRare",
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/spawnProfile/groups",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups",
+      "value": []
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups/-",
+      "value": {
+        "select" : 1,
+        "pool" : [
+          [ 1.0, "cnstreemonster" ]
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups/-",
+      "value": {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "cnsaggroLargeBipedBoss" ],
+          [ 0.1, "cnsaggroLargeQuadrupedBoss" ],
+          [ 0.1, "cnsaggroLargeFlyingBoss" ]
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/day/tracks/-",
+      "value": "/music/cnssurvivaltrack01.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/day/tracks/-",
+      "value": "/music/cnssurvivaltrack02.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/day/tracks/-",
+      "value": "/music/cnssurvivaltrack03.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/cnssurvivaltrack01.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/cnssurvivaltrack02.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/cnssurvivaltrack03.ogg"
+    },
+    {
+      "op": "remove",
+      "path": "/surfacePlaceables/items/4"
+    },
+    {
+      "op": "remove",
+      "path": "/surfacePlaceables/items/3"
+    },
+    {
+      "op": "remove",
+      "path": "/surfacePlaceables/items/2"
+    },
+    {
+      "op": "remove",
+      "path": "/surfacePlaceables/items/0"
+    },
+    {
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
 
-      "type" : "object",
-      "objectSets" : [
-        {
-          "pool" : [ [1, "cnsbonepile" ] ],
-          "parameters" : { }
-        }
-      ]
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "cnsbonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    },
+    {
+      "op": "remove",
+      "path": "/undergroundPlaceables/items/5"
+    },
+    {
+      "op": "remove",
+      "path": "/undergroundPlaceables/items/4"
+    },
+    {
+      "op": "remove",
+      "path": "/undergroundPlaceables/items/3"
+    },
+    {
+      "op": "remove",
+      "path": "/undergroundPlaceables/items/2"
+    },
+    {
+      "op": "remove",
+      "path": "/undergroundPlaceables/items/1"
+    },
+    {
+      "op": "remove",
+      "path": "/undergroundPlaceables/items/0"
+    },
+    {
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "cnsbonepile" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
     }
-  }
+  ]
 ]

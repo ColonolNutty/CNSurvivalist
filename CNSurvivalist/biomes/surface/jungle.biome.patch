@@ -1,75 +1,106 @@
 [
-	{
-		"op": "add",
-		"path": "/spawnProfile/groups/-",
-		"value": {
-			"select" : 1,
-			"pool" : [
-				[ 0.1, "cnsaggroLargeBipedBoss" ],
-				[ 0.1, "cnsaggroLargeQuadrupedBoss" ],
-				[ 0.1, "cnsaggroLargeFlyingBoss" ]
-			]
-		}
-	},
-	{
-		"op": "add",
-		"path": "/spawnProfile/groups/-",
-		"value": {
-			"select" : 1,
-			"pool" : [
-				[ 1, "cnstreemonster" ]
-			]
-		}
-	},
-  {
-    "op": "add",
-    "path": "/musicTrack/day/tracks/-",
-    "value": "/music/cnssurvivaltrack01.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/day/tracks/-",
-    "value": "/music/cnssurvivaltrack02.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/day/tracks/-",
-    "value": "/music/cnssurvivaltrack03.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/night/tracks/-",
-    "value": "/music/cnssurvivaltrack01.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/night/tracks/-",
-    "value": "/music/cnssurvivaltrack02.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/musicTrack/night/tracks/-",
-    "value": "/music/cnssurvivaltrack03.ogg"
-  },
-  {
-    "op": "add",
-    "path": "/surfacePlaceables/items/-",
-    "value": {
-      "mode" : "floor",
-      "priority" : 1.0,
-      "variants" : 1,
-      "distribution" : "/biomes/distributions.config:potsRare",
-
-      "type" : "object",
-      "objectSets" : [
-        {
-          "pool" : [
-            [ 0.8, "cnsbonepile" ],
-            [ 0.1, "cnsgoldchunk" ]
-          ],
-          "parameters" : { }
+  [
+    {
+      "op": "test",
+      "path": "/spawnProfile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile",
+      "value": {
+        "groups" : [],
+        "monsterParameters" : {
+          "colors" : "forest"
         }
-      ]
+      }
     }
-  }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/spawnProfile/groups",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups",
+      "value": []
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups/-",
+      "value": {
+        "select" : 1,
+        "pool" : [
+          [ 0.1, "cnsaggroLargeBipedBoss" ],
+          [ 0.1, "cnsaggroLargeQuadrupedBoss" ],
+          [ 0.1, "cnsaggroLargeFlyingBoss" ]
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/spawnProfile/groups/-",
+      "value": {
+        "select" : 1,
+        "pool" : [
+          [ 1.0, "cnstreemonster" ]
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/day/tracks/-",
+      "value": "/music/cnssurvivaltrack01.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/day/tracks/-",
+      "value": "/music/cnssurvivaltrack02.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/day/tracks/-",
+      "value": "/music/cnssurvivaltrack03.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/cnssurvivaltrack01.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/cnssurvivaltrack02.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/cnssurvivaltrack03.ogg"
+    },
+    {
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [
+              [ 0.8, "cnsbonepile" ],
+              [ 0.1, "cnsgoldchunk" ]
+            ],
+            "parameters" : { }
+          }
+        ]
+      }
+    }
+  ]
 ]

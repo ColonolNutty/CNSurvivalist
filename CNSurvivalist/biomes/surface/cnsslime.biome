@@ -54,7 +54,7 @@
       }
     ],
     "monsterParameters" : {
-      "colors" : "alien",
+      "colors" : "toxic",
       "statusSettings" : {
         "stats" : {
           "poisonImmunity" : {

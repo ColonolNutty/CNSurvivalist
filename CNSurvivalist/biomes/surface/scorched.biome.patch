@@ -24,8 +24,8 @@
       "objectSets" : [
         {
           "pool" : [
-            [ 0.5, "cnsbonepile" ],
-            [ 0.5, "cnsunknownore" ]
+            [ 0.7, "cnsbonepile" ],
+            [ 0.3, "cnsunknownore" ]
           ],
           "parameters" : { }
         }
@@ -46,7 +46,7 @@
         {
           "pool" : [
             [ 0.5, "cnsbonepile" ],
-            [ 0.8, "cnsunknownore" ]
+            [ 0.5, "cnsunknownore" ]
           ],
           "parameters" : { }
         }
