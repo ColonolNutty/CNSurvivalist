@@ -1,151 +1,37 @@
 [
   {
-    "op": "replace",
-    "path": "/threatLevelText/default",
-    "value": [
-      "Unknown",
-      "Unknown",
-      "Unknown",
-      "Unknown",
-      "Unknown",
-      "Unknown",
-      "Unknown",
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/threatLevelText/moon",
-    "value": [
-      "Unknown"
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/garden",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/forest",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/desert",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/snow",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/savannah",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/ocean",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/toxic",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/jungle",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/alien",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/arctic",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/tundra",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/volcanic",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/midnight",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/scorchedcity",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/magma",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/moon",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/asteroids",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/barren",
-    "value": ["", "", ""]
-  },
-  {
-    "op": "replace",
-    "path": "/visitableTypeDescription/ancientgateway",
-    "value": ["", "", ""]
-  },
-  {
     "op": "add",
     "path": "/visitableTypeDescription/cnsgarden",
-    "value": ["", "", ""]
+    "value": [
+      "^#76fe68;Lush ^white;foothills mark this landing location. Both flora and fauna are abundant here. A beam site of immeasurable safety.",
+     "The beam site is located in a tranquil area of great bio-diversity. There are resources here that you could use. A ^#76fe68;lush ^white;and pleasant land.",
+     "Readings indicate the landing site is not unfavourable - the area is safe, and lavish with both flora and fauna. A ^#76fe68;lush ^white;and hospitable place."
+    ]
   },
   {
     "op": "add",
     "path": "/visitableTypeDescription/cnshostile",
-    "value": ["", "", ""]
+    "value": ["This planet is not as friendly as it appears."]
   },
   {
     "op": "add",
     "path": "/visitableTypeDescription/cnsunknown",
-    "value": ["", "", ""]
+    "value": ["Who knows what can be found down there."]
   },
   {
     "op": "add",
     "path": "/visitableTypeDescription/cnsslime",
-    "value": ["", "", ""]
+    "value": ["A slimy looking planet"]
   },
   {
     "op": "add",
     "path": "/planetTypeNames/cnsgarden",
-    "value": "Unknown"
+    "value": "Garden"
   },
   {
     "op": "add",
     "path": "/planetTypeNames/cnshostile",
-    "value": "Unknown"
+    "value": "Definitely Friendly"
   },
   {
     "op": "add",
@@ -155,7 +41,7 @@
   {
     "op": "add",
     "path": "/planetTypeNames/cnsslime",
-    "value": "Unknown"
+    "value": "Slime"
   },
   {
     "op": "add",
