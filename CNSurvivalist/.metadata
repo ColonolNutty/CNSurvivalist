@@ -1,8 +1,8 @@
 {
 	"author" : "ColonolNutty",
 	"description" : "WILL YOU SURVIVE, AGAIN? The Survivalist Mod back from the Grave!",
-	"friendlyName" : "CN Survalist: Resurrection",
+	"friendlyName" : "CN Survivalist: Resurrection",
 	"includes" : ["CNAnimatedHandheldTorches", "FrackinUniverse", "OptionalErchius"],
 	"name" : "CNSurvivalist",
-	"version" : "v2.2.3"
+	"version" : "v3.3.7"
 }

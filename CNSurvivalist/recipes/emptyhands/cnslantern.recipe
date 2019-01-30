@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "ironbar", "count" : 15 },
-    { "item" : "cnssurvivalpoints", "count" : 50 }
+    { "item" : "cnssurvivalpoints", "count" : 25 }
   ],
   "output" : { "item" : "cnslantern", "count" : 1 },
   "groups" : [ "anvil", "all" ]

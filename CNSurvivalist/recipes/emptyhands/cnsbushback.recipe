@@ -3,7 +3,7 @@
     { "item" : "torch", "count" : 5 },
     { "item" : "fullwood1", "count" : 10 },
     { "item" : "plantfibre", "count" : 10 },
-    { "item" : "cnssurvivalpoints", "count" : 100 }
+    { "item" : "cnssurvivalpoints", "count" : 50 }
   ],
   "output" : { "item" : "cnsbushback", "count" : 1 },
   "groups" : [ "plain", "all", "other" ]

@@ -3,7 +3,7 @@
     { "item" : "fullwood1", "count" : 10 },
     { "item" : "cobblestonematerial", "count" : 2 },
     { "item" : "plantfibre", "count" : 5 },
-    { "item" : "cnssurvivalpoints", "count" : 150 }
+    { "item" : "cnssurvivalpoints", "count" : 35 }
   ],
   "output" : { "item" : "cnsstonemace", "count" : 1 },
   "groups" : [ "cnssimplecraft", "all", "other" ]

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 5 },
+    { "item" : "wheat", "count" : 3 },
     { "item" : "cnsmonstertooth", "count" : 1 },
     { "item" : "cnsmonsterskin", "count" : 1 },
     { "item" : "cnsmonsterheart", "count" : 1 }

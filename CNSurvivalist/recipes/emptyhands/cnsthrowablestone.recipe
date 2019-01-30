@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "cobblestonematerial", "count" : 1 }
+    { "item" : "cobblestonematerial", "count" : 3 }
   ],
-  "output" : { "item" : "cnsthrowablestone", "count" : 1 },
+  "output" : { "item" : "cnsthrowablestone", "count" : 3 },
   "groups" : [ "plain", "weapons", "all" ]
 }
