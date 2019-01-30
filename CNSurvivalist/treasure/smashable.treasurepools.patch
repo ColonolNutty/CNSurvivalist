@@ -6,9 +6,9 @@
 			[0, 
 				{
 					"pool" : [
-            			{"weight" : 1, "item" : ["money", 10]},
+            			{"weight" : 1, "item" : ["cnssurvivalpoints", 10]},
 						{"weight" : 0.5, "item" : ["diamondore", 4]},
-						{"weight" : 0.3, "item" : ["money", 100]}
+						{"weight" : 0.3, "item" : ["cnssurvivalpoints", 100]}
 					],
 					"poolRounds" : [
 						[0.80, 1]
@@ -24,9 +24,9 @@
 			[0, 
 				{
 					"pool" : [
-            			{"weight" : 1, "item" : ["money", 10]},
+            			{"weight" : 1, "item" : ["cnssurvivalpoints", 10]},
 						{"weight" : 0.5, "item" : ["unknown1ore", 9]},
-						{"weight" : 0.3, "item" : ["money", 50]}
+						{"weight" : 0.3, "item" : ["cnssurvivalpoints", 50]}
 					],
 					"poolRounds" : [
 						[0.80, 1]
@@ -42,9 +42,9 @@
 			[0, 
 				{
 					"pool" : [
-            			{"weight" : 1, "item" : ["money", 10]},
+            			{"weight" : 1, "item" : ["cnssurvivalpoints", 10]},
 						{"weight" : 0.5, "item" : ["goldore", 9]},
-						{"weight" : 0.3, "item" : ["money", 50]}
+						{"weight" : 0.3, "item" : ["cnssurvivalpoints", 50]}
 					],
 					"poolRounds" : [
 						[0.80, 1]
@@ -60,11 +60,11 @@
 			[0, 
 				{
 					"pool" : [
-           			 	{"weight" : 1, "item" : ["money", 10]},
+           			 	{"weight" : 1, "item" : ["cnssurvivalpoints", 10]},
 						{"weight" : 0.5, "item" : ["organicmatter", 2]},
 						{"weight" : 0.4, "item" : ["cellmateria", 5]},
 						{"weight" : 0.2, "item" : ["sulphur", 5]},
-						{"weight" : 0.3, "item" : ["money", 30]}
+						{"weight" : 0.3, "item" : ["cnssurvivalpoints", 30]}
 					],
 					"poolRounds" : [
 						[0.80, 1]
@@ -80,11 +80,11 @@
 			[0,
 				{
 					"pool" : [
-            			{"weight" : 1, "item" : ["money", 10]},
-						{"weight" : 0.5, "item" : ["money", 15]},
+            			{"weight" : 1, "item" : ["cnssurvivalpoints", 10]},
+						{"weight" : 0.5, "item" : ["cnssurvivalpoints", 15]},
 						{"weight" : 0.1, "item" : "cryonicextract"},
 						{"weight" : 0.4, "item" : ["cellmateria", 5]},
-						{"weight" : 0.3, "item" : ["money", 30]}
+						{"weight" : 0.3, "item" : ["cnssurvivalpoints", 30]}
 					],
 					"poolRounds" : [
 						[0.80, 1]

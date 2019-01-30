@@ -6,7 +6,7 @@
       { "item" : "cobblestonematerial", "count" : 20 },
       { "item" : "mud", "count" : 4 },
       { "item" : "cnscampfirelarge", "count" : 1 },
-      { "item" : "money", "count" : 50 }
+      { "item" : "cnssurvivalpoints", "count" : 50 }
     ]
   },
   {

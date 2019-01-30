@@ -3,7 +3,7 @@
     { "item" : "fabric", "count" : 80 },
     { "item" : "leather", "count" : 50 },
     { "item" : "scorchedcore", "count" : 10 },
-    { "item" : "money", "count" : 3000 }
+    { "item" : "cnssurvivalpoints", "count" : 3000 }
   ],
   "output" : { "item" : "snowinfantryhead", "count" : 1 },
   "groups" : [ "cnstailor", "all" ]

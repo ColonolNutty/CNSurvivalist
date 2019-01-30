@@ -4,7 +4,7 @@
     { "item" : "plantfibre", "count" : 20 },
     { "item" : "climbingrope", "count" : 5 },
     { "item" : "cnsplastic", "count" : 10 },
-    { "item" : "money", "count" : 200 }
+    { "item" : "cnssurvivalpoints", "count" : 200 }
   ],
   "output" : { "item" : "cnsparachutepackback", "count" : 1 },
   "groups" : [ "craftingwheel", "ingredients", "all" ]

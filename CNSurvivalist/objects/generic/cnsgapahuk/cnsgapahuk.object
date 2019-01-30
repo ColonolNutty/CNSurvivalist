@@ -72,6 +72,6 @@
   },
   
 	"breakDropOptions" : [
-    [ [ "fullwood1", 10, { } ], [ "money", 50, { } ] ]
+    [ [ "fullwood1", 10, { } ], [ "cnssurvivalpoints", 50, { } ] ]
   ]
 }

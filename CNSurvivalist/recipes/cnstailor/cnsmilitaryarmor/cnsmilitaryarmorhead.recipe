@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "cnsplastic", "count" : 10 },
-	{ "item" : "money", "count" : 1000 }
+	{ "item" : "cnssurvivalpoints", "count" : 1000 }
   ],
   "output" : { "item" : "cnsmilitaryarmorhead", "count" : 1 },
   "groups" : [ "cnstailor", "all" ]

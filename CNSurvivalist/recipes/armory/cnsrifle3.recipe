@@ -2,7 +2,7 @@
   "input" : [
 	{ "item" : "cnsglowingmatter", "count" : 2},
 	{ "item" : "durasteelbar", "count" : 20},
-	{ "item" : "money", "count" : 2250}
+	{ "item" : "cnssurvivalpoints", "count" : 2250}
   ],
   "output" : { "item" : "cnsrifle3", "count" : 1 },
   "groups" : [ "cnsarmory", "weapons", "all" ]

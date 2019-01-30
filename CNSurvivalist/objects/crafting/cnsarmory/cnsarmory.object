@@ -48,7 +48,7 @@
   ],
 	"breakDropOptions" : [ [
       [ "ironbar", 20, { } ], 
-	  [ "money", 250, { } ] 
+	  [ "cnssurvivalpoints", 250, { } ]
 	] ]
   
 }

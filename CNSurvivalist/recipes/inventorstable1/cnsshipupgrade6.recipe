@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "titaniumbar", "count" : 100},
     { "item" : "tungstenbar", "count" : 50},
-    { "item" : "money", "count" : 2000}
+    { "item" : "cnssurvivalpoints", "count" : 2000}
   ],
   "output" : { "item" : "shipT6", "count" : 1 },
   "groups" : [ "inventorstable", "craftingstations", "tools", "crafting", "all" ]

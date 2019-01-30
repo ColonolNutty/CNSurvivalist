@@ -6,7 +6,7 @@
       { "item" : "durasteelbar", "count" : 12 },
       { "item" : "battery", "count" : 1 },
       { "item" : "scorchedcore", "count" : 1 },
-      { "item" : "money", "count" : 300 }
+      { "item" : "cnssurvivalpoints", "count" : 300 }
     ]
   }
 ]

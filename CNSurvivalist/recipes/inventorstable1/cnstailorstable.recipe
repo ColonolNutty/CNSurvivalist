@@ -1,7 +1,7 @@
 {
   "input" : [
 	{ "item" : "darkwoodmaterial", "count" : 50},
-	{ "item" : "money", "count" : 200}
+	{ "item" : "cnssurvivalpoints", "count" : 200}
   ],
   "output" : { "item" : "cnstailorstable", "count" : 1 },
   "groups" : [ "inventorstable", "craftingstations", "crafting", "all" ]

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "titaniumbar", "count" : 100 },
     { "item" : "cnsplastic", "count" : 20 },
-    { "item" : "money", "count" : 3000 }
+    { "item" : "cnssurvivalpoints", "count" : 3000 }
   ],
   "output" : { "item" : "hazmatback", "count" : 1 },
   "groups" : [ "cnschemistrytable", "all", "hazardgear", "buffs" ]

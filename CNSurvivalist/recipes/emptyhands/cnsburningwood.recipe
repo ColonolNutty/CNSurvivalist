@@ -3,7 +3,7 @@
     { "item" : "fullwood1", "count" : 1 },
     { "item" : "torch", "count" : 1 },
     { "item" : "coalore", "count" : 5 },
-    { "item" : "money", "count" : 25 }
+    { "item" : "cnssurvivalpoints", "count" : 25 }
   ],
   "output" : { "item" : "cnsburningwood", "count" : 1 },
   "groups" : [ "plain", "all", "weapons" ]

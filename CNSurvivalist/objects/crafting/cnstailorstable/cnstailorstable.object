@@ -38,6 +38,6 @@
   ],
 	"breakDropOptions" : [ [
       [ "darkwoodmaterial", 30, { } ], 
-	  [ "money", 100, { } ] 
+	  [ "cnssurvivalpoints", 100, { } ]
 	] ]
 }

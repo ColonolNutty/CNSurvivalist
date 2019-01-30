@@ -5,7 +5,7 @@
     "value": [
       { "item" : "synthesisstim", "count" : 2 },
       { "item" : "cnsorganicmatter", "count" : 5 },
-      { "item" : "money", "count" : 10 }
+      { "item" : "cnssurvivalpoints", "count" : 10 }
     ]
   }
 ]

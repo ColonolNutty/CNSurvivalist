@@ -2,7 +2,7 @@
   "input" : [
 	{ "item" : "slime", "count" : 25 },
 	{ "item" : "coalore", "count" : 10 },
-	{ "item" : "money", "count" : 20 }
+	{ "item" : "cnssurvivalpoints", "count" : 20 }
   ],
   "output" : { "item" : "cnsplastic", "count" : 1 },
   "groups" : [ "cnschemistrytable", "all" ]

@@ -3,7 +3,7 @@
   	{ "item" : "coalore", "count" : 1},
 	{ "item" : "ironbar", "count" : 1},
 	{ "item" : "cnsglowingmatter", "count" : 1},
-	{ "item" : "money", "count" : 50}
+	{ "item" : "cnssurvivalpoints", "count" : 50}
   ],
   "output" : { "item" : "cnsgrenadeshockfire", "count" : 1 },
   "groups" : [ "cnsarmory", "weapons", "all" ]

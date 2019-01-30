@@ -3,7 +3,7 @@
     { "item" : "ice", "count" : 100 },
     { "item" : "iceblock", "count" : 200 },
     { "item" : "cryonicextract", "count" : 10 },
-    { "item" : "money", "count" : 3000 }
+    { "item" : "cnssurvivalpoints", "count" : 3000 }
   ],
   "output" : { "item" : "icearmorchest", "count" : 1 },
   "groups" : [ "cnschemistrytable", "all", "other" ]

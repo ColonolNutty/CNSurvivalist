@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/input",
     "value": [
-      { "item" : "money", "count" : 3000 },
+      { "item" : "cnssurvivalpoints", "count" : 3000 },
       { "item" : "cobblestonematerial", "count" : 1000 },
       { "item" : "teleportercore", "count" : 1 }
     ]

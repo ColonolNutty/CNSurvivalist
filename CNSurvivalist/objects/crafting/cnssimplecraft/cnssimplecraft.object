@@ -49,7 +49,7 @@
 
 	"breakDropOptions" : [ [
       [ "fullwood1", 20, { } ], 
-      [ "money", 30, { } ] 
+      [ "cnssurvivalpoints", 30, { } ]
 	] ],
  
 	"learnBlueprintsOnPickup" : [

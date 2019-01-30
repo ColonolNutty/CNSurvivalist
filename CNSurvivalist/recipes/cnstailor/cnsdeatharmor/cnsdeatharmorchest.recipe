@@ -3,7 +3,7 @@
     { "item" : "cnsfabriccotton", "count" : 15 },
 	{ "item" : "reddye", "count" : 2 },
 	{ "item" : "cnsmonsterheart", "count" : 10 },
-	{ "item" : "money", "count" : 2500 }
+	{ "item" : "cnssurvivalpoints", "count" : 2500 }
   ],
   "output" : { "item" : "cnsdeatharmorchest", "count" : 1 },
   "groups" : [ "cnstailor", "all" ]

@@ -8,7 +8,7 @@
       { "item" : "refinedviolium", "count" : 4 },
       { "item" : "battery", "count" : 1 },
       { "item" : "cryonicextract", "count" : 1 },
-      { "item" : "money", "count" : 300 }
+      { "item" : "cnssurvivalpoints", "count" : 300 }
     ]
   }
 ]

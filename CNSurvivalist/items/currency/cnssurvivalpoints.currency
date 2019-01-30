@@ -1,0 +1,15 @@
+{
+  "itemName" : "cnssurvivalpoints",
+  "rarity" : "Common",
+  "inventoryIcon" : "cnssurvivalpoints.png",
+  "description" : "Points earned killing monsters and exploring!",
+  "shortdescription" : "Survival Points",
+  "currency" : "cnssurvivalpoints",
+  "value" : 1,
+  "pickupSoundsSmall" : [ "/sfx/objects/cnssurvivalpoints.ogg" ],
+  "pickupSoundsMedium" : [ "/sfx/objects/cnssurvivalpoints.ogg" ],
+  "pickupSoundsLarge" : [ "/sfx/objects/cnssurvivalpoints.ogg" ],
+  "smallStackLimit" : 100,
+  "mediumStackLimit" : 10000,
+  "maxStack" : 16777216
+}

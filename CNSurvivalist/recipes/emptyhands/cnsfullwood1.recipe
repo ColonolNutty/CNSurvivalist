@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "logblock", "count" : 1 },
-    { "item" : "money", "count" : 1 }
+    { "item" : "cnssurvivalpoints", "count" : 1 }
   ],
   "output" : { "item" : "fullwood1", "count" : 10 },
   "duration" : 0.1,

@@ -2,7 +2,7 @@
   "input" : [
 	{ "item" : "cnsfabriccotton", "count" : 2 },
 	{ "item" : "greendye", "count" : 1 },
-	{ "item" : "money", "count" : 250 }
+	{ "item" : "cnssurvivalpoints", "count" : 250 }
   ],
   "output" : { "item" : "cnsshadowschest", "count" : 1 },
   "groups" : [ "cnstailor", "all" ]

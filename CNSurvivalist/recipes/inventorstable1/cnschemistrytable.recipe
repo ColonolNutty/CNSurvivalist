@@ -3,7 +3,7 @@
     { "item" : "ironbar", "count" : 50 },
     { "item" : "copperbar", "count" : 10 },
     { "item" : "glassmaterial", "count" : 50 }, 
-    { "item" : "money", "count" : 500 }
+    { "item" : "cnssurvivalpoints", "count" : 500 }
   ],
   "output" : { "item" : "cnschemistrytable", "count" : 1 },
   "groups" : [ "inventorstable", "craftingstations", "tools", "all" ]

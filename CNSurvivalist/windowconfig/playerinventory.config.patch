@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path" : "/paneLayout/imgCnsSurvivalPointsIcon",
+    "value" : {
+      "type" : "image",
+      "position" : [18, 12],
+      "centered" : false,
+      "file" : "/interface/inventory/cnssurvivalpoints.png"
+    }
+  },
+  {
+    "op": "add",
+    "path" : "/paneLayout/lblCnsSurvivalPoints",
+    "value" : {
+      "type" : "label",
+      "position" : [30, 11],
+      "value" : "0"
+    }
+  }
+]

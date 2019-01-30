@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "money", "count" : 350 },
+	{ "item" : "cnssurvivalpoints", "count" : 350 },
 	{ "item" : "fullwood1", "count" : 15 },
 	{ "item" : "plantfibre", "count" : 5 }
   ],

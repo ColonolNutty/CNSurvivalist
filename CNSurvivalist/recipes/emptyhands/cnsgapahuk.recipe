@@ -3,7 +3,7 @@
     { "item" : "fullwood1", "count" : 15 },
     { "item" : "plantfibre", "count" : 5 },
     { "item" : "torch", "count" : 2 },
-    { "item" : "money", "count" : 100 }
+    { "item" : "cnssurvivalpoints", "count" : 100 }
   ],
   "output" : { "item" : "cnsgapahuk", "count" : 1 },
   "groups" : [ "plain", "all", "other" ]

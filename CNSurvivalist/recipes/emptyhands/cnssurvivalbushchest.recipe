@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "plantfibre", "count" : 15 },
     { "item" : "fullwood1", "count" : 4 },
-    { "item" : "money", "count" : 200 }
+    { "item" : "cnssurvivalpoints", "count" : 200 }
   ],
   "output" : { "item" : "cnssurvivalbushchest", "count" : 1 },
   "groups" : [ "plain", "armors" ]

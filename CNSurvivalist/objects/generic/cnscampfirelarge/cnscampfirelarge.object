@@ -91,6 +91,6 @@
   "autoCloseCooldown" : 3600,
   
   "breakDropOptions" : [
-    [ [ "coalore", 2, {} ], [ "money", 25, {} ] ]
+    [ [ "coalore", 2, {} ], [ "cnssurvivalpoints", 25, {} ] ]
   ]
 }

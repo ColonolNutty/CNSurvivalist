@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "ironbar", "count" : 25 },
     { "item" : "sand", "count" : 30 },
-    { "item" : "money", "count" : 1000 }
+    { "item" : "cnssurvivalpoints", "count" : 1000 }
   ],
   "output" : { "item" : "cnstelescope", "count" : 1 },
   "groups" : [ "cnssimplecraft", "objects", "tools", "all" ]

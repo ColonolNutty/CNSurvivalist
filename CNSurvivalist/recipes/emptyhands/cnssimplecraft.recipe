@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "fullwood1", "count" : 35 },
     { "item" : "cobblestonematerial", "count" : 30 },
-    { "item" : "money", "count" : 50 }
+    { "item" : "cnssurvivalpoints", "count" : 50 }
   ],
   "output" : { "item" : "cnssimplecraft", "count" : 1 },
   "groups" : [ "plain", "objects", "all", "tools" ]
