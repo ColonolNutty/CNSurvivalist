@@ -3,5 +3,10 @@
 		"op": "replace",
 		"path" : "/scriptConfig/skipIntroItems",
 		"value": []
+	},
+	{
+		"op": "replace",
+		"path" : "/scriptConfig/followUp",
+		"value": "cnssurvival1"
 	}
 ]

@@ -1,31 +1,29 @@
 {
   "id" : "cnssurvival5",
+  "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "Hmmm.. I need a house I guess! ^#aee1ee;With a nice bed, anvil, stone furnace, table and wooden chairs.. ^white;It's not safe out here in the middle of the night!",
-  "completionText" : "^orange;(heavy breathing) ^white;Awhhh! 
-I'm tired... And these monsters, everywhere...",
+  "text" : "I want some food. I'm ^cyan;starving^reset;.  I should find some food, maybe if I used a ^orange;bow and arrow ^reset; I could get some meat. These weird looking ^orange;plants ^reset;in caves could be nice for making a bow. I could also look around for some ^orange;Wheat^reset; to make some bread or something.",
+  "completionText" : "This actually looks kinda tasty. I bet cooking it on a campfire would taste way better!",
   "speaker" : "player",
   "moneyRange" : [10, 10],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
+  "script" : "/quests/scripts/story/cnssurvival5.lua",
   "scriptConfig" : {
-		"portraits" : {
-		  "questStarted" : "player",
-		  "questComplete" : "player"
-		},
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "player"
+    },
 
-		"followUp" : "cnssurvival6",
-		"requireTurnIn" : false,
-		"canBeAbandoned" : false,
-		"conditions" : [
-			{
-				"type" : "gatherItem",
-				"itemName" : "craftingfurnace",
-				"count" : 1,
-				"consume" : false
-			}
-		]
+    "descriptions" : {
+      "collectFood" : "^green;Find^reset; something to eat"
+    },
+	
+	  "foodCategory": "food",
+    
+    "followUp" : "cnssurvival6",
+    "requireTurnIn" : false,
+    "canBeAbandoned" : false
   }
 }

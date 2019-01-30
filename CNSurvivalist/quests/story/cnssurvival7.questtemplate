@@ -1,33 +1,31 @@
 {
   "id" : "cnssurvival7",
+  "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "I want to travel and explore soon. If I gather the needed resources, I can fix the ^orange;Fuel Panel ^white; on my ship!",
-  "completionText" : "Phew, finally! I don't want to go all the way back up to my ship, so I'll just send these bars up to that AI to fix the fuel panel on my ship while I stay here ^white;Ugh! The food I ate earlier wasn't exactly... 5 star quality..",
+  "text" : "I can smelt iron ore in the stone furnace to get bars. It will probably take some time, but worth it I guess...",
+  "completionText" : "Ore goes from solid to liquid and to solid again. ^cyan;Almost like magic!   ^white;Now what about my ship, I'll need to repair the Thrusters.  I really don't want to talk to the AI though...",
   "speaker" : "player",
   "moneyRange" : [10, 10],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/story/cnssurvival7.lua",
+  "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-	"portraits" : {
-	  "questStarted" : "player",
-	  "questComplete" : "player"
-	},
+		"portraits" : {
+		  "questStarted" : "player",
+		  "questComplete" : "player"
+		},
 
-	"descriptions" : {
-	  "collectRepairItem" : "^green;Make ^white;thirty ^orange;Iron Bar^white;'s using the ^orange;Primitive Furnace^white;"
-	},
-	
-	"fuelHatchRepairItem" : "ironbar",
-	"fuelHatchRepairItemCount" : 30,
-
-	"followUp" : "cnssurvival8",
-	"requireTurnIn" : false,
-	"canBeAbandoned" : false,
-    "shipUpgrade" : {
-      "shipLevel" : 2,
-	  "capabilities" : ["teleport", "planetTravel"]
-    }
+		"followUp" : "cnssurvival8",
+		"requireTurnIn" : false,
+		"canBeAbandoned" : false,
+		"conditions" : [
+			{
+				"type" : "gatherItem",
+				"itemName" : "ironbar",
+				"count" : 1,
+				"consume" : false
+			}
+		]
   }
 }

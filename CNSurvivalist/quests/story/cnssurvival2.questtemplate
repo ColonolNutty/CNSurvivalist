@@ -1,34 +1,31 @@
 {
   "id" : "cnssurvival2",
+  "prerequisites" : [ "cnssurvival1" ],
+  "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "I hate going down there unarmed, but I won't survive if I don't.  Maybe I can make a wooden sword!",
-  "completionText" : "I knew I should have paid attention in woodcraft 101.  Welp at least I have my trusty ^orange;Branch^white;.  Hope it doesn't break.",
-  "speaker" : "player",
-  "moneyRange" : [10, 10],
-  "rewards" : [ 
-    [ [ "cnsbranch", 1 ] ] 
-  ],
-
+  "text" : "Well that was interesting. Guess I'm stuck with a sassy AI. Wonderful! Let us see what I can salvage from my ship locker.",
+  "completionText" : "This is it? Crap. There's not even a weapon in here! At least I can use the locker door (debris) as a tool.",
+  "moneyRange" : [0, 0],
+  "rewards" : [[ ]],
   "canBeAbandoned" : false,
   "updateDelta" : 10,
+  "speaker" : "player",
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-
     "portraits" : {
       "questStarted" : "player",
       "questComplete" : "player"
     },
-    
     "followUp" : "cnssurvival3",
-	"requireTurnIn" : false,
-	"canBeAbandoned" : false,
-	"conditions" : [
-		{
-			"type" : "gatherItem",
-			"itemName" : "fullwood1",
-			"count" : 1,
-			"consume" : false
-		}
-	]
+    "requireTurnIn" : false,
+    "canBeAbandoned" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "cnsdebris",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
   }
 }

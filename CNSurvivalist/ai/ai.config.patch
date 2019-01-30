@@ -2,7 +2,7 @@
 	{
 		"op": "replace",
 		"path": "/shipStatus/0/text",
-		"value": "ERROR: ^green;DEATH TO ALL HUMANOIDS^#aee1ee;Info:'S.A.I.L.::run.innerLoop', 'Cnt#: ', 1198, 'Sum:ms:', ERROR: 'Min', 15, 'Max', 7199, 'Horse', 9899, 'Avg', 23, 'Last:::', '8176b3', 'Var:avg,us: ERROR: ERROR: REBOOT REQUIRED!!!'"
+		"value": "ERROR: ^green;DEATH TO ALL HUMANOIDS^cyan;Info:'S.A.I.L.::run.innerLoop', 'Cnt#: ', 1198, 'Sum:ms:', ERROR: 'Min', 15, 'Max', 7199, 'Horse', 9899, 'Avg', 23, 'Last:::', '8176b3', 'Var:avg,us: ERROR: ERROR: REBOOT REQUIRED!!!'"
 	},	
 	{
 		"op": "replace",
@@ -12,7 +12,7 @@
 	{
 		"op": "replace",
 		"path": "/shipStatus/1/text",
-		"value": "^orange;(sigh) ^#aee1ee;You are still here? You know what you should do?! You should definitely go down to the planet. I mean, there are only class ^orange;Omega^#aee1ee; monsters down there. You'll do fine, I'm sure."
+		"value": "^orange;(sigh) ^cyan;You are still here? You know what you should do?! You should definitely go down to the planet. I mean, there are only class ^orange;Omega^cyan; monsters down there. You'll do fine, I'm sure."
 	},
 	{
 		"op": "replace",

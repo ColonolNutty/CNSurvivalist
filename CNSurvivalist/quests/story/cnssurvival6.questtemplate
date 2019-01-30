@@ -1,8 +1,9 @@
 {
   "id" : "cnssurvival6",
+  "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "I can smelt iron ore in the stone furnace to get bars. It will probably take some time, but worth it I guess...",
-  "completionText" : "Ore goes from solid to liquid and to solid again. ^#aee1ee;Almost like magic!   ^white;Now what about my ship, I'll need to repair the Thrusters.  I really don't want to talk to the AI though...",
+  "text" : "Hmmm.. I need a house I guess! ^cyan;With a nice bed, anvil, stone furnace, table and wooden chairs.. ^white;It's not safe out here in the middle of the night!",
+  "completionText" : "^orange;(heavy breathing) ^white;Awhhh! I'm tired... And these monsters, everywhere...",
   "speaker" : "player",
   "moneyRange" : [10, 10],
 
@@ -21,7 +22,7 @@
 		"conditions" : [
 			{
 				"type" : "gatherItem",
-				"itemName" : "ironbar",
+				"itemName" : "craftingfurnace",
 				"count" : 1,
 				"consume" : false
 			}

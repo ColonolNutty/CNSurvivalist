@@ -1,28 +1,30 @@
 {
   "id" : "cnssurvival4",
+  "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "I want some food. I'm ^#aee1ee;starving^white;.  I should find some food, maybe if I used a ^orange;bow and arrow ^white; I could get some meat. These weird looking ^orange;plants ^white;in caves could be nice for making a bow. I could also look around for some ^orange;Wheat^white; to make some bread or something.",
-  "completionText" : "This actually looks kinda tasty. I bet cooking it on a campfire would taste way better!",
+  "text" : "I don't feel safe yet, with just a branch as protection.  ^orange;I need to make a fire.^reset;  ^cyan;Wild creatures don't get near fire camps.^reset;  (In theory)",
+  "completionText" : "^orange;I HAVE MADE FIRE!! Muahahaha.^reset; Ahem, good thing nobody saw me do that.",
   "speaker" : "player",
   "moneyRange" : [10, 10],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/story/cnssurvival4.lua",
+  "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : "player",
       "questComplete" : "player"
     },
-
-	"descriptions" : {
-	  "collectFood" : "^green;Find^white; something to eat"
-	},
-	
-	"foodCategory": "food", 
-    
     "followUp" : "cnssurvival5",
-	"requireTurnIn" : false,
-	"canBeAbandoned" : false
+    "requireTurnIn" : false,
+    "canBeAbandoned" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "cnscampfirelarge",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
   }
 }
