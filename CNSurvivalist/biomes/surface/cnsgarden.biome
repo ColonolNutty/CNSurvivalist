@@ -1,11 +1,11 @@
 {
   "name" : "cnsgarden",
-  "friendlyName" : "Garden",
+  "friendlyName" : "Garden (CNS)",
 
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 3,
+        "select" : 2,
         "pool" : [
           [ 1.0, "gleap" ],
           [ 1.0, "nutmidge" ],
@@ -25,10 +25,6 @@
         "pool" : "nightTerrors"
       },
       {
-        "select" : 3,
-        "pool" : "generatedGround"
-      },
-      {
         "select" : 1,
         "pool" : "generatedGround"
       },
@@ -38,9 +34,14 @@
           [ 0.2, "birdcritter" ],
           [ 0.15, "hedgehogcritter" ],
           [ 0.15, "tortoisecritter" ],
+          [ 0.2, "squirrelcritter" ],
+          [ 0.5, "sporelingcritter" ],
+          [ 0.6, "owlcritter" ],
+          [ 0.6, "blipcritter" ],
           [ 0.2, "mousecritter" ],
-          [ 0.2, "bunnycritter" ],
           [ 0.2, "snailcritter" ],
+          [ 0.2, "bunnycritter" ],
+          [ 0.1, "fireflyspawner" ],
           [ 1, "fishcritter" ]
         ]
       },
@@ -71,23 +72,6 @@
           [0.1, "cnsaggroLargeBipedBoss"],
           [0.1, "cnsaggroLargeQuadrupedBoss"],
           [0.1, "cnsaggroLargeFlyingBoss"]
-        ]
-      },
-      {
-        "select": 4,
-        "pool": [
-          [ 0.2, "birdcritter" ],
-          [ 0.15, "hedgehogcritter" ],
-          [ 0.15, "tortoisecritter" ],
-          [ 0.2, "squirrelcritter" ],
-          [ 0.5, "sporelingcritter" ],
-          [ 0.6, "owlcritter" ],
-          [ 0.6, "blipcritter" ],
-          [ 0.2, "mousecritter" ],
-          [ 0.2, "snailcritter" ],
-          [ 0.2, "bunnycritter" ],
-          [ 0.1, "fireflyspawner" ],
-          [ 1, "fishcritter" ]
         ]
       }
     ],

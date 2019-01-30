@@ -1,0 +1,112 @@
+{
+  "name" : "underground0cnodungeons",
+  "friendlyName" : "Underground0c No Dungeons",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "pulpin" ],
+          [ 1.0, "batong" ],
+          [ 1.0, "miasmop" ],
+          [ 1.0, "wisper" ],
+          [ 1.0, "lilodon" ],
+          [ 1.0, "snaunt" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGroundAggroDay"
+      },
+      {
+        "select" : 3,
+        "pool" : [
+          [ 1, "snakecritter" ],
+          [ 1, "frogpolecritter" ],
+          [ 1, "tinycrocodilecritter" ]
+        ]
+      }
+    ]
+  },
+
+  "parallax" : "/parallax/underground/underground0c.parallax",
+
+  "mainBlock" : "cobblestone",
+  "subBlocks" : [ "rock20", "drysand" ],
+  "ores" : "depth2",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+
+    "grassMod" : [ "aridgrass" ],
+    "grassModDensity" : 0.8,
+
+    "items" : [
+      {
+        "mode" : "ceiling",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "grass",
+        "grasses" : [ "ceilingmushroom" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "grass",
+        "grasses" : [ "mushroom" ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingLower",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "drip1" ] ]
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundOreRocks",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "hueShiftOptions" : [0]
+}

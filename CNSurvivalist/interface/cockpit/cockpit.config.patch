@@ -5,13 +5,13 @@
     "value": [
       "^#76fe68;Lush ^white;foothills mark this landing location. Both flora and fauna are abundant here. A beam site of immeasurable safety.",
      "The beam site is located in a tranquil area of great bio-diversity. There are resources here that you could use. A ^#76fe68;lush ^white;and pleasant land.",
-     "Readings indicate the landing site is not unfavourable - the area is safe, and lavish with both flora and fauna. A ^#76fe68;lush ^white;and hospitable place."
+      "Something is off about this planet, but I can't quite put my finger on it."
     ]
   },
   {
     "op": "add",
     "path": "/visitableTypeDescription/cnshostile",
-    "value": ["This planet is not as friendly as it appears."]
+    "value": ["This planet is not as friendly as the name implies."]
   },
   {
     "op": "add",
@@ -26,7 +26,7 @@
   {
     "op": "add",
     "path": "/planetTypeNames/cnsgarden",
-    "value": "Garden"
+    "value": "Garden (CNS)"
   },
   {
     "op": "add",

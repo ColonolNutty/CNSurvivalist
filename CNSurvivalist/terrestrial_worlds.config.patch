@@ -97,16 +97,96 @@
   ],
   [
     {
+      "op": "test",
+      "path": "/regionTypes/cnssubsurfacenodungeons",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnssubsurfacenodungeons",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnsshallowundergroundnodungeons",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnsshallowundergroundnodungeons",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnsmidundergroundnodungeons",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnsmidundergroundnodungeons",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnsdeepundergroundnodungeons",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnsdeepundergroundnodungeons",
+      "value": {}
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/regionTypes/cnscorenodungeons",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/regionTypes/cnscorenodungeons",
+      "value": {}
+    }
+  ],
+  [
+    {
       "op": "replace",
       "path": "/planetTypes/cnsgarden",
       "value": {
         "threatRange" : [1, 1],
         "layers" : {
+          "space" : {
+            "primaryRegion" : ["void"]
+          },
+          "atmosphere" : {
+            "primaryRegion" : ["void"]
+          },
           "surface" : {
             "primaryRegion" : ["cnsgarden"],
-            "secondaryRegions" : ["garden", "forest"],
-            "dungeonCountRange" : [2, 2],
-            "dungeons" : [[1.0, "naturalcave"]]
+            "secondaryRegions" : [],
+            "dungeons" : []
+          },
+          "subsurface" : {
+            "primaryRegion" : ["cnssubsurfacenodungeons"]
+          },
+          "underground1" : {
+            "primaryRegion" : ["cnsshallowundergroundnodungeons"]
+          },
+          "underground2" : {
+            "primaryRegion" : ["cnsmidundergroundnodungeons"]
+          },
+          "underground3" : {
+            "primaryRegion" : ["cnsdeepundergroundnodungeons"]
+          },
+          "core" : {
+            "primaryRegion" : ["cnscorenodungeons"]
           }
         }
       }
@@ -225,6 +305,70 @@
           [1, [ "cnsslime" ]]
         ],
         "subRegion" : ["bioluminescence"]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnssubsurfacenodungeons",
+      "value": {
+        "caveLiquid" : [ "water" ],
+        "biome" : [
+          [1, [ "underground0anodungeons", "underground0bnodungeons" ] ],
+          [2, [ "underground0anodungeons", "underground0bnodungeons", "underground1anodungeons", "underground1bnodungeons" ] ]
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnsshallowundergroundnodungeons",
+      "value": {
+        "caveLiquid" : [ "water" ],
+        "biome" : [
+          [1, [ "underground0anodungeons", "underground0bnodungeons" ] ],
+          [2, [ "underground0anodungeons", "underground0bnodungeons", "underground1anodungeons", "underground1bnodungeons" ] ]
+        ],
+        "subRegion" : []
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnsmidundergroundnodungeons",
+      "value": {
+        "caveLiquid" : [ "water" ],
+        "biome" : [
+          [1, [ "underground0cnodungeons" ] ],
+          [2, [ "underground1cnodungeons", "underground1dnodungeons", "underground3anodungeons", "underground3bnodungeons", "underground3cnodungeons", "underground3dnodungeons", "underground0cnodungeons" ]]
+        ],
+        "subRegion" : []
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnsdeepundergroundnodungeons",
+      "value": {
+        "caveLiquid" : [ "water" ],
+        "caveLiquidSeedDensityRange" : [0.5, 1.0],
+        "biome" : [
+          [1, [ "underground0dnodungeons" ] ],
+          [2, [ "underground5anodungeons", "underground5bnodungeons", "underground5cnodungeons", "underground5dnodungeons", "underground0dnodungeons" ]]
+        ],
+        "subRegion" : []
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/regionTypes/cnscorenodungeons",
+      "value": {
+        "caveLiquid" : [ "lava" ],
+        "caveLiquidSeedDensityRange" : [4.0, 4.0],
+        "oceanLiquid" : [ "corelava" ],
+        "oceanLevelOffset" : -20,
+        "fgCaveSelector" : [ "coreCaves" ],
+        "bgCaveSelector" : [ "coreBackgroundCaves" ],
+        "biome" : [
+          [1, [ "cnsgardencorelayernodungeons"] ],
+          [2, [ "cnsblaststonecorelayernodungeons", "cnsmagmarockcorelayernodungeons", "cnsobsidiancorelayernodungeons" ]]
+        ]
       }
     }
   ]
