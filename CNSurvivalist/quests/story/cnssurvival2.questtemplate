@@ -2,14 +2,14 @@
   "id" : "cnssurvival2",
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "Well that was interesting. Guess I'm stuck with a sassy AI. Wonderful! Let us see what I can salvage from my ship locker.",
+  "text" : "Well that was interesting. Guess I'm stuck with a sassy AI as well as a ^red;broken Matter Manipulator^reset;. That's just great! *sarcasm* Let us see what I can salvage from my ship locker.",
   "completionText" : "This is it? Crap. There's not even a weapon in here! At least I can use the locker door (debris) as a tool.",
   "moneyRange" : [0, 0],
   "rewards" : [[ ]],
   "canBeAbandoned" : false,
   "updateDelta" : 10,
   "speaker" : "player",
-  "script" : "/quests/scripts/main.lua",
+  "script" : "/quests/scripts/story/cnssurvival2.lua",
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : "player",

@@ -4,7 +4,7 @@
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I should check out that new place called 'The Ark', maybe I will find another living soul!",
-  "completionText" : "Heck yeah! I survived for another adventure, I think I'll help this old lady out now.",
+  "completionText" : "Heck yeah! This old woman fixed my Matter Manipulator! I think I'll help this old lady out, its the least I can do.",
   "moneyRange" : [50, 50],
   "rewards" : [
     [ ["rewardbag", 1] ]

@@ -5,15 +5,15 @@
   "invisible" : false,
   "logOnly" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "Well, that's as far as I'm gonna get on this piece of crap.  At least I got away from those demon-baby-aliens ^orange;(shivers)^reset;.  ^#cyan;Anyways lets see if the ship is still working.\n^green;TO THE AI CONSOLE!^reset;",
-  "completionText" : "I'm done with this planet. ^orange;(smiling)^reset;  Although it would take decades to reach another solar system with only the thrusters. I need a new plan.",
+  "text" : "Well, that's as far as I'm gonna get on this piece of crap.  At least I got away from those demon-baby-aliens ^orange;(shivers)^reset;.  It seems ^red;I broke my Matter Manipulator^reset; on the way out!",
+  "completionText" : "It looks like the ships thrusters are busted, so I'm stranded here. At least the ship still functions somewhat.",
   "moneyRange" : [0, 0],
   "rewards" : [
     [ [ "cnssurvivalpoints", 50 ] ]
   ],
   "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/story/bootship.lua",
+  "script" : "/quests/scripts/story/cnssurvival1.lua",
   "scriptConfig" : {
     "portraits" : {
       "default" : "sail"

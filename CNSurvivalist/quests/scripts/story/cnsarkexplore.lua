@@ -73,6 +73,7 @@ function findEsther(dt)
 end
 
 function questComplete()
+  player.giveEssentialItem("beamaxe", "beamaxe")
   setPortraits();
   questutil.questCompleteActions();
 end

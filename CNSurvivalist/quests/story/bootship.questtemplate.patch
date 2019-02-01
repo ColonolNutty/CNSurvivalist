@@ -82,6 +82,11 @@
     },
     {
       "op" : "replace",
+      "path" : "/script",
+      "value" : "/quests/scripts/story/cnssurvival1.lua"
+    },
+    {
+      "op" : "replace",
       "path" : "/scriptConfig/followUp",
       "value" : "cnssurvival2"
     },
