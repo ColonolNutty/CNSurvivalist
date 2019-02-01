@@ -13,21 +13,31 @@
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/story/cnssurvival8.lua",
+  "script" : "/quests/scripts/story/cnssurvivalcollectquest.lua",
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : "player",
       "questComplete" : "player"
     },
-  
-    "descriptions" : {
-      "collectRepairItem" : "^green;Make^reset; thirty ^orange;Iron Bar^reset;'s using the ^orange;Primitive Furnace^reset;"
-    },
 
-		"items" : {
-			"collectRepairItem": { "name": "ironbar", "count": 30 }
+    "questType" : "COLLECT_ITEM",
+
+    "questStages" : [
+      "collectIronBars"
+    ],
+
+		"questDescriptions" : {
+      "collectIronBars" : "^green;Make^reset; thirty ^orange;Iron Bar^reset;'s using the ^orange;Primitive Furnace^reset;"
 		},
-  
+
+		"questItemsToCollect" : {
+			"collectIronBars": { "name": "ironbar", "count": 30 }
+		},
+
+    "consumeOnComplete" : [
+      { "name" : "ironbar", "count" : 30 }
+    ],
+
     "followUp" : "cnssurvival9",
     "requireTurnIn" : false,
     "canBeAbandoned" : false,

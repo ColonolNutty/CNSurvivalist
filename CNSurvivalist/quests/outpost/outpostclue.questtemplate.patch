@@ -1,0 +1,13 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/prerequisites",
+      "value" : [ "shiprepair" ]
+    },
+    {
+      "op" : "remove",
+      "path" : "/prerequisites"
+    }
+  ]
+]
