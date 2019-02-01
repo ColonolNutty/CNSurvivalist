@@ -9,11 +9,7 @@
         "pool" : "nightTerrors"
       },
       {
-        "select" : 1,
-        "pool" : "generatedGround"
-      },
-      {
-        "select" : 1,
+        "select" : 2,
         "pool" : [
           [ 0.4, "butterbee" ],
           [ 0.3, "fawnfly" ],
@@ -50,9 +46,9 @@
       {
         "select": 1,
         "pool": [
-          [0.1, "cnsaggroLargeBipedBoss"],
-          [0.1, "cnsaggroLargeQuadrupedBoss"],
-          [0.1, "cnsaggroLargeFlyingBoss"]
+          [0.01, "cnsaggroLargeBipedBoss"],
+          [0.01, "cnsaggroLargeQuadrupedBoss"],
+          [0.01, "cnsaggroLargeFlyingBoss"]
         ]
       }
     ],

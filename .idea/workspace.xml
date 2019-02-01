@@ -57,7 +57,7 @@
           <entry key="particle" value="6" />
           <entry key="partparams" value="15" />
           <entry key="patch" value="642" />
-          <entry key="png" value="223" />
+          <entry key="png" value="224" />
           <entry key="projectile" value="11" />
           <entry key="questtemplate" value="149" />
           <entry key="recipe" value="143" />
@@ -72,7 +72,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="223" />
+          <entry key="Image" value="224" />
           <entry key="JSON" value="1467" />
           <entry key="Lua" value="57" />
           <entry key="PATCH" value="2" />
@@ -84,7 +84,7 @@
           <entry key="activeitem" value="25" />
           <entry key="animation" value="239" />
           <entry key="back" value="181" />
-          <entry key="biome" value="373" />
+          <entry key="biome" value="380" />
           <entry key="chest" value="248" />
           <entry key="codex" value="3" />
           <entry key="config" value="24" />
@@ -116,7 +116,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="9904" />
+          <entry key="JSON" value="9911" />
           <entry key="Lua" value="2234" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="222" />
@@ -129,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -139,9 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ipairs</find>
-      <find>systems were damaged</find>
-      <find>System is down</find>
       <find>Please reboot the system</find>
       <find>/0</find>
       <find>treated</find>
@@ -169,6 +166,9 @@
       <find>bookmarked</find>
       <find>batong</find>
       <find>spookit</find>
+      <find>skimb</find>
+      <find>\,\n        \&quot;pool\&quot; \: \&quot;nightTerrors</find>
+      <find>nightTerrors</find>
     </findStrings>
     <replaceStrings>
       <replace>cnsspawnpoop_on_eat</replace>
@@ -331,7 +331,7 @@
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
               <item name="monsters" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
+              <item name="crawlers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +339,6 @@
               <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
               <item name="monsters" type="462c0819:PsiDirectoryNode" />
               <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-              <item name="spookit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
@@ -458,9 +457,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/armors/backitems/baroncape/baroncape.back">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/armors/backitems/baroncape/baroncapebackicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -780,10 +776,13 @@
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/ghosts/spookit/spookit.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/ghosts/skimbus/skimbus.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
