@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/beamaxe.beamaxe.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnsarkexplore.lua" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnsarkexplore.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/bootship.questtemplate.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/story/bootship.questtemplate.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnsarkexplore.questtemplate" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnsarkexplore.questtemplate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/pickaxe.miningtool.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/pickaxe.miningtool.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival2.lua" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +33,7 @@
           <entry key="activeitem" value="3" />
           <entry key="animation" value="52" />
           <entry key="back" value="10" />
+          <entry key="beamaxe" value="1" />
           <entry key="behavior" value="1" />
           <entry key="biome" value="127" />
           <entry key="chest" value="21" />
@@ -51,10 +50,10 @@
           <entry key="item" value="31" />
           <entry key="legs" value="12" />
           <entry key="liqitem" value="1" />
-          <entry key="lua" value="64" />
+          <entry key="lua" value="66" />
           <entry key="matitem" value="3" />
           <entry key="metadata" value="2" />
-          <entry key="miningtool" value="3" />
+          <entry key="miningtool" value="7" />
           <entry key="monsterpart" value="48" />
           <entry key="monstertype" value="44" />
           <entry key="npctype" value="2" />
@@ -62,10 +61,10 @@
           <entry key="parallax" value="30" />
           <entry key="particle" value="6" />
           <entry key="partparams" value="15" />
-          <entry key="patch" value="644" />
-          <entry key="png" value="224" />
+          <entry key="patch" value="647" />
+          <entry key="png" value="225" />
           <entry key="projectile" value="11" />
-          <entry key="questtemplate" value="154" />
+          <entry key="questtemplate" value="156" />
           <entry key="recipe" value="143" />
           <entry key="spawntypes" value="1" />
           <entry key="statuseffect" value="11" />
@@ -78,11 +77,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="224" />
-          <entry key="JSON" value="1475" />
-          <entry key="Lua" value="62" />
+          <entry key="Image" value="225" />
+          <entry key="JSON" value="1484" />
+          <entry key="Lua" value="64" />
           <entry key="PATCH" value="2" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="PLAIN_TEXT" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -106,15 +105,15 @@
           <entry key="legs" value="103" />
           <entry key="lua" value="2534" />
           <entry key="metadata" value="3" />
-          <entry key="miningtool" value="29" />
+          <entry key="miningtool" value="38" />
           <entry key="monsterpart" value="170" />
           <entry key="monstertype" value="188" />
           <entry key="object" value="553" />
           <entry key="parallax" value="125" />
           <entry key="partparams" value="5" />
-          <entry key="patch" value="5459" />
+          <entry key="patch" value="5463" />
           <entry key="projectile" value="36" />
-          <entry key="questtemplate" value="2008" />
+          <entry key="questtemplate" value="2012" />
           <entry key="recipe" value="97" />
           <entry key="statuseffect" value="5" />
           <entry key="thrownitem" value="28" />
@@ -122,7 +121,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="10460" />
+          <entry key="JSON" value="10477" />
           <entry key="Lua" value="2534" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="222" />
@@ -132,56 +131,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="151" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
+            <state relative-caret-position="425">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvivalcollectquest.lua">
+        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/tools/miningtools/beamaxe.beamaxe">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="66" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival5.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival2.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -195,11 +158,46 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/pickaxe.miningtool.patch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/tools/miningtools/pickaxe.miningtool">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>treated</find>
       <find>foodCategory</find>
       <find>&quot;followUp&quot;</find>
       <find>followUp</find>
@@ -229,6 +227,7 @@
       <find>nightTerrors</find>
       <find>fog</find>
       <find>giveEssentialItem</find>
+      <find>iron pickaxe</find>
     </findStrings>
     <replaceStrings>
       <replace>cnsspawnpoop_on_eat</replace>
@@ -300,8 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsshadows/cnsshadowsgarb.chest" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsneopreneswimsuit/cnsneopreneswimsuit.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsnavyarmor/cnsnavyarmor.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsmilitaryarmor/cnsmilitaryarmor.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsleatheroutfit/cnsleatheroutfit.chest" />
@@ -350,7 +347,9 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival1.lua" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival2.lua" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/pickaxe.miningtool.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" />
       </list>
     </option>
   </component>
@@ -374,6 +373,17 @@
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
+              <item name="quests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
@@ -528,41 +538,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/scripts/questutil.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1156">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/scripts/story/bootship.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/scripts/story/gaterepair.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival10.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival3.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival4.questtemplate">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -774,23 +749,6 @@
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/monsters/ghosts/skimbus/skimbus.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvivalcollectquest.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="66" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival11.questtemplate">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -805,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival5.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/beamaxe.beamaxe.patch">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -822,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival1.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnsarkexplore.questtemplate">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -836,10 +780,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival2.lua">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvivalcollectquest.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival5.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -850,10 +808,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate">
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/cnsstonepickaxe.miningtool">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/tools/miningtools/pickaxe.miningtool">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/miningtools/pickaxe.miningtool.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/tools/miningtools/beamaxe.beamaxe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival2.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="151" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival1.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>

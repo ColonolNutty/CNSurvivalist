@@ -9,7 +9,7 @@
   "canBeAbandoned" : false,
   "updateDelta" : 10,
   "speaker" : "player",
-  "script" : "/quests/scripts/story/cnssurvival2.lua",
+  "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : "player",
