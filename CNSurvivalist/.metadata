@@ -4,5 +4,5 @@
 	"friendlyName" : "CN Survivalist: Resurrection",
 	"includes" : ["CNAnimatedHandheldTorches", "FrackinUniverse", "OptionalErchius"],
 	"name" : "CNSurvivalist",
-	"version" : "v3.4.9"
+	"version" : "v3.4.10"
 }
