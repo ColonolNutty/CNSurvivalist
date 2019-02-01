@@ -1,6 +1,5 @@
 {
   "id" : "cnssurvival2",
-  "prerequisites" : [ "cnssurvival1" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "Well that was interesting. Guess I'm stuck with a sassy AI. Wonderful! Let us see what I can salvage from my ship locker.",

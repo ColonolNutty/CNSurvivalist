@@ -1,0 +1,69 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/scriptConfig",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptConfig",
+      "value" : {}
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/title",
+      "value" : "^#9be3d6;THOUGHTS AND NEEDS"
+    },
+    {
+      "op" : "replace",
+      "path" : "/text",
+      "value" : "Well, that's as far as I'm gonna get on this piece of crap.  At least I got away from those demon-baby-aliens ^orange;(shivers)^reset;.  ^#cyan;Anyways lets see if the ship is still working.\n^green;TO THE AI CONSOLE!^reset;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/completionText",
+      "value" : "I'm done with this planet. ^orange;(smiling)^reset;  Although it would take decades to reach another solar system with only the thrusters. I need a new plan."
+    },
+    {
+      "op" : "replace",
+      "path" : "/moneyRange",
+      "value" : [0, 0]
+    },
+    {
+      "op" : "replace",
+      "path" : "/rewards",
+      "value" : [
+        [ [ "cnssurvivalpoints", 50 ] ]
+      ]
+    },
+    {
+      "op" : "replace",
+      "path" : "/scriptConfig",
+      "value" : {
+        "portraits" : {
+          "default" : "sail"
+        },
+        "followUp" : "cnssurvival2",
+        "requireTurnIn" : false,
+        "canBeAbandoned" : false,
+
+        "descriptions" : {
+          "wakeSail" : "Boot up the ship computer"
+        },
+
+        "stunTime" : 8.0,
+
+        "compassUpdate" : 0.2,
+
+        "techstationUid" : "techstation",
+        "shipUpgrade" : {
+          "shipLevel" : 1,
+          "capabilities" : ["teleport"]
+        }
+      }
+    }
+  ]
+]

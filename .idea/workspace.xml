@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,10 +56,10 @@
           <entry key="parallax" value="30" />
           <entry key="particle" value="6" />
           <entry key="partparams" value="15" />
-          <entry key="patch" value="592" />
+          <entry key="patch" value="594" />
           <entry key="png" value="218" />
           <entry key="projectile" value="11" />
-          <entry key="questtemplate" value="60" />
+          <entry key="questtemplate" value="76" />
           <entry key="recipe" value="139" />
           <entry key="spawntypes" value="1" />
           <entry key="statuseffect" value="11" />
@@ -71,7 +73,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="218" />
-          <entry key="JSON" value="1313" />
+          <entry key="JSON" value="1331" />
           <entry key="Lua" value="27" />
           <entry key="PATCH" value="2" />
           <entry key="PLAIN_TEXT" value="76" />
@@ -104,9 +106,9 @@
           <entry key="object" value="553" />
           <entry key="parallax" value="125" />
           <entry key="partparams" value="5" />
-          <entry key="patch" value="4670" />
+          <entry key="patch" value="5060" />
           <entry key="projectile" value="36" />
-          <entry key="questtemplate" value="459" />
+          <entry key="questtemplate" value="486" />
           <entry key="recipe" value="97" />
           <entry key="statuseffect" value="5" />
           <entry key="thrownitem" value="28" />
@@ -114,7 +116,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="8066" />
+          <entry key="JSON" value="8483" />
           <entry key="Lua" value="96" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="222" />
@@ -124,20 +126,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="124" column="331" lean-forward="true" selection-start-line="124" selection-start-column="331" selection-end-line="124" selection-end-column="331" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/systemworld.config">
+        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/story/bootship.questtemplate">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/bootship.questtemplate.patch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -146,8 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>core</find>
-      <find>gardencorelayer</find>
       <find>aee1ee</find>
       <find>#aee1ee</find>
       <find>sistem</find>
@@ -176,6 +185,8 @@
       <find>white</find>
       <find>/music/</find>
       <find>musicTrack</find>
+      <find>&quot;rewards&quot;</find>
+      <find>cnssurvivalpoints</find>
     </findStrings>
     <replaceStrings>
       <replace>cnsencumbered</replace>
@@ -253,14 +264,12 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/core/cnsmagmarockcorelayernodungeons.biome" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/core/cnsobisidiancorelayernodungeons.biome" />
         <option value="$PROJECT_DIR$/CNSurvivalist/interface/cockpit/cockpit.config.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/bootship.questtemplate.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/shiprepair.questtemplate.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/gaterepair.questtemplate.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnsbootship.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnsgaterepair.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnsshiprepair.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/protectorate.questtemplate.patch" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.1.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival7.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival6.questtemplate" />
@@ -273,7 +282,6 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival9.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival10.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival11.questtemplate" />
-        <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/materials/log.matitem.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/.metadata" />
         <option value="$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsbushback.recipe" />
@@ -298,6 +306,9 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsleatheroutfit/cnsleatheroutfit.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsdeatharmor/cnsdeatharmor.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/bootship.questtemplate.patch" />
       </list>
     </option>
   </component>
@@ -331,14 +342,14 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="quests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="armors" type="462c0819:PsiDirectoryNode" />
+              <item name="quests" type="462c0819:PsiDirectoryNode" />
+              <item name="story" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
@@ -358,6 +369,19 @@
               <item name="biomes" type="462c0819:PsiDirectoryNode" />
               <item name="surface" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="quests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="quests" type="462c0819:PsiDirectoryNode" />
+              <item name="story" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -370,9 +394,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\quests\story" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\items\materials" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\quests" />
-      <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\quests\story" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\biomes\core" />
       <recent name="C:\Work\StarboundProjects\CNSurvivalist\CNSurvivalist\biomes\underground" />
     </key>
@@ -457,109 +481,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival10.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/ftlrepairmain.questtemplate.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/cnsftlrepairmain.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/protectorate.questtemplate.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/fuel.questtemplate.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival11.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/scripts/story/cnssurvival10.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/objects/crafting/upgradeablecraftingobjects/craftingfurniture/craftingfurniture.object.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/items/materials/log.matitem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/materials/fullwood1.matitem.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/.metadata">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/materials/log.matitem.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnsbushback.recipe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/recipes/emptyhands/cnssurvivalbushhead.recipe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -773,14 +694,83 @@
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/systemworld.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/biomes/surface/cnsgarden.biome">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="124" column="331" lean-forward="true" selection-start-line="124" selection-start-column="331" selection-end-line="124" selection-end-column="331" />
+          <caret line="124" column="331" selection-start-line="124" selection-start-column="331" selection-end-line="124" selection-end-column="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/protectorate.questtemplate.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival2.questtemplate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival3.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival4.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival5.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival6.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival7.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival8.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival9.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival10.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival11.questtemplate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/outpost/techscientist1.questtemplate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival1.questtemplate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/story/bootship.questtemplate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/bootship.questtemplate.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>
