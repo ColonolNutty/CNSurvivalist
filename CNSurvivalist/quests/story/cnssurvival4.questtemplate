@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival4",
+  "prerequisites" : [ "cnssurvival4" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I don't feel safe yet, with just a branch as protection.  ^orange;I need to make a fire.^reset;  ^cyan;Wild creatures don't get near fire camps.^reset;  (In theory)",

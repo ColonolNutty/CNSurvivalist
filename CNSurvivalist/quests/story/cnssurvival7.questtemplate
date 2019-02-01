@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival7",
+  "prerequisites" : [ "cnssurvival6" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I can smelt iron ore in the stone furnace to get bars. It will probably take some time, but worth it I guess...",

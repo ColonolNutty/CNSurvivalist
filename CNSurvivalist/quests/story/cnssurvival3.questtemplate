@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival3",
+  "prerequisites" : [ "cnssurvival2" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I hate going down there unarmed, but I won't survive if I don't.  Maybe I can make a wooden sword!",

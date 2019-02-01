@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival11",
+  "prerequisites" : [ "cnssurvival10" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "When the Fuel Panel got, eh... 'mysteriously' blown up, the fuel was dumped into the vacuum of space. ^orange;(facepalm)^reset; Now, if I'm not mistaken, fuel can be refined from ^orange;Liquid Erchius.^reset; The problem is it's only found in ^green;underground pools^reset; on ^orange;airless planets^reset;, and I kinda like to breath.",

@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival1",
+  "prerequisites" : [ "protectorate" ],
   "mainQuest" : true,
   "invisible" : false,
   "logOnly" : true,

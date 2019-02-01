@@ -1,5 +1,6 @@
 {
 	"id" : "cnssurvival10",
+  "prerequisites" : [ "cnssurvival9" ],
   "mainQuest" : true,
 	"title" : "^#9be3d6;THOUGHTS AND NEEDS",
 	"text" : "Man, this will take a lot of work. If only I paid attention in science class! ^orange;(feels dumb)^reset; Well, I'll just jump right into it and write down my discoveries.",

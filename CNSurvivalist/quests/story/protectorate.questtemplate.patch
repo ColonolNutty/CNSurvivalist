@@ -1,12 +1,26 @@
 [
-	{
-		"op": "replace",
-		"path" : "/scriptConfig/skipIntroItems",
-		"value": []
-	},
-	{
-		"op": "replace",
-		"path" : "/scriptConfig/followUp",
-		"value": "cnssurvival1"
-	}
+  [
+    {
+      "op" : "test",
+      "path" : "/scriptConfig/followUp",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptConfig/followUp",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op": "replace",
+      "path" : "/scriptConfig/skipIntroItems",
+      "value": []
+    },
+    {
+      "op": "replace",
+      "path" : "/scriptConfig/followUp",
+      "value": "cnssurvival1"
+    }
+  ]
 ]

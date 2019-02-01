@@ -8,7 +8,48 @@
     {
       "op" : "add",
       "path" : "/scriptConfig",
-      "value" : {}
+      "value" : {
+        "portraits" : {
+          "default" : "sail"
+        },
+
+        "descriptions" : {
+          "wakeSail" : "Boot up the ship computer"
+        },
+
+        "stunTime" : 8.0,
+
+        "compassUpdate" : 0.2,
+
+        "techstationUid" : "techstation",
+        "shipUpgrade" : {
+          "shipLevel" : 1
+        }
+      }
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/scriptConfig/followUp",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptConfig/followUp",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/scriptConfig/shipUpgrade/capabilities",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptConfig/shipUpgrade/capabilities",
+      "value" : []
     }
   ],
   [
@@ -41,29 +82,13 @@
     },
     {
       "op" : "replace",
-      "path" : "/scriptConfig",
-      "value" : {
-        "portraits" : {
-          "default" : "sail"
-        },
-        "followUp" : "cnssurvival2",
-        "requireTurnIn" : false,
-        "canBeAbandoned" : false,
-
-        "descriptions" : {
-          "wakeSail" : "Boot up the ship computer"
-        },
-
-        "stunTime" : 8.0,
-
-        "compassUpdate" : 0.2,
-
-        "techstationUid" : "techstation",
-        "shipUpgrade" : {
-          "shipLevel" : 1,
-          "capabilities" : ["teleport"]
-        }
-      }
+      "path" : "/scriptConfig/followUp",
+      "value" : "cnssurvival2"
+    },
+    {
+      "op" : "replace",
+      "path" : "/scriptConfig/shipUpgrade/capabilities",
+      "value" : ["teleport"]
     }
   ]
 ]

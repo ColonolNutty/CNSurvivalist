@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival8",
+  "prerequisites" : [ "cnssurvival7" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I want to travel and explore soon. If I gather the needed resources, I can fix the ^orange;Fuel Panel^reset; on my ship!",

@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival5",
+  "prerequisites" : [ "cnssurvival4" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I want some food. I'm ^cyan;starving^reset;.  I should find some food, maybe if I used a ^orange;bow and arrow ^reset; I could get some meat. These weird looking ^orange;plants ^reset;in caves could be nice for making a bow. I could also look around for some ^orange;Wheat^reset; to make some bread or something.",

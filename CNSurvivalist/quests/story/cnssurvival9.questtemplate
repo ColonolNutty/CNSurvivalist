@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival9",
+  "prerequisites" : [ "cnssurvival8" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I realize I don't know squat about space travel.  Hmmm, how does the universe work? How will I be able to make a new FTL chip. Before I can get there, I need something I can craft on.",

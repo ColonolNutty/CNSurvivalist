@@ -1,5 +1,6 @@
 {
   "id" : "cnssurvival6",
+  "prerequisites" : [ "cnssurvival5" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "Hmmm.. I need a house I guess! ^cyan;With a nice bed, anvil, stone furnace, table and wooden chairs.. ^white;It's not safe out here in the middle of the night!",
