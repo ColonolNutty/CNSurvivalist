@@ -1,7 +1,7 @@
 {
   "input" : [
 	{ "item" : "cnssurvivalpoints", "count" : 350 },
-	{ "item" : "fullwood1", "count" : 15 },
+	{ "item" : "logblock", "count" : 15 },
 	{ "item" : "plantfibre", "count" : 5 }
   ],
   "output" : { "item" : "cnsdeathbow", "count" : 1 },

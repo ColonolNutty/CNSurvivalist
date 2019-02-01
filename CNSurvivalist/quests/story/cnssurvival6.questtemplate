@@ -3,10 +3,13 @@
   "prerequisites" : [ "cnssurvival5" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "Hmmm.. I need a house I guess! ^cyan;With a nice bed, anvil, stone furnace, table and wooden chairs.. ^white;It's not safe out here in the middle of the night!",
-  "completionText" : "^orange;(heavy breathing) ^white;Awhhh! I'm tired... And these monsters, everywhere...",
+  "text" : "Hmmm... I should probably focus on creating a house ^cyan;With a nice bed, anvil, stone furnace, table and wooden chairs...^reset; It's not safe out here in the middle of the night!",
+  "completionText" : "^orange;(heavy breathing)^reset; (yawn) I'm tired... And these monsters, everywhere...",
   "speaker" : "player",
-  "moneyRange" : [10, 10],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "cnssurvivalpoints", 10 ] ]
+  ],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,

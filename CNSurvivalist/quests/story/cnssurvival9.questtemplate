@@ -6,7 +6,10 @@
   "text" : "I realize I don't know squat about space travel.  Hmmm, how does the universe work? How will I be able to make a new FTL chip. Before I can get there, I need something I can craft on.",
   "completionText" : "Why didn't I think of this before?! I must do research, of course! The key to the universe is knowledge! ^orange;(inspired)^reset;",
   "speaker" : "player",
-  "moneyRange" : [10, 10],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "cnssurvivalpoints", 10 ] ]
+  ],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,

@@ -12,7 +12,7 @@
 	{
 		"op": "replace",
 		"path": "/shipStatus/1/text",
-		"value": "^orange;(sigh) ^cyan;You are still here? You know what you should do?! You should definitely go down to the planet. I mean, there are only class ^orange;Omega^cyan; monsters down there. You'll do fine, I'm sure."
+		"value": "^orange;(sigh)^cyan; You are still here? You know what you should do?! You should definitely go down to the planet. I mean, there are only class ^orange;Omega^cyan; monsters down there. You'll do fine, I'm sure."
 	},
 	{
 		"op": "replace",

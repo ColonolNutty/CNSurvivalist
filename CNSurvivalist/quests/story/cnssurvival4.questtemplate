@@ -1,12 +1,15 @@
 {
   "id" : "cnssurvival4",
-  "prerequisites" : [ "cnssurvival4" ],
+  "prerequisites" : [ "cnssurvival3" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I don't feel safe yet, with just a branch as protection.  ^orange;I need to make a fire.^reset;  ^cyan;Wild creatures don't get near fire camps.^reset;  (In theory)",
   "completionText" : "^orange;I HAVE MADE FIRE!! Muahahaha.^reset; Ahem, good thing nobody saw me do that.",
   "speaker" : "player",
-  "moneyRange" : [10, 10],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "cnssurvivalpoints", 10 ] ]
+  ],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
@@ -16,6 +19,7 @@
       "questStarted" : "player",
       "questComplete" : "player"
     },
+
     "followUp" : "cnssurvival5",
     "requireTurnIn" : false,
     "canBeAbandoned" : false,

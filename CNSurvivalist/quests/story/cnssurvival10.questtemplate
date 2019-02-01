@@ -6,32 +6,46 @@
 	"text" : "Man, this will take a lot of work. If only I paid attention in science class! ^orange;(feels dumb)^reset; Well, I'll just jump right into it and write down my discoveries.",
 	"completionText" : "I've done it! I've crafted a new FTL Drive! Now I can explore the stars ^orange;(very proud)^reset; Next stop, the universe, I hope I'm prepared.",
 	"speaker" : "player",
-	"moneyRange" : [10, 10],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "cnssurvivalpoints", 10 ] ]
+  ],
 
 	"canBeAbandoned" : false,
 	"updateDelta" : 10,
-	"script" : "/quests/scripts/story/cnssurvival10.lua",
+	"script" : "/quests/scripts/story/cnssurvivalcollectquest.lua",
 	"scriptConfig" : {
 		"portraits" : {
 			"questStarted" : "player",
 			"questComplete" : "player"
 		},
 
-		"descriptions" : {
-			"collectSimpleCraftingTable" : "Craft a ^orange;Simple Crafting Table^reset; with your ^orange;Hands^reset;",
+    "questType" : "COLLECT_ITEM",
+
+    "questStages" : [
+      "collectTelescope",
+      "researchLesserKnowledge",
+      "researchAverageKnowledge",
+      "collectFtlDrive"
+    ],
+
+		"questDescriptions" : {
 			"collectTelescope" : "^green;Craft^reset; a ^orange;Telescope^reset; using the ^orange;Simple Crafting Table^reset;",
 			"researchLesserKnowledge" : "^green;Learn^reset; a ^orange;Lesser^reset; knowledge, using the ^orange;Telescope^reset;",
 			"researchAverageKnowledge" : "^green;Acquire^reset; an ^orange;Average^reset; knowledge with the ^orange;Telescope^reset;",
 			"collectFtlDrive" : "I think I can ^green;craft^reset; a new ^orange;FTL Drive^reset; at an ^orange;Inventor's Table^reset;"
 		},
 		
-		"items" : {
-			"simpleCraftingTable": { "item": "cnssimplecraft", "count": 1 },
-			"telescope": { "item": "cnstelescope", "count": 1 },
-			"lesserKnowledge": { "item": "cnsmatterbook", "count": 1 },
-			"averageKnowledge": { "item": "cnsmatterbook2", "count": 1 },
-			"ftl": { "item": "cnsftldrivechip", "count": 1 }
+		"questItemsToCollect" : {
+			"collectTelescope": { "name": "cnstelescope", "count": 1 },
+			"researchLesserKnowledge": { "name": "cnsmatterbook", "count": 1 },
+			"researchAverageKnowledge": { "name": "cnsmatterbook2", "count": 1 },
+			"collectFtlDrive": { "name": "cnsftldrivechip", "count": 1 }
 		},
+
+    "consumeOnComplete" : [
+      { "name" : "cnsftldrivechip", "count" : 1 }
+    ],
 
 		"followUp" : "cnssurvival11",
 		"requireTurnIn" : false,

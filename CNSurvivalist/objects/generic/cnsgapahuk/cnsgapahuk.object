@@ -72,6 +72,6 @@
   },
   
 	"breakDropOptions" : [
-    [ [ "fullwood1", 10, { } ], [ "cnssurvivalpoints", 50, { } ] ]
+    [ [ "logblock", 10, { } ], [ "cnssurvivalpoints", 50, { } ] ]
   ]
 }

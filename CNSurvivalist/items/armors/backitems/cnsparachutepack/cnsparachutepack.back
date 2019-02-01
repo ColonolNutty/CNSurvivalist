@@ -8,8 +8,8 @@
   "shortdescription" : "Parachute",
   "tooltipKind" : "back",
 
-  "maleFrames" : "cnsparachutepackm.png",
-  "femaleFrames" : "cnsparachutepackf.png",
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
   "maxStack" : 1,
 
   "statusEffects" : [

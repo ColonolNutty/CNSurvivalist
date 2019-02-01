@@ -3,24 +3,41 @@
   "prerequisites" : [ "cnssurvival10" ],
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
-  "text" : "When the Fuel Panel got, eh... 'mysteriously' blown up, the fuel was dumped into the vacuum of space. ^orange;(facepalm)^reset; Now, if I'm not mistaken, fuel can be refined from ^orange;Liquid Erchius.^reset; The problem is it's only found in ^green;underground pools^reset; on ^orange;airless planets^reset;, and I kinda like to breath.",
-  "completionText" : "I got the Erchius!  I could sell this for 'millions' ^orange;(thoughtfully)^reset; You know, if Earth hadn't exploded. Anyways, I need to refine this.",
-  "moneyRange" : [50, 50],
-  "canBeAbandoned" : false,
+  "text" : "When the Fuel Panel got, eh... 'mysteriously' blown up, the fuel was dumped into the vacuum of space. ^orange;(facepalm)^reset; Now, if I'm not mistaken, fuel can be refined from ^orange;Liquid Erchius.^reset; The problem is it's only found in ^green;underground pools^reset; on ^orange;airless planets^reset;, and I am rather fond of breathing.",
+  "completionText" : "I got some Fuel!  I could sell this for 'millions' ^orange;(thoughtfully)^reset; Anyways, I need to refine this. Hmm, my Teleporter is picking up some place called 'The Ark', I should check it out.",
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "cnssurvivalpoints", 300 ] ]
+  ],
 
+  "canBeAbandoned" : false,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
+  "script" : "/quests/scripts/story/cnssurvivalcollectquest.lua",
   "scriptConfig" : {
     "portraits" : {
-      "default" : "player"
+      "questStarted" : "player",
+      "questComplete" : "player"
     },
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "liquidfuel",
-        "count" : 20,
-        "consume" : false
-      }
-    ]
+
+    "questType" : "COLLECT_ITEM",
+
+    "questStages" : [
+      "collectLiquidFuel"
+    ],
+
+		"questDescriptions" : {
+			"collectLiquidFuel" : "^green;Collect^reset; 20 ^orange;Liquid Erchius Fuel^reset;"
+		},
+
+		"questItemsToCollect" : {
+			"collectLiquidFuel": { "name": "liquidfuel", "count": 20 }
+		},
+
+    "teleportBookmark" : {
+      "bookmarkName" : "Outpost - The Ark",
+      "targetName" : "",
+      "icon" : "outpost",
+      "target" : ["instanceworld:outpost", "arkteleporter"]
+    }
   }
 }

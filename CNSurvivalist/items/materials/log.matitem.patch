@@ -5,6 +5,7 @@
   ],
   [
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bow" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fullwood1" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsburningwood" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnscampfirelarge" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsdeathbow" },

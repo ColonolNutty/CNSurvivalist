@@ -6,16 +6,18 @@
   "text" : "I hate going down there unarmed, but I won't survive if I don't.  Maybe I can make a wooden sword!",
   "completionText" : "I knew I should have paid attention in woodcraft 101, no wooden sword for me. At least I have this trusty ^orange;Branch^reset;. I hope it doesn't break.",
   "speaker" : "player",
-  "moneyRange" : [10, 10],
+  "moneyRange" : [0, 0],
   "rewards" : [ 
-    [ [ "cnsbranch", 1 ] ] 
+    [
+      [ "cnsbranch", 1 ],
+      [ "cnssurvivalpoints", 10 ]
+    ]
   ],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-
     "portraits" : {
       "questStarted" : "player",
       "questComplete" : "player"

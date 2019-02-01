@@ -3,5 +3,65 @@
 		"op": "replace",
 		"path": "/shipPetType",
 		"value": ""
+	},
+	{
+		"op": "replace",
+		"path": "/offeredQuests",
+		"value": [ "cnssurvival2", "cnssurvival3", "cnssurvival4", "cnssurvival5", "cnssurvival6", "cnssurvival7", "cnssurvival8", "cnssurvival9", "cnssurvival10", "cnssurvival11" ]
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakeUp/0/0",
+		"value": "^orange;(sigh)^cyan; You are still here?"
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakeUp/1/0",
+		"value": "You know what you should do?!"
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakeUp/2/0",
+		"value": "You should definitely go down to the planet."
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakeUp/3/0",
+		"value": "I mean, there are only class ^orange;Omega^cyan; monsters down there."
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakeUp/4/0",
+		"value": "You'll do fine, I'm sure."
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakePlayer/0/0",
+		"value": "'Var:avg,us: ERROR: ERROR: REBOOT REQUIRED!!!'"
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakePlayer/1/0",
+		"value": "'Cnt#: '"
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakePlayer/2/0",
+		"value": "1198, 'Sum:ms:'"
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakePlayer/3/0",
+		"value": "ERROR: 'Min', 15, 'Max', 7199, 'Horse', 9899, 'Avg', 23, 'Last:::'"
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakePlayer/4/0",
+		"value": "'8176b3'"
+	},
+	{
+		"op": "replace",
+		"path": "/dialog/wakePlayer/5/0",
+		"value": "ERROR: ^green;DEATH TO ALL HUMANOIDS^cyan;Info:'S.A.I.L.::run.innerLoop'"
 	}
 ]

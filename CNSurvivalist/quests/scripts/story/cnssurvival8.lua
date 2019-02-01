@@ -4,22 +4,21 @@ require "/quests/scripts/portraits.lua"
 require "/quests/scripts/questutil.lua"
 
 function init()
-  self.descriptions = config.getParameter("descriptions")
-  self.fuelHatchRepairItem = config.getParameter("fuelHatchRepairItem")
-  self.fuelHatchRepairItemCount = config.getParameter("fuelHatchRepairItemCount")
+  self.descriptions = config.getParameter("descriptions");
+  self.items = config.getParameter("items");
   
-  setPortraits()
+  setPortraits();
   
-  storage.complete = storage.complete or false
+  storage.complete = storage.complete or false;
 
-  storage.stage = storage.stage or 1
+  storage.stage = storage.stage or 1;
   self.stages = {
-    acquireIron,
+    collectRepairItem,
     questComplete
-  }
+  };
 
-  self.state = FSM:new()
-  self.state:set(self.stages[storage.stage])
+  self.state = FSM:new();
+  self.state:set(self.stages[storage.stage]);
 end
 
 function questStart()
@@ -27,40 +26,45 @@ end
 
 function update(dt)
   if storage.complete then
-    return
+    return;
   end
-  self.state:update(dt)
+  self.state:update(dt);
 end
 
 function questComplete()
   if storage.complete then
-    return
+    return;
   end
-  player.upgradeShip(config.getParameter("shipUpgrade"))
-  player.consumeItem({ name = self.fuelHatchRepairItem, count = self.fuelHatchRepairItemCount }, false)
-  storage.complete = true
+  player.upgradeShip(config.getParameter("shipUpgrade"));
+  player.consumeItem(self.items.collectRepairItem, false);
+  storage.complete = true;
 
-  setPortraits()
-  questutil.questCompleteActions()
-  quest.complete()
+  setPortraits();
+  quest.complete();
+  questutil.questCompleteActions();
 end
 
-function acquireIron()
+function collectRepairItem()
+  acquireTheThing(self.descriptions.collectRepairItem, self.items.collectRepairItem, 1);
+end
+
+function acquireTheThing(description, itemInfo, currentStage)
   if storage.complete then
-    return
+    return;
   end
   quest.setCompassDirection(nil)
 
-  while storage.stage == 1 do
-    quest.setObjectiveList({{self.descriptions.collectRepairItem, false}})
-    quest.setProgress(player.hasCountOfItem(self.fuelHatchRepairItem) / self.fuelHatchRepairItemCount)
-    if player.hasItem({name = self.fuelHatchRepairItem, count = self.fuelHatchRepairItemCount}) then
-      storage.stage = 2
+  while storage.stage == currentStage do
+    quest.setObjectiveList({{description, false}});
+    quest.setProgress(player.hasCountOfItem(itemInfo.name) / itemInfo.count);
+    if player.hasItem(itemInfo) then
+      storage.stage = currentStage + 1;
     end
-    coroutine.yield()
+    coroutine.yield();
   end
 
-  quest.setObjectiveList({})
+  quest.setProgress(0);
+  quest.setObjectiveList({});
 
-  self.state:set(self.stages[storage.stage])
+  self.state:set(self.stages[storage.stage]);
 end

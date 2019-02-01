@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fullwood1", "count" : 35 },
+    { "item" : "logblock", "count" : 35 },
     { "item" : "cobblestonematerial", "count" : 30 },
     { "item" : "cnssurvivalpoints", "count" : 20 }
   ],

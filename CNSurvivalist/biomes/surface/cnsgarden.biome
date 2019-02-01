@@ -5,14 +5,6 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 2,
-        "pool" : [
-          [ 1.0, "gleap" ],
-          [ 1.0, "nutmidge" ],
-          [ 1.0, "poptop" ]
-        ]
-      },
-      {
         "select" : 1,
         "pool" : [
           [ 0.4, "butterbee" ],
@@ -21,7 +13,7 @@
         ]
       },
       {
-        "select" : 4,
+        "select" : 3,
         "pool" : "nightTerrors"
       },
       {
@@ -29,7 +21,7 @@
         "pool" : "generatedGround"
       },
       {
-        "select" : 2,
+        "select" : 1,
         "pool" : [
           [ 0.2, "birdcritter" ],
           [ 0.15, "hedgehogcritter" ],
@@ -46,7 +38,7 @@
         ]
       },
       {
-        "select" : 2,
+        "select" : 1,
         "pool" : [
           [ 0.111, "snaunt" ],
           [ 0.111, "peblit" ],

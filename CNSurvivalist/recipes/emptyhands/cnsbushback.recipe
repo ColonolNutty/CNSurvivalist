@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "torch", "count" : 5 },
-    { "item" : "fullwood1", "count" : 10 },
+    { "item" : "logblock", "count" : 10 },
     { "item" : "plantfibre", "count" : 10 },
     { "item" : "cnssurvivalpoints", "count" : 50 }
   ],

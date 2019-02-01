@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fullwood1", "count" : 100 },
+    { "item" : "logblock", "count" : 100 },
     { "item" : "grassremedy", "count" : 2 }
   ],
   "output" : {

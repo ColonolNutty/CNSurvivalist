@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "cnslantern", "count" : 1 },
-    { "item" : "fullwood1", "count" : 10 },
+    { "item" : "logblock", "count" : 10 },
     { "item" : "torch", "count" : 5 },
     { "item" : "cnssurvivalpoints", "count" : 200 }
   ],

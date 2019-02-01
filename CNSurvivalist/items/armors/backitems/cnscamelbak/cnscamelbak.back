@@ -8,8 +8,8 @@
   "shortdescription" : "Camelbak",
   "tooltipKind" : "back",
   
-  "maleFrames" : "cnscamelbakm.png",
-  "femaleFrames" : "cnscamelbakf.png",
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
   "maxStack" : 1,
   
   "statusEffects" : [

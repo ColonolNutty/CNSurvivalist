@@ -4,9 +4,12 @@
   "mainQuest" : true,
   "title" : "^#9be3d6;THOUGHTS AND NEEDS",
   "text" : "I can smelt iron ore in the stone furnace to get bars. It will probably take some time, but worth it I guess...",
-  "completionText" : "Ore goes from solid to liquid and to solid again. ^cyan;Almost like magic!   ^white;Now what about my ship, I'll need to repair the Thrusters.  I really don't want to talk to the AI though...",
+  "completionText" : "Ore goes from solid to liquid and to solid again. ^cyan;Almost like magic!   ^reset;Now what about my ship, I'll need to repair the Thrusters.  I really don't want to talk to the AI though...",
   "speaker" : "player",
-  "moneyRange" : [10, 10],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "cnssurvivalpoints", 10 ] ]
+  ],
 
   "canBeAbandoned" : false,
   "updateDelta" : 10,
