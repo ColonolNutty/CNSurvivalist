@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/npcs/story/esther.npctype.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/npcs/story/esther.npctype.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/apextechstation/apextechstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/apextechstation/apextechstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/aviantechstation/aviantechstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/aviantechstation/aviantechstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/florantechstation/florantechstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/florantechstation/florantechstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/glitchtechstation/glitchtechstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/glitchtechstation/glitchtechstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/humantechstation/humantechstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/humantechstation/humantechstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/hylotltechstation/hylotltechstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/hylotltechstation/hylotltechstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/novakidtechstation/novakidtechstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/novakidtechstation/novakidtechstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/objects/ship/techstation/techstation.object.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/objects/ship/techstation/techstation.object.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/outpost/outpostclue.questtemplate.patch" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/outpost/outpostclue.questtemplate.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnsarkexplore.questtemplate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival11.questtemplate" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival11.questtemplate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/.metadata" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,25 +132,16 @@
         <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/shiprepair.questtemplate.patch">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="113">
-              <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/outpost/outpostclue.questtemplate">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/outpost/outpostclue.questtemplate.patch">
+        <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/outpost/outpostclue.questtemplate">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -326,8 +306,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="235" />
-    <option name="y" value="123" />
+    <option name="x" value="607" />
+    <option name="y" value="-9" />
     <option name="width" value="1220" />
     <option name="height" value="860" />
   </component>
@@ -381,13 +361,6 @@
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="quests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
-              <item name="quests" type="462c0819:PsiDirectoryNode" />
-              <item name="outpost" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
@@ -802,14 +775,7 @@
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/shiprepair.questtemplate.patch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/outpost/outpostclue.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -817,6 +783,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/outpost/outpostclue.questtemplate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
