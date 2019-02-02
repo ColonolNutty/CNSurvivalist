@@ -33,7 +33,7 @@
 			"collectLiquidFuel": { "name": "liquidfuel", "count": 20 }
 		},
 
-    "followUp" : "cnsarkexplore",
+    "followUp" : "shiprepair",
     "teleportBookmark" : {
       "bookmarkName" : "Outpost - The Ark",
       "targetName" : "",

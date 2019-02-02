@@ -1,0 +1,91 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/scriptConfig/followUp",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/scriptConfig/followUp",
+      "value" : ""
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/prerequisites",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/prerequisites",
+      "value" : []
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/prerequisites",
+      "value" : [ "cnssurvival11" ]
+    },
+    {
+      "op" : "replace",
+      "path" : "/title",
+      "value" : "^#9be3d6;THOUGHTS AND NEEDS"
+    },
+    {
+      "op" : "replace",
+      "path" : "/text",
+      "value" : "I should check out that new place called 'The Ark', maybe I will find another living soul!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/completionText",
+      "value" : "Heck yeah! This old woman fixed my Matter Manipulator! I think I'll help this old lady out, its the least I can do."
+    },
+    {
+      "op" : "replace",
+      "path" : "/moneyRange",
+      "value" : [0, 0]
+    },
+    {
+      "op" : "replace",
+      "path" : "/rewards",
+      "value" : [
+        [ [ "cnssurvivalpoints", 50 ] ]
+      ]
+    },
+    {
+      "op" : "replace",
+      "path" : "/script",
+      "value" : "/quests/scripts/story/cnsarkexplore.lua"
+    },
+    {
+      "op" : "replace",
+      "path" : "/scriptConfig",
+      "value" : {
+        "portraits" : {
+          "questStarted" : "player",
+          "questComplete" : "questReceiver"
+        },
+
+        "descriptions" : {
+          "findEsther" : "Find someone at 'The Ark' who can help!"
+        },
+
+        "compassUpdate" : 0.2,
+
+        "estherUid" : "estheroutpost",
+        "findRange" : 12,
+        "findEstherCinema" : "/cinematics/story/esther/esther.cinematic",
+        "teleportBookmark" : {
+          "bookmarkName" : "Outpost - The Ark",
+          "targetName" : "",
+          "icon" : "outpost",
+          "target" : ["instanceworld:outpost", "arkteleporter"]
+        }
+      }
+    }
+  ]
+]
