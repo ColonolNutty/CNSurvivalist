@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b62edf0-780a-41da-9714-310465682318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNSurvivalist/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweatherstone.weather" beforeDir="false" afterPath="$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweatherstone.weather" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,13 +69,13 @@
           <entry key="txt" value="4" />
           <entry key="unlock" value="1" />
           <entry key="weaponability" value="2" />
-          <entry key="weather" value="7" />
+          <entry key="weather" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="225" />
-          <entry key="JSON" value="1499" />
+          <entry key="JSON" value="1500" />
           <entry key="Lua" value="64" />
           <entry key="PATCH" value="2" />
           <entry key="PLAIN_TEXT" value="80" />
@@ -114,11 +114,12 @@
           <entry key="recipe" value="97" />
           <entry key="statuseffect" value="5" />
           <entry key="thrownitem" value="28" />
+          <entry key="weather" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="10532" />
+          <entry key="JSON" value="10533" />
           <entry key="Lua" value="2534" />
           <entry key="PATCH" value="3" />
           <entry key="PLAIN_TEXT" value="222" />
@@ -137,11 +138,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/outpost/outpostclue.questtemplate">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweatherstone.weather">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -150,7 +160,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setUniverseFlags</find>
       <find>canStartQuest</find>
       <find>sb.log</find>
       <find>questCompleteActions</find>
@@ -180,6 +189,7 @@
       <find>iron pickaxe</find>
       <find>cnsarkexplore</find>
       <find>&quot;shiprepair&quot;</find>
+      <find>/fog/</find>
     </findStrings>
     <replaceStrings>
       <replace>cnsminibosstreasure</replace>
@@ -251,7 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsmilitaryarmor/cnsmilitaryarmor.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsleatheroutfit/cnsleatheroutfit.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/items/armors/cnsdeatharmor/cnsdeatharmor.chest" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/protectorate.questtemplate.patch" />
@@ -302,6 +311,7 @@
         <option value="$PROJECT_DIR$/CNSurvivalist/items/tools/cnsdebris.miningtool" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/story/shiprepair.questtemplate.patch" />
         <option value="$PROJECT_DIR$/CNSurvivalist/quests/outpost/outpostclue.questtemplate.patch" />
+        <option value="$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweatherstone.weather" />
       </list>
     </option>
   </component>
@@ -335,6 +345,19 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
+              <item name="particles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
+              <item name="particles" type="462c0819:PsiDirectoryNode" />
+              <item name="fog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetsUnpacked" type="462c0819:PsiDirectoryNode" />
               <item name="quests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,6 +378,12 @@
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
               <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="CNSurvivalist" type="462c0819:PsiDirectoryNode" />
+              <item name="particles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNSurvivalist" type="b2602c69:ProjectViewProjectNode" />
@@ -468,13 +497,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNSurvivalist/quests/story/cnssurvival9.questtemplate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNSurvivalist/items/materials/fullwood1.matitem.patch">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -788,8 +810,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AssetsUnpacked/quests/outpost/outpostclue.questtemplate">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNSurvivalist/weather/cnsfogweather/cnsfogweatherstone.weather">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>

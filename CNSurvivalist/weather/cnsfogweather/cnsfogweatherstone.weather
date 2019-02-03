@@ -37,22 +37,6 @@
         "collidesLiquid" : false,
         "ignoreWind" : false
       }
-    },
-    {
-      "density" : 0.0001,
-      "autoRotate" : true,
-
-      "particle" : {
-        "type" : "textured",
-        "image" : "/particles/fog/2.png",
-        "velocity" : [0, -0.5],
-        "approach" : [15, 15],
-        "angularVelocity" : 100,
-        "timeToLive" : 100,
-        "collidesForeground" : false,
-        "collidesLiquid" : false,
-        "ignoreWind" : false
-      }
     }
   ],
 
