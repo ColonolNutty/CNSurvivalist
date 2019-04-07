@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 10 },
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "cnssurvivalpoints", "count" : 100 }
+  ],
+  "output" : { "item" : "cnsbucketwooden", "count" : 1 },
+  "groups" : [ "cnssimplecraft", "objects", "tools", "all" ]
+}

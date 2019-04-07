@@ -10,6 +10,7 @@
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnscampfirelarge" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsdeathbow" },
     { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "darkwoodmaterial" },
-    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssimplecraft" }
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnssimplecraft" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cnsbucketwooden" }
   ]
 ]

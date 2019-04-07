@@ -53,6 +53,9 @@
 	] ],
  
 	"learnBlueprintsOnPickup" : [
-		"cnstelescope"
+		"cnstelescope",
+    "cnsbucketwooden",
+    "woodenwateringcan",
+    "cnsstoneaxe"
 	]
 }
