@@ -14,7 +14,7 @@
 	{ "op": "replace", "path": "/inventoryFilters/autoAddToCustomBar/typeWhitelist", "value": ["flashlight", "consumable", "activeitem"] },
 	{
 		"op": "replace",
-		"path": "/defaultBlueprints/tier1",
+		"path": "/defaultBlueprints/tier1/-",
 		"value": [
 			//LOGS
 			{ "item" : "darkwoodmaterial" },
