@@ -28,6 +28,6 @@
   ],
   "power" : 15.0,
   "speed" : 5,
-  "damageKind" : "cnsshotgunbullet",
+  "damageKind" : "default",
   "knockbackRange" : [10, 40]
 }
