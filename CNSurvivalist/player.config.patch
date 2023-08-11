@@ -12,161 +12,53 @@
 	{ "op": "replace", "path": "/statusControllerSettings/stats/maxBreath/baseValue", "value": 80.0 },
 	{ "op": "replace", "path": "/statusControllerSettings/stats/breathDepletionRate/baseValue", "value": 2.0 },
 	{ "op": "replace", "path": "/inventoryFilters/autoAddToCustomBar/typeWhitelist", "value": ["flashlight", "consumable", "activeitem"] },
-	{
-		"op": "replace",
-		"path": "/defaultBlueprints/tier1/-",
-		"value": [
-			//LOGS
-			{ "item" : "darkwoodmaterial" },
-			
-			//IRON BAR
-			{ "item" : "cnsmininglantern" },
-			
-			//PLANT FIBRE
-			{ "item" : "fabric" },
-			
-			//SPINNING WHEEL
-			{ "item" : "reddye" },
-			{ "item" : "bluedye" },
-			{ "item" : "yellowdye" },
-			
-			//ANVIL
-			{ "item" : "processor" },
-			
-			//KITCHEN
-			{ "item" : "bread"},
-			{ "item" : "coffee"},
-
-			//FURNITURE
-			{ "item" : "fullwood1" },
-			
-			//INVENTORSTABLE
-			{ "item" : "pixelcompressor" },
-			{ "item" : "cnsbiomassgenerator" },
-			{ "item" : "cnsgastank" },
-			{ "item" : "cnsarmory" },
-			{ "item" : "cnstailorstable" },
-			{ "item" : "woodencraftingtable" },
-			{ "item" : "cnschemistrytable" },
-			{ "item" : "craftingfurnace" },
-			{ "item" : "ironanvil" },
-			{ "item" : "woodencookingtable" },
-			{ "item" : "refinery" },
-			//BIOMASS GEN
-			{ "item" : "cnsgas" },
-			
-			//GAS TANK
-			{ "item" : "cnsgascanfull" },
-			{ "item" : "cnsgascanempty" },
-			
-			//ARMORY
-			{ "item" : "cnsrifle1" },
-			{ "item" : "cnsrifle2" },
-			{ "item" : "cnsrifle3" },
-			{ "item" : "cnsshotgun1" },
-			{ "item" : "cnsshotgun2" },
-			{ "item" : "cnsshotgun3" },
-			{ "item" : "cnssniper1" },
-			{ "item" : "cnssniper2" },
-			{ "item" : "cnssniper3" },
-			{ "item" : "cnssmg1" },
-			{ "item" : "cnssmg2" },
-			{ "item" : "cnssmg3" },
-			
-			//TAILORS TABLE
-			{ "item" : "cnsdeatharmorpants" },
-			{ "item" : "cnsdeatharmorhead" },
-			{ "item" : "cnsdeatharmorchest" },
-			{ "item" : "cnsbeanieblue" },
-			{ "item" : "cnsbeaniepink" },
-			{ "item" : "cnsleatherbandanahead" },
-			{ "item" : "cnsnavycaphead" },
-			{ "item" : "cnsmilitarycaphead" },
-			{ "item" : "cnsredbandanahead" },
-			{ "item" : "cnsleatheroutfitchest" },
-			{ "item" : "cnsleatheroutfitpants" },
-			{ "item" : "cnsmilitarychest" },
-			{ "item" : "cnsmilitarychest" },
-			{ "item" : "cnsshades" },
-			{ "item" : "cnsnavyarmorchest" },
-			{ "item" : "cnsnavyarmorpants" },
-			{ "item" : "cnsshadowschest" },
-			{ "item" : "cnsshadowshead" },
-			{ "item" : "cnsshadowspants" },
-			{ "item" : "snowinfantryhead" },
-			{ "item" : "snowinfantrychest" },
-			{ "item" : "snowinfantrypants" },
-			
-			//CHEMISTRY TABLE
-			{ "item" : "cnsglowingmatter" },
-			{ "item" : "cnsplastic" },
-			{ "item" : "hazmathead" },
-			{ "item" : "hazmatchest" },
-			{ "item" : "hazmatlegs" },
-			{ "item" : "hazmatback" },
-			{ "item" : "icearmorlegs" },
-			{ "item" : "icearmorchest" },
-			{ "item" : "icearmorlegs" },
-			{ "item" : "cnsdynamite" },
-			{ "item" : "cnsfirecracker" },
-			{ "item" : "cnsgrenadeshockfire" },
-			{ "item" : "cnsthrowablestone" },
-			{ "item" : "shroomremedy" },
-			{ "item" : "synthesisstim" },
-			{ "item" : "grassremedy" },
-			
-			//PIXEL COMPRESSOR
-			{ "item" : "voxel1k" },
-			{ "item" : "voxel2k" },
-			{ "item" : "voxel5k" },
-			{ "item" : "voxel10k" },
-			
-			//TELESCOPE
-			{ "item" : "cnsmatterbook" },
-			
-			{ "item" : "quiverback" },
-			
-			{ "item" : "cnsstonemace" },
-			{ "item" : "huntingknife" },
-			
-			{ "item" : "oxygentank" },
-			{ "item" : "cnsparachutepackback" },
-			
-			{ "item" : "copperpickaxe" },
-			{ "item" : "silverpickaxe" },
-			{ "item" : "goldpickaxe" },
-			{ "item" : "platinumpickaxe" },
-			{ "item" : "diamondpickaxe" },
-			
-			{ "item" : "aegisaltbow" },
-			
-			{ "item" : "aegisaltpistol" },
-			{ "item" : "aegisaltrifle" },
-			{ "item" : "aegisaltshotgun" },
-			
-			{ "item" : "feroziumrifle" },
-			{ "item" : "feroziumpistol" },
-			{ "item" : "feroziumsniper" },
-			{ "item" : "feroziumrocket" },
-			
-			{ "item" : "apexsteelstaff1" },
-			{ "item" : "apexsteelstaff2" },
-			{ "item" : "aviancrystalstaff1" },
-			{ "item" : "aviancrystalstaff2" },
-			{ "item" : "floranleafstaff1" },
-			{ "item" : "floranleafstaff2" },
-			{ "item" : "glitchglitchstaff1" },
-			{ "item" : "glitchglitchstaff2" },
-			{ "item" : "humanplasmastaff1" },
-			{ "item" : "humanplasmastaff2" },
-			{ "item" : "hylotlaquastaff1" },
-			{ "item" : "hylotlaquastaff2" },
-			{ "item" : "novakidlightstaff1" },
-			{ "item" : "novakidlightstaff2" },
-			
-			{ "item" : "apexfuelhatch" },
-			{ "item" : "scififurnace" },
-			{ "item" : "scifianvil" }
-		]
-	}
+	
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsmininglantern" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsbiomassgenerator" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsgastank" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsarmory" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnstailorstable" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnschemistrytable" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsgas" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsgascanfull" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsgascanempty" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsrifle1" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsrifle2" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsrifle3" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsshotgun1" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsshotgun2" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsshotgun3" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnssniper1" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnssniper2" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnssniper3" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnssmg1" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnssmg2" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnssmg3" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsdeatharmorpants" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsdeatharmorhead" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsdeatharmorchest" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsbeanieblue" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsbeaniepink" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsleatherbandanahead" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsnavycaphead" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsmilitarycaphead" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsredbandanahead" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsleatheroutfitchest" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsleatheroutfitpants" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsmilitarychest" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsshades" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsnavyarmorchest" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsnavyarmorpants" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsshadowschest" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsshadowshead" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsshadowspants" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsglowingmatter" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsplastic" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsdynamite" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsfirecracker" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsgrenadeshockfire" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsthrowablestone" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsmatterbook" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsstonemace" }},
+	{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "cnsparachutepackback" }}
 ]
