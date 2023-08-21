@@ -13,6 +13,6 @@
   ],
   "power" : 5.0,
   "speed" : 50,
-  "damageKind" : "cnsshotgunbullet",
+  "damageKind" : "default",
   "knockbackRange" : [10, 40]
 }

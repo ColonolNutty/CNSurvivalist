@@ -50,7 +50,9 @@
 	"breakDropOptions" : [ [
       [ "ironbar", 20, { } ], 
 	  [ "cnssurvivalpoints", 1000, { } ]
-	] ]
+	] ],
+	
+	"learnBlueprintsOnPickup" : [ "cnsmatterbook" ]
 
   
 }
